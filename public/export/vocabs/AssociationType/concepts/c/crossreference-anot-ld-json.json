@@ -159,7 +159,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "reference from one resource to another",
+        "@value": "reference from one resource to another - TEST",
         "@language": "en"
       }
     ],
@@ -202,7 +202,7 @@
     ],
     "https://prez.dev/description": [
       {
-        "@value": "reference from one resource to another",
+        "@value": "reference from one resource to another - TEST",
         "@language": "en"
       }
     ]
