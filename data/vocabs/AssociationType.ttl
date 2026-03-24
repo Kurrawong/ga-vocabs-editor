@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "collective Title"@en ;
-    skos:definition "common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite. TEST"@en ;
+    skos:definition "common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "collectiveTitle"@en ;
     skos:topConceptOf cs: ;
