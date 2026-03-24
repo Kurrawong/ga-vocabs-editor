@@ -1,4 +1,6 @@
 ---
 title: Home
-navigation: false
+navigation: true
+navTitle: Home
+order: 1
 ---
