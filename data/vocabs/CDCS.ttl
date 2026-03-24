@@ -58,7 +58,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :coal-seam-methane-holes
     a skos:Concept ;
     skos:broader :boreholes ;
-    skos:definition "A Coal Seam Methane hole is drilled specifically to discover, asses or produce from a coal seam methane reservoir"@en ;
+    skos:definition "A Coal Seam Methane hole is drilled specifically to discover, asses or produce from a coal seam methane reservoir. EXAMPLE UPDATE."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "coal seam methane holes"@en ;
 .
