@@ -1,0 +1,433 @@
+[
+  {
+    "@id": "_:n3-78",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CDCS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Legacy GA Corporate Data Classification Scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/basement-geology",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:basement-geology"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:basement-geology"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "basement geology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Includes sub-surface distribution of metamorphic, sedimentary and igneous rocks and interpreted linear structural features such as folds, faults, lineaments and shearzones",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysical-interpretation",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:geophysical-interpretation"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:geophysical-interpretation"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "geophysical interpretation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Interpretation using geophysical techniques and data",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Information related to the interpretation of  baseline geoscientific information integrated with field and petrographic observations and measurements. Examples include the interpretation of geological provinces, outcrop and basement geology, 3D geology models, geophysical imagery stratigraphic cross-sections. ",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "interpretive geology",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/basement-geology"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysical-interpretation"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/metamorphism-maps"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/outcrop-geology"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeogeography"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/provinces"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/regolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/thematic-geology"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:interpretive-geology"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:interpretive-geology"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "interpretive geology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Information related to the interpretation of  baseline geoscientific information integrated with field and petrographic observations and measurements. Examples include the interpretation of geological provinces, outcrop and basement geology, 3D geology models, geophysical imagery stratigraphic cross-sections. ",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/metamorphism-maps",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:metamorphism-maps"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:metamorphism-maps"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "metamorphism maps",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Zones of similar mineralogy caused by heat and pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/outcrop-geology",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:outcrop-geology"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:outcrop-geology"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "outcrop geology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Interpretation of the nature and distribution of outcropping (or near-outcropping) rock units and structures, typically in the form of maps.  These maps may include integrated regolith unit information in areas of non-outcropping bedrock.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeogeography",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:palaeogeography"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:palaeogeography"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "palaeogeography",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Palinspastic reconstructions or geological time-slice interpretations",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/provinces",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:provinces"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:provinces"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "provinces",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Descriptions and polygon outlines of geological provinces of the Australian continent and surrounding offshore regions. ",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/regolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:regolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:regolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "regolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Everything above fresh rock",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/thematic-geology",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:thematic-geology"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:thematic-geology"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "thematic geology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Geological datasets developed for a specific purpose, such as \"Volcanoes of the World\"",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

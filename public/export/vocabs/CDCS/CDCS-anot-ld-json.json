@@ -1,0 +1,285 @@
+[
+  {
+    "@id": "_:n3-30",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/created",
+    "https://prez.dev/label": [
+      {
+        "@value": "Date Created",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date of creation of the resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/creator",
+    "https://prez.dev/label": [
+      {
+        "@value": "Creator",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An entity responsible for making the resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/modified",
+    "https://prez.dev/label": [
+      {
+        "@value": "Date Modified",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date on which the resource was changed.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/publisher",
+    "https://prez.dev/label": [
+      {
+        "@value": "Publisher",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An entity responsible for making the resource available.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept Scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A set of concepts, optionally including statements about semantic relationships between those concepts",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+    "https://prez.dev/label": [
+      {
+        "@value": "has top concept",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#historyNote",
+    "https://prez.dev/label": [
+      {
+        "@value": "history note",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A note about the past state/use/meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#contactPoint",
+    "https://prez.dev/label": [
+      {
+        "@value": "contact point",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relevant contact information for the catalogued resource. Use of vCard is recommended.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/ga",
+    "https://prez.dev/label": [
+      {
+        "@value": "Geoscience Australia"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia."
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Legacy GA Corporate Data Classification Scheme",
+        "@language": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@value": "2005-01-01",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://linked.data.gov.au/org/ga"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@value": "2023-03-22",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://linked.data.gov.au/org/ga"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "CIMA information group",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@value": "GAIA"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns4:CDCS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns4:CDCS"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns4:CDCS/items"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Legacy GA Corporate Data Classification Scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

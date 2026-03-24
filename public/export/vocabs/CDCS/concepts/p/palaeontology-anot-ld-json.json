@@ -1,0 +1,321 @@
+[
+  {
+    "@id": "_:n3-96",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CDCS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Legacy GA Corporate Data Classification Scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/biostratigraphy",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:biostratigraphy"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:biostratigraphy"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "biostratigraphy",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Stratigraphy based on the paleontologic aspects of rocks.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeoclimatology",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:palaeoclimatology"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:palaeoclimatology"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "palaeoclimatology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The climate of a given interval of time in the the geologic past.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeoenvironments",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:palaeoenvironments"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:palaeoenvironments"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "palaeoenvironments",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An environment in the geologic past",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "The study of life in past geologic time, based on fossil plants and animals. Chronology of the Earth's history.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "palaeontology",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/biostratigraphy"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeoclimatology"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeoenvironments"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/taxonomy"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:palaeontology"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:palaeontology"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "palaeontology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The study of life in past geologic time, based on fossil plants and animals. Chronology of the Earth's history.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/taxonomy",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:taxonomy"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:taxonomy"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "taxonomy",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The theory and practice of classifying plants and animals.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

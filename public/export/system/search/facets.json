@@ -1,6 +1,11 @@
 {
   "schemes": [
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
+      "label": "Legacy GA Corporate Data Classification Scheme",
+      "count": 106
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod",
       "label": "Borehole Geology - Location Method",
       "count": 37

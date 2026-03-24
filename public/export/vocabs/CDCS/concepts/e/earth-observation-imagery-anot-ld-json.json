@@ -1,0 +1,349 @@
+[
+  {
+    "@id": "_:n3-49",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CDCS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Legacy GA Corporate Data Classification Scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/aerial-photo",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:aerial-photo"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:aerial-photo"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "aerial photo",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Photographs of a part of the earth's surface taken by a camera mounted in an aircraft for mapping purposes. This usually consists of a series of overlapping vertical photos taken in strips which can form the basis for mapping.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/earth-observation-imagery",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Satellite and air platform imagery. This includes imagery designed to represent surficial condition of the earth such as Landsat, SPOT, MODIS, ASTER, HYMAP and Aerial Photography. Remotely sensed data acquired from earth observation satellites and Sensing Instruments for both scientific and operational applications, such as LANDSAT 5,LANDSAT 7,RADARSAT 1 (Synthetic Aperture Radar - SAR), ERS 2 (Synthetic Aperture Radar - SAR) TERRA Modis,AQUA Modis, NOAA 17, SPOT, ASTER, HYMAP and Aerial Photography",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "earth observation imagery",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/aerial-photo"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/lidar"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/optical"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/radar"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/thermal"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:earth-observation-imagery"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:earth-observation-imagery"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "earth observation imagery",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Satellite and air platform imagery. This includes imagery designed to represent surficial condition of the earth such as Landsat, SPOT, MODIS, ASTER, HYMAP and Aerial Photography. Remotely sensed data acquired from earth observation satellites and Sensing Instruments for both scientific and operational applications, such as LANDSAT 5,LANDSAT 7,RADARSAT 1 (Synthetic Aperture Radar - SAR), ERS 2 (Synthetic Aperture Radar - SAR) TERRA Modis,AQUA Modis, NOAA 17, SPOT, ASTER, HYMAP and Aerial Photography",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/lidar",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lidar"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:lidar"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lidar",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "LIDAR (Light Detection and Ranging) is an optical remote sensing technology that measures properties of scattered light to find range and/or other information of a distant target. The prevalent method to determine distance to an object or surface is to use laser pulses. Like the similar radar technology, which uses radio waves instead of light, the range to an object is determined by measuring the time delay between transmission of a pulse and detection of the reflected signal.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/optical",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:optical"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:optical"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "optical",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Optical remote sensing makes use of visible, near infrared and short-waveinfrared sensors to form images of the earth's surface by detecting thesolar radiation reflected from targets on the ground. Different materials reflect and absorb differently at different wavelengths. Thus, the targets can be differentiated by their spectral reflectance signatures in the remotely sensed images. Optical remote sensing systems are classified into the following types, depending on the number of spectral bands used in the imaging process.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/radar",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:radar"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:radar"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "radar",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "RADAR stands for \"RAdio Detection And Ranging\". By virtue of sending out pulses of microwave electromagnetic radiation this type of instrument can be classified as an \"active sensor\" - it measures the time between pulses and their reflected components to determine distance. Different pulse intervals, different wavelengths, different geometry and polarizations can be combined to roughness characteristics of the earth surface.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/thermal",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:thermal"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:thermal"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "thermal",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remote sensing of direct temperature effects is carried out by sensing radiation emitted from matter in the thermal infrared region of the spectrum.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]
