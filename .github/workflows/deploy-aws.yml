@@ -1,6 +1,12 @@
 name: Deploy to AWS
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/vocabs/**'
+      - 'data/config/**'
+      - 'data/background/**'
   workflow_dispatch:
     inputs:
       deploy-mode:
@@ -21,7 +27,7 @@ jobs:
     uses: Kurrawong/prez-lite/.github/workflows/site-deploy-aws.yml@main
     with:
       prez-lite-ref: ${{ vars.PREZ_LITE_VERSION || 'main' }}
-      deploy-mode: ${{ inputs.deploy-mode }}
+      deploy-mode: ${{ inputs.deploy-mode || 'data-only' }}
       s3-bucket: ${{ vars.DEV_BUCKET_NAME }}
       cloudfront-id: ${{ vars.DEV_CDN_ID || '' }}
     secrets:
