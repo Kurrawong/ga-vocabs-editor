@@ -1,0 +1,10 @@
+@prefix prez: <https://prez.dev/> .
+
+<workspaces> a prez:WorkspaceConfig ;
+    prez:workspace [
+        prez:slug "staging" ;
+        prez:label "Staging" ;
+        prez:description "For vocabulary authors - test changes before production" ;
+        prez:icon "i-heroicons-pencil-square" ;
+        prez:refreshFrom "main"
+    ] .

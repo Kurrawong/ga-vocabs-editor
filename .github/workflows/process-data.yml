@@ -4,7 +4,7 @@ on:
   push:
     branches: [main, master]
     paths:
-      - 'vocabularies/**'
+      - 'data/vocabs/**'
   workflow_dispatch:
 
 permissions:
@@ -15,4 +15,3 @@ jobs:
     uses: Kurrawong/prez-lite/.github/workflows/site-process-data.yml@main
     with:
       prez-lite-ref: ${{ vars.PREZ_LITE_VERSION || 'main' }}
-      vocab-source-dir: vocabularies

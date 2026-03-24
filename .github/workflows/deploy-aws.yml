@@ -24,6 +24,5 @@ jobs:
       deploy-mode: ${{ inputs.deploy-mode }}
       s3-bucket: ${{ vars.DEV_BUCKET_NAME }}
       cloudfront-id: ${{ vars.DEV_CDN_ID || '' }}
-      vocab-source-dir: vocabularies
     secrets:
       aws-role-arn: ${{ secrets.AWS_ROLE_ARN }}
