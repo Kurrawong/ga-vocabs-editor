@@ -1,4 +1,4 @@
-name: Validate Vocabularies (prez-lite)
+name: Validate Vocabularies (K-Maker)
 
 on:
   workflow_dispatch:

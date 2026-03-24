@@ -1,7 +1,7 @@
 {
   "name": "ga-vocabs-editor",
   "version": "1.0.0",
-  "description": "Geoscience Australia vocabulary browser powered by prez-lite",
+  "description": "Geoscience Australia vocabulary browser powered by K-Maker",
   "type": "module",
   "scripts": {
     "process": "node scripts/process-vocabs.js",
