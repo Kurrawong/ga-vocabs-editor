@@ -12,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :1000000Map
     a skos:Concept ;
     dcterms:identifier "1000000Map"^^xsd:token ;
-    skos:definition "Location estimated from a printed map at 1:1 000 000 scale"@en ;
+    skos:definition "Location estimated from a printed map at 1:1 000 000 scale TEST"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "1:1 000 000 map"@en ;
     skos:topConceptOf cs: ;
