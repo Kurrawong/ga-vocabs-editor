@@ -1,0 +1,187 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "LocationMethod",
+                "@type": "http://www.w3.org/2001/XMLSchema#token"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Method used to estimate the location of a point. eg, satellite navigation, estimation from printed maps or aerial photography.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Borehole Geology - Location Method",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/provenance": [
+            {
+                "@value": "Geoscience Australia Loaction Method (BOREHOLE.LU_LOCATION_METHODS)",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/1000000Map"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/100000Map"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/250000Map"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/25000Map"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/25000Orthophoto"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/500000Map"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/50000Map"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/aerialPhotographUnrectified"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/astronomicalObservation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/astronomicalObservationAndDeadReckoningBetweenFixes"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/companySuppliedLocationMethodUnknown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/deadReckoning"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/deadReckoningTiedToTransitSatelliteFixes"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/deadReckoningTiedToTransitSatelliteFixesAndDifferentialGPS"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/deadReckoningTiedToTransitSatelliteFixesAndStandAloneGPS"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/digitalElevationModel"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/digitalElevationModel90mSRTM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/digitalElevationModel9second"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsAveragedObservations"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsDifferentialObservation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsDifferentialObservationSurveyQuality"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsObservation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsObservationSubjectToSelectiveAvailability"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsObservationWithPcodeAccess"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/map"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/orthophoto"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/otherMethod"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/personalCommunicationMethodUnknown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/publishedReportMethodUnknown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/radioNavigation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/satelliteDopplerAndAVLFRadioNavigation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/satelliteImage"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/satelliteImageGoogle"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/stateOrNTAgencySuppliedLocationMethodUnknown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/surveyedFromGroundControl"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/unknown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/unpublishedReportMethodUnknown"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Energy, Minerals and Groundwater Division"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

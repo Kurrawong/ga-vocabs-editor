@@ -1,6 +1,11 @@
 {
   "schemes": [
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod",
+      "label": "Borehole Geology - Location Method",
+      "count": 37
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
       "label": "Associated Resource Type",
       "count": 17
