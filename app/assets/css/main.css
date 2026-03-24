@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+/*
+ * Geoscience Australia Theme
+ *
+ * Based on ga.gov.au visual identity:
+ *   Navy:       #1B3A5C (header, footer, dark accents)
+ *   Blue:       #2E6BA6 (links, buttons, interactive)
+ *   Light grey: #f5f5f5 (page background)
+ *   White:      #ffffff (cards, content areas)
+ */
+
+/* ── Primary — navy/blue scale (matches GA header/button/link colors) ── */
+:root, :host {
+  --ui-color-primary-50: #eff6ff !important;
+  --ui-color-primary-100: #dbeafe !important;
+  --ui-color-primary-200: #bfdbfe !important;
+  --ui-color-primary-300: #93c5fd !important;
+  --ui-color-primary-400: #60a5fa !important;
+  --ui-color-primary-500: #2E6BA6 !important;
+  --ui-color-primary-600: #1B3A5C !important;
+  --ui-color-primary-700: #1a3555 !important;
+  --ui-color-primary-800: #15304d !important;
+  --ui-color-primary-900: #0f2440 !important;
+  --ui-color-primary-950: #091830 !important;
+}
+
+/* ── Neutral — cool grey scale (clean government aesthetic) ── */
+:root, :host {
+  --ui-color-neutral-50: #f9fafb !important;
+  --ui-color-neutral-100: #f3f4f6 !important;
+  --ui-color-neutral-200: #e5e7eb !important;
+  --ui-color-neutral-300: #d1d5db !important;
+  --ui-color-neutral-400: #9ca3af !important;
+  --ui-color-neutral-500: #6b7280 !important;
+  --ui-color-neutral-600: #4b5563 !important;
+  --ui-color-neutral-700: #374151 !important;
+  --ui-color-neutral-800: #1f2937 !important;
+  --ui-color-neutral-900: #111827 !important;
+  --ui-color-neutral-950: #030712 !important;
+}
+
+/* ── Background — light grey, like ga.gov.au ── */
+:root {
+  --ui-bg: #ffffff !important;
+  --ui-bg-muted: #f5f5f5 !important;
+  --ui-bg-elevated: #ffffff !important;
+}
+
+/* ── Dark mode ── */
+.dark {
+  --ui-bg: #0f172a !important;
+  --ui-bg-muted: #1e293b !important;
+  --ui-bg-elevated: #1e293b !important;
+}
+
+/* ── Invert GA logo in dark mode ── */
+.dark .ga-logo {
+  filter: invert(1) brightness(2);
+}
