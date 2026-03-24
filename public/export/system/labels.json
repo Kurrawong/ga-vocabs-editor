@@ -1,0 +1,1025 @@
+{
+  "http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/grid_north": {
+    "": "grid north"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/magnetic_north": {
+    "": "magnetic north"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/true_north": {
+    "": "true north"
+  },
+  "http://resource.geosciml.org/classifier/cgi/proportionterm/all": {
+    "": "all"
+  },
+  "http://resource.geosciml.org/classifier/cgi/proportionterm/dominant": {
+    "": "dominant"
+  },
+  "http://resource.geosciml.org/classifier/cgi/proportionterm/major": {
+    "": "major"
+  },
+  "http://resource.geosciml.org/classifier/cgi/proportionterm/minor": {
+    "": "minor"
+  },
+  "http://resource.geosciml.org/classifier/cgi/proportionterm/rare": {
+    "": "rare"
+  },
+  "http://resource.geosciml.org/classifier/cgi/proportionterm/subordinate": {
+    "": "subordinate"
+  },
+  "http://resource.geosciml.org/classifier/cgi/proportionterm/trace": {
+    "": "trace"
+  },
+  "http://resource.geosciml.org/classifier/cgi/proportionterm/variable": {
+    "": "variable"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/1sigma": {
+    "": "1 sigma"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/2sigma": {
+    "": "2 sigma"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/3sigma": {
+    "": "3 sigma"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence": {
+    "": "95% confidence"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence_asymmetric": {
+    "": "95% confidence, asymetric"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/alpha95": {
+    "": "alpha 95"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/delta": {
+    "": "delta"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/kappa": {
+    "": "kappa"
+  },
+  "http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/plus_minus": {
+    "": "plus/minus"
+  },
+  "http://qudt.org/2.1/vocab/unit": {
+    "": "QUDT Units Version 2.1 Vocabulary"
+  },
+  "http://www.opengis.net/def/nil/OGC/0/unknown": {
+    "": "unknown"
+  },
+  "https://en.wikipedia.org/wiki/Standard_error": {
+    "": "Standard Error"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AD": {
+    "": "ISO 3166 code AD"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AE": {
+    "": "ISO 3166 code AE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AF": {
+    "": "ISO 3166 code AF"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AG": {
+    "": "ISO 3166 code AG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AI": {
+    "": "ISO 3166 code AI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AL": {
+    "": "ISO 3166 code AL"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AM": {
+    "": "ISO 3166 code AM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AO": {
+    "": "ISO 3166 code AO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AQ": {
+    "": "ISO 3166 code AQ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AR": {
+    "": "ISO 3166 code AR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AS": {
+    "": "ISO 3166 code AS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AT": {
+    "": "ISO 3166 code AT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AU": {
+    "": "ISO 3166 code AU"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AW": {
+    "": "ISO 3166 code AW"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AX": {
+    "": "ISO 3166 code AX"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:AZ": {
+    "": "ISO 3166 code AZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BA": {
+    "": "ISO 3166 code BA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BB": {
+    "": "ISO 3166 code BB"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BD": {
+    "": "ISO 3166 code BD"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BE": {
+    "": "ISO 3166 code BE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BF": {
+    "": "ISO 3166 code BF"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BG": {
+    "": "ISO 3166 code BG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BH": {
+    "": "ISO 3166 code BH"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BI": {
+    "": "ISO 3166 code BI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BJ": {
+    "": "ISO 3166 code BJ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BL": {
+    "": "ISO 3166 code BL"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BM": {
+    "": "ISO 3166 code BM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BN": {
+    "": "ISO 3166 code BN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BO": {
+    "": "ISO 3166 code BO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BQ": {
+    "": "ISO 3166 code BQ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BR": {
+    "": "ISO 3166 code BR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BS": {
+    "": "ISO 3166 code BS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BT": {
+    "": "ISO 3166 code BT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BV": {
+    "": "ISO 3166 code BV"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BW": {
+    "": "ISO 3166 code BW"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BY": {
+    "": "ISO 3166 code BY"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:BZ": {
+    "": "ISO 3166 code BZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CA": {
+    "": "ISO 3166 code CA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CC": {
+    "": "ISO 3166 code CC"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CD": {
+    "": "ISO 3166 code CD"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CF": {
+    "": "ISO 3166 code CF"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CG": {
+    "": "ISO 3166 code CG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CH": {
+    "": "ISO 3166 code CH"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CI": {
+    "": "ISO 3166 code CI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CK": {
+    "": "ISO 3166 code CK"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CL": {
+    "": "ISO 3166 code CL"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CM": {
+    "": "ISO 3166 code CM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CN": {
+    "": "ISO 3166 code CN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CO": {
+    "": "ISO 3166 code CO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CR": {
+    "": "ISO 3166 code CR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CU": {
+    "": "ISO 3166 code CU"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CV": {
+    "": "ISO 3166 code CV"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CW": {
+    "": "ISO 3166 code CW"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CX": {
+    "": "ISO 3166 code CX"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CY": {
+    "": "ISO 3166 code CY"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:CZ": {
+    "": "ISO 3166 code CZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:DE": {
+    "": "ISO 3166 code DE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:DJ": {
+    "": "ISO 3166 code DJ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:DK": {
+    "": "ISO 3166 code DK"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:DM": {
+    "": "ISO 3166 code DM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:DO": {
+    "": "ISO 3166 code DO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:DZ": {
+    "": "ISO 3166 code DZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:EC": {
+    "": "ISO 3166 code EC"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:EE": {
+    "": "ISO 3166 code EE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:EG": {
+    "": "ISO 3166 code EG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:EH": {
+    "": "ISO 3166 code EH"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ER": {
+    "": "ISO 3166 code ER"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ES": {
+    "": "ISO 3166 code ES"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ET": {
+    "": "ISO 3166 code ET"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:FI": {
+    "": "ISO 3166 code FI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:FJ": {
+    "": "ISO 3166 code FJ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:FK": {
+    "": "ISO 3166 code FK"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:FM": {
+    "": "ISO 3166 code FM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:FO": {
+    "": "ISO 3166 code FO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:FR": {
+    "": "ISO 3166 code FR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GA": {
+    "": "ISO 3166 code GA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GB": {
+    "": "ISO 3166 code GB"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GD": {
+    "": "ISO 3166 code GD"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GE": {
+    "": "ISO 3166 code GE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GF": {
+    "": "ISO 3166 code GF"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GG": {
+    "": "ISO 3166 code GG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GH": {
+    "": "ISO 3166 code GH"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GI": {
+    "": "ISO 3166 code GI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GL": {
+    "": "ISO 3166 code GL"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GM": {
+    "": "ISO 3166 code GM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GN": {
+    "": "ISO 3166 code GN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GP": {
+    "": "ISO 3166 code GP"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GQ": {
+    "": "ISO 3166 code GQ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GR": {
+    "": "ISO 3166 code GR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GS": {
+    "": "ISO 3166 code GS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GT": {
+    "": "ISO 3166 code GT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GU": {
+    "": "ISO 3166 code GU"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GW": {
+    "": "ISO 3166 code GW"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:GY": {
+    "": "ISO 3166 code GY"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:HK": {
+    "": "ISO 3166 code HK"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:HM": {
+    "": "ISO 3166 code HM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:HN": {
+    "": "ISO 3166 code HN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:HR": {
+    "": "ISO 3166 code HR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:HT": {
+    "": "ISO 3166 code HT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:HU": {
+    "": "ISO 3166 code HU"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ID": {
+    "": "ISO 3166 code ID"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:IE": {
+    "": "ISO 3166 code IE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:IL": {
+    "": "ISO 3166 code IL"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:IM": {
+    "": "ISO 3166 code IM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:IN": {
+    "": "ISO 3166 code IN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:IO": {
+    "": "ISO 3166 code IO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:IQ": {
+    "": "ISO 3166 code IQ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:IR": {
+    "": "ISO 3166 code IR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:IS": {
+    "": "ISO 3166 code IS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:IT": {
+    "": "ISO 3166 code IT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:JE": {
+    "": "ISO 3166 code JE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:JM": {
+    "": "ISO 3166 code JM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:JO": {
+    "": "ISO 3166 code JO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:JP": {
+    "": "ISO 3166 code JP"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KE": {
+    "": "ISO 3166 code KE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KG": {
+    "": "ISO 3166 code KG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KH": {
+    "": "ISO 3166 code KH"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KI": {
+    "": "ISO 3166 code KI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KM": {
+    "": "ISO 3166 code KM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KN": {
+    "": "ISO 3166 code KN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KP": {
+    "": "ISO 3166 code KP"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KR": {
+    "": "ISO 3166 code KR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KW": {
+    "": "ISO 3166 code KW"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KY": {
+    "": "ISO 3166 code KY"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:KZ": {
+    "": "ISO 3166 code KZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LA": {
+    "": "ISO 3166 code LA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LB": {
+    "": "ISO 3166 code LB"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LC": {
+    "": "ISO 3166 code LC"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LI": {
+    "": "ISO 3166 code LI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LK": {
+    "": "ISO 3166 code LK"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LR": {
+    "": "ISO 3166 code LR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LS": {
+    "": "ISO 3166 code LS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LT": {
+    "": "ISO 3166 code LT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LU": {
+    "": "ISO 3166 code LU"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LV": {
+    "": "ISO 3166 code LV"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:LY": {
+    "": "ISO 3166 code LY"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MA": {
+    "": "ISO 3166 code MA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MC": {
+    "": "ISO 3166 code MC"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MD": {
+    "": "ISO 3166 code MD"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ME": {
+    "": "ISO 3166 code ME"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MF": {
+    "": "ISO 3166 code MF"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MG": {
+    "": "ISO 3166 code MG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MH": {
+    "": "ISO 3166 code MH"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MK": {
+    "": "ISO 3166 code MK"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ML": {
+    "": "ISO 3166 code ML"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MM": {
+    "": "ISO 3166 code MM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MN": {
+    "": "ISO 3166 code MN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MO": {
+    "": "ISO 3166 code MO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MP": {
+    "": "ISO 3166 code MP"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MQ": {
+    "": "ISO 3166 code MQ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MR": {
+    "": "ISO 3166 code MR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MS": {
+    "": "ISO 3166 code MS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MT": {
+    "": "ISO 3166 code MT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MU": {
+    "": "ISO 3166 code MU"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MV": {
+    "": "ISO 3166 code MV"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MW": {
+    "": "ISO 3166 code MW"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MX": {
+    "": "ISO 3166 code MX"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MY": {
+    "": "ISO 3166 code MY"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:MZ": {
+    "": "ISO 3166 code MZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NA": {
+    "": "ISO 3166 code NA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NC": {
+    "": "ISO 3166 code NC"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NE": {
+    "": "ISO 3166 code NE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NF": {
+    "": "ISO 3166 code NF"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NG": {
+    "": "ISO 3166 code NG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NI": {
+    "": "ISO 3166 code NI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NL": {
+    "": "ISO 3166 code NL"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NO": {
+    "": "ISO 3166 code NO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NP": {
+    "": "ISO 3166 code NP"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NR": {
+    "": "ISO 3166 code NR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NU": {
+    "": "ISO 3166 code NU"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:NZ": {
+    "": "ISO 3166 code NZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:OM": {
+    "": "ISO 3166 code OM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PA": {
+    "": "ISO 3166 code PA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PE": {
+    "": "ISO 3166 code PE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PF": {
+    "": "ISO 3166 code PF"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PG": {
+    "": "ISO 3166 code PG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PH": {
+    "": "ISO 3166 code PH"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PK": {
+    "": "ISO 3166 code PK"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PL": {
+    "": "ISO 3166 code PL"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PM": {
+    "": "ISO 3166 code PM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PN": {
+    "": "ISO 3166 code PN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PR": {
+    "": "ISO 3166 code PR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PS": {
+    "": "ISO 3166 code PS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PT": {
+    "": "ISO 3166 code PT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PW": {
+    "": "ISO 3166 code PW"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:PY": {
+    "": "ISO 3166 code PY"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:QA": {
+    "": "ISO 3166 code QA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:RE": {
+    "": "ISO 3166 code RE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:RO": {
+    "": "ISO 3166 code RO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:RS": {
+    "": "ISO 3166 code RS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:RU": {
+    "": "ISO 3166 code RU"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:RW": {
+    "": "ISO 3166 code RW"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SA": {
+    "": "ISO 3166 code SA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SB": {
+    "": "ISO 3166 code SB"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SC": {
+    "": "ISO 3166 code SC"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SD": {
+    "": "ISO 3166 code SD"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SE": {
+    "": "ISO 3166 code SE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SG": {
+    "": "ISO 3166 code SG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SH": {
+    "": "ISO 3166 code SH"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SI": {
+    "": "ISO 3166 code SI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SJ": {
+    "": "ISO 3166 code SJ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SK": {
+    "": "ISO 3166 code SK"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SL": {
+    "": "ISO 3166 code SL"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SM": {
+    "": "ISO 3166 code SM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SN": {
+    "": "ISO 3166 code SN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SO": {
+    "": "ISO 3166 code SO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SR": {
+    "": "ISO 3166 code SR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SS": {
+    "": "ISO 3166 code SS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ST": {
+    "": "ISO 3166 code ST"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SV": {
+    "": "ISO 3166 code SV"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SX": {
+    "": "ISO 3166 code SX"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SY": {
+    "": "ISO 3166 code SY"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:SZ": {
+    "": "ISO 3166 code SZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TC": {
+    "": "ISO 3166 code TC"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TD": {
+    "": "ISO 3166 code TD"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TF": {
+    "": "ISO 3166 code TF"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TG": {
+    "": "ISO 3166 code TG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TH": {
+    "": "ISO 3166 code TH"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TJ": {
+    "": "ISO 3166 code TJ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TK": {
+    "": "ISO 3166 code TK"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TL": {
+    "": "ISO 3166 code TL"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TM": {
+    "": "ISO 3166 code TM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TN": {
+    "": "ISO 3166 code TN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TO": {
+    "": "ISO 3166 code TO"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TR": {
+    "": "ISO 3166 code TR"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TT": {
+    "": "ISO 3166 code TT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TV": {
+    "": "ISO 3166 code TV"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TW": {
+    "": "ISO 3166 code TW"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:TZ": {
+    "": "ISO 3166 code TZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:UA": {
+    "": "ISO 3166 code UA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:UG": {
+    "": "ISO 3166 code UG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:UM": {
+    "": "ISO 3166 code UM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:US": {
+    "": "ISO 3166 code US"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:UY": {
+    "": "ISO 3166 code UY"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:UZ": {
+    "": "ISO 3166 code UZ"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:VA": {
+    "": "ISO 3166 code VA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:VC": {
+    "": "ISO 3166 code VC"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:VE": {
+    "": "ISO 3166 code VE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:VG": {
+    "": "ISO 3166 code VG"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:VI": {
+    "": "ISO 3166 code VI"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:VN": {
+    "": "ISO 3166 code VN"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:VU": {
+    "": "ISO 3166 code VU"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:WF": {
+    "": "ISO 3166 code WF"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:WS": {
+    "": "ISO 3166 code WS"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:YE": {
+    "": "ISO 3166 code YE"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:YT": {
+    "": "ISO 3166 code YT"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ZA": {
+    "": "ISO 3166 code ZA"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ZM": {
+    "": "ISO 3166 code ZM"
+  },
+  "https://www.iso.org/obp/ui/#iso:code:3166:ZW": {
+    "": "ISO 3166 code ZW"
+  },
+  "http://purl.org/dc/terms/Agent": {
+    "en": "Agent"
+  },
+  "http://purl.org/dc/terms/conformsTo": {
+    "en": "Conforms To"
+  },
+  "http://purl.org/dc/terms/contributor": {
+    "en": "Contributor"
+  },
+  "http://purl.org/dc/terms/created": {
+    "en": "Date Created"
+  },
+  "http://purl.org/dc/terms/creator": {
+    "en": "Creator"
+  },
+  "http://purl.org/dc/terms/description": {
+    "en": "Description"
+  },
+  "http://purl.org/dc/terms/identifier": {
+    "en": "Identifier"
+  },
+  "http://purl.org/dc/terms/issued": {
+    "en": "Date Issued"
+  },
+  "http://purl.org/dc/terms/modified": {
+    "en": "Date Modified"
+  },
+  "http://purl.org/dc/terms/provenance": {
+    "en": "Provenance"
+  },
+  "http://purl.org/dc/terms/publisher": {
+    "en": "Publisher"
+  },
+  "http://purl.org/dc/terms/subject": {
+    "en": "Subject"
+  },
+  "http://purl.org/dc/terms/title": {
+    "en": "Title"
+  },
+  "http://www.w3.org/2000/01/rdf-schema#Resource": {
+    "": "Resource"
+  },
+  "http://www.w3.org/2002/07/owl#versionIRI": {
+    "": "versionIRI"
+  },
+  "http://www.w3.org/ns/dcat#hadRole": {
+    "en": "hadRole"
+  },
+  "http://www.w3.org/ns/dx/prof/hasArtifact": {
+    "": "has artifact"
+  },
+  "http://www.w3.org/ns/dx/prof/hasResource": {
+    "en": "has resource"
+  },
+  "http://www.w3.org/ns/dx/prof/hasRole": {
+    "": "has role"
+  },
+  "http://www.w3.org/ns/prov#agent": {
+    "": "agent"
+  },
+  "http://www.w3.org/ns/prov#qualifiedAttribution": {
+    "": "qualified attribution"
+  },
+  "https://schema.org/name": {
+    "": "name"
+  },
+  "http://xmlns.com/foaf/0.1/name": {
+    "": "name"
+  },
+  "https://kurrawong.ai": {
+    "": "KurrawongAI"
+  },
+  "https://linked.data.gov.au/def/data-roles/custodian": {
+    "en": "custodian"
+  },
+  "https://prez.dev/Manifest": {
+    "": "Manifest"
+  },
+  "https://prez.dev/ManifestResourceRoles/CatalogueAndResourceModel": {
+    "": "Catalogue & Resource Model"
+  },
+  "https://prez.dev/ManifestResourceRoles/CatalogueData": {
+    "": "Catalogue Data"
+  },
+  "https://prez.dev/ManifestResourceRoles/CompleteCatalogueAndResourceLabels": {
+    "": "Complete Catalogue and Resource Labels"
+  },
+  "https://prez.dev/ManifestResourceRoles/ResourceData": {
+    "": "Resource Data"
+  },
+  "https://schema.org/DataCatalog": {
+    "": "Data catalog"
+  },
+  "https://schema.org/Person": {
+    "": "Person"
+  },
+  "https://schema.org/codeRepository": {
+    "": "code repository"
+  },
+  "https://schema.org/email": {
+    "": "email"
+  },
+  "https://schema.org/hasPart": {
+    "": "has part"
+  },
+  "https://schema.org/version": {
+    "": "version"
+  },
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": {
+    "": "is defined by"
+  },
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso": {
+    "": "see also"
+  },
+  "http://www.w3.org/2002/07/owl#versionInfo": {
+    "": "versionInfo"
+  },
+  "http://www.w3.org/2004/02/skos/core#Concept": {
+    "": "Concept"
+  },
+  "http://www.w3.org/2004/02/skos/core#ConceptScheme": {
+    "en": "Concept Scheme"
+  },
+  "http://www.w3.org/2004/02/skos/core#altLabel": {
+    "en": "alternative label"
+  },
+  "http://www.w3.org/2004/02/skos/core#broader": {
+    "en": "has broader"
+  },
+  "http://www.w3.org/2004/02/skos/core#definition": {
+    "en": "definition"
+  },
+  "http://www.w3.org/2004/02/skos/core#exactMatch": {
+    "en": "has exact match"
+  },
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept": {
+    "en": "has top concept"
+  },
+  "http://www.w3.org/2004/02/skos/core#historyNote": {
+    "en": "history note"
+  },
+  "http://www.w3.org/2004/02/skos/core#inScheme": {
+    "en": "is in scheme"
+  },
+  "http://www.w3.org/2004/02/skos/core#narrower": {
+    "en": "has narrower"
+  },
+  "http://www.w3.org/2004/02/skos/core#notation": {
+    "en": "notation"
+  },
+  "http://www.w3.org/2004/02/skos/core#prefLabel": {
+    "en": "preferred label"
+  },
+  "http://www.w3.org/2004/02/skos/core#topConceptOf": {
+    "en": "is top concept in scheme"
+  },
+  "http://www.w3.org/ns/dcat#contactPoint": {
+    "en": "contact point"
+  },
+  "https://schema.org/Organization": {
+    "": "Organization"
+  },
+  "https://schema.org/citation": {
+    "": "citation"
+  },
+  "https://schema.org/contributor": {
+    "": "contributor"
+  },
+  "https://schema.org/creator": {
+    "": "creator"
+  },
+  "https://schema.org/dateCreated": {
+    "": "date created"
+  },
+  "https://schema.org/dateModified": {
+    "": "date modified"
+  },
+  "https://schema.org/description": {
+    "": "description"
+  },
+  "https://schema.org/keywords": {
+    "": "keywords"
+  },
+  "https://schema.org/publisher": {
+    "": "publisher"
+  },
+  "https://schema.org/url": {
+    "": "url"
+  },
+  "https://w3id.org/profile/vocpub": {
+    "": "VocPub Profile"
+  },
+  "https://pid.geoscience.gov.au/dataset/ga/148553": {
+    "": "Geoscience Australia's geoscientific relational databases use look-up tables to describe the data stored within. These look-ups contain, but are not limited to, information about boreholes, field geology, inorganic and organic geochemistry, hydrochemistry, geophysics, rock properties, samples and other general geological terms. These terms have then been compiled into a vocabulary of terms for publication via GA's vocabulary service. Within this vocabulary, GA references where sourced terms are published in external vocabularies with a source vocabulary URI (Uniform Resource Identifier)."
+  },
+  "https://pid.geoscience.gov.au/dataset/ga/147628": {
+    "": "Associated Resource Type"
+  },
+  "https://linked.data.gov.au/org/isgm-wg": {
+    "": "International Seabed Geomorphology Mapping Working Group"
+  },
+  "https://linked.data.gov.au/org/iag": {
+    "": "International Association of Geomorphologists"
+  },
+  "https://linked.data.gov.au/org/ga": {
+    "": "Geoscience Australia"
+  }
+}

@@ -1,0 +1,121 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Associated Resource Type",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2019-11-01",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2023-04-06",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/147628"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1.5"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/StereoMate"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/crossreference"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/dependency"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/generated"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/hadDerivation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/informed"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/isComposedOf"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/largerWorkCitation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatedOnBy"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatesOn"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/partOfSeamlessDatabase"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/revisionOf"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/series"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "https://pid.geoscience.gov.au/dataset/ga/122551",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "DPI"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

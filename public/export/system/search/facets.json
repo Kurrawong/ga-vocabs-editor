@@ -1,0 +1,10 @@
+{
+  "schemes": [
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
+      "label": "Associated Resource Type",
+      "count": 17
+    }
+  ],
+  "publishers": []
+}
