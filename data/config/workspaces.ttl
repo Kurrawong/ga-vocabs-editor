@@ -7,4 +7,11 @@
         prez:description "For vocabulary authors - test changes before production" ;
         prez:icon "i-heroicons-pencil-square" ;
         prez:refreshFrom "main"
+    ] ;
+    prez:workspace [
+        prez:slug "develop" ;
+        prez:label "Develop" ;
+        prez:description "For developers - experimental changes and testing" ;
+        prez:icon "i-heroicons-code-bracket" ;
+        prez:refreshFrom "main"
     ] .
