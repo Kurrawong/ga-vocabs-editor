@@ -10,7 +10,8 @@ dist/
 # prez-lite processing cache
 .prez-lite-cache/
 
-# Environment (keep .env — it has non-secret path config for this repo)
+# Environment
+.env
 .env.local
 
 # IDE
