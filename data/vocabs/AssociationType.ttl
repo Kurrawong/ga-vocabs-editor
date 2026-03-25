@@ -189,7 +189,6 @@ cs:
     owl:versionInfo "1.5" ;
     skos:definition "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551."@en ;
     skos:hasTopConcept
-        :StereoMate ,
         :collectiveTitle ,
         :crossreference ,
         :dependency ,
@@ -203,11 +202,13 @@ cs:
         :partOfSeamlessDatabase ,
         :revisionOf ,
         :series ,
+        :StereoMate ,
         :wasDerivedFrom ,
         :wasGeneratedBy ,
         :wasInformedBy ;
     skos:historyNote "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:prefLabel "Associated Resource Type"@en ;
     dcat:contactPoint "DPI" ;
-    schema:status astatus:experimental ;
+    schema:status astatus:stable ;
 .
+
