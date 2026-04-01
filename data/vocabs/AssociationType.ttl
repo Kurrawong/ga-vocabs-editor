@@ -95,7 +95,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "Larger Work Citation"@en ;
     skos:definition "reference to a master resource of which this one is a part"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "largerWorkCitation"@en ;
+    skos:prefLabel "largerWorkCitation Soemthing"@en ;
     skos:topConceptOf cs: ;
 .
 
