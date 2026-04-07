@@ -21,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :estimatedEarliest
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     dcterms:identifier "estimatedEarliest"^^xsd:token ;
     skos:broader :estimated ;
     skos:definition "The recorded date is the earliest known date, but it is possible the true date is earlier than what is recorded."@en ;
@@ -30,6 +31,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :estimatedLatest
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     dcterms:identifier "estimatedLatest"^^xsd:token ;
     skos:broader :estimated ;
     skos:definition "The recorded date is the latest known date, but it is possible the true date is later than what is recorded."@en ;
@@ -39,6 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :known
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     dcterms:identifier "known"^^xsd:token ;
     skos:definition "The recorded date is known"@en ;
     skos:inScheme cs: ;
@@ -48,6 +51,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :estimated
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     dcterms:identifier "estimated"^^xsd:token ;
     skos:definition "The recorded date is estimated"@en ;
     skos:inScheme cs: ;
@@ -64,7 +68,7 @@ cs:
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:identifier "DateQualifier"^^xsd:token ;
     dcterms:modified "2022-08-04"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Date Qualifer Terms (BOREHOLE.LU_DATE_QUALIFIERS)"@en ;
+    dcterms:provenance "Geoscience Australia Date Qualifier Terms (BOREHOLE.LU_DATE_QUALIFIERS)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
     owl:versionInfo "1" ;
