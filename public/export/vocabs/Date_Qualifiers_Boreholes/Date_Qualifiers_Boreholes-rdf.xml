@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/DateQualifier">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#token">DateQualifier</dcterms:identifier>
+    <skos:definition xml:lang="en">Terms to describe the confidence or quality in a recorded date </skos:definition>
+    <skos:prefLabel xml:lang="en">Borehole Geology - Date Qualifier</skos:prefLabel>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-04</dcterms:created>
+    <dcterms:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-04</dcterms:modified>
+    <dcterms:provenance xml:lang="en">Geoscience Australia Date Qualifier Terms (BOREHOLE.LU_DATE_QUALIFIERS)</dcterms:provenance>
+    <dcterms:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <rdfs:seeAlso rdf:resource="https://pid.geoscience.gov.au/dataset/ga/148553"/>
+    <owl:versionInfo>1</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/dateUnknown"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimated"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/known"/>
+    <dcat:contactPoint>Team Lead - Information Services; Minerals, Energy and Groundwater Division</dcat:contactPoint>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+  </rdf:Description>
+</rdf:RDF>

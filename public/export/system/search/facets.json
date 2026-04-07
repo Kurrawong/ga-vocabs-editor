@@ -14,6 +14,11 @@
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
       "label": "Associated Resource Type",
       "count": 17
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier",
+      "label": "Borehole Geology - Date Qualifier",
+      "count": 5
     }
   ],
   "publishers": []

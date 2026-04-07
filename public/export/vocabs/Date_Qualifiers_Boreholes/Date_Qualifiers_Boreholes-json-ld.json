@@ -1,0 +1,85 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "DateQualifier",
+                "@type": "http://www.w3.org/2001/XMLSchema#token"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Terms to describe the confidence or quality in a recorded date ",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Borehole Geology - Date Qualifier",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/provenance": [
+            {
+                "@value": "Geoscience Australia Date Qualifier Terms (BOREHOLE.LU_DATE_QUALIFIERS)",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/dateUnknown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimated"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/known"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Minerals, Energy and Groundwater Division"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

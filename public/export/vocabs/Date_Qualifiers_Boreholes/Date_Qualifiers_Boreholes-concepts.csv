@@ -1,0 +1,6 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/dateUnknown,,date unknown
+https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimated,,estimated
+https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimatedEarliest,https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimated,estimated earliest
+https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimatedLatest,https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/estimated,estimated latest
+https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/known,,known

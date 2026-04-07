@@ -1,0 +1,361 @@
+[
+  {
+    "@id": "_:n3-30",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/created",
+    "https://prez.dev/label": [
+      {
+        "@value": "Date Created",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date of creation of the resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/creator",
+    "https://prez.dev/label": [
+      {
+        "@value": "Creator",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An entity responsible for making the resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/identifier",
+    "https://prez.dev/label": [
+      {
+        "@value": "Identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An unambiguous reference to the resource within a given context.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/modified",
+    "https://prez.dev/label": [
+      {
+        "@value": "Date Modified",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date on which the resource was changed.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/provenance",
+    "https://prez.dev/label": [
+      {
+        "@value": "Provenance",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/publisher",
+    "https://prez.dev/label": [
+      {
+        "@value": "Publisher",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An entity responsible for making the resource available.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "https://prez.dev/label": [
+      {
+        "@value": "see also"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Further information about the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#versionInfo",
+    "https://prez.dev/label": [
+      {
+        "@value": "versionInfo"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The annotation property that provides version information for an ontology or another OWL construct."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept Scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A set of concepts, optionally including statements about semantic relationships between those concepts",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+    "https://prez.dev/label": [
+      {
+        "@value": "has top concept",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/dcat#contactPoint",
+    "https://prez.dev/label": [
+      {
+        "@value": "contact point",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relevant contact information for the catalogued resource. Use of vCard is recommended.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/ga",
+    "https://prez.dev/label": [
+      {
+        "@value": "Geoscience Australia"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia."
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/dataset/ga/148553",
+    "https://prez.dev/label": [
+      {
+        "@value": "Geoscience Australia's geoscientific relational databases use look-up tables to describe the data stored within. These look-ups contain, but are not limited to, information about boreholes, field geology, inorganic and organic geochemistry, hydrochemistry, geophysics, rock properties, samples and other general geological terms. These terms have then been compiled into a vocabulary of terms for publication via GA's vocabulary service. Within this vocabulary, GA references where sourced terms are published in external vocabularies with a source vocabulary URI (Uniform Resource Identifier)."
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "URL of the item"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "DateQualifier",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Terms to describe the confidence or quality in a recorded date ",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Borehole Geology - Date Qualifier",
+        "@language": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@value": "2022-08-04",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://linked.data.gov.au/org/ga"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "@value": "2022-08-04",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Geoscience Australia Date Qualifier Terms (BOREHOLE.LU_DATE_QUALIFIERS)",
+        "@language": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://linked.data.gov.au/org/ga"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#contactPoint": [
+      {
+        "@value": "Team Lead - Information Services; Minerals, Energy and Groundwater Division"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns4:DateQualifier"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns4:DateQualifier"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns4:DateQualifier/items"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Borehole Geology - Date Qualifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Terms to describe the confidence or quality in a recorded date ",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/provenance": [
+      {
+        "@value": "Geoscience Australia Date Qualifier Terms (BOREHOLE.LU_DATE_QUALIFIERS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]
