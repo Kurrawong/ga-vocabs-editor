@@ -16,6 +16,11 @@
       "count": 17
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus",
+      "label": "Borehole Geology - Status ",
+      "count": 15
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier",
       "label": "Borehole Geology - Date Qualifier",
       "count": 5
