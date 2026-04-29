@@ -35,7 +35,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "Cross Reference"@en ;
     skos:definition "reference from one resource to another - TEST"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "crossReference"@en ;
+    skos:prefLabel "cross reference"@en ;
     skos:topConceptOf cs: ;
 .
 
