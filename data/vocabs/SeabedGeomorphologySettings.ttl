@@ -3987,3 +3987,12 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
     schema:status astatus:experimental ;
     schema:version "1.1" ;
 .
+
+:alluvial
+    a skos:Concept ;
+    skos:broader :channel_ledge ;
+    skos:inScheme cs: ;
+    skos:prefLabel "alluvial (BGU-T)"@en ;
+.
+
+
