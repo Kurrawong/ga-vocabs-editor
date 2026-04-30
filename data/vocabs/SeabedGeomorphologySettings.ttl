@@ -956,7 +956,7 @@ Cf. COASTAL DELTA-FRONT"""@en ;
     skos:broader :Fluvial_Setting ;
     skos:definition "FLUVIAL FAN sedimentation is usually restricted to one part of the fan surface at a time, and the sedimentology of these FAN LOBES are typically internally consistent. FLUVIAL FAN LOBES are abandoned, and new ones are initiated, by channel avulsion."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "fluvial fan lobe (BGU)"@en ;
+    skos:prefLabel "Fluvial fan lobe (BGU)"@en ;
 .
 
 :fluvial_incised_valley
