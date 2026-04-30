@@ -104,7 +104,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:identifier "stainlessSteel"^^xsd:token ;
     skos:definition "Corrosion resistant iron-chromium alloy "@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "stainless steel"@en ;
+    skos:prefLabel "awesome steel"@en ;
     skos:topConceptOf cs: ;
 .
 
