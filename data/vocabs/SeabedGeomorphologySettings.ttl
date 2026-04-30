@@ -947,7 +947,7 @@ Cf. COASTAL DELTA-FRONT"""@en ;
     skos:broader :Fluvial_Setting ;
     skos:definition "Usually cone-shaped forms with surface slopes radiating away from an apex located at the point where the feeder SUBAERIAL CHANNEL splits to form DISTRIBUTARY CHANNELS. Their fan-like geometry can be modified by the confinement of neighbouring fans or valley walls (modified from Goudie, 2006)."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "fluvial fan (BGU)"@en ;
+    skos:prefLabel "Fluvial fan (BGU)"@en ;
 .
 
 :fluvial_fan_lobe
