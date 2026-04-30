@@ -947,7 +947,7 @@ Cf. COASTAL DELTA-FRONT"""@en ;
     skos:broader :Fluvial_Setting ;
     skos:definition "Usually cone-shaped forms with surface slopes radiating away from an apex located at the point where the feeder SUBAERIAL CHANNEL splits to form DISTRIBUTARY CHANNELS. Their fan-like geometry can be modified by the confinement of neighbouring fans or valley walls (modified from Goudie, 2006)."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "fluvial fan (BGU)"@en ;
+    skos:prefLabel "Fluvial fan (BGU)"@en ;
 .
 
 :fluvial_fan_lobe
@@ -956,7 +956,7 @@ Cf. COASTAL DELTA-FRONT"""@en ;
     skos:broader :Fluvial_Setting ;
     skos:definition "FLUVIAL FAN sedimentation is usually restricted to one part of the fan surface at a time, and the sedimentology of these FAN LOBES are typically internally consistent. FLUVIAL FAN LOBES are abandoned, and new ones are initiated, by channel avulsion."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "fluvial fan lobe (BGU)"@en ;
+    skos:prefLabel "Fluvial fan lobe (BGU)"@en ;
 .
 
 :fluvial_incised_valley
@@ -3987,3 +3987,12 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
     schema:status astatus:experimental ;
     schema:version "1.1" ;
 .
+
+:alluvial
+    a skos:Concept ;
+    skos:broader
+        :channel_ledge ,
+        :floodplain_terrace ;
+    skos:inScheme cs: ;
+.
+
