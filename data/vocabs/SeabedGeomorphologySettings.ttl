@@ -3990,9 +3990,9 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
 
 :alluvial
     a skos:Concept ;
-    skos:broader :channel_ledge ;
+    skos:broader
+        :channel_ledge ,
+        :floodplain_terrace ;
     skos:inScheme cs: ;
-    skos:prefLabel "alluvial (BGU-T)"@en ;
 .
-
 
