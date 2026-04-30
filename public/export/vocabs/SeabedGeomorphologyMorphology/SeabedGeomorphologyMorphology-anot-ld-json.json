@@ -1,0 +1,492 @@
+[
+  {
+    "@id": "_:n3-30",
+    "http://www.w3.org/ns/prov#agent": [
+      {
+        "@id": "_:n3-31"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadRole": [
+      {
+        "@id": "https://linked.data.gov.au/def/data-roles/custodian"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3-31",
+    "@type": [
+      "https://schema.org/Person"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Marine And Coastal Geoscience"
+      }
+    ],
+    "https://schema.org/email": [
+      {
+        "@value": "",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3-32",
+    "http://www.w3.org/ns/prov#agent": [
+      {
+        "@id": "_:n3-33"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadRole": [
+      {
+        "@id": "https://linked.data.gov.au/def/data-roles/pointOfContact"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3-33",
+    "@type": [
+      "https://schema.org/Person"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Rachel Nanson"
+      }
+    ],
+    "https://schema.org/email": [
+      {
+        "@value": "",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3-34",
+    "http://www.w3.org/ns/prov#agent": [
+      {
+        "@id": "_:n3-35"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadRole": [
+      {
+        "@id": "https://linked.data.gov.au/def/data-roles/custodian"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3-35",
+    "@type": [
+      "https://schema.org/Person"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Orca Branch"
+      }
+    ],
+    "https://schema.org/email": [
+      {
+        "@value": "",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ]
+  },
+  {
+    "@id": "_:n3-36",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept Scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A set of concepts, optionally including statements about semantic relationships between those concepts",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+    "https://prez.dev/label": [
+      {
+        "@value": "has top concept",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#historyNote",
+    "https://prez.dev/label": [
+      {
+        "@value": "history note",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A note about the past state/use/meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#agent",
+    "https://prez.dev/label": [
+      {
+        "@value": "agent"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A thing with agency - the ability to do work"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/ns/prov#qualifiedAttribution",
+    "https://prez.dev/label": [
+      {
+        "@value": "qualified attribution"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "If this Entity prov:wasAttributedTo Agent :ag, then it can qualify how it was influenced using prov:qualifiedAttribution [ a prov:Attribution;  prov:agent :ag; :foo :bar ].",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/def/data-roles/custodian",
+    "https://prez.dev/label": [
+      {
+        "@value": "custodian",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/ga",
+    "https://prez.dev/label": [
+      {
+        "@value": "Geoscience Australia"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia."
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/org/isgm-wg",
+    "https://prez.dev/label": [
+      {
+        "@value": "International Seabed Geomorphology Mapping Working Group"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Seabed Geomorphology Mapping Working Group (ISGM) is a collaboration between geoscience agencies in the United Kingdom, Norway, Ireland and Australia. The group have been collaborating since 2016 to develop a novel marine and coastal system that supports standardised geomorphic classification and mapping by a broad range of geoscientists. Users can download open-access reports and GIS tools or use the online vocabularies to apply the method to their own datasets."
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A vocabulary of MORPHOLOGY FEATURE (Part 1) terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)) to describe the shape of the seabed.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 1 Morphology report (Version 2.0 [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940)).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Seabed geomorphology - Part 1 Morphology",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "\"2025-08 1.1: Images added\n\nThis vocabulary describes the glossary in Part 1 of the two-part seabed geomorphology classification scheme. DOI: 10.5281/zenodo4075248"
+      }
+    ],
+    "http://www.w3.org/ns/prov#qualifiedAttribution": [
+      {
+        "@id": "_:n3-30"
+      },
+      {
+        "@id": "_:n3-32"
+      },
+      {
+        "@id": "_:n3-34"
+      }
+    ],
+    "https://schema.org/creator": [
+      {
+        "@id": "https://linked.data.gov.au/org/isgm-wg"
+      }
+    ],
+    "https://schema.org/dateCreated": [
+      {
+        "@value": "2024-05-22",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "https://schema.org/dateModified": [
+      {
+        "@value": "2026-04-29",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "https://pid.geoscience.gov.au/dataset/ga/150006",
+        "@type": "https://pid.geoscience.gov.au/def/voc/ga/eCatID"
+      }
+    ],
+    "https://schema.org/keywords": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology"
+      }
+    ],
+    "https://schema.org/publisher": [
+      {
+        "@id": "https://linked.data.gov.au/org/ga"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+      }
+    ],
+    "https://schema.org/version": [
+      {
+        "@value": "1.0"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns4:SeabedGeomorphologyMorphology"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns4:SeabedGeomorphologyMorphology"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns4:SeabedGeomorphologyMorphology/items"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 1 Morphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of MORPHOLOGY FEATURE (Part 1) terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)) to describe the shape of the seabed.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 1 Morphology report (Version 2.0 [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940)).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/Person",
+    "https://prez.dev/label": [
+      {
+        "@value": "Person"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A person (alive, dead, undead, or fictional)"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/creator",
+    "https://prez.dev/label": [
+      {
+        "@value": "creator"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/dateCreated",
+    "https://prez.dev/label": [
+      {
+        "@value": "date created"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The date on which the CreativeWork was created or the item was added to a DataFeed"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/dateModified",
+    "https://prez.dev/label": [
+      {
+        "@value": "date modified"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/email",
+    "https://prez.dev/label": [
+      {
+        "@value": "email"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Email address"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/keywords",
+    "https://prez.dev/label": [
+      {
+        "@value": "keywords"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/name",
+    "https://prez.dev/label": [
+      {
+        "@value": "name"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The name of a thing"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/publisher",
+    "https://prez.dev/label": [
+      {
+        "@value": "publisher"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The publisher of the creative work"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/version",
+    "https://prez.dev/label": [
+      {
+        "@value": "version"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The version of the CreativeWork embodied by a specified resource"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

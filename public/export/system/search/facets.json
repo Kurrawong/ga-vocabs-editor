@@ -6,6 +6,11 @@
       "count": 106
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology",
+      "label": "Seabed geomorphology - Part 1 Morphology",
+      "count": 40
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod",
       "label": "Borehole Geology - Location Method",
       "count": 37
@@ -26,5 +31,11 @@
       "count": 5
     }
   ],
-  "publishers": []
+  "publishers": [
+    {
+      "iri": "https://linked.data.gov.au/org/ga",
+      "label": "Geoscience Australia",
+      "count": 40
+    }
+  ]
 }

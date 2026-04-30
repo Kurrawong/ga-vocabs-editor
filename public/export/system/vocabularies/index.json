@@ -2229,10 +2229,10 @@
         "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/trough",
         "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/valley"
       ],
-      "modified": "2025-11-18",
+      "modified": "2026-04-29",
       "created": "2024-05-22",
       "version": "1.0",
-      "versionIRI": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/1.1",
+      "versionIRI": null,
       "status": null,
       "statusLabel": null,
       "publisher": [
@@ -2247,8 +2247,12 @@
       "creatorLabels": [
         "International Seabed Geomorphology Mapping Working Group"
       ],
-      "themes": [],
-      "themeLabels": [],
+      "themes": [
+        "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology"
+      ],
+      "themeLabels": [
+        "geomorphology"
+      ],
       "formats": [
         "ttl",
         "json",

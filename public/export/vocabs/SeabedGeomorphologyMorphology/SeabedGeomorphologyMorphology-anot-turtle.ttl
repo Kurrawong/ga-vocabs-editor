@@ -1,0 +1,88 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology> a skos:ConceptScheme;
+    skos:definition "A vocabulary of MORPHOLOGY FEATURE (Part 1) terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)) to describe the shape of the seabed.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 1 Morphology report (Version 2.0 [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940))."@en;
+    skos:prefLabel "Seabed geomorphology - Part 1 Morphology"@en;
+    skos:historyNote "\"2025-08 1.1: Images added\n\nThis vocabulary describes the glossary in Part 1 of the two-part seabed geomorphology classification scheme. DOI: 10.5281/zenodo4075248";
+    prov:qualifiedAttribution _:n3-30, _:n3-32, _:n3-34;
+    sdo:creator <https://linked.data.gov.au/org/isgm-wg>;
+    sdo:dateCreated "2024-05-22"^^xsd:date;
+    sdo:dateModified "2026-04-29"^^xsd:date;
+    sdo:identifier "https://pid.geoscience.gov.au/dataset/ga/150006"^^<https://pid.geoscience.gov.au/def/voc/ga/eCatID>;
+    sdo:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology>;
+    sdo:publisher <https://linked.data.gov.au/org/ga>;
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
+    sdo:version "1.0";
+    prez:identifier "ns4:SeabedGeomorphologyMorphology";
+    prez:link "/catalogs/catalogue:default/collections/ns4:SeabedGeomorphologyMorphology";
+    prez:members "/catalogs/catalogue:default/collections/ns4:SeabedGeomorphologyMorphology/items";
+    prez:type prez:FocusNode;
+    prez:label "Seabed geomorphology - Part 1 Morphology"@en;
+    prez:description "A vocabulary of MORPHOLOGY FEATURE (Part 1) terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)) to describe the shape of the seabed.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 1 Morphology report (Version 2.0 [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940))."@en.
+skos:ConceptScheme prez:label "Concept Scheme"@en;
+    prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
+skos:definition prez:label "definition"@en;
+    prez:description "A statement or formal explanation of the meaning of a concept"@en.
+skos:prefLabel prez:label "preferred label"@en;
+    prez:description "The preferred lexical label for a resource, in a given language"@en.
+skos:historyNote prez:label "history note"@en;
+    prez:description "A note about the past state/use/meaning of a concept"@en.
+prov:qualifiedAttribution prez:label "qualified attribution";
+    prez:description "If this Entity prov:wasAttributedTo Agent :ag, then it can qualify how it was influenced using prov:qualifiedAttribution [ a prov:Attribution;  prov:agent :ag; :foo :bar ]."@en.
+_:n3-30 prov:agent _:n3-31;
+    prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>.
+prov:agent prez:label "agent";
+    prez:description "A thing with agency - the ability to do work".
+_:n3-31 a sdo:Person;
+    sdo:name "Marine And Coastal Geoscience";
+    sdo:email ""^^xsd:anyURI.
+sdo:name prez:label "name";
+    prez:description "The name of a thing".
+sdo:Person prez:label "Person";
+    prez:description "A person (alive, dead, undead, or fictional)".
+sdo:email prez:label "email";
+    prez:description "Email address".
+<https://linked.data.gov.au/def/data-roles/custodian> prez:label "custodian"@en;
+    prez:description "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource".
+_:n3-32 prov:agent _:n3-33;
+    prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact>.
+_:n3-33 a sdo:Person;
+    sdo:name "Rachel Nanson";
+    sdo:email ""^^xsd:anyURI.
+_:n3-34 prov:agent _:n3-35;
+    prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>.
+_:n3-35 a sdo:Person;
+    sdo:name "Orca Branch";
+    sdo:email ""^^xsd:anyURI.
+sdo:creator prez:label "creator";
+    prez:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork".
+<https://linked.data.gov.au/org/isgm-wg> prez:label "International Seabed Geomorphology Mapping Working Group";
+    prez:description "The International Seabed Geomorphology Mapping Working Group (ISGM) is a collaboration between geoscience agencies in the United Kingdom, Norway, Ireland and Australia. The group have been collaborating since 2016 to develop a novel marine and coastal system that supports standardised geomorphic classification and mapping by a broad range of geoscientists. Users can download open-access reports and GIS tools or use the online vocabularies to apply the method to their own datasets.".
+sdo:dateCreated prez:label "date created";
+    prez:description "The date on which the CreativeWork was created or the item was added to a DataFeed".
+sdo:dateModified prez:label "date modified";
+    prez:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed".
+sdo:keywords prez:label "keywords";
+    prez:description "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property".
+sdo:publisher prez:label "publisher";
+    prez:description "The publisher of the creative work".
+<https://linked.data.gov.au/org/ga> prez:label "Geoscience Australia";
+    prez:description "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia.".
+sdo:version prez:label "version";
+    prez:description "The version of the CreativeWork embodied by a specified resource".
+prez:link prez:label "link".
+prez:members prez:label "members".
+<urn:catalog:default> prez:identifier "catalogue:default".
+_:n3-36 prez:currentProfile prez:DefaultSchemeProfile.
+skos:hasTopConcept prez:label "has top concept"@en;
+    prez:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en.

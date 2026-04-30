@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">A vocabulary of MORPHOLOGY FEATURE (Part 1) terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)) to describe the shape of the seabed.
+
+This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 1 Morphology report (Version 2.0 [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940)).</skos:definition>
+    <skos:prefLabel xml:lang="en">Seabed geomorphology - Part 1 Morphology</skos:prefLabel>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/apron"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/bank"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/block"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/break_in_slope"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/canyon"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/centreline"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/channel"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/cone"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/crest"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/crevice"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/depression"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/escarpment"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/fan"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/floor"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/gap"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/groove"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/gully"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/hill"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/hole"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/hummocks"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/knoll"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/lineament"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/moat"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/mound"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/peak"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/pinnacle"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/plane"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/plateau"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/platform"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/promontory"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/ridge"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/saddle"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/seamount"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/sill"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/slope"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/terrace"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/thalweg"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/trench"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/trough"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/valley"/>
+    <skos:historyNote>&quot;2025-08 1.1: Images added
+
+This vocabulary describes the glossary in Part 1 of the two-part seabed geomorphology classification scheme. DOI: 10.5281/zenodo4075248</skos:historyNote>
+    <prov:qualifiedAttribution rdf:nodeID="n3-30"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-32"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-34"/>
+    <sdo:creator rdf:resource="https://linked.data.gov.au/org/isgm-wg"/>
+    <sdo:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-22</sdo:dateCreated>
+    <sdo:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-29</sdo:dateModified>
+    <sdo:identifier rdf:datatype="https://pid.geoscience.gov.au/def/voc/ga/eCatID">https://pid.geoscience.gov.au/dataset/ga/150006</sdo:identifier>
+    <sdo:keywords rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology"/>
+    <sdo:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+    <sdo:version>1.0</sdo:version>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-30">
+    <prov:agent rdf:nodeID="n3-31"/>
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-32">
+    <prov:agent rdf:nodeID="n3-33"/>
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/pointOfContact"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-34">
+    <prov:agent rdf:nodeID="n3-35"/>
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+  </rdf:Description>
+</rdf:RDF>

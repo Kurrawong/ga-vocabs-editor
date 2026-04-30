@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology> a skos:ConceptScheme;
+    skos:definition "A vocabulary of MORPHOLOGY FEATURE (Part 1) terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)) to describe the shape of the seabed.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 1 Morphology report (Version 2.0 [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940))."@en;
+    skos:prefLabel "Seabed geomorphology - Part 1 Morphology"@en;
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/apron>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/bank>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/block>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/break_in_slope>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/canyon>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/centreline>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/channel>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/cone>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/crest>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/crevice>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/depression>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/escarpment>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/fan>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/floor>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/gap>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/groove>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/gully>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/hill>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/hole>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/hummocks>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/knoll>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/lineament>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/moat>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/mound>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/peak>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/pinnacle>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/plane>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/plateau>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/platform>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/promontory>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/ridge>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/saddle>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/seamount>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/sill>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/slope>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/terrace>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/thalweg>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/trench>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/trough>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/valley>;
+    skos:historyNote "\"2025-08 1.1: Images added\n\nThis vocabulary describes the glossary in Part 1 of the two-part seabed geomorphology classification scheme. DOI: 10.5281/zenodo4075248";
+    prov:qualifiedAttribution _:n3-30, _:n3-32, _:n3-34;
+    sdo:creator <https://linked.data.gov.au/org/isgm-wg>;
+    sdo:dateCreated "2024-05-22"^^xsd:date;
+    sdo:dateModified "2026-04-29"^^xsd:date;
+    sdo:identifier "https://pid.geoscience.gov.au/dataset/ga/150006"^^<https://pid.geoscience.gov.au/def/voc/ga/eCatID>;
+    sdo:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology>;
+    sdo:publisher <https://linked.data.gov.au/org/ga>;
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
+    sdo:version "1.0".
+_:n3-30 prov:agent _:n3-31;
+    prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>.
+_:n3-32 prov:agent _:n3-33;
+    prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact>.
+_:n3-34 prov:agent _:n3-35;
+    prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>.
