@@ -25,7 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "collective Title"@en ;
     skos:definition "common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "collectiveTitle"@en ;
+    skos:prefLabel "collective title"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -95,7 +95,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "Larger Work Citation"@en ;
     skos:definition "reference to a master resource of which this one is a part"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "largerWorkCitation"@en ;
+    skos:prefLabel "largerWorkCitation Soemthing"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -211,3 +211,12 @@ cs:
     dcat:contactPoint "DPI" ;
     schema:status astatus:experimental ;
 .
+
+:new-concept-1
+    a skos:Concept ;
+    skos:broader :dependency ;
+    skos:inScheme cs: ;
+    skos:prefLabel "New Concept"@en ;
+.
+
+
