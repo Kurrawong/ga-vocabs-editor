@@ -48,6 +48,7 @@ cs:
     dcterms:modified "2022-08-11"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
+    owl:versionIRI ;
     skos:definition "Terms to describe the character of a contact between two geological units."@en ;
     skos:hasTopConcept
         :diffuse ,
@@ -56,6 +57,7 @@ cs:
     skos:historyNote "Geoscience Australia Contact Character (FGDM.LU_contact-character)"@en ;
     skos:prefLabel "Field Geology - Contact Character"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+    schema:publisher <https://linked.data.gov.au/org/iag> ;
     schema:status astatus:experimental ;
 .
 
