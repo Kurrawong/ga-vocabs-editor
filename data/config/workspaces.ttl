@@ -1,17 +1,13 @@
 @prefix prez: <https://prez.dev/> .
 
+# GA editors push changes to the `develop` branch only.
+# Promotion to `master` is handled outside this tool by GA sysadmins,
+# so the editor exposes a single workspace.
 <workspaces> a prez:WorkspaceConfig ;
-    prez:workspace [
-        prez:slug "staging" ;
-        prez:label "Staging" ;
-        prez:description "For vocabulary authors - test changes before production" ;
-        prez:icon "i-heroicons-pencil-square" ;
-        prez:refreshFrom "main"
-    ] ;
     prez:workspace [
         prez:slug "develop" ;
         prez:label "Develop" ;
-        prez:description "For developers - experimental changes and testing" ;
-        prez:icon "i-heroicons-code-bracket" ;
-        prez:refreshFrom "main"
+        prez:description "Vocabulary editing workspace — changes are saved to the develop branch" ;
+        prez:icon "i-heroicons-pencil-square" ;
+        prez:refreshFrom "master"
     ] .
