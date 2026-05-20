@@ -95,7 +95,8 @@ prez:DefaultSchemeProfile a prof:Profile, sh:NodeShape, prez:ObjectProfile ;
         prez:simpleView true
     ] ;
     # Issue #22 — sh:class prov:Agent makes the editor render the agent picker
-    # instead of a literal text input for creator/publisher.
+    # instead of a literal text input for creator/publisher. Existing vocabs
+    # use both dcterms:* and sdo:* predicates, so constrain both.
     sh:property [
         sh:path sdo:creator ;
         sh:order 6 ;
@@ -103,7 +104,19 @@ prez:DefaultSchemeProfile a prof:Profile, sh:NodeShape, prez:ObjectProfile ;
         prez:simpleView true
     ] ;
     sh:property [
+        sh:path dcterms:creator ;
+        sh:order 6 ;
+        sh:class prov:Agent ;
+        prez:simpleView true
+    ] ;
+    sh:property [
         sh:path sdo:publisher ;
+        sh:order 7 ;
+        sh:class prov:Agent ;
+        prez:simpleView true
+    ] ;
+    sh:property [
+        sh:path dcterms:publisher ;
         sh:order 7 ;
         sh:class prov:Agent ;
         prez:simpleView true
