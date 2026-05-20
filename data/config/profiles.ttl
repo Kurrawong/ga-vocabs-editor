@@ -94,24 +94,15 @@ prez:DefaultSchemeProfile a prof:Profile, sh:NodeShape, prez:ObjectProfile ;
         sh:nodeKind sh:IRI ;
         prez:simpleView true
     ] ;
-    # Issue #22 — sh:class prov:Agent makes the editor render the agent picker
-    # instead of a literal text input for creator/publisher. Existing vocabs
-    # use both dcterms:* and sdo:* predicates, so constrain both.
-    sh:property [
-        sh:path sdo:creator ;
-        sh:order 6 ;
-        sh:class prov:Agent ;
-        prez:simpleView true
-    ] ;
+    # Issue #22 / #28 — sh:class prov:Agent makes the editor render the
+    # agent picker instead of a literal text input for creator/publisher.
+    # GA vocab data consistently uses dcterms:* (not sdo:*), so only those
+    # shapes are declared. Listing both produced duplicate rows in the
+    # editor with the same `order` (issue #28). If a future vocab adopts
+    # sdo:creator/publisher, add those shapes back and use distinct orders.
     sh:property [
         sh:path dcterms:creator ;
         sh:order 6 ;
-        sh:class prov:Agent ;
-        prez:simpleView true
-    ] ;
-    sh:property [
-        sh:path sdo:publisher ;
-        sh:order 7 ;
         sh:class prov:Agent ;
         prez:simpleView true
     ] ;
