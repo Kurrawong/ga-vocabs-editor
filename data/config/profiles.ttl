@@ -114,13 +114,51 @@ prez:DefaultSchemeProfile a prof:Profile, sh:NodeShape, prez:ObjectProfile ;
     ] ;
     sh:property [ sh:path sdo:dateCreated ; sh:order 8 ; prez:simpleView true ] ;
     sh:property [ sh:path sdo:dateModified ; sh:order 9 ; prez:simpleView true ] ;
-    # Issue #18 — sdo:keywords values are IRIs (e.g. from the GA Data Themes vocab).
-    # sh:nodeKind sh:IRI triggers the IRI-input widget.
+    # Issue #26 — sdo:keywords values are picked from the GA Data Themes vocab
+    # (https://pid.geoscience.gov.au/def/voc/ga/DataThemes). The 31 concept IRIs
+    # are enumerated in sh:in so the editor renders a select dropdown. Labels
+    # for each option resolve from data/background/DataThemes.ttl (vendored
+    # alongside this file) via the standard labels.json pipeline.
+    #
+    # When DataThemes is updated upstream, refresh data/background/DataThemes.ttl
+    # and regenerate this sh:in list.
     sh:property [
         sh:path sdo:keywords ;
         sh:order 10 ;
-        sh:nodeKind sh:IRI ;
-        prez:simpleView true
+        prez:simpleView true ;
+        sh:in (
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/ambient_noise_tomography>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_acquisition>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/earth_observation>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/energy>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochemistry>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochronology>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geodesy>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geography>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geoinformatics>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrogeochemistry>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrogeology>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrology>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/information_management>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/legislation>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/magnetotellurics>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/marine_geoscience>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/minerals>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/natural_hazards>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/palaeontology>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/petrophysics>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/radiometrics>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/resources>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition_and_management>
+            <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/seismology>
+        )
     ] ;
     sh:property [ sh:path sdo:version ; sh:order 11 ; prez:simpleView true ] ;
     # Issue #18 — bibliographic citation for the vocabulary (string or URL).
