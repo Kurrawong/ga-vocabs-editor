@@ -353,6 +353,7 @@ cs:
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
     owl:versionInfo "1" ;
+    owl:versionIRI <https://stuff.com> ;
     skos:definition "Method used to estimate the location of a point. eg, satellite navigation, estimation from printed maps or aerial photography."@en ;
     skos:hasTopConcept
         :1000000Map ,
@@ -396,3 +397,4 @@ cs:
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
     schema:status astatus:experimental ;
 .
+
