@@ -557,7 +557,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-:WMS-1.1.1-HTTP-get-capabilities
+<https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-capabilities>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMS-1.1.1-http-get-capabilities"@en ;
@@ -566,7 +566,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "Web Map Service 1.1.1 GetCapabilities"@en ;
     schema:citation "GeoNetwork"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/retired> ;
 .
 
 :WMS-1.1.1-HTTP-get-map
