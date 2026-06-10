@@ -88,6 +88,28 @@ prez:DefaultSchemeProfile a prof:Profile, sh:NodeShape, prez:ObjectProfile ;
             <https://linked.data.gov.au/def/reg-statuses/valid>
         )
     ] ;
+    # GA vocabs use sdo:status on the Concept Scheme (not reg:status). Without
+    # this shape the editor falls through to a plain IRI input. Match the
+    # Concept profile (which already constrains sdo:status the same way) so
+    # Scheme editors get the same dropdown UX.
+    sh:property [
+        sh:path sdo:status ;
+        sh:order 4 ;
+        prez:simpleView true ;
+        sh:in (
+            <https://linked.data.gov.au/def/reg-statuses/accepted>
+            <https://linked.data.gov.au/def/reg-statuses/deprecated>
+            <https://linked.data.gov.au/def/reg-statuses/experimental>
+            <https://linked.data.gov.au/def/reg-statuses/invalid>
+            <https://linked.data.gov.au/def/reg-statuses/notAccepted>
+            <https://linked.data.gov.au/def/reg-statuses/reserved>
+            <https://linked.data.gov.au/def/reg-statuses/retired>
+            <https://linked.data.gov.au/def/reg-statuses/stable>
+            <https://linked.data.gov.au/def/reg-statuses/submitted>
+            <https://linked.data.gov.au/def/reg-statuses/superseded>
+            <https://linked.data.gov.au/def/reg-statuses/valid>
+        )
+    ] ;
     sh:property [
         sh:path owl:versionIRI ;
         sh:order 5 ;
