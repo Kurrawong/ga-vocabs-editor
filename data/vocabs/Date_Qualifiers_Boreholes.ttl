@@ -68,7 +68,7 @@ cs:
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
     owl:versionInfo "1" ;
-    skos:definition "Terms to describe the confidence or quality in a recorded date "@en ;
+    skos:definition "These are the terms to describe the confidence or quality in a recorded date "@en ;
     skos:hasTopConcept
         :dateUnknown ,
         :estimated ,
@@ -77,3 +77,4 @@ cs:
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
     schema:status astatus:experimental ;
 .
+
