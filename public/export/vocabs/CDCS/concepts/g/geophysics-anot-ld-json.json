@@ -1,0 +1,461 @@
+[
+  {
+    "@id": "_:n3-65",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CDCS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Legacy GA Corporate Data Classification Scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/controlled-source-electromagnetics",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:controlled-source-electromagnetics"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:controlled-source-electromagnetics"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "controlled source electromagnetics",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "AEM, ground EM, Point located data, grids, derivative grids, algorithms, images, sections, volumes",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Data of the physical characteristics of the earth (crust, mantle, core)  such as gravity, magnetics, radiometrics, and seismic. This also includes information relating to basement and crustal studies.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "geophysics",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/controlled-source-electromagnetics"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/gravity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/magnetics"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/radiometrics"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/spectral"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/thermodynamics"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydroacoustic"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrasound"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/seismic"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:geophysics"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:geophysics"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "geophysics",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Data of the physical characteristics of the earth (crust, mantle, core)  such as gravity, magnetics, radiometrics, and seismic. This also includes information relating to basement and crustal studies.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/gravity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:gravity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:gravity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "gravity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Including ground, airborne, point located data, grids, derivative grids (reduced to pole, upward continued, etc), algorithms, images",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydroacoustic",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:hydroacoustic"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:hydroacoustic"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "hydroacoustic",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Hydroacoustic sensing involves \"passive acoustics\" (listening for sounds) or active acoustics making a sound and listening for the echo, hence the common name for the device, echo sounder or echosounder.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrasound",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:infrasound"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:infrasound"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "infrasound",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Infrasound is sound that is lower in frequency than 20 cycles per second, the normal limit of human hearing. The study of such sound waves is sometimes referred to as infrasonics, covering sounds beneath 20 Hz down to 0.001 Hz. This frequency range is utilized for monitoring earthquakes, charting rock and petroleum formations below the earth",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/magnetics",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:magnetics"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:magnetics"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "magnetics",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Point located data, grids, derivative grids (reduced to pole, upward continued, etc), algorithms, images",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/radiometrics",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:radiometrics"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:radiometrics"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "radiometrics",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Point located data, grids, derivative grids (filtered, etc), algorithms, images",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/seismic",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:seismic"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:seismic"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "seismic",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "SEGY, seismic profiles, images, processed data, weak and strong motion from seismographs and accelerators",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/spectral",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:spectral"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:spectral"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "spectral",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Similar data to other geophysical types, but in the \"spectral geology\" space, with many purposes. For example, PIMA and Hylogger",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/thermodynamics",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:thermodynamics"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CDCS/items/ns1:thermodynamics"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "thermodynamics",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Thermal properties of fluids, gases and solids",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/associationtype> a skos:ConceptScheme;
+    skos:definition "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551."@en;
+    skos:prefLabel "Associated Resource Type"@en;
+    dcterms:created "2019-11-01"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2023-04-06"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/147628>;
+    owl:versionInfo "1.5";
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/associationtype/StereoMate>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/crossreference>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/dependency>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/generated>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/hadDerivation>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/informed>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/isComposedOf>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/largerWorkCitation>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatedOnBy>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatesOn>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/partOfSeamlessDatabase>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/revisionOf>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/series>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy>, <https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy>;
+    skos:historyNote "https://pid.geoscience.gov.au/dataset/ga/122551"@en;
+    dcat:contactPoint "DPI";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

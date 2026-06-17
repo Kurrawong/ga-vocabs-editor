@@ -1,0 +1,107 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/active,https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydroacoustic,active
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/administrative-boundaries,,administrative boundaries
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/aem,https://pid.geoscience.gov.au/def/voc/ga/CDCS/controlled-source-electromagnetics,aem
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/aerial-photo,https://pid.geoscience.gov.au/def/voc/ga/CDCS/earth-observation-imagery,aerial photo
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/aquatic,https://pid.geoscience.gov.au/def/voc/ga/CDCS/natural-habitat,aquatic
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/aquifers,https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrogeology,aquifers
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/ar-ar,https://pid.geoscience.gov.au/def/voc/ga/CDCS/radio-isotopes,ar ar
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/basement-geology,https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology,basement geology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/bathymetry,https://pid.geoscience.gov.au/def/voc/ga/CDCS/physiography,bathymetry
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/benthic,https://pid.geoscience.gov.au/def/voc/ga/CDCS/aquatic,benthic
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/biostratigraphy,https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology,biostratigraphy
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes,,boreholes
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/cadastre,https://pid.geoscience.gov.au/def/voc/ga/CDCS/regulatory,cadastre
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/chemical-dating,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochronology,chemical dating
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/coal-seam-methane-holes,https://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes,coal seam methane holes
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/controlled-source-electromagnetics,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,controlled source electromagnetics
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/density,https://pid.geoscience.gov.au/def/voc/ga/CDCS/rock-properties,density
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/dissolved-solids,https://pid.geoscience.gov.au/def/voc/ga/CDCS/aquifers,dissolved solids
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/earth-observation-imagery,,earth observation imagery
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/earthquakes,https://pid.geoscience.gov.au/def/voc/ga/CDCS/sudden-onset-hazards,earthquakes
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/elevation,https://pid.geoscience.gov.au/def/voc/ga/CDCS/topographic-relief,elevation
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/empa,https://pid.geoscience.gov.au/def/voc/ga/CDCS/chemical-dating,empa
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/exploration-title,https://pid.geoscience.gov.au/def/voc/ga/CDCS/regulatory,exploration title
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/external,,external
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/field-mapping,https://pid.geoscience.gov.au/def/voc/ga/CDCS/survey,field mapping
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/field-measurements,https://pid.geoscience.gov.au/def/voc/ga/CDCS/field-mapping,field measurements
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/field-observations,https://pid.geoscience.gov.au/def/voc/ga/CDCS/field-mapping,field observations
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/flow-systems,https://pid.geoscience.gov.au/def/voc/ga/CDCS/aquifers,flow systems
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochemistry,,geochemistry
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochronology,,geochronology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/geodetic,https://pid.geoscience.gov.au/def/voc/ga/CDCS/survey,geodetic
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/geomorphology,https://pid.geoscience.gov.au/def/voc/ga/CDCS/physiography,geomorphology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysical,https://pid.geoscience.gov.au/def/voc/ga/CDCS/survey,geophysical
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysical-interpretation,https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology,geophysical interpretation
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,,geophysics
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/geothermal-holes,https://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes,geothermal holes
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/gravity,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,gravity
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/ground-em,https://pid.geoscience.gov.au/def/voc/ga/CDCS/controlled-source-electromagnetics,ground em
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/hazard-events,,hazard events
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydro,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochemistry,hydro
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydroacoustic,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,hydroacoustic
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrocarbon,https://pid.geoscience.gov.au/def/voc/ga/CDCS/resources,hydrocarbon
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrogeology,,hydrogeology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrography,https://pid.geoscience.gov.au/def/voc/ga/CDCS/bathymetry,hydrography
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrasound,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,infrasound
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrastructure,,infrastructure
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/inorganic,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochemistry,inorganic
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology,,interpretive geology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/k-ar,https://pid.geoscience.gov.au/def/voc/ga/CDCS/radio-isotopes,k ar
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/lidar,https://pid.geoscience.gov.au/def/voc/ga/CDCS/earth-observation-imagery,lidar
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/magnetic-susceptibility,https://pid.geoscience.gov.au/def/voc/ga/CDCS/rock-properties,magnetic susceptibility
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/magnetics,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,magnetics
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/manufacturing,https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrastructure,manufacturing
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/metamorphism-maps,https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology,metamorphism maps
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/microstructure,https://pid.geoscience.gov.au/def/voc/ga/CDCS/petrography,microstructure
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/mineral,https://pid.geoscience.gov.au/def/voc/ga/CDCS/resources,mineral
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/mineral-holes,https://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes,mineral holes
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/natural-boundaries,https://pid.geoscience.gov.au/def/voc/ga/CDCS/topographic-relief,natural boundaries
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/natural-habitat,,natural habitat
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/optical,https://pid.geoscience.gov.au/def/voc/ga/CDCS/earth-observation-imagery,optical
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/organic,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochemistry,organic
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/outcrop-geology,https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology,outcrop geology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeoclimatology,https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology,palaeoclimatology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeoenvironments,https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology,palaeoenvironments
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeogeography,https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology,palaeogeography
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology,,palaeontology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/passive,https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydroacoustic,passive
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/petrography,,petrography
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/petroleum-wells,https://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes,petroleum wells
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/petrology,https://pid.geoscience.gov.au/def/voc/ga/CDCS/petrography,petrology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/physiography,,physiography
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/political,https://pid.geoscience.gov.au/def/voc/ga/CDCS/administrative-boundaries,political
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/porosity-permeability,https://pid.geoscience.gov.au/def/voc/ga/CDCS/rock-properties,porosity permeability
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/provinces,https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology,provinces
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/radar,https://pid.geoscience.gov.au/def/voc/ga/CDCS/earth-observation-imagery,radar
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/radio-isotopes,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochronology,radio isotopes
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/radiometrics,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,radiometrics
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/rb-sr,https://pid.geoscience.gov.au/def/voc/ga/CDCS/radio-isotopes,rb sr
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/regolith,https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology,regolith
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/regulatory,https://pid.geoscience.gov.au/def/voc/ga/CDCS/administrative-boundaries,regulatory
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/resources,,resources
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/rock-properties,,rock properties
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/samples,https://pid.geoscience.gov.au/def/voc/ga/CDCS/survey,samples
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/seismic,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,seismic
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/shrimp,https://pid.geoscience.gov.au/def/voc/ga/CDCS/radio-isotopes,shrimp
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/slow-onset-hazards,https://pid.geoscience.gov.au/def/voc/ga/CDCS/hazard-events,slow onset hazards
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/sm-nd,https://pid.geoscience.gov.au/def/voc/ga/CDCS/radio-isotopes,sm nd
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/society,https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrastructure,society
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/spectral,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,spectral
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/stable-isotopes,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochemistry,stable isotopes
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/stratigraphic-holes,https://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes,stratigraphic holes
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/sudden-onset-hazards,https://pid.geoscience.gov.au/def/voc/ga/CDCS/hazard-events,sudden onset hazards
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/surfaces,https://pid.geoscience.gov.au/def/voc/ga/CDCS/aquifers,surfaces
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/survey,,survey
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/taxonomy,https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology,taxonomy
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/terrestrial,https://pid.geoscience.gov.au/def/voc/ga/CDCS/natural-habitat,terrestrial
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/terrorist-events,https://pid.geoscience.gov.au/def/voc/ga/CDCS/hazard-events,terrorist events
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/thematic-geology,https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology,thematic geology
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/thermal,https://pid.geoscience.gov.au/def/voc/ga/CDCS/earth-observation-imagery,thermal
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/thermodynamics,https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics,thermodynamics
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/topographic-relief,https://pid.geoscience.gov.au/def/voc/ga/CDCS/physiography,topographic relief
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/transport,https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrastructure,transport
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/u-pb,https://pid.geoscience.gov.au/def/voc/ga/CDCS/radio-isotopes,u pb
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/utilities,https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrastructure,utilities
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/water-bores,https://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes,water bores
+https://pid.geoscience.gov.au/def/voc/ga/CDCS/wave-velocities,https://pid.geoscience.gov.au/def/voc/ga/CDCS/rock-properties,wave velocities

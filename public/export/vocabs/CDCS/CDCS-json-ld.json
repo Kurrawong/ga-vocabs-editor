@@ -1,0 +1,114 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Legacy GA Corporate Data Classification Scheme",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2005-01-01",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2023-03-22",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/earth-observation-imagery"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/rock-properties"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/external"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/survey"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/physiography"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochemistry"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/resources"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrastructure"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/petrography"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/administrative-boundaries"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/hazard-events"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/natural-habitat"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochronology"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrogeology"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "CIMA information group",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "GAIA"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

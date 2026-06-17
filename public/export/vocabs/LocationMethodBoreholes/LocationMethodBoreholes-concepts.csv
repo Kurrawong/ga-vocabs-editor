@@ -1,0 +1,38 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/1000000Map,,1:1 000 000 map
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/100000Map,,1:100 000 map
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/25000Map,,1:25 000 map
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/25000Orthophoto,,1:25 000 orthophoto
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/250000Map,,1:250 000 map
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/50000Map,,1:50 000 map
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/500000Map,,1:500 000 map
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/aerialPhotographUnrectified,,"aerial photograph, unrectified"
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/astronomicalObservation,,astronomical observation
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/astronomicalObservationAndDeadReckoningBetweenFixes,,astronomical observation and dead reckoning between fixes
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/companySuppliedLocationMethodUnknown,,"company supplied location, method unknown"
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/deadReckoning,,dead reckoning
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/deadReckoningTiedToTransitSatelliteFixes,,dead reckoning tied to transit satellite fixes
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/deadReckoningTiedToTransitSatelliteFixesAndDifferentialGPS,,dead reckoning tied to transit satellite fixes and differential GPS
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/deadReckoningTiedToTransitSatelliteFixesAndStandAloneGPS,,dead reckoning tied to transit satellite fixes and stand-alone GPS
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/digitalElevationModel,,digital elevation model
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/digitalElevationModel9second,,"digital elevation model, 9 second"
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/digitalElevationModel90mSRTM,,"digital elevation model, 90m SRTM"
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsAveragedObservations,,GPS averaged observations
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsDifferentialObservation,,GPS differential observation
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsDifferentialObservationSurveyQuality,,"GPS differential observation, survey quality"
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsObservation,,GPS observation
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsObservationSubjectToSelectiveAvailability,,GPS observation subject to union all selective availability
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/gpsObservationWithPcodeAccess,,GPS observation with P-Code access
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/map,,map
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/orthophoto,,orthophoto
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/otherMethod,,other method
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/personalCommunicationMethodUnknown,,"personal communication, method unknown"
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/publishedReportMethodUnknown,,"published report, method unknown"
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/radioNavigation,,radio navigation
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/satelliteDopplerAndAVLFRadioNavigation,,satellite Doppler and AVLF radio navigation
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/satelliteImage,,satellite image
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/satelliteImageGoogle,,"satellite image, Google"
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/stateOrNTAgencySuppliedLocationMethodUnknown,,"State or NT agency supplied location, method unknown"
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/surveyedFromGroundControl,,surveyed from ground control
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/unknown,,unknown
+https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/unpublishedReportMethodUnknown,,"unpublished report, method unknown"

@@ -1,0 +1,23 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/CDCS> a skos:ConceptScheme;
+    skos:definition "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014"@en;
+    skos:prefLabel "Legacy GA Corporate Data Classification Scheme"@en;
+    dcterms:created "2005-01-01"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2023-03-22"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/CDCS/earth-observation-imagery>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/interpretive-geology>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/palaeontology>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/boreholes>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/rock-properties>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/external>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/survey>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/physiography>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/geophysics>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochemistry>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/resources>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/infrastructure>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/petrography>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/administrative-boundaries>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/hazard-events>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/natural-habitat>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochronology>, <https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrogeology>;
+    skos:historyNote "CIMA information group"@en;
+    dcat:contactPoint "GAIA";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.
