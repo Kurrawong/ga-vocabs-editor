@@ -686,7 +686,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :ESRI
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Un-typed ESRI protocol"@en ;
+    skos:definition "Un-typed Esri protocol"@en ;
     skos:inScheme cs: ;
     skos:narrower
         :AIMS-HTTP-configuration ,
@@ -696,9 +696,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :Image-Service ,
         :Map-Service ,
         :Services-Directory-Page ;
-    skos:prefLabel "ESRI"@en ;
+    skos:prefLabel "Esri"@en ;
     skos:topConceptOf cs: ;
     schema:citation "Geoscience Australia"^^xsd:anyURI ;
+    schema:dateModified "2026-06-17" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
