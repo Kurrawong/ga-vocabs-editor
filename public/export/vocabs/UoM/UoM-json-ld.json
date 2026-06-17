@@ -1,0 +1,70 @@
+[
+    {
+        "@id": "http://qudt.org/community/ga/voc",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "A vocabulary of Units from the QUDT ontology used by Geoscience Australia.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "This vocabulary is a subset of the QUDT Units of Measure at http://www.qudt.org/doc/DOC_VOCAB-UNITS.html",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Geoscience Australia Profile of QUDT Units",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@id": "http://qudt.org"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2021-12-14",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-02-11",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "http://qudt.org/vocab/unit/GM"
+            },
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloGM"
+            },
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloGM-PER-M2"
+            },
+            {
+                "@id": "http://qudt.org/vocab/unit/M"
+            },
+            {
+                "@id": "http://qudt.org/vocab/unit/MegaYR"
+            }
+        ]
+    }
+]

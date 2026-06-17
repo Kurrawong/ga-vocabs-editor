@@ -1,0 +1,79 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://purl.org/dc/terms/provenance": [
+            {
+                "@value": "Geoscience Australia Directional Survey Azimuth Terms (BOREHOLE.LU_DIR_SRVY_AZ_TYPE)",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "The type of North datum used for azimuth measurements (eg, true north, magnetic north, local grid north).",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Borehole Geology - Directional Survey Azimuth ",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/gridNorth"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/magneticNorth"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth/trueNorth"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Minerals, Energy and Groundwater Division "
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

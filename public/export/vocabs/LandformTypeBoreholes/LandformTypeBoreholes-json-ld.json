@@ -1,0 +1,115 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "A vocabulary of landform types used in GA Boreholes database. Reference Pain CF, 2008. Field Guide for Describing Regolith and Landforms. ISBN 978-0-9806030-0-2.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Field Geology - Landform Type",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/fan"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/volcano"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/delta"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/glacial-features"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plain"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/karst"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/made-land"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/meteor-crater"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plateau"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/reef"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/unknown"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "Geoscience Australia Landform type (FGDM. LU_landform_type)",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Energy, Minerals and Groundwater Divison "
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

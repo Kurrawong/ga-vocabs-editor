@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature> a skos:ConceptScheme;
+    skos:definition "Type of entity or feature. (eg, measured section, borehole, field site)."@en;
+    skos:prefLabel "General Geology - Entity or Feature Type"@en;
+    dcterms:provenance "Geoscience Australia Entity Type or Feature (A.ENTITY_TYPES)"@en;
+    dcterms:created "2022-08-04"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2022-08-04"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
+    owl:versionInfo "1";
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/acreageRelease>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/borehole>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/country>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/emitter>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/essci>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/estuary>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/explorationPermit>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/facies>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/fieldSite>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/laboratory>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mapsheet>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/marsegment>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineWaste>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralDeposit>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralOccurrence>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralProject>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralisedZone>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/museumCollection>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/observatory>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/opggsaReprocessing>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/pipeline>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/placeName>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/politicalRegion>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/port>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/powerStation>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/productionLicence>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/project>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/province>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/resourceProcessingPlant>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/resourceProject>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/retentionLease>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/section>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/seismicline>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/state>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/stratUnitDefinitionLocation>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/survey>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/well>, <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/wildcatLocation>;
+    dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division ";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

@@ -1,0 +1,7 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/effectiveSourceRock,,effective source rock
+https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/notASourceRock,,not a source rock
+https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/notAssessed,,not assessed
+https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/potentialSourceRock,,potential source rock
+https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/relicEffectiveSourceRock,,relic effective source rock
+https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/spentSourceRock,,spent source rock

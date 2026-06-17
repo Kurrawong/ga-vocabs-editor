@@ -1,0 +1,10 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/maximum,,maximum
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/mean,,mean
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/median,,median
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/minimum,,minimum
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/mode,,mode
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/singleMeasurementPartSample,,single measurement - part sample
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/singleMeasurementWholeSample,,single measurement - whole sample
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/unknown,,unknown
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/weightedMean,,weighted mean

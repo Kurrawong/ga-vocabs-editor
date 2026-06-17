@@ -1,0 +1,1119 @@
+[
+  {
+    "@id": "_:n3-56",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:protocoltype"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Protocol Type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "This vocab is developed to enable the selection of Web Service protocols from a controlled list, rather than creating free text descriptions of protocols within the ISO19115-1 geospatial metadata standard.  ",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/CSW",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CSW"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:CSW"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Catalogue Service for the Web",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Catalogue Service for the Web",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/GML",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GML"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:GML"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geography Markup Language",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Geography Markup Language (GML)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/KML",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:KML"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:KML"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "KML Keyhole Markup Language",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Keyhole Markup Language (KML)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ODS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ODS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:ODS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "OpenLS Directory Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Location Service (OpenLS) Directory Service (ODS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Un-typed Open Geospatial Consortium protocol",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Open Geospatial Consortium",
+        "@language": "en"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Geoscience Australia",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/CSW"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/GML"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/KML"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ODS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OPS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ORS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OUS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SAS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-get-observation"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-post-observation"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SPS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.0.0-HTTP-get-capabilities"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.1.0-HTTP-get-capabilities"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCTS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.0.0-HTTP-get-capabilities"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.1.0-HTTP-get-capabilities"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-G"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMC-1.1.0-HTTP-get-capabilities"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-capabilities"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-map"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-capabilities"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-map"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS-1.0.0-http-get-capabilities"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WNS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WPS"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:OGC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:OGC"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Open Geospatial Consortium",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Un-typed Open Geospatial Consortium protocol",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:OGS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:OGS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "OpenLS Gateway Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Location Service (OpenLS) Gateway Service (ODS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OPS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:OPS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:OPS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "OpenLS Presentation Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Location Service (OpenLS) Presentation Service (ODS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ORS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ORS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:ORS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "OpenLS Route Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Location Service (OpenLS) Route Service (ODS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OUS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:OUS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:OUS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "OpenLS Utility Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Location Service (OpenLS) Utility Service (ODS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SAS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:SAS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sensor Alert Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Sensor Alert Service (SAS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SOS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:SOS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sensor Observation Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Sensor Observation Service (SOS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-get-observation",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SOS-1.0.0-HTTP-get-observation"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:SOS-1.0.0-HTTP-get-observation"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sensor Observation Service GetObservation 1.0.0",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Sensor Observation Service (SOS) version 1.0.0 GetObservation operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-post-observation",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SOS-1.0.0-HTTP-post-observation"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:SOS-1.0.0-HTTP-post-observation"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sensor Observation Service GetObservation POST 1.0.0",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Sensor Observation Service (SOS) version 1.0.0 GetObservation operation using POST",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SPS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:SPS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sensor Planning Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Sensor Planning Service (SPS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WCS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WCS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Coverage Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Coverage Service (WCS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.0.0-HTTP-get-capabilities",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WCS-1.0.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WCS-1.0.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Coverage Service 1.0.0 GetCapabilities",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Coverage Service (WCS) version 1.0.0 GetCapabilities operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.1.0-HTTP-get-capabilities",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WCS-1.1.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WCS-1.1.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Coverage Service 1.1.0 GetCapabilities",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Coverage Service (WCS) version 1.1.0 GetCapabilities operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCTS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WCTS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WCTS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Coordinate Transformation Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Coordinate Transformation Service (WCTS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WFS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WFS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Feature Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Feature Service (WFS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.0.0-HTTP-get-capabilities",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WFS-1.0.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WFS-1.0.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Feature Service 1.0.0 GetCapabilities",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Feature Service (WFS) version 1.0.0 GetCapabilities operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.1.0-HTTP-get-capabilities",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WFS-1.1.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WFS-1.1.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Feature Service 1.1.0 GetCapabilities",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Feature Service (WFS) version 1.1.0 GetCapabilities operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-G",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WFS-G"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WFS-G"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Gazetteer Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Feature Service Gazetteer Profile (WFS-G)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMC-1.1.0-HTTP-get-capabilities",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WMC-1.1.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WMC-1.1.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Map Context 1.1 GetCapabilities",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Map Context (WMC) version 1.1 GetCapabilities operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WMS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WMS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Map Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Map Service (WMS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-capabilities",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WMS-1.1.1-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WMS-1.1.1-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Map Service 1.1.1 GetCapabilities",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Map Service (WMS) version 1.1.1 GetCapabilities operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-map",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WMS-1.1.1-HTTP-get-map"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WMS-1.1.1-HTTP-get-map"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Map Service 1.1.1 GetMap",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Map Service (WMS) version 1.1.1 GetMap operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-capabilities",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WMS-1.3.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WMS-1.3.0-HTTP-get-capabilities"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Map Service 1.3.0 GetCapabilities",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Map Service (WMS) version 1.3.0 GetCapabilities operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-map",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WMS-1.3.0-HTTP-get-map"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WMS-1.3.0-HTTP-get-map"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Map Service 1.3.0 GetMap",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Map Service (WMS) version 1.3.0 GetMap operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WMTS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WMTS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Map Tiling Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Map Tiling Service (WMTS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS-1.0.0-http-get-capabilities",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WMTS-1.0.0-http-get-capabilities"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WMTS-1.0.0-http-get-capabilities"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Map Tiling Service 1.0.0 GetCapabilities",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Map Tiling Service (WMTS) version 1.0.0 GetCapabilities operation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WNS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WNS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WNS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Notification Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Notification Service (WNS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WPS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:WPS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:WPS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Web Processing Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Open Geospatial Consortium's Web Processing Service (WPS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/citation",
+    "https://prez.dev/label": [
+      {
+        "@value": "citation"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

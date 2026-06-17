@@ -1,0 +1,39 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/acreageRelease,,acreage release
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/borehole,,borehole
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/country,,country
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/emitter,,emitter
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/essci,,ESSCI
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/estuary,,estuary
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/explorationPermit,,exploration permit
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/facies,,facies
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/fieldSite,,field site
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/laboratory,,laboratory
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mapsheet,,mapsheet
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/marsegment,,MARSEGMENT
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineWaste,,mine waste
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralDeposit,,mineral deposit
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralOccurrence,,mineral occurrence
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralProject,,mineral project
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralisedZone,,mineralised zone
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/museumCollection,,museum collection
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/observatory,,observatory
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/opggsaReprocessing,,OPGGSA reprocessing
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/pipeline,,pipeline
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/placeName,,place name
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/politicalRegion,,political region
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/port,,port
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/powerStation,,power station
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/productionLicence,,production licence
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/project,,project
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/province,,province
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/resourceProcessingPlant,,resource processing plant
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/resourceProject,,resource project
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/retentionLease,,retention lease
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/section,,section
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/seismicline,,seismic line
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/state,,state
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/stratUnitDefinitionLocation,,stratigraphic unit definition location
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/survey,,survey
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/well,,well
+https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/wildcatLocation,,wildcat location

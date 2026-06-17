@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">Method of drilling.</skos:definition>
+    <skos:prefLabel xml:lang="en">Borehole Geology - Drilling Methods</skos:prefLabel>
+    <dcterms:provenance xml:lang="en">Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)</dcterms:provenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-04</dcterms:created>
+    <dcterms:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-04</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <rdfs:seeAlso rdf:resource="https://pid.geoscience.gov.au/dataset/ga/148553"/>
+    <owl:versionInfo>1</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/auger"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/percussionDrilling"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreAir"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreBox"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreDiamond"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreGeoprobe"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreGravity"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreKasten"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreMackereth"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/corePiston"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/corePush"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreRov"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreSonic"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreUnspecified"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreVibro"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/reverseCirculationDrilling"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/rotaryDrilling"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/sidewallCore"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/unknown"/>
+    <dcat:contactPoint>Team Lead - Information Services; Minerals, Energy and Groundwater Division</dcat:contactPoint>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes> a skos:ConceptScheme;
+    skos:definition "A site on the Earth, generally visited in the field from a particular geoscientific perspective. A field site type is defined by the information collected regarding rock, regolith, water, landform, or vegetation."@en;
+    skos:prefLabel "Field Geology - Field Site Type"@en;
+    dcterms:created "2022-08-04"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2022-08-04"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
+    owl:versionInfo "1";
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/mine>, <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/natural-land-surface>, <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/sea-floor>, <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/spring>, <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/unknown>, <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/water-site>, <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/watercourse>;
+    skos:historyNote "Geoscience Australia Field Site Types (FGMD. LU-FIELDSITE-TYPE)"@en;
+    dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division ";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

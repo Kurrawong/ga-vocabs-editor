@@ -1,0 +1,339 @@
+[
+  {
+    "@id": "_:n3-354",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
+    "https://prez.dev/label": [
+      {
+        "@value": "has broader",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more general in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/frontally_confined_slide",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:frontally_confined_slide"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:frontally_confined_slide"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "frontally confined slide (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A SLIDE where the compressional TOE region was buttressed by a ramp separating their fill from their foreland. This type of SLIDE does not show a prominent bathymetric expression compared to their total thickening and implies a relatively modest downslope transfer of sediment (Frey-Martínez et al., 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/frontally_emergent_slide",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:frontally_emergent_slide"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:frontally_emergent_slide"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "frontally emergent slide (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A SLIDE where the compressional TOE region develops above the downslope undisturbed strata, having overridden their ramps. This type of SLIDE shows major bathymetric expressions and involves the downslope transport of significant volumes of material (Frey-Martínez et al., 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/rotational_slide",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rotational_slide"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:rotational_slide"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "rotational slide (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A type of SLIDE characterised by a rotational movement on a circular or spoon-shaped shear surface.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/slide",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Mass_Movement_Process"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A slide consists of the movement of a coherent mass of material along a distinct shear surface (modified from Goudie, 2006).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "slide (BGU)",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/frontally_confined_slide"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/frontally_emergent_slide"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/rotational_slide"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/translational_slide"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:slide"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:slide"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "slide (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A slide consists of the movement of a coherent mass of material along a distinct shear surface (modified from Goudie, 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/translational_slide",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:translational_slide"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:translational_slide"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "translational slide (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A type of SLIDE characterised by a non-circular failure which involves translational motion on a near planar slip surface. The movement is largely controlled by surfaces of weakness within the structure of the slope-forming material.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

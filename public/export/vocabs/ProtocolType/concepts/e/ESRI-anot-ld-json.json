@@ -1,0 +1,484 @@
+[
+  {
+    "@id": "_:n3-46",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:protocoltype"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Protocol Type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "This vocab is developed to enable the selection of Web Service protocols from a controlled list, rather than creating free text descriptions of protocols within the ISO19115-1 geospatial metadata standard.  ",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-configuration",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:AIMS-HTTP-configuration"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:AIMS-HTTP-configuration"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ArcIMS Map Service Configuration File AXL",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "ESRI's ArcIMS Map Service Configuration File written in ArcXML",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-feature",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:AIMS-HTTP-get-feature"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:AIMS-HTTP-get-feature"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ArcIMS Internet Feature Map Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "ESRI's ArcIMS Internet Feature Map Service",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-image",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:AIMS-HTTP-get-image"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:AIMS-HTTP-get-image"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ArcIMS Internet Image Map Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "ESRI's ArcIMS Internet Image Map Service",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Un-typed Esri protocol",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "ESRI",
+        "@language": "en"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "Geoscience Australia",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-configuration"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-feature"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-image"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Geoprocessing-Service"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Image-Service"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Map-Service"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Services-Directory-Page"
+      }
+    ],
+    "https://schema.org/dateModified": [
+      {
+        "@value": "2026-05-28"
+      }
+    ],
+    "https://schema.org/version": [
+      {
+        "@value": "1.1",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESRI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:ESRI"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ESRI",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Un-typed Esri protocol",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Geoprocessing-Service",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:Geoprocessing-Service"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:Geoprocessing-Service"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ArcGIS Geoprocessing Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "ESRI's ArcGIS Geoprocessing Server",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Image-Service",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:Image-Service"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:Image-Service"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ArcGIS Image Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "ESRI's ArcGIS Image Server",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Map-Service",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:Map-Service"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:Map-Service"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ArcGIS Map Service",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "ESRI's ArcGIS Map Server",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Services-Directory-Page",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:Services-Directory-Page"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:protocoltype/items/ns1:Services-Directory-Page"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ArcGIS Services Directory Page",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "ESRI's ArcGIS Services Directory Page",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/citation",
+    "https://prez.dev/label": [
+      {
+        "@value": "citation"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/dateModified",
+    "https://prez.dev/label": [
+      {
+        "@value": "date modified"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/version",
+    "https://prez.dev/label": [
+      {
+        "@value": "version"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The version of the CreativeWork embodied by a specified resource"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1151 @@
+[
+  {
+    "@id": "_:n3-183",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Glacial_Setting",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A SETTING in which geomorphic UNITS are primarily formed by glacial, periglacial and proglacial processes on modern or previously glaciated coasts or on the CONTINENTAL SHELF (PHYSIOGRAPHY).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Glacial Setting",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/moraine"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/streamlined_landform"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/corrugation_ridges"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/corrugation_ridges_within_ploughmarks"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/crevasse-filling"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/cupola_hill"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/erratic"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/esker"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacial_basin"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacial_fjord"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacifluvial_delta"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacifluvial_outwash_plain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacigenic_debris_flow"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/hill-hole_pair"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacitectonic_raft"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/grounding_zone_wedge"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/u-shaped_valley"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/hummocky_terrain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ice-contact_delta"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ice-proximal_fan"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/iceberg_grounding_pit"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/kettle_hole"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/medial_moraine"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/meltwater_channel"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/iceberg_ploughmark"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/proglacial_meltwater_channel"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/rogen_moraine"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/sill"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/sub-ice_shelf_keel_scour_mark"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/thrust-block_moraine"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/trough-mouth_fan"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/tunnel_valley"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/cross-shelf_trough"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:Glacial_Setting"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:Glacial_Setting"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Glacial Setting",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A SETTING in which geomorphic UNITS are primarily formed by glacial, periglacial and proglacial processes on modern or previously glaciated coasts or on the CONTINENTAL SHELF (PHYSIOGRAPHY).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/corrugation_ridges",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:corrugation_ridges"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:corrugation_ridges"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "corrugation ridges (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Small, regularly spaced ridges formed by tidal-induced movement of icebergs or a glacier grounding line during retreat (Bell et al. 2016; Dowdeswell et al. 2020). Ridge spacing indicates the rate of iceberg drift and grounding line retreat (Batchelor et al. 2023).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/corrugation_ridges_within_ploughmarks",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:corrugation_ridges_within_ploughmarks"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:corrugation_ridges_within_ploughmarks"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "corrugation ridges within ploughmarks (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Small, parallel ridges formed within ice-berg ploughmarks by icebergs moving up and down in response to tides while ploughing the seafloor</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/crevasse-filling",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:crevasse-filling"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:crevasse-filling"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "crevasse-filling (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A relatively straight ridge of stratified sand and gravel, till or other sediments, formed by the filling of a (surface or basal) crevasse in a stagnant glacier which later melted</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/cross-shelf_trough",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:cross-shelf_trough"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:cross-shelf_trough"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "cross-shelf trough (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A wide (several to tens of kilometres) elongate depression of the seafloor, usually a few hundred metres deep, extending across the continental shelf between shallower banks; commonly eroded by grounded ice-sheets over successive full-glacial periods. See transverse channel/trough</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).\nCf.\"glacial trough\" in Harris et al., (2014).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/cupola_hill",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:cupola_hill"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:cupola_hill"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "cupola hill (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "CUPOLA HILLS are THRUST-BLOCK MORAINES or HILL HOLE PAIRS that have been overridden by glaciers (Benn and Evans, 2010).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/erratic",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:erratic"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:erratic"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "erratic (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A large rock or boulder carried by a glacier or by floating ice and deposited when the ice melted, well away from its place of origin and therefore contrasting with the country rock</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/esker",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:esker"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:esker"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "esker (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A long, narrow, sinuous ridge of stratified glacifluvial material (generally sand and gravel) deposited by a stream normally flowing beneath a stagnant or retreating glacier in an ice tunnel or subglacial stream bed, and left behind after the disappearance of the glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacial_basin",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:glacial_basin"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:glacial_basin"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "glacial basin (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>In marine geology, a more or less equi-dimensional depression in the seafloor...</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). Basins ranging from small depressions to trough width basins may be formed in bedrock and/or soft sediments, by glacier erosion, glacitectonic thrusting and/or sediment deformation on soft beds (Benn and Evans, 2010).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacial_fjord",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:glacial_fjord"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:glacial_fjord"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "glacial fjord (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A U-shaped glacial trough whose floor is occupied by the sea. Typically, fjords are steep-sided, overdeepened rock basins with shallow thresholds at the coast. Their form is characteristic of erosion by ice streams, outlet glaciers or valley glaciers which exploited either pre-existing river valleys or underlying weaknesses in the bedrock</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacifluvial_delta",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:glacifluvial_delta"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:glacifluvial_delta"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "glacifluvial delta (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>The typical GLACIFLUVIAL DELTA usually consists of coarser-grained sediments, and their front slopes are steep with foreset beds generally dipping 10-30°</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). GLACIFLUVIAL DELTAS are also referred to as glacier-fed deltas as terrestrial proglacial meltwater streams/rivers carry sediments from a glacier to the marine/lacustrine environment (Benn and Evans, 2010).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacifluvial_outwash_plain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:glacifluvial_outwash_plain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:glacifluvial_outwash_plain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "glacifluvial outwash plain (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Laterally extensive flat plain of sand and gravel with braided streams of glacial meltwater flowing across them when active. It is an Icelandic term meaning ‘sand’</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacigenic_debris_flow",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:glacigenic_debris_flow"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:glacigenic_debris_flow"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "glacigenic debris flow/lobe (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "GLACIGENIC DEBRIS FLOWS are consecutive mass-flows that deposit prograding lobes/wedges of sediment beyond a glacier grounding-line (King et al., 1998; Laberg and Vorren, 1996).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacitectonic_raft",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:glacitectonic_raft"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:glacitectonic_raft"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "glacitectonic raft (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Dislocated slab of unconsolidated sediment or rock that has been entrained and transported from its original position by subglacial processes. Large rafts are sometimes referred to as megablocks</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). See also HILL-HOLE PAIR.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/grounding_zone_wedge",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:grounding_zone_wedge"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:grounding_zone_wedge"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "grounding zone wedge (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A sedimentary depocentre formed at the grounding zone of an ice sheet/ice-shelf system, formed of dipping diamicton beds overlain by horizontal sheets of diamicton, mainly subglacial till. Till emerging from beneath the glacier along a line-source is redistributed by subaqueous debris flows, producing diamicton beds that dip away from the margin. GZWs are usually asymmetrical in long-profile, steeper in the ice-distal direction</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/hill-hole_pair",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:hill-hole_pair"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:hill-hole_pair"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "hill-hole pair (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A discrete hill of ice-thrust material, often slightly deformed, situated downglacier from a depression of approximately the same size and shape. Either pre-existing drift or bedrock may be contained in the dislocated hill</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/hummocky_terrain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:hummocky_terrain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:hummocky_terrain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "hummocky terrain (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A glacial landscape with a highly irregular surface, characterised by a series of small mounds, ridges and depressions. Associated with glacier/ice sheet grounding zones (Ottesen and Dowdeswell, 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ice-contact_delta",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ice-contact_delta"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:ice-contact_delta"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ice-contact delta (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "ICE-CONTACT DELTAS form at glacier margins and develop from e.g. ice proximal grounding line fans or other submerged depositional units (Benn and Evans, 2010).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ice-proximal_fan",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ice-proximal_fan"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:ice-proximal_fan"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ice-proximal fan (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Fan-shaped sediments produced by deposition from sediment-laden meltwater as it exits from subglacial meltwater tunnels, ususally at the base of tidewater glacier terminal ice CLIFFS</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/iceberg_grounding_pit",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:iceberg_grounding_pit"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:iceberg_grounding_pit"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "iceberg grounding pit (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A discrete, usually roughly circular depression in seafloor sediment caused by the impact of the keel of an iceberg</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/iceberg_ploughmark",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:iceberg_ploughmark"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:iceberg_ploughmark"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "iceberg ploughmark (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Groove or furrow caused by the impact and movement of grounded icebergs along the sea or lake floor</I> (Excerpt from Bell et al. 2016 In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/kettle_hole",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:kettle_hole"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:kettle_hole"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "kettle hole (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Steep-sided hollow produced by the melt-out of an original deposit which also contained finer materials that were removed by wind or water action</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/medial_moraine",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:medial_moraine"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:medial_moraine"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "medial moraine (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Moraine formed at the confluence of two glaciers, where debris can be entrained at the glacier bed and surface. Entrained debris can be a shallow unit or extend to the base of the glacier, depending on the detailed mechanisms of formation</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/meltwater_channel",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:meltwater_channel"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:meltwater_channel"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "meltwater channel (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A channel produced by the flow of glacial meltwater. Where the channel is subglacial, pressurized water may flow upslope as well as downslope, producing an undulating channel long-profile</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/moraine",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:moraine"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:moraine"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "moraine (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A mound, ridge or other distinct accumulation of generally unsorted, unstratified glacigenic sediment, predominantly till, deposited chiefly by direct contact with glacier ice, commonly subglacial. See De Geer moraine, end moraine, fluted moraine, interlobate moraine, kame moraine, lateral moraine</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/proglacial_meltwater_channel",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:proglacial_meltwater_channel"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:proglacial_meltwater_channel"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "proglacial meltwater channel (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Meltwater channel (see definition further up), occurring in area immediately beyond the limits of a glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/rogen_moraine",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rogen_moraine"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:rogen_moraine"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "rogen (ribbed) moraine (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A moraine transverse to the direction of ice flow, formed of large transverse ridges, giving the overall appearance of an animal’s ribs. The ridges, consisting of till for the most part are generally steep-sided. In plan view, they appear slightly curved and wavy, and their ends merge to form poorly defined ridges which intersect at different angles</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/sill",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sill"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:sill"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "sill/threshold (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A relatively shallow ridge or rise separating one basin from another. Sills are common in fjords where they consist of a sub-marine barrier of rock or moraine that occurs at the mouth of, or between, basins</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/streamlined_landform",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:streamlined_landform"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:streamlined_landform"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "streamlined landform (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Streamlined landforms have been sculpted and moulded by glacier ice, moving in a coherent direction. These landforms can consist of bedrock, unconsolidated sediments or both. They are formed parallel to the ice flow direction and are considered good palaeo-flow indicators. Elongation is considered to be positively correlated with higher ice flow velocities (Stokes and Clark, 1999, 2002; Krabbendam et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/sub-ice_shelf_keel_scour_mark",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sub-ice_shelf_keel_scour_mark"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:sub-ice_shelf_keel_scour_mark"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "sub-ice shelf keel scour mark (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sub-ice shelf keel scour marks consist of highly linear splayed lineations, occasionally cross-cutting, that display low parallel conformity. They record the transition from a grounded to a sub-ice shelf environment and form an intermediary landform between curvilinear iceberg ploughmarks and glacial lineations. They are hypothesised to form where ice reaches flotation in newly opened ice shelf cavities (Smith et al., 2019).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/thrust-block_moraine",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:thrust-block_moraine"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:thrust-block_moraine"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "thrust-block moraine (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "THRUST-BLOCK MORAINES (composite ridges) are heavily glacitectonised ridges formed by thrusting of blocks/slabs of sediments in front of a glacier (Benn and Evans, 2010).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/trough-mouth_fan",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:trough-mouth_fan"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:trough-mouth_fan"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "trough-mouth fan (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A large fan-shaped depositional body located at the seaward end, or mouth, of a CROSS-SHELF TRUOGH that has been largely eroded by grounded ice-sheets. The fan is built mainly from sediments carried by the ice sheets, and especially by fast-flowing ice streams within it. Some authors restrict the term to fans built principally of glacigenic debris-flows</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/tunnel_valley",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:tunnel_valley"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:tunnel_valley"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "tunnel valley (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A large subglacial, steep-sided channel cut into unconsolidated sediment or bedrock by meltwater. The channel may have a reverse gradient in places</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/u-shaped_valley",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:u-shaped_valley"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:u-shaped_valley"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "U-shaped valley (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A valley having a pronounced parabolic cross-profile suggesting the form of a broad letter ‘U’ with steep parallel walls and a broad, nearly flat floor; specifically a valley carved by glacial erosion, such as a glacial trough or fjord</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

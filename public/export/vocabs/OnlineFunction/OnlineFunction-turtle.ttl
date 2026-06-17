@@ -1,0 +1,28 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions> a skos:ConceptScheme;
+    skos:definition "OnLine Function Type"@en;
+    skos:prefLabel "OnLine Function Type"@en;
+    dcterms:modified "2023-07-26"^^xsd:date;
+    rdfs:label "OnLine Function Type"@en;
+    dcterms:created "2017-05-11"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:description "This vocabulary is an extension to the ISO19115-1 standard's OnLine Function Code list. It includes additional terms implemented by Geoscience Australia to allow for online functions not included in the original codelist. An example of an extension term in this vocabulary is \"provenance query service\" which, in the SKOS structure of this vocabulary, is given as a narrower concept of the \"information\" concept which is one of the original ISO19115-1 concepts. An object indicated as having an online function of a \"provenance query service\" should be understood to perform a specialised form of an \"information\" function by allowing provenance querying. Further details are given in the term's description. "@en;
+    dcterms:issued "2018-12-12"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    dcterms:subject "online functions"@en;
+    dcterms:title "OnLine Function"@en;
+    owl:versionInfo "v1.0";
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/browseGraphic>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/browsing>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/completeMetadata>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/download>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/emailService>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/fileAccess>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/offlineAccess>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/order>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/information>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/search>, <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/upload>;
+    skos:historyNote "ISO19115-1:2014"@en;
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

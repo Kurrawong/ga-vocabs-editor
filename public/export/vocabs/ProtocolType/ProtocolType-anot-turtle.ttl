@@ -1,0 +1,81 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/protocoltype> a skos:ConceptScheme;
+    skos:definition "This vocab is developed to enable the selection of Web Service protocols from a controlled list, rather than creating free text descriptions of protocols within the ISO19115-1 geospatial metadata standard.  "@en;
+    skos:prefLabel "Protocol Type"@en;
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
+    sdo:dateModified "2026-02-19"^^xsd:date;
+    sdo:version "1.4";
+    owl:versionIRI <https://pid.geoscience.gov.au/def/voc/ga/protocoltype/1.4>;
+    skos:historyNote "This codelist was introduced as part of Geoscience Australia’s extension to ISO 19115-1:2014 as per the rules of ISO 19106:2004. It constrains or extends values for elements in the GA Metadata Profile but adds no new metadata elements beyond the base standard. This protocol list was published in 2017 on the ARDC Research Vocabularies Australia. This vocab was reviewed in 2025 and published on GA's vocab register.";
+    prov:qualifiedAttribution _:n3-30, _:n3-32;
+    sdo:creator <https://linked.data.gov.au/org/ga>;
+    sdo:dateCreated "2017-11-17"^^xsd:date;
+    sdo:identifier "https://pid.geoscience.gov.au/dataset/ga/150899"^^xsd:anyURI;
+    sdo:publisher <https://linked.data.gov.au/org/ga>;
+    prez:identifier "ns4:protocoltype";
+    prez:link "/catalogs/catalogue:default/collections/ns4:protocoltype";
+    prez:members "/catalogs/catalogue:default/collections/ns4:protocoltype/items";
+    prez:type prez:FocusNode;
+    prez:label "Protocol Type"@en;
+    prez:description "This vocab is developed to enable the selection of Web Service protocols from a controlled list, rather than creating free text descriptions of protocols within the ISO19115-1 geospatial metadata standard.  "@en.
+skos:ConceptScheme prez:label "Concept Scheme"@en;
+    prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
+skos:definition prez:label "definition"@en;
+    prez:description "A statement or formal explanation of the meaning of a concept"@en.
+skos:prefLabel prez:label "preferred label"@en;
+    prez:description "The preferred lexical label for a resource, in a given language"@en.
+sdo:dateModified prez:label "date modified";
+    prez:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed".
+sdo:version prez:label "version";
+    prez:description "The version of the CreativeWork embodied by a specified resource".
+owl:versionIRI prez:label "versionIRI";
+    prez:description "The property that identifies the version IRI of an ontology.".
+skos:historyNote prez:label "history note"@en;
+    prez:description "A note about the past state/use/meaning of a concept"@en.
+prov:qualifiedAttribution prez:label "qualified attribution";
+    prez:description "If this Entity prov:wasAttributedTo Agent :ag, then it can qualify how it was influenced using prov:qualifiedAttribution [ a prov:Attribution;  prov:agent :ag; :foo :bar ]."@en.
+_:n3-30 prov:agent _:n3-31;
+    prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>.
+prov:agent prez:label "agent";
+    prez:description "A thing with agency - the ability to do work".
+_:n3-31 a sdo:Person;
+    sdo:email ""^^xsd:anyURI;
+    sdo:name "Smith".
+sdo:Person prez:label "Person";
+    prez:description "A person (alive, dead, undead, or fictional)".
+sdo:email prez:label "email";
+    prez:description "Email address".
+sdo:name prez:label "name";
+    prez:description "The name of a thing".
+<https://linked.data.gov.au/def/data-roles/custodian> prez:label "custodian"@en;
+    prez:description "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource".
+_:n3-32 prov:agent _:n3-33;
+    prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>.
+_:n3-33 a sdo:Person;
+    sdo:email ""^^xsd:anyURI;
+    sdo:name "Mfm".
+sdo:creator prez:label "creator";
+    prez:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork".
+<https://linked.data.gov.au/org/ga> prez:label "Geoscience Australia";
+    prez:description "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia.".
+sdo:dateCreated prez:label "date created";
+    prez:description "The date on which the CreativeWork was created or the item was added to a DataFeed".
+sdo:publisher prez:label "publisher";
+    prez:description "The publisher of the creative work".
+prez:link prez:label "link".
+prez:members prez:label "members".
+<urn:catalog:default> prez:identifier "catalogue:default".
+_:n3-34 prez:currentProfile prez:DefaultSchemeProfile.
+skos:hasTopConcept prez:label "has top concept"@en;
+    prez:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en.

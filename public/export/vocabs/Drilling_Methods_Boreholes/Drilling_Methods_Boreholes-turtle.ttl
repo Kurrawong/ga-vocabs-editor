@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods> a skos:ConceptScheme;
+    skos:definition "Method of drilling."@en;
+    skos:prefLabel "Borehole Geology - Drilling Methods"@en;
+    dcterms:provenance "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)"@en;
+    dcterms:created "2022-08-04"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2022-08-04"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
+    owl:versionInfo "1";
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/auger>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/percussionDrilling>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreAir>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreBox>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreDiamond>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreGeoprobe>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreGravity>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreKasten>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreMackereth>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/corePiston>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/corePush>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreRov>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreSonic>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreUnspecified>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreVibro>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/reverseCirculationDrilling>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/rotaryDrilling>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/sidewallCore>, <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/unknown>;
+    dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

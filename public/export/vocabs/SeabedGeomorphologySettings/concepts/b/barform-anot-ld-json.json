@@ -1,0 +1,535 @@
+[
+  {
+    "@id": "_:n3-53",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
+    "https://prez.dev/label": [
+      {
+        "@value": "has broader",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more general in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/bank-attached",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:bank-attached"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:bank-attached"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "bank-attached (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Any kind of bank-attached BARFORM in SUBAERIAL or SUBMARINE CHANNELS. Tend to form in channels that are well adjusted to their supplied sediment load (Goudie, 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/barform",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Current-induced_Process"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Tend to be larger than BEDFORMS (e.g. Venditti, 2013), are often forced by macro-scale topography (e.g. CHANNELS - POINTBAR; HEADLANDS - BANNER), and develop over longer periods of time (e.g. Dury, 1970).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "barform (BGU)",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/bank-attached"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/bench"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/counterpoint_bar"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/crevasse_splay"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ledge"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/levee"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mid-channel_bar"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mouthbar"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/pointbar"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/riffle_and_pool"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/scroll_bar"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:barform"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:barform"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "barform (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Tend to be larger than BEDFORMS (e.g. Venditti, 2013), are often forced by macro-scale topography (e.g. CHANNELS - POINTBAR; HEADLANDS - BANNER), and develop over longer periods of time (e.g. Dury, 1970).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/bench",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:bench"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:bench"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "bench (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A channelised, bank attached BARFORM. A distinctly stepped, elongate, straight to gently curved unit that is inset along one or both banks, usually over other BARFORMS and are formed by oblique and vertical accretion in overwidened channels (modified from: Brierley and Fryirs, 2013).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/counterpoint_bar",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:counterpoint_bar"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:counterpoint_bar"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "counterpoint bar (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Occur downstream or distal to bends in SUBAERIAL and SUBMARINE CHANNELS and are preserved as concave-shaped SCROLL BAR patterns. In preserved deposits COUNTERPOINT BARS are superficially similar to POINTBARS (modified from: Smith et al., 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/crevasse_splay",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:crevasse_splay"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:crevasse_splay"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "crevasse splay (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Generally fan-shaped deposits that accumulate downstream of breaches in subaerial and submarine LEVEES.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ledge",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ledge"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:ledge"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ledge (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An erosional channelised BARFORM that develops through flow erosion into a channel bank. LEDGE stratigraphy is continuous with the adjacent channel margin (usually FLOODPLAIN or TERRACE) into which the channel flow has eroded. Unpaired LEDGES reflect lateral flow shift during incision, whereas paired ledges indicate incision only (modified from: Brierley and Fryirs, 2013). Cf FLOODPLAIN TERRACE.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/levee",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:levee"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:levee"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "levee (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A typically wedge-shaped BARFORM formed of channel-derived, suspended sediment that fines upwards and also away from the channel source. LEVEES vary markedly in scale, though Marine LEVEES tend to be much larger than their terrestrial counterparts (modified from: Goudie, 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mid-channel_bar",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mid-channel_bar"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:mid-channel_bar"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mid-channel bar (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Most common in actively meandering channels and tend to develop in steeper channel sections downstream of rapidly eroding bends where the channel is overwidened, and though they have lower preservation potential (Goudie, 2006) they may evolve towards bank attachment (Hooke, 1986; Alabyan and Chalov, 1998). Cf BANK-ATTACHED BARS.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mouthbar",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mouthbar"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:mouthbar"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mouthbar (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Form where coarse sediment is delivered to the mouth of SUBAERIAL (Wright et al., 1974) and SUBMARINE CHANNELS (Hodgson et al., 2022).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/pointbar",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pointbar"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:pointbar"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pointbar (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Are situated along the convex banks of bends in SUBAERIAL and SUBMARINE CHANNELS. They typically have an arcuate shape that reflects the radius of curvature of the bend. The cross-sectional slope of the bar is inclined towards the centre of the channel, reflecting the asymmetrical channel geometry at the bend apex. Textural attributes of the bar reflect patterns of secondary helical flow over the bar surface, which vary between SETTINGS (e.g. MARINE, FLUVIAL, COASTAL; Modified from: Goudie, 2006) and POINTBARS may develop into SCROLL BARS. In preserved deposits POINTBARS may appear to be superficially similar to COUNTERPOINT BARS.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/riffle_and_pool",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:riffle_and_pool"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:riffle_and_pool"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "riffle (and pool) (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A type of channelised BARFORM that alternates with POOLS, characterised by higher velocity flow over their surfaces. Develop in alluvial and bedrock channels and are most common in meandering channels with moderate gradients (modified from: Goudie, 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/scroll_bar",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:scroll_bar"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:scroll_bar"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "scroll bar (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Quasi-regularly spaced ridges that form over POINT BARS, which continue subsurface as laterally accreted heterolithic strata that fine upwards. Their development may be related to episodes of channel widening and, in SUBAERIAL CHANNELS, may form in association with vegetation growth on the POINTBAR (modified from: Nanson, 1980; van de Lageweg et al., 2014).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

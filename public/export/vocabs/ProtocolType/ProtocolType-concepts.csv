@@ -1,0 +1,60 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Geoprocessing-Service,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI,ArcGIS Geoprocessing Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Image-Service,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI,ArcGIS Image Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Map-Service,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI,ArcGIS Map Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Services-Directory-Page,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI,ArcGIS Services Directory Page
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-feature,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI,ArcIMS Internet Feature Map Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-image,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI,ArcIMS Internet Image Map Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-configuration,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI,ArcIMS Map Service Configuration File AXL
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/CSW,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Catalogue Service for the Web
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/FILE-DATA-DIRECTORY,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/File,Data Directory
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Database,,Database
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/DataTurbine,,DataTurbine
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI,,ESRI
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/File,,File
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/JetStream,,File for download through Jetstream Proxy
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-G,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Gazetteer Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/GML,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Geography Markup Language
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/FILE-GEO,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/File,GIS file
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/FILE-RASTER,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/File,GIS Raster file
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/GoogleEarth,,Google Earth KML Service 2.0
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-ical,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C,iCalendar URL
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/KML,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,KML Keyhole Markup Language
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,,Open Geospatial Consortium
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-opendap,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C,OPeNDAP URL
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ODS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,OpenLS Directory Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,OpenLS Gateway Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OPS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,OpenLS Presentation Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ORS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,OpenLS Route Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OUS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,OpenLS Utility Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/DB-ORACLE,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Database,ORACLE database table
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-partners,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C,Partner web address URL
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/DB-POSTGIS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Database,PostGIS database table
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-related,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C,Related link URL
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-RSS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C,RSS News feed URL
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SAS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Sensor Alert Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Sensor Observation Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-get-observation,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Sensor Observation Service GetObservation 1.0.0
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-post-observation,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Sensor Observation Service GetObservation POST 1.0.0
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/SPS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Sensor Planning Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-samples,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C,Showcase product URL
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/UKST,,Unknown Service Type
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C,,W3C
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-link,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C,Web address URL
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCTS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Coordinate Transformation Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Coverage Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.0.0-HTTP-get-capabilities,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Coverage Service 1.0.0 GetCapabilities
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.1.0-HTTP-get-capabilities,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Coverage Service 1.1.0 GetCapabilities
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Feature Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.0.0-HTTP-get-capabilities,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Feature Service 1.0.0 GetCapabilities
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.1.0-HTTP-get-capabilities,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Feature Service 1.1.0 GetCapabilities
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMC-1.1.0-HTTP-get-capabilities,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Map Context 1.1 GetCapabilities
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Map Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-capabilities,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Map Service 1.1.1 GetCapabilities
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-map,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Map Service 1.1.1 GetMap
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-capabilities,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Map Service 1.3.0 GetCapabilities
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-map,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Map Service 1.3.0 GetMap
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Map Tiling Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS-1.0.0-http-get-capabilities,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Map Tiling Service 1.0.0 GetCapabilities
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WNS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Notification Service
+https://pid.geoscience.gov.au/def/voc/ga/protocoltype/WPS,https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC,Web Processing Service

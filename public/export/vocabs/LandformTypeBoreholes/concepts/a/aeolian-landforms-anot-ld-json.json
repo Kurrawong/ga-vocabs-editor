@@ -1,0 +1,447 @@
+[
+  {
+    "@id": "_:n3-32",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/provenance",
+    "https://prez.dev/label": [
+      {
+        "@value": "Provenance",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "alternative label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An alternative lexical label for a resource",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LandformTypes"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Field Geology - Landform Type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of landform types used in GA Boreholes database. Reference Pain CF, 2008. Field Guide for Describing Regolith and Landforms. ISBN 978-0-9806030-0-2.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-dunes",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:aeolian-dunes"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:aeolian-dunes"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "aeolian dunes",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Low mounds, ridges, banks, or hills of loose, windblown granular material (generally sand; in some places volcanic ash), either bare or covered with vegetation, capable of being moved from place to place by wind, but always retaining their own characteristic shape.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DU00",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A landform pattern built up or locally excavated, eroded or aggraded by wind. Mabbutt (1977) provides a useful summary of the variety of aeolian landforms found in arid climates.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "aeolian landforms",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-dunes"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-sheet"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/irregular-dune-field"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/longitudinal-dune-field"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lunette"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/source-bordering-dune"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/transverse-dune-field"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:aeolian-landforms"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:aeolian-landforms"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "aeolian landforms",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform pattern built up or locally excavated, eroded or aggraded by wind. Mabbutt (1977) provides a useful summary of the variety of aeolian landforms found in arid climates.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-sheet",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:aeolian-sheet"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:aeolian-sheet"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "aeolian sheet",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A sheet of aeolian material- generally sand - formed when wind moulding of the surface is prevented either by vegetation or, more usually, because the sand grains are too coarse. They are commonly associated with sources that give rise to coarse sand grains, such as alluvial plains, or the weathering of coarse-grained granite, as occurs in the Yilgarn of Western Australia.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/irregular-dune-field",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:irregular-dune-field"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:irregular-dune-field"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "irregular dune field",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A dune field with a mixture of longitudinal and transverse dunes, as well as other more complicated forms.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/longitudinal-dune-field",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:longitudinal-dune-field"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:longitudinal-dune-field"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "longitudinal dune field",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A dune field characterised by long narrow sand dunes and wide flat swales. The dunes are oriented parallel with the direction of the prevailing wind and, in cross section, one slope is typically steeper than the other.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lunette",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lunette"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:lunette"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lunette",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/source-bordering-dune",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:source-bordering-dune"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:source-bordering-dune"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "source bordering dune",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A dune formed adjacent to the source of the wind-blown material. Most commonly the source is a river or floodplain that supplies aeolian sediment during periods of low or no flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/transverse-dune-field",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:transverse-dune-field"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:transverse-dune-field"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "transverse dune field",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A dune field characterised by long narrow sand dunes and wide flat swales. The dunes are oriented normal to the direction of the prevailing wind and, in cross section, the windward slope is typically steeper than the lee slope.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

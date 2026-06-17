@@ -1,0 +1,84 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk> a skos:ConceptScheme;
+    skos:definition "This vocabulary is used to describe terms used for climate and disaster risk themes, covering hazard, exposure, vulnerability, impact, climate, weather and geophysical disasters"@en;
+    skos:prefLabel "GA Hazard and Risk Glossary"@en;
+    skos:historyNote "Combination of WMO, UNDRR and AIDR definitions agreed between GA, BoM, ABS and CSIRO"@en;
+    owl:versionIRI <https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/1.0>;
+    prov:qualifiedAttribution _:n3-30, _:n3-32;
+    sdo:creator <https://linked.data.gov.au/org/ga>;
+    sdo:dateCreated "2022-05-25"^^xsd:date;
+    sdo:dateModified "2022-05-25"^^xsd:date;
+    sdo:publisher <https://linked.data.gov.au/org/ga>;
+    sdo:version "1.0";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
+    prez:identifier "ns4:HazardAndRisk";
+    prez:link "/catalogs/catalogue:default/collections/ns4:HazardAndRisk";
+    prez:members "/catalogs/catalogue:default/collections/ns4:HazardAndRisk/items";
+    prez:type prez:FocusNode;
+    prez:label "GA Hazard and Risk Glossary"@en;
+    prez:description "This vocabulary is used to describe terms used for climate and disaster risk themes, covering hazard, exposure, vulnerability, impact, climate, weather and geophysical disasters"@en.
+skos:ConceptScheme prez:label "Concept Scheme"@en;
+    prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
+skos:definition prez:label "definition"@en;
+    prez:description "A statement or formal explanation of the meaning of a concept"@en.
+skos:prefLabel prez:label "preferred label"@en;
+    prez:description "The preferred lexical label for a resource, in a given language"@en.
+skos:historyNote prez:label "history note"@en;
+    prez:description "A note about the past state/use/meaning of a concept"@en.
+owl:versionIRI prez:label "versionIRI";
+    prez:description "The property that identifies the version IRI of an ontology.".
+prov:qualifiedAttribution prez:label "qualified attribution";
+    prez:description "If this Entity prov:wasAttributedTo Agent :ag, then it can qualify how it was influenced using prov:qualifiedAttribution [ a prov:Attribution;  prov:agent :ag; :foo :bar ]."@en.
+_:n3-30 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-31.
+<https://linked.data.gov.au/def/data-roles/custodian> prez:label "custodian"@en;
+    prez:description "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource".
+prov:agent prez:label "agent";
+    prez:description "A thing with agency - the ability to do work".
+_:n3-31 a sdo:Organization;
+    sdo:name "Impacts Lead Natural Hazards & Impacts";
+    sdo:url ""^^xsd:anyURI.
+sdo:Organization prez:label "Organization";
+    prez:description "An organization such as a school, NGO, corporation, club, etc".
+sdo:name prez:label "name";
+    prez:description "The name of a thing".
+sdo:url prez:label "url";
+    prez:description "URL of the item".
+_:n3-32 prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact>;
+    prov:agent _:n3-33.
+_:n3-33 a sdo:Person;
+    sdo:name "Rikki Weber";
+    sdo:email ""^^xsd:anyURI.
+sdo:Person prez:label "Person";
+    prez:description "A person (alive, dead, undead, or fictional)".
+sdo:email prez:label "email";
+    prez:description "Email address".
+sdo:creator prez:label "creator";
+    prez:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork".
+<https://linked.data.gov.au/org/ga> prez:label "Geoscience Australia";
+    prez:description "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia.".
+sdo:dateCreated prez:label "date created";
+    prez:description "The date on which the CreativeWork was created or the item was added to a DataFeed".
+sdo:dateModified prez:label "date modified";
+    prez:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed".
+sdo:publisher prez:label "publisher";
+    prez:description "The publisher of the creative work".
+sdo:version prez:label "version";
+    prez:description "The version of the CreativeWork embodied by a specified resource".
+prez:link prez:label "link".
+prez:members prez:label "members".
+<urn:catalog:default> prez:identifier "catalogue:default".
+_:n3-34 prez:currentProfile prez:DefaultSchemeProfile.
+skos:hasTopConcept prez:label "has top concept"@en;
+    prez:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en.

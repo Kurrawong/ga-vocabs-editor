@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings> a skos:ConceptScheme;
+    skos:definition "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019))."@en;
+    skos:prefLabel "Seabed geomorphology - Part 2 Geomorphology"@en;
+    owl:versionIRI <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/1.1>;
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Solid_Earth_Setting>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Coastal_Setting>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Biogenic_Process>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Fluid_Flow_Process>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Marine_Setting>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Current-induced_Process>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Mass_Movement_Process>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Glacial_Setting>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Fluvial_Setting>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Karst_Process>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Anthropogenic_Process>;
+    skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en;
+    prov:qualifiedAttribution _:n3-30, _:n3-32, _:n3-34;
+    sdo:creator <https://linked.data.gov.au/org/isgm-wg>;
+    sdo:dateCreated "2024-06-17"^^xsd:date;
+    sdo:dateModified "2025-04-02"^^xsd:date;
+    sdo:publisher <https://linked.data.gov.au/org/ga>;
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
+    sdo:version "1.1".
+_:n3-30 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-31.
+_:n3-32 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-33.
+_:n3-34 prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact>;
+    prov:agent _:n3-35.

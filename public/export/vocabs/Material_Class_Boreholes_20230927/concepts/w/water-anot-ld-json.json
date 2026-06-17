@@ -1,0 +1,467 @@
+[
+  {
+    "@id": "_:n3-98",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:materialtype"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "General Geology - Sample Material Class",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Broad categories of earth materials (eg, rock, sediment, water, vegetation) that may be observed or sampled.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items"
+      }
+    ],
+    "https://prez.dev/provenance": [
+      {
+        "@value": "Geoscience Australia Mineral Class (A.LU_MATERIAL_CLASS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/distilled_water",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:distilled_water"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:distilled_water"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "distilled water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water from which impurities, as dissolved salts and colloidal particles, have been removed by one or more processes of distillation; chemically pure water.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/estuarine_water",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:estuarine_water"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:estuarine_water"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "estuarine water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water from an estuary. Depending on the nature of the estuary, the salinity may vary spatially and temporally and range from fresh, brackish, sea_water or hypersaline.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/groundwater",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:groundwater"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:groundwater"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "groundwater",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Synonym: formation water.  Part of the subsurface water that is in the zone of saturation, i.e., below the water table.  Can be located in one or several aquifers, aquicludes or aquitards.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/mine_seep_water",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mine_seep_water"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:mine_seep_water"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mine seep water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water seeping from mine workings.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/pore_water",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pore_water"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:pore_water"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pore water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Subsurface water in an interstice between grains in a marine sediment.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/rain_water",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rain_water"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:rain_water"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "rain water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Rain water, collected before it hits the Earth's surface.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/sea_water",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sea_water"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:sea_water"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "sea water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Saline water from the Earth's seas and oceans",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/spring_water",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:spring_water"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:spring_water"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "spring water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water sampled from a spring.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/surface_water",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:surface_water"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:surface_water"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "surface water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Fresh or brackish water which occurs on the surface of a land mass.  e.g., rivers, creeks, lakes",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/water",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Undivided saline, brackish, or fresh water.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "water",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/distilled_water"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/estuarine_water"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/groundwater"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/mine_seep_water"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/pore_water"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/rain_water"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/surface_water"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/sea_water"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/spring_water"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:water"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:water"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Undivided saline, brackish, or fresh water.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

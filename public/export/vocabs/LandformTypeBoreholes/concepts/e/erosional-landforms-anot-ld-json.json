@@ -1,0 +1,643 @@
+[
+  {
+    "@id": "_:n3-59",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/provenance",
+    "https://prez.dev/label": [
+      {
+        "@value": "Provenance",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "alternative label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An alternative lexical label for a resource",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LandformTypes"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Field Geology - Landform Type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of landform types used in GA Boreholes database. Reference Pain CF, 2008. Field Guide for Describing Regolith and Landforms. ISBN 978-0-9806030-0-2.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/badlands",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:badlands"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:badlands"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "badlands",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform pattern of low to extremely low relief (<9 m) and steep to precipitous slopes, typically with numerous fixed erosional stream channels that form a dendritic to parallel integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/drainage-depression",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:drainage-depression"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:drainage-depression"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "drainage depression",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A depression cut into a surface by erosional processes. This term should be used only in cases where a single  depression or valley is incised into a plateau or other surface, and where the scale of mapping does not allow\r\nthe depression to be subdivided into its component parts (e.g. rises, floodplain). ",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "ER00",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A landform pattern of very low to high relief and very gentle to steep slopes. The pattern is eroded by continuously active to slightly active or inactive geomorphic processes.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "erosional landforms",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/badlands"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/drainage-depression"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-plain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/escarpment"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/etchplain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/hills"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/low-hills"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/mountains"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/pediment"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/pediplain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/peneplain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/residual-low-hills"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/residual-rise"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/rises"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:erosional-landforms"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:erosional-landforms"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "erosional landforms",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform pattern of very low to high relief and very gentle to steep slopes. The pattern is eroded by continuously active to slightly active or inactive geomorphic processes.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-plain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:erosional-plain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:erosional-plain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "erosional plain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to undulating or, rarely, rolling landform pattern of extremely low relief (< 9 m) eroded by continuously active to slightly active or inactive geomorphic processes.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/escarpment",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:escarpment"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:escarpment"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "escarpment",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A steep to precipitous landform pattern forming a linearly extensive, straight or sinuous inclined surface that separates terrains at different altitudes, that above the escarpment commonly being a plateau. Relief within the landform pattern may be high (hilly) or low (planar). An included cliff or scarp often marks the upper margin of the scarp.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/etchplain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:etchplain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:etchplain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "etchplain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to undulating or, rarely, rolling landform pattern of extremely low relief, initially formed by deep weathering and then erosion of the resulting weathered regolith. Removal of the weathered material may be\r\neither partial or complete.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/hills",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:hills"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:hills"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "hills",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform pattern of high relief (90 - 300 m) with gently sloping to precipitous slopes. Fixed, shallow erosional stream channels are closely to very widely spaced and form a dendritic or convergent integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/low-hills",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:low-hills"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:low-hills"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "low hills",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform pattern of low relief (30 - 90 m) and gentle to very steep slopes, typically with fixed erosional stream channels that are closely to very widely spaced and form a dendritic or convergent integrated tributary\r\npattern. There is continuously active sheet flow, creep and channelled stream flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/mountains",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mountains"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:mountains"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mountains",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform pattern of very high relief (>300 m) with moderate to precipitous slopes and fixed erosional stream channels that are closely to very widely spaced and form a dendritic of diverging integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/pediment",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pediment"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:pediment"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pediment",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A gently inclined to level (<1 percent slope) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels that form a centrifugal to diverging integrated reticulated pattern. It is eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie down-slope from adjacent hills with markedly steeper\r\nslopes.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/pediplain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pediplain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:pediplain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pediplain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by slightly active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient\r\nchannels as on a pediment.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/peneplain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:peneplain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:peneplain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "peneplain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to gently undulating landform pattern with extremely low relief and sparse slowly migrating alluvial stream channels that form a nondirectional integrated tributary pattern. It is eroded by slightly active sheet flow, creep and channelled and over-bank stream flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/residual-low-hills",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:residual-low-hills"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:residual-low-hills"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "residual low hills",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform of low relief (30-90 m) and gentle to very steep slopes. This term is used to refer to an isolated low hill surrounded by other landforms.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/residual-rise",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:residual-rise"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:residual-rise"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "residual rise",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform facet of very low relief (9 - 30 m) and very gentle to steep slopes. This term is used to refer to an isolated rise surrounded by other landforms.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/rises",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rises"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:rises"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "rises",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform pattern of very low relief (9 - 30 m) and very gentle to steep slopes. Fixed erosional stream channels are closely to very widely spaced and form a dendritic to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to slightly active creep and sheet flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

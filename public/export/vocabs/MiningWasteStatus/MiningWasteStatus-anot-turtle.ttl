@@ -1,0 +1,83 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus> a skos:ConceptScheme;
+    skos:definition "Terms that describe the storage type a mining waste feature may have."@en;
+    skos:historyNote "This vocabulary is drawn from a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STATUS)"@en;
+    skos:prefLabel "Mineral Resources - Mining Waste Status Types"@en;
+    owl:versionIRI <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus/1.0>;
+    prov:qualifiedAttribution _:n3-30, _:n3-32;
+    sdo:creator <https://linked.data.gov.au/org/ga>;
+    sdo:dateCreated "2022-04-13"^^xsd:date;
+    sdo:dateModified "2024-02-22"^^xsd:date;
+    sdo:keywords "Geology", "Mineral Resources";
+    sdo:publisher <https://linked.data.gov.au/org/ga>;
+    sdo:version "1";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
+    prez:identifier "ns4:MiningWasteStatus";
+    prez:link "/catalogs/catalogue:default/collections/ns4:MiningWasteStatus";
+    prez:members "/catalogs/catalogue:default/collections/ns4:MiningWasteStatus/items";
+    prez:type prez:FocusNode;
+    prez:label "Mineral Resources - Mining Waste Status Types"@en;
+    prez:description "Terms that describe the storage type a mining waste feature may have."@en.
+skos:ConceptScheme prez:label "Concept Scheme"@en;
+    prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
+skos:definition prez:label "definition"@en;
+    prez:description "A statement or formal explanation of the meaning of a concept"@en.
+skos:historyNote prez:label "history note"@en;
+    prez:description "A note about the past state/use/meaning of a concept"@en.
+skos:prefLabel prez:label "preferred label"@en;
+    prez:description "The preferred lexical label for a resource, in a given language"@en.
+owl:versionIRI prez:label "versionIRI";
+    prez:description "The property that identifies the version IRI of an ontology.".
+prov:qualifiedAttribution prez:label "qualified attribution";
+    prez:description "If this Entity prov:wasAttributedTo Agent :ag, then it can qualify how it was influenced using prov:qualifiedAttribution [ a prov:Attribution;  prov:agent :ag; :foo :bar ]."@en.
+_:n3-30 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-31.
+<https://linked.data.gov.au/def/data-roles/custodian> prez:label "custodian"@en;
+    prez:description "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource".
+prov:agent prez:label "agent";
+    prez:description "A thing with agency - the ability to do work".
+_:n3-31 a sdo:Person;
+    sdo:name "Energy And Groundwater Division";
+    sdo:email ""^^xsd:anyURI.
+sdo:Person prez:label "Person";
+    prez:description "A person (alive, dead, undead, or fictional)".
+sdo:name prez:label "name";
+    prez:description "The name of a thing".
+sdo:email prez:label "email";
+    prez:description "Email address".
+_:n3-32 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-33.
+_:n3-33 a sdo:Person;
+    sdo:name "Team Lead   Information Services; Minerals";
+    sdo:email ""^^xsd:anyURI.
+sdo:creator prez:label "creator";
+    prez:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork".
+<https://linked.data.gov.au/org/ga> prez:label "Geoscience Australia";
+    prez:description "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia.".
+sdo:dateCreated prez:label "date created";
+    prez:description "The date on which the CreativeWork was created or the item was added to a DataFeed".
+sdo:dateModified prez:label "date modified";
+    prez:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed".
+sdo:keywords prez:label "keywords";
+    prez:description "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property".
+sdo:publisher prez:label "publisher";
+    prez:description "The publisher of the creative work".
+sdo:version prez:label "version";
+    prez:description "The version of the CreativeWork embodied by a specified resource".
+prez:link prez:label "link".
+prez:members prez:label "members".
+<urn:catalog:default> prez:identifier "catalogue:default".
+_:n3-34 prez:currentProfile prez:DefaultSchemeProfile.
+skos:hasTopConcept prez:label "has top concept"@en;
+    prez:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en.

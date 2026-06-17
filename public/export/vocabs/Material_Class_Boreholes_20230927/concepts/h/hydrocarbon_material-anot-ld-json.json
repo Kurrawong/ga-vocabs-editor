@@ -1,0 +1,383 @@
+[
+  {
+    "@id": "_:n3-57",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
+    "https://prez.dev/label": [
+      {
+        "@value": "has broader",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more general in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:materialtype"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "General Geology - Sample Material Class",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Broad categories of earth materials (eg, rock, sediment, water, vegetation) that may be observed or sampled.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items"
+      }
+    ],
+    "https://prez.dev/provenance": [
+      {
+        "@value": "Geoscience Australia Mineral Class (A.LU_MATERIAL_CLASS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/bitumen",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:bitumen"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:bitumen"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "bitumen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Solid organic material that forms part of a rock. It can usually be extracted from the rock with organic solvent.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid_hydrocarbon",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:fluid_hydrocarbon"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:fluid_hydrocarbon"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "fluid hydrocarbon",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Any carbon-hydrogen fluid material",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_material",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Any carbon-hydrogen based material.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "hydrocarbon material",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/organic_material"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/bitumen"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid_hydrocarbon"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/kerogen"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/pitch"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/resin"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/wax"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:hydrocarbon_material"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:hydrocarbon_material"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "hydrocarbon material",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Any carbon-hydrogen based material.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/kerogen",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:kerogen"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:kerogen"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "kerogen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Immobile organic matter that forms part of a rock. Kerogen cannot be extracted from the rock with organic solvents. Kerogen is concentrated in a pure form by removal of the mineral matter with strong acids - ie., HCl, HF.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/pitch",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pitch"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:pitch"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pitch",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Any of the various dark heavy viscous and resinous substances obtained as a residue from the distillation of coal-tar or crude oil.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/resin",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:resin"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:resin"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "resin",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Solid organic material that forms part of a rock. It is usually associated with coal and derived from the resinous material exuded from land plants.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/materialtype/wax",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:wax"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:materialtype/items/ns1:wax"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "wax",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A light coloured solid precipitated from either a hydrocarbon gas or oil",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

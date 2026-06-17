@@ -1,0 +1,423 @@
+[
+  {
+    "@id": "_:n3-364",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
+    "https://prez.dev/label": [
+      {
+        "@value": "has broader",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more general in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/bundle_structure",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:bundle_structure"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:bundle_structure"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "bundle structure (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An elongated sediment body consisting of groups of mega-scale glacial lineations (MSGLs) (Canals and Amblas 2016 In: Dowdeswell et al., 2016)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/drumlin",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:drumlin"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:drumlin"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "drumlin (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A low, smoothly rounded and streamlined overall hill or mound, commonly elongated parallel to the former ice-flow direction with a blunter up-ice face, composed of till or stratified drift, and sometimes having a bedrock core; formed by either erosion or deposition beneath an actively flowing glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/flute",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:flute"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:flute"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "flute (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Narrow, elongate, straight, parallel ridge generally consisting of till but sometimes composed of sand or silt/clay</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacial_crag_and_tail",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:glacial_crag_and_tail"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:glacial_crag_and_tail"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "glacial crag and tail (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>An elongate hill or ridge in which a resistant mass of bedrock (the crag) has withstood the passage of an ice sheet or glacier, thereby either protecting, or causing the deposition in a lee-side cavity, of an elongate ridge (the tail) of more easily eroded sedimentary debris, often till, on its ice-distal side</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/groove",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:groove"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:groove"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "groove (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An elongate, ice flow-parallel furrow cut in bedrock (Benn and Evans, 2010; Krabbendam et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mega-scale_glacial_lineation",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mega-scale_glacial_lineation"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:mega-scale_glacial_lineation"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mega-scale glacial lineation (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>Elongate landforms, produced typically in subglacial sediments, which reflect fast ice flow of an ice sheet and thought to be indicative of ice streaming. MSGLs characteristically have length:width ratios greater than 15:1 and have a convergent flow pattern. MSGLs typically have a large zone of convergence feeding into a main trunk, which may then diverge again near the ice margin</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/roche_moutonnee",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:roche_moutonnee"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:roche_moutonnee"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "roche moutonnee (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "<I>A bedrock landform is streamlined by subglacial that erosion in the direction of ice flow. The landform is often asymmetrical in long profile, with a smooth up ice end produced by ice abrasion and a rougher down-ice termination produced by plucking associated with lee-side subglacial cavities. Whalebacks are also elongate streamlined bedrock landforms but are usually symmetrical in form</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/streamlined_landform",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Glacial_Setting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Streamlined landforms have been sculpted and moulded by glacier ice, moving in a coherent direction. These landforms can consist of bedrock, unconsolidated sediments or both. They are formed parallel to the ice flow direction and are considered good palaeo-flow indicators. Elongation is considered to be positively correlated with higher ice flow velocities (Stokes and Clark, 1999, 2002; Krabbendam et al., 2016).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "streamlined landform (BGU)",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/bundle_structure"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/drumlin"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/flute"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/glacial_crag_and_tail"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/groove"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mega-scale_glacial_lineation"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/roche_moutonnee"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:streamlined_landform"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:streamlined_landform"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "streamlined landform (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Streamlined landforms have been sculpted and moulded by glacier ice, moving in a coherent direction. These landforms can consist of bedrock, unconsolidated sediments or both. They are formed parallel to the ice flow direction and are considered good palaeo-flow indicators. Elongation is considered to be positively correlated with higher ice flow velocities (Stokes and Clark, 1999, 2002; Krabbendam et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

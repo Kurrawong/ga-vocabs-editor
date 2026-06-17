@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">Type of entity or feature. (eg, measured section, borehole, field site).</skos:definition>
+    <skos:prefLabel xml:lang="en">General Geology - Entity or Feature Type</skos:prefLabel>
+    <dcterms:provenance xml:lang="en">Geoscience Australia Entity Type or Feature (A.ENTITY_TYPES)</dcterms:provenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-04</dcterms:created>
+    <dcterms:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-04</dcterms:modified>
+    <dcterms:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <rdfs:seeAlso rdf:resource="https://pid.geoscience.gov.au/dataset/ga/148553"/>
+    <owl:versionInfo>1</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/acreageRelease"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/borehole"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/country"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/emitter"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/essci"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/estuary"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/explorationPermit"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/facies"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/fieldSite"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/laboratory"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mapsheet"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/marsegment"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineWaste"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralDeposit"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralOccurrence"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralProject"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralisedZone"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/museumCollection"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/observatory"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/opggsaReprocessing"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/pipeline"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/placeName"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/politicalRegion"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/port"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/powerStation"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/productionLicence"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/project"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/province"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/resourceProcessingPlant"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/resourceProject"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/retentionLease"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/section"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/seismicline"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/state"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/stratUnitDefinitionLocation"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/survey"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/well"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/wildcatLocation"/>
+    <dcat:contactPoint>Team Lead - Information Services; Minerals, Energy and Groundwater Division </dcat:contactPoint>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+  </rdf:Description>
+</rdf:RDF>

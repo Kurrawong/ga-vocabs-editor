@@ -1,0 +1,535 @@
+[
+  {
+    "@id": "_:n3-168",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Fluvial_Setting",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A SETTING in which geomorphic UNITS are primarily formed by fluvial processes (rivers) on modern or formerly subaerial portions of CONTINENTAL SHELVES (PHYSIOGRAPHY).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Fluvial Setting",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/subaerial_channel"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/drainage_basin"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/drainage_network"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fluvial_delta"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fluvial_fan"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fluvial_fan_lobe"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fluvial_subaerial_valley"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/floodplain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/floodplain_terrace"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/channel_belt"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/delta_lobe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:Fluvial_Setting"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:Fluvial_Setting"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Fluvial Setting",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A SETTING in which geomorphic UNITS are primarily formed by fluvial processes (rivers) on modern or formerly subaerial portions of CONTINENTAL SHELVES (PHYSIOGRAPHY).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/channel_belt",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:channel_belt"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:channel_belt"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "channel belt (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A conglomeration of relatively coarser-grained sediment comprised of amalgamated SUBAERIAL CHANNEL, BEDFORM and BARFORM deposits (modified from Bridge and Tye, 2000; cf. Marine SUBMARINE CHANNEL BELT versus Fluvial CHANNEL BELT geometries: Jobe et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/delta_lobe",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:delta_lobe"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:delta_lobe"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "delta lobe (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Discrete accumulations of sediment that form at the distal end of relatively confined river channels and may represent distinct avulsion events (Chatanantavet et al., 2012). Multiple DELTA LOBES sum to comprise entire DELTAS.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/drainage_basin",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:drainage_basin"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:drainage_basin"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "drainage basin (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Includes the DRAINAGE NETWORK and all surfaces draining to them (modified from Goudie, 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/drainage_network",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:drainage_network"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:drainage_network"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "drainage network (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A collection of SUBAERIAL CHANNELS joined together (modified from Goudie, 2006). Can be sub-classified by their planform pattern, which are frequently used to infer their processes and development (BGU-T: dendritic; parallel; radial; centrifugal; centripetal; distributary; angular; trellis; or annular: Twidale, 2004).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/floodplain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:floodplain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:floodplain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "floodplain (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The relatively flat area of land between the banks of the parent stream and the confining valley walls, over which water from the parent stream flows at times of high discharge. The sediment that comprises a FLOODPLAIN is mainly alluvium derived from the parent stream (modified from Goudie, 2006) and can be comprised of confined/cut-and-fill, braided, lateral migration or anabranching floodplain deposits (Nanson and Croke, 1992).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/floodplain_terrace",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:floodplain_terrace"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:floodplain_terrace"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "floodplain terrace (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Planar-surfaced units that remain after the adjacent channel has incised and abandoned the surface (Brierley and Fryirs, 2013) and can be comprised of alluvial material (cf. FLOODPLAINS) or rock (cf. STRATH; modified from Goudie, 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fluvial_delta",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:fluvial_delta"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:fluvial_delta"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "fluvial delta (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A discrete shoreline sedimentary protuberance formed where a river enters a body of water and supplies sediment more rapidly than it can be redistributed by basinal processes (modified from: Elliott, 1986).\nCf. COASTAL DELTA",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fluvial_fan",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:fluvial_fan"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:fluvial_fan"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "fluvial fan (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Usually cone-shaped forms with surface slopes radiating away from an apex located at the point where the feeder SUBAERIAL CHANNEL splits to form DISTRIBUTARY CHANNELS. Their fan-like geometry can be modified by the confinement of neighbouring fans or valley walls (modified from Goudie, 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fluvial_fan_lobe",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:fluvial_fan_lobe"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:fluvial_fan_lobe"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "fluvial fan lobe (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "FLUVIAL FAN sedimentation is usually restricted to one part of the fan surface at a time, and the sedimentology of these FAN LOBES are typically internally consistent. FLUVIAL FAN LOBES are abandoned, and new ones are initiated, by channel avulsion.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fluvial_subaerial_valley",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:fluvial_subaerial_valley"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:fluvial_subaerial_valley"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "fluvial subaerial valley (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Form via combinations of fluvial and coastal processes (see Additional Attributes: Marginal marine process classification); they widen by lateral SUBAERIAL CHANNEL erosion and weathering, and lengthen by both headward erosion and progradation in their lower reaches. SUBAERIAL VALLEYS can form networks with a variety of drainage patterns (see DRAINAGE NETWORK; modified from Goudie, 2006). Cf. RIVER VALLEY; INCISED VALLEY; RIA; FJORD, COASTAL SUBAERIAL VALLEY.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/subaerial_channel",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:subaerial_channel"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:subaerial_channel"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "subaerial channel (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Formed of alluvium, usually have mobile boundaries and are self-adjusting in response to changing conditions. Commonly parabolic or trapezoid in cross section with adjacent, roughly horizontal FLOODPLAINS that are inundated when the channel exceeds bankfull capacity (modified from Goudie, 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

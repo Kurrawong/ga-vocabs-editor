@@ -1,9 +1,69 @@
 {
   "schemes": [
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes",
+      "label": "GA Country Codes",
+      "count": 448
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+      "label": "Seabed geomorphology - Part 2 Geomorphology",
+      "count": 380
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk",
+      "label": "GA Hazard and Risk Glossary",
+      "count": 164
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholesSamplingMethod",
+      "label": "General Geology - Sampling Method",
+      "count": 107
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/CDCS",
       "label": "Legacy GA Corporate Data Classification Scheme",
       "count": 106
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence",
+      "label": "Field Geology - Mode of Occurrence",
+      "count": 97
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType",
+      "label": "General Geology - Sample Type",
+      "count": 76
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty",
+      "label": "Geology Rock Properties - Petrophysical",
+      "count": 75
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes",
+      "label": "Field Geology - Landform Type",
+      "count": 73
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/materialtype",
+      "label": "General Geology - Sample Material Class",
+      "count": 69
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
+      "label": "Protocol Type",
+      "count": 59
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology",
+      "label": "Seabed geomorphology - Part 1 Morphology",
+      "count": 40
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature",
+      "label": "General Geology - Entity or Feature Type",
+      "count": 38
     },
     {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod",
@@ -11,10 +71,166 @@
       "count": 37
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral",
+      "label": "Seabed geomorphology - Method Terms",
+      "count": 30
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods",
+      "label": "Borehole Geology - Drilling Methods",
+      "count": 25
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial",
+      "label": "Borehole Geology - Construction Material",
+      "count": 19
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose",
+      "label": "Borehole Geology - Purpose",
+      "count": 19
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/ContactType",
+      "label": "Field Geology - Contact Type",
+      "count": 18
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
       "label": "Associated Resource Type",
       "count": 17
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus",
+      "label": "Borehole Geology - Status ",
+      "count": 15
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose",
+      "label": "Field Geology - Field Site Purpose ",
+      "count": 12
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/Legislation",
+      "label": "Borehole Geology - Legislation",
+      "count": 12
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions",
+      "label": "OnLine Function Type",
+      "count": 12
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography",
+      "label": "Seabed geomorphology - Physiography",
+      "count": 12
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes",
+      "label": "Geology Rock Properties - Statistical Uncertainty Type ",
+      "count": 12
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod",
+      "label": "Borehole Geology - Directional Survey Method ",
+      "count": 11
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes",
+      "label": "Field Geology - Field Site Type",
+      "count": 11
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType",
+      "label": "Mineral Resources - Mining Waste Type",
+      "count": 11
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStructureType",
+      "label": "Mineral Resources - Mining Waste Structure Type",
+      "count": 10
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms",
+      "label": "Field Geology - Proportion Terms ",
+      "count": 10
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel",
+      "label": "General Geology - Confidence Level ",
+      "count": 9
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier",
+      "label": "Geology Rock Properties - Result Qualifier",
+      "count": 9
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType",
+      "label": "Borehole Geology - Construction Type",
+      "count": 6
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality",
+      "label": "Boreholes Organic Geochemistry - Source Rock Quality",
+      "count": 6
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier",
+      "label": "Borehole Geology - Date Qualifier",
+      "count": 5
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType",
+      "label": "Mineral Resources - Mining Waste Storage Types",
+      "count": 5
+    },
+    {
+      "iri": "http://qudt.org/community/ga/voc",
+      "label": "Geoscience Australia Profile of QUDT Units",
+      "count": 5
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter",
+      "label": "Field Geology - Contact Character",
+      "count": 4
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod",
+      "label": "Borehole Geology - Directional Survey Path Computing Method",
+      "count": 4
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth",
+      "label": "Borehole Geology - Directional Survey Azimuth ",
+      "count": 3
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass",
+      "label": "Borehole Geology - Directional Survey Class",
+      "count": 2
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode",
+      "label": "Borehole Geology - Directional Survey Recording Mode ",
+      "count": 2
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus",
+      "label": "Mineral Resources - Mining Waste Status Types",
+      "count": 2
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode",
+      "label": "General Geology - QA Status Code",
+      "count": 2
     }
   ],
-  "publishers": []
+  "publishers": [
+    {
+      "iri": "https://linked.data.gov.au/org/ga",
+      "label": "Geoscience Australia",
+      "count": 713
+    }
+  ]
 }

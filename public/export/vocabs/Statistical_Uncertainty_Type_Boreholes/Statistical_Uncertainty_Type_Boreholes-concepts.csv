@@ -1,0 +1,13 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/1Sigma,,1 sigma
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/1StandardError,,1 standard error
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/2Sigma,,2 sigma
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/2StandardError,,2 standard error
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/3Sigma,,3 sigma
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/95pcConfidence,,95% confidence
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/99pcConfidence,,99% confidence
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/alpha95,,alpha95
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/delta,,delta
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/kappa,,kappa
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/plusMinus,,plus/minus
+https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes/unknown,,unknown

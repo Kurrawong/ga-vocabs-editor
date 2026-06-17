@@ -1,0 +1,12 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/cobbing_waste,https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/tailings,cobbing waste
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/flotation_tailings,https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/tailings,flotation tailings
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/fly_ash,,fly ash
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/general_mine_waste,,general mine waste
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/leach_residues,https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/tailings,leach residues
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/magnetic-separation_tailings,https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/tailings,magnetic-separation tailings
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/milling,,milling
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/slag,,slag
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/tailings,,tailings
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/wash_tailings,https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/tailings,wash tailings
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/waste_from_mineral_excavation,,wastes from mineral excavation

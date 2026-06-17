@@ -1,0 +1,172 @@
+[
+    {
+        "@id": "_:n3-30",
+        "http://www.w3.org/ns/prov#hadRole": [
+            {
+                "@id": "https://linked.data.gov.au/def/data-roles/custodian"
+            }
+        ],
+        "http://www.w3.org/ns/prov#agent": [
+            {
+                "@id": "_:n3-31"
+            }
+        ]
+    },
+    {
+        "@id": "_:n3-32",
+        "http://www.w3.org/ns/prov#hadRole": [
+            {
+                "@id": "https://linked.data.gov.au/def/data-roles/custodian"
+            }
+        ],
+        "http://www.w3.org/ns/prov#agent": [
+            {
+                "@id": "_:n3-33"
+            }
+        ]
+    },
+    {
+        "@id": "_:n3-34",
+        "http://www.w3.org/ns/prov#hadRole": [
+            {
+                "@id": "https://linked.data.gov.au/def/data-roles/pointOfContact"
+            }
+        ],
+        "http://www.w3.org/ns/prov#agent": [
+            {
+                "@id": "_:n3-35"
+            }
+        ]
+    },
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Seabed geomorphology - Method Terms",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionIRI": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/1.0"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-subType_BGU-sT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/Field_of_units"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_depth"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/feature"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/geomorphology"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/landform"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/lithology"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/marginal_marine_process"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_age"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/morphology"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/morphometrics"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/grain_size"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/physiography"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/process"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/sea_level"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/setting"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/unit"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/prov#qualifiedAttribution": [
+            {
+                "@id": "_:n3-30"
+            },
+            {
+                "@id": "_:n3-32"
+            },
+            {
+                "@id": "_:n3-34"
+            }
+        ],
+        "https://schema.org/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/isgm-wg"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "2024-05-22",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "https://schema.org/dateModified": [
+            {
+                "@value": "2024-10-11",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "https://schema.org/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ],
+        "https://schema.org/version": [
+            {
+                "@value": "1.0"
+            }
+        ]
+    }
+]

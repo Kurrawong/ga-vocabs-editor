@@ -1,0 +1,12 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/mine,,mine
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/natural-land-surface,,natural land surface
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/open-cut-mine,https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/mine,open cut mine
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/outcrop,https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/natural-land-surface,outcrop
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/regolith-site,https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/natural-land-surface,regolith site
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/sea-floor,,sea floor
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/spring,,spring
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/underground-mine,https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/mine,underground mine
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/unknown,,unknown
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/water-site,,water site
+https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/watercourse,,watercourse

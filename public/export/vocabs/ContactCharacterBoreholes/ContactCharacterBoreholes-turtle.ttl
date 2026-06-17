@@ -1,0 +1,24 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter> a skos:ConceptScheme;
+    skos:definition "Terms to describe the character of a contact between two geological units."@en;
+    skos:prefLabel "Field Geology - Contact Character"@en;
+    dcterms:created "2022-08-11"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2022-08-11"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    owl:versionInfo "1";
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter/diffuse>, <https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter/interfingering>, <https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter/sharp>;
+    skos:historyNote "Geoscience Australia Contact Character (FGDM.LU_contact-character)"@en;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

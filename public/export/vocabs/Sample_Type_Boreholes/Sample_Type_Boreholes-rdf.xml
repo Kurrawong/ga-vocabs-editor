@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">The form, shape, purpose, or environment of a collected specimen or observation. Where possible the sample type description is independent of the material that comprises the specimen (eg, rock, oil, sand), or the sampling method (eg, drilling, dredging), but in practice it is not always possible or convenient to completely separate these concepts from the sample type (eg, water column specimen).</skos:definition>
+    <skos:prefLabel xml:lang="en">General Geology - Sample Type</skos:prefLabel>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-09</dcterms:created>
+    <dcterms:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-09</dcterms:modified>
+    <dcterms:provenance xml:lang="en">Geoscience Australia Sample Type (A.LU_SAMPLE_TYPE)</dcterms:provenance>
+    <dcterms:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <rdfs:seeAlso rdf:resource="https://pid.geoscience.gov.au/dataset/ga/148553"/>
+    <owl:versionInfo>1</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/analyticalBlank"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/anthropogenicMaterial"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/burnSpot"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/unconsolidated"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/coastalSample"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/crush"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/downholeReservoirFluidSample"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/boreholeSpecimen"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fieldSiteSpecimen"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fluidInclusion"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fuildMeltInclusionSection"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/waterSpecimen"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/meltInclusion"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fossil"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/mineralGrain"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/mineralPrecipitate"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/mineralSpecimen"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/observationOnly"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/pellet"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/photography"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/polishedMount"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/polishedSlab"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/thinSection"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/powder"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/powderTungstenMill"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/replicateSpecimen"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/residue"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/rockPieces"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/seabeadSample"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fraction"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/specimenBlank"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/standardReferenceMaterial"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/strainedSample"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/unknown"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/vegetationSpecimen"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/video"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/vitriniteReflectanceSpecimen"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/gasSpecimen"/>
+    <dcat:contactPoint>Team Lead - Information Services; Energy, Minerals and </dcat:contactPoint>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+  </rdf:Description>
+</rdf:RDF>

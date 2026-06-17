@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/protocoltype">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">This vocab is developed to enable the selection of Web Service protocols from a controlled list, rather than creating free text descriptions of protocols within the ISO19115-1 geospatial metadata standard.  </skos:definition>
+    <skos:prefLabel xml:lang="en">Protocol Type</skos:prefLabel>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+    <sdo:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</sdo:dateModified>
+    <sdo:version>1.4</sdo:version>
+    <owl:versionIRI rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/1.4"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGC"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/Database"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/DataTurbine"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/File"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/GoogleEarth"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/JetStream"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/protocoltype/UKST"/>
+    <skos:historyNote>This codelist was introduced as part of Geoscience Australia’s extension to ISO 19115-1:2014 as per the rules of ISO 19106:2004. It constrains or extends values for elements in the GA Metadata Profile but adds no new metadata elements beyond the base standard. This protocol list was published in 2017 on the ARDC Research Vocabularies Australia. This vocab was reviewed in 2025 and published on GA&apos;s vocab register.</skos:historyNote>
+    <prov:qualifiedAttribution rdf:nodeID="n3-30"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-32"/>
+    <sdo:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <sdo:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-17</sdo:dateCreated>
+    <sdo:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://pid.geoscience.gov.au/dataset/ga/150899</sdo:identifier>
+    <sdo:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-30">
+    <prov:agent rdf:nodeID="n3-31"/>
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-32">
+    <prov:agent rdf:nodeID="n3-33"/>
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+  </rdf:Description>
+</rdf:RDF>

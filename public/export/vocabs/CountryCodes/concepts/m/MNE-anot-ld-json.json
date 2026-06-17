@@ -1,0 +1,954 @@
+[
+  {
+    "@id": "_:n3-272",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "alternative label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An alternative lexical label for a resource",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#notation",
+    "https://prez.dev/label": [
+      {
+        "@value": "notation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CountryCodes"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "GA Country Codes",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui ",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-01",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-01"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-01"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Andrijevica",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-02",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-02"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-02"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Bar",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-03",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-03"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-03"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Berane",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-04",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-04"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-04"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Bijelo Polje",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-05",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-05"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-05"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Budva",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-06",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-06"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-06"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cetinje",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-07",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-07"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-07"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Danilovgrad",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-08",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-08"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-08"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Herceg-Novi",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-09",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-09"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-09"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Kolasin",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-10",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-10"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-10"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Kotor",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-11",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-11"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-11"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mojkovac",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-12",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-12"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-12"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Niksic",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-13",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-13"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-13"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Plav",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-14",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-14"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-14"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pljevlja",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-15",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-15"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-15"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pluzine",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-16",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-16"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-16"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Podgorica",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-17",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-17"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-17"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Rozaje",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-18",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-18"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-18"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Savnik",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-19",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-19"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-19"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Tivat",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-20",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-20"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-20"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Ulcinj",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-21",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-21"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-21"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Zabljak",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-22",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-22"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-22"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Gusinje",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-23",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-23"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-23"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Petnjica",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-24",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ME-24"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:ME-24"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Tuzi",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MNE",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://www.iso.org/obp/ui/#iso:code:3166:ME"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "499"
+      },
+      {
+        "@value": "ME"
+      },
+      {
+        "@value": "MNE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Montenegro",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "Montenegro",
+        "@language": "cnr"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-01"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-02"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-03"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-04"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-05"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-06"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-07"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-08"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-09"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-10"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-11"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-12"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-13"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-14"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-15"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-16"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-17"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-18"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-19"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-20"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-21"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-22"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-23"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ME-24"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:MNE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:MNE"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Montenegro",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.iso.org/obp/ui/#iso:code:3166:ME",
+    "https://prez.dev/label": [
+      {
+        "@value": "ISO 3166 code ME"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

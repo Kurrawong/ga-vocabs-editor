@@ -1,0 +1,19 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/alteration-facies-contact,https://pid.geoscience.gov.au/def/voc/ga/ContactType/metamorphic-contact,alteration facies contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/angular-unconformable-contact,https://pid.geoscience.gov.au/def/voc/ga/ContactType/unconformable-contact,angular unconformable contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/conformable-contact,,conformable contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/disconformable-contact,https://pid.geoscience.gov.au/def/voc/ga/ContactType/unconformable-contact,disconformable contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/faulted-contact,,faulted contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/ground-surface,,ground surface
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/igneous-intrusive-contact,,igneous intrusive contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/igneous-phase-contact,,igneous phase contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/metamorphic-contact,,metamorphic contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/metamorphic-facies-contact,https://pid.geoscience.gov.au/def/voc/ga/ContactType/metamorphic-contact,metamorphic facies contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/metasomatic-facies-contact,https://pid.geoscience.gov.au/def/voc/ga/ContactType/metamorphic-contact,metasomatic facies contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/nonconformable-contact,https://pid.geoscience.gov.au/def/voc/ga/ContactType/unconformable-contact,nonconformable contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/paraconformable-contact,https://pid.geoscience.gov.au/def/voc/ga/ContactType/unconformable-contact,paraconformable contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/sea-floor,,sea floor
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/sedimentry-intrusive-contact,,sedimentary intrusive contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/sheared-contact,,sheared contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/unconformable-contact,,unconformable contact
+https://pid.geoscience.gov.au/def/voc/ga/ContactType/vein-contact,,vein contact

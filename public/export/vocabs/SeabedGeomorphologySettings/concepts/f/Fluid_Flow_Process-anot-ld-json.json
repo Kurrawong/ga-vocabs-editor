@@ -1,0 +1,591 @@
+[
+  {
+    "@id": "_:n3-160",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Fluid_Flow_Process",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A PROCESS grouping in which geomorphic UNITS are primarily formed by the migration of fluids (liquids and gasses) that are driven by pressure gradients.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Fluid Flow Process",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/MDAC"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/hydrothermal_vent"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/blow-out_crater"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/caldera"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/pockmark"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/pingo"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/gryphon"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/hydrothermal_mound"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/moat"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mud_volcano"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mudflow_mud-volcano"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/permafrost_pingo_depression"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ring_fault"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:Fluid_Flow_Process"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:Fluid_Flow_Process"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Fluid Flow Process",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A PROCESS grouping in which geomorphic UNITS are primarily formed by the migration of fluids (liquids and gasses) that are driven by pressure gradients.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/MDAC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:MDAC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:MDAC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "outcropping methane-derived authigenic carbonate (MDAC) (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Exposed authigenic carbonate structures, mostly in the form of hardground with positive relief, associated with the seepage of methane rich fluids as a result of the anaerobic methane oxidation coupled with sulphate reduction by associations of archaea and bacteria (Hovland et al., 1987).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/blow-out_crater",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:blow-out_crater"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:blow-out_crater"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "blow-out crater (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Large circular or irregular Depression created by the release of gas from decomposed hydrate accumulations. Gas decomposition creates hydrofractures through the overburden rocks and sediment, triggering abrupt gas expulsions which blow out the overlying seafloor and collapse of GAS HYDRATE PINGOS (modified after Andreassen et al., 2017).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/caldera",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:caldera"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:caldera"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "caldera (mud volcano) (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A circular Depression at the summit of a MUD VOLCANO, where the central conduit crops out at the surface. These structures are related to fluid-rich seeps generally associated passive margins (Ceramicola et al., 2018).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/gryphon",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:gryphon"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:gryphon"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "gryphon (mud volcano) (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A steep-sided Cone formed at gas-mud vents. These small-scale Cones (<3-4 m high) generally occur at the flanks or on the summit of MUD VOLCANO DOMES and can be characterised by intense and continuous degassing or more periodic emissions (Etiope, 2015).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/hydrothermal_mound",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:hydrothermal_mound"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:hydrothermal_mound"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "hydrothermal mound (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Circular or irregular mounding structures formed by the precipitated minerals that accumulate at hydrothermal vent sites (modified after Harff et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/hydrothermal_vent",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:hydrothermal_vent"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:hydrothermal_vent"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "hydrothermal vent (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Fissures on the oceanic crust in volcanically active sites (e.g. mid-ocean ridges, back-arc spreading centers, and hot-spot or arc-related submarine volcanoes), from which geothermally heated water is released. Circulating seawater is heated by a heat source such as a magma chamber or associated hot rock and, during heating and chemical reaction with the surrounding rock, undergoes a suite of chemical modifications (modified after Harff et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/moat",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:moat"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:moat"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "moat (mud volcano) (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An annular lowland around the base of a MUD VOLCANO. Kopf (2002) suggested these types of Depressions form after mud-volcano activity has ceased and dewatering occurs, resulting in subsidence around the structure. Alternatively, Somoza et al., (2002) proposed they could also be caused by erosional bottom currents that are deflected by the mud volcano cone.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mud_volcano",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mud_volcano"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:mud_volcano"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mud volcano (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A positive topographic unit, usually conical, formed by the periodic upwelling of sediments (mud) fluidised by gas and water (Etiope, 2015). It can develop as a single isolated cone (that can be several hundreds of meters high) or, more frequently, as groups of cones. MUD VOLCANOES can be classified by their morphologies, with the key distinction made on the grounds of angle of the flanks.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mudflow_mud-volcano",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mudflow_mud-volcano"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:mudflow_mud-volcano"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mudflow (mud volcano) (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A type of FLOW where the sediments (mud) fluidised by gas and water form a muddy slurry which moves downslope from the flanks of a MUD VOLCANO. The composition of the mudflows can be highly variable and usually corresponds directly to the nature of the conduit and the lithology of the mobilised sediments, although it may also include loose conduit wall rock fragments removed by the ascending mud at the initial phase of an eruptive cycle.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/permafrost_pingo_depression",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:permafrost_pingo_depression"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:permafrost_pingo_depression"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "permafrost pingo depression (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An irregularly shaped, steep-sided depression that is formed when the ice core of a submarine permafrost pingo thaws. An ‘inverted landform’ originating as a PINGO (Paull et al., 2022).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/pingo",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pingo"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:pingo"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pingo (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A conical Mound up to a few tens of metres in height and a few hundred metres in diameter, which has been domed up from beneath. PINGOS can be either PERMAFROST PINGO or GAS HYDRATE PINGOS.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/pockmark",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pockmark"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:pockmark"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pockmark (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A concave crater-like Depression formed by gas and/or fluid expulsion, typically one to tens of meters in diameter but can be up to a few hundred meters wide (Hovland et al., 1987). Pockmarks tend to be characteristic V shaped Depressions, with circular, or elliptical geometry. However, they can also present a W-shaped profile or more complex geometries.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ring_fault",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ring_fault"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:ring_fault"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ring fault (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A semi-circular scarp interpreted as extensional fault, around the crater of a MUD VOLCANO.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

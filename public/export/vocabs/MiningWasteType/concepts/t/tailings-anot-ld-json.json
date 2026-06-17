@@ -1,0 +1,387 @@
+[
+  {
+    "@id": "_:n3-43",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#historyNote",
+    "https://prez.dev/label": [
+      {
+        "@value": "history note",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A note about the past state/use/meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:MiningWasteType"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:MiningWasteType"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mineral Resources - Mining Waste Type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Terms that describe the storage type a mining waste feature may have.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:MiningWasteType/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/cobbing_waste",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:cobbing_waste"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:MiningWasteType/items/ns1:cobbing_waste"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "cobbing waste",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Waste resulting from the sorting of a coarse material, (e.g., through beneficiation).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/flotation_tailings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:flotation_tailings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:MiningWasteType/items/ns1:flotation_tailings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "flotation tailings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Waste resulting from flotation, a process in which mineralised particles are separated according to their tendency to adhere more or less to air bubbles to form a mineralised oil-based froth (this feature is linked to the natural or designed hydrophobic property of the particle surface).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/leach_residues",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:leach_residues"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:MiningWasteType/items/ns1:leach_residues"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "leach residues",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Waste resulting from the action of chemical reagents on a material, such as ore or low-grade ore, resulting in the dissolution of some of its elements (e.g., Au, Cu, Al). The hydrometallurgical process is often referred to as heap leaching (and sometimes dump leaching). Waste from aluminium processing commonly referred to as red mud is included as a leach residue.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/magnetic-separation_tailings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:magnetic-separation_tailings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:MiningWasteType/items/ns1:magnetic-separation_tailings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "magnetic-separation tailings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Waste resulting from magnetic separation, a process based on the difference in magnetic susceptibility between minerals.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/tailings",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Waste or residue produced from a mineral processing plant.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "tailings",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/cobbing_waste"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/flotation_tailings"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/leach_residues"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/magnetic-separation_tailings"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/wash_tailings"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:tailings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:MiningWasteType/items/ns1:tailings"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "tailings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Waste or residue produced from a mineral processing plant.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/wash_tailings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:wash_tailings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:MiningWasteType/items/ns1:wash_tailings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "wash tailings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Waste resulting from washing which allows the upgrade of a material through a wet process, usually gravimetry (typically from a coal washery to upgrade raw coal to saleable coal).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

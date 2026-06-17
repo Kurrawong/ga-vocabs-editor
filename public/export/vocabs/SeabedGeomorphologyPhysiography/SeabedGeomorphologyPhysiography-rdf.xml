@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">A vocabulary of physiographic terms used by Harris et al (2014:[https://doi.org/10.1016/j.margeo.2014.01.011](https://doi.org/10.1016/j.margeo.2014.01.011)) to map the macroscale shape and geology of the seabed. Many of these terms have been retained by the International Seabed Geomorphology Mapping Working Group (ISGM-WG)  in this PHYISOGRAPHY vocabulary, and some have been shifted into either Part 1 Morphology or Part 2 Geomorphology vocabularies, as indicated (Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology:[https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).
+
+This vocabulary comprises one of four linked ISGM-WG vocabularies. </skos:definition>
+    <skos:prefLabel xml:lang="en">Seabed geomorphology - Physiography</skos:prefLabel>
+    <owl:versionIRI rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/1.0"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continental_slope"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continetal_rise"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/abyssal_plain"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/accretionary_prism"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/axial_high"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/axial_valley"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/back-arc_basin"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/continental_shelf"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/fore-arc_basin"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/island_arc"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/mid-ocean_ridge"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/oceanic_trench"/>
+    <skos:historyNote xml:lang="en">This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019</skos:historyNote>
+    <prov:qualifiedAttribution rdf:nodeID="n3-30"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-32"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-34"/>
+    <sdo:creator rdf:resource="https://linked.data.gov.au/org/isgm-wg"/>
+    <sdo:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-22</sdo:dateCreated>
+    <sdo:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-18</sdo:dateModified>
+    <sdo:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+    <sdo:version>1.0</sdo:version>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-30">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+    <prov:agent rdf:nodeID="n3-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-32">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/pointOfContact"/>
+    <prov:agent rdf:nodeID="n3-33"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-34">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+    <prov:agent rdf:nodeID="n3-35"/>
+  </rdf:Description>
+</rdf:RDF>

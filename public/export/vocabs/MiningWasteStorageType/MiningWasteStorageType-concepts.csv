@@ -1,0 +1,6 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/covered,https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/surface,covered
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/surface,,surface
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/underground,,underground
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/underwater,,underwater
+https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/water_cover,https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/covered,water cover

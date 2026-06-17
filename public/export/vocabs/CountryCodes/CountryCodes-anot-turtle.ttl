@@ -1,0 +1,60 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/CountryCodes> a skos:ConceptScheme;
+    skos:definition "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui "@en;
+    skos:prefLabel "GA Country Codes"@en;
+    dcterms:created "2020-11-04"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2023-09-27"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/146414>;
+    owl:versionInfo "1.6";
+    skos:historyNote "These codes are sourced from https://www.iso.org/obp/"@en;
+    dcat:contactPoint "DPI";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
+    prez:identifier "ns4:CountryCodes";
+    prez:link "/catalogs/catalogue:default/collections/ns4:CountryCodes";
+    prez:members "/catalogs/catalogue:default/collections/ns4:CountryCodes/items";
+    prez:type prez:FocusNode;
+    prez:label "GA Country Codes"@en;
+    prez:description "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui "@en.
+skos:ConceptScheme prez:label "Concept Scheme"@en;
+    prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
+skos:definition prez:label "definition"@en;
+    prez:description "A statement or formal explanation of the meaning of a concept"@en.
+skos:prefLabel prez:label "preferred label"@en;
+    prez:description "The preferred lexical label for a resource, in a given language"@en.
+dcterms:created prez:label "Date Created"@en;
+    prez:description "Date of creation of the resource."@en.
+dcterms:creator prez:label "Creator"@en;
+    prez:description "An entity responsible for making the resource."@en.
+<https://linked.data.gov.au/org/ga> prez:label "Geoscience Australia";
+    prez:description "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia.".
+dcterms:modified prez:label "Date Modified"@en;
+    prez:description "Date on which the resource was changed."@en.
+dcterms:publisher prez:label "Publisher"@en;
+    prez:description "An entity responsible for making the resource available."@en.
+rdfs:seeAlso prez:label "see also";
+    prez:description "Further information about the subject resource.".
+owl:versionInfo prez:label "versionInfo";
+    prez:description "The annotation property that provides version information for an ontology or another OWL construct.".
+skos:historyNote prez:label "history note"@en;
+    prez:description "A note about the past state/use/meaning of a concept"@en.
+dcat:contactPoint prez:label "contact point"@en;
+    prez:description "Relevant contact information for the catalogued resource. Use of vCard is recommended."@en.
+prez:link prez:label "link".
+prez:members prez:label "members".
+<urn:catalog:default> prez:identifier "catalogue:default".
+_:n3-30 prez:currentProfile prez:DefaultSchemeProfile.
+skos:hasTopConcept prez:label "has top concept"@en;
+    prez:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en.

@@ -1,0 +1,10 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/definite,,definite
+https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/high,,high
+https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/highModerate,,high-moderate
+https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/low,,low
+https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/lowModerate,,low-moderate
+https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/moderate,,moderate
+https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/none,,none
+https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/veryHigh,,very high
+https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/veryLow,,very low

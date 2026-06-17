@@ -1,0 +1,475 @@
+[
+  {
+    "@id": "_:n3-48",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/provenance",
+    "https://prez.dev/label": [
+      {
+        "@value": "Provenance",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "alternative label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An alternative lexical label for a resource",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LandformTypes"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Field Geology - Landform Type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of landform types used in GA Boreholes database. Reference Pain CF, 2008. Field Guide for Describing Regolith and Landforms. ISBN 978-0-9806030-0-2.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/beach",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:beach"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:beach"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "beach",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/beach-ridge",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:beach-ridge"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:beach-ridge"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "beach ridge plain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict parallel linear ridges built up by waves and modified by wind.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/chenier-plain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:chenier-plain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:chenier-plain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "chenier plain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel linear ridges built by waves, separated by, and built over, flats aggraded by tides or over-bank stream flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-dunes",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:coastal-dunes"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:coastal-dunes"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "coastal dunes",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to rolling landform pattern of very low to extremely low relief - without stream channels - built up or locally excavated, eroded or aggraded by wind. This landform pattern occurs in usually restricted coastal locations.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "CO00",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A level to gently undulating landform pattern of extremely low relief eroded or aggraded by waves, tides, over-bank or channel flow, or wind. The landform pattern may be either active or relict.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "coastal lands",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/beach"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/beach-ridge"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/chenier-plain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-dunes"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-plain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coral-reef"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/marine-plain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/tidal-flat"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:coastal-lands"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:coastal-lands"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "coastal lands",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to gently undulating landform pattern of extremely low relief eroded or aggraded by waves, tides, over-bank or channel flow, or wind. The landform pattern may be either active or relict.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-plain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:coastal-plain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:coastal-plain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "coastal plain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level landform pattern with extremely low relief either with or without stream channels, built up by coastal - usually tidal - processes.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coral-reef",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:coral-reef"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:coral-reef"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "coral reef",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A coral reef is an underwater ecosystem characterized by reef-building corals.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/marine-plain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:marine-plain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:marine-plain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "marine plain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A plain eroded or aggraded by waves, tides or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustacy, and little modified by subaerial agents such as stream flow or wind.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/tidal-flat",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:tidal-flat"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:tidal-flat"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "tidal flat",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level landform pattern with extremely low relief and slowly migrating deep alluvial stream channels that form dendritic tributary patterns; it is aggraded by frequently active tides.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

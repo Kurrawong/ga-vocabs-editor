@@ -1,0 +1,77 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/analyticalBlank,,analytical blank
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/anthropogenicMaterial,,anthropogenic material
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/boreholeSpecimen,,borehole specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/burnSpot,,burn spot
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/catchmentOutletSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/unconsolidated,catchment outlet specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/cavings,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/drillChipsCuttings,cavings
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/coastalFloatSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/floatSpecimen,coastal float specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/coastalSample,,coastal sample
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/concentrate,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fraction,concentrate
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/core,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/boreholeSpecimen,core
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/corePlug,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/core,core plug
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/coreSlice,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/core,core slice
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/crush,,crush
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/downholeReservoirFluidSample,,downhole reservoir fluid sample
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/drillChipsCuttings,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/boreholeSpecimen,drill chips or cuttings
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/drillingFluidSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/boreholeSpecimen,drilling fluid specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fieldSiteObservation,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fieldSiteObservation,field site observation
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fieldSiteSpecimen,,field site specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/filteredWaterColumnSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/waterColumnSpecimen,filtered water column specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/floatSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/rockPieces,float specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fluidInclusion,,fluid inclusion
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fuildMeltInclusionSection,,fluid or melt inclusion section
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fossil,,fossil
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fraction,,fraction
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/gasSpecimen,,gas specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/grainsizeFraction,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fraction,grainsize fraction
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/gravel,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/unconsolidated,gravel
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/halfCore,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/core,half core
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/incubationWaterSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/waterSpecimen,incubation water specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/isoTube,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/boreholeSpecimen,IsoTube
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/meltInclusion,,melt inclusion
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/microfossilSlide,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fossil,microfossil slide
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/mineralGrain,,mineral grain
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/mineralPrecipitate,,mineral precipitate
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/mineralSeparate,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/concentrate,mineral separate
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/mineralSpecimen,,mineral specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/observationLog,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fieldSiteObservation,observation log
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/observationOnly,,observation only
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/orientedCore,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/core,oriented core
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/orientedOutcropSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/outcropSpecimen,oriented outcrop specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/outcropSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/rockPieces,outcrop specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/pellet,,pellet
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/photography,,photograph
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/polishedMount,,polished mount
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/polishedSlab,,polished slab
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/polishedThinSection,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/thinSection,polished thin section
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/powder,,powder
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/powderTungstenMill,,powder (tungsten mill)
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/quarterCore,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/core,quarter core
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/replicateFieldSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/replicateSpecimen,replicate field specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/replicateLaboratorySpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/replicateSpecimen,replicate laboratory specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/replicateSpecimen,,replicate specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/residue,,residue
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/rockChips,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/rockPieces,rock chips
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/rockPieces,,rock pieces
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/seabeadSample,,seabed sample
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/seabedSubsample,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/seabeadSample,seabed subsample
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/separatorFluid,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fraction,separator fluid
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/separatorGas,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fraction,separator gas
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/sievedSample,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/grainsizeFraction,sieved sample
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/soilSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/unconsolidated,soil specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/specimenBlank,,specimen blank
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/strainedSample,,stained sample
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/standardReferenceMaterial,,standard reference material
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/streamSedimentSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/unconsolidated,stream sediment specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/thinSection,,thin section
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/thinSectionOffcut,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/rockPieces,thin section offcut
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/unconsolidated,,unconsolidated surficial specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/unknown,,unknown
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/vegetationSpecimen,,vegetation specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/video,,video
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/vitriniteReflectanceSpecimen,,vitrinite reflectance specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/waterColumnObservation,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fieldSiteObservation,water column observation
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/waterColumnSpecimen,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/waterSpecimen,water column specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/waterSpecimen,,water specimen
+https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/wirelineLog,https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/fieldSiteObservation,wireline log

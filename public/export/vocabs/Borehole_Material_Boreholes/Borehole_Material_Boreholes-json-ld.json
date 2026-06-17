@@ -1,0 +1,133 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "BoreholeConstructionMaterial",
+                "@type": "http://www.w3.org/2001/XMLSchema#token"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Describes the type of material used in downhole construction in a borehole (eg, PVC, steel, cement).",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Borehole Geology - Construction Material",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/provenance": [
+            {
+                "@value": "Geoscience Australia Borehole Material database table (BOREHOLE.LU_CONSTRUCTION_MATERIALS)",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/aggregate"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/cement"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/clay"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/concrete"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/gravel"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/metal"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/plastic"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/rock"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/sand"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/spoilOrCuttings"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/stainlessSteel"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/steel"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/uPVC"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/uPVC12"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/uPVC18"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/uPVC6"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/uPVC9"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/uPVS15"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/unknown"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Energy, Minerals and Groundwater Division"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

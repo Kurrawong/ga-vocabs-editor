@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">Terms that describe the storage type a mining waste feature may have.</skos:definition>
+    <skos:historyNote xml:lang="en">This vocabulary is drawn from a Geoscience Australia Mineral Resources database table (OZMIN.LU_STORAGE_TYPE)</skos:historyNote>
+    <skos:prefLabel xml:lang="en">Mineral Resources - Mining Waste Storage Types</skos:prefLabel>
+    <owl:versionIRI rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/1.0"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/underground"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/underwater"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/surface"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-30"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-32"/>
+    <sdo:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <sdo:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-13</sdo:dateCreated>
+    <sdo:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-22</sdo:dateModified>
+    <sdo:keywords>Geology</sdo:keywords>
+    <sdo:keywords>Mineral Resources</sdo:keywords>
+    <sdo:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <sdo:version>1</sdo:version>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-30">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+    <prov:agent rdf:nodeID="n3-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-32">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+    <prov:agent rdf:nodeID="n3-33"/>
+  </rdf:Description>
+</rdf:RDF>

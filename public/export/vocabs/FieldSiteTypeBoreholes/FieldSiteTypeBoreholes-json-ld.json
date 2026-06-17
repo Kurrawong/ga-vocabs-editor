@@ -1,0 +1,91 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "A site on the Earth, generally visited in the field from a particular geoscientific perspective. A field site type is defined by the information collected regarding rock, regolith, water, landform, or vegetation.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Field Geology - Field Site Type",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/mine"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/natural-land-surface"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/sea-floor"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/spring"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/unknown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/water-site"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/watercourse"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "Geoscience Australia Field Site Types (FGMD. LU-FIELDSITE-TYPE)",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Minerals, Energy and Groundwater Division "
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

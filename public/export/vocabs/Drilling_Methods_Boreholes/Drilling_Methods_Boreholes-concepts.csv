@@ -1,0 +1,26 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/auger,,auger
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/cableToolDrilling,https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/percussionDrilling,cable tool drilling
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreAir,,core air
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreBox,,core box
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreConventional,https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreDiamond,core conventional
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreDiamond,,core diamond
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreGeoprobe,,core geoprobe
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreGravity,,core gravity
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreKasten,,core Kasten
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreMackereth,,core Mackereth
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/corePiston,,core piston
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/corePush,,core push
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreRov,,core ROV
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreSonic,,core sonic
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreUnspecified,,core unspecified
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreVibro,,core vibro
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/percussionDrilling,,percussion drilling
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/rabDrilling,https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/percussionDrilling,RAB drilling
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/reverseCirculationDrilling,,reverse circulation drilling
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/rotaryDrilling,,rotary drilling
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/rotaryHammerDrilling,https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/percussionDrilling,rotary hammer drilling
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/sidewallCore,,sidewall core
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/sidewallCoreBullet,https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/sidewallCore,sidewall core bullet
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/sidewallCoreMechanical,https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/sidewallCore,sidewall core mechanical
+https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/unknown,,unknown

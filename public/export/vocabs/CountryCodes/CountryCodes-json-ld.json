@@ -1,0 +1,817 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui ",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "GA Country Codes",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2020-11-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2023-09-27",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/146414"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1.6"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ABW"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/AFG"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/AGO"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/AIA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ALA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ALB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/AND"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ARE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ARG"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ARM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ASM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ATA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ATF"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ATG"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/AUS"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/AUT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/AZE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BDI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BEL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BEN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BES"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BFA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BGD"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BGR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BHR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BHS"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BIH"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BLM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BLR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BLZ"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BMU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BOL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BRA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BRB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BRN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BTN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BVT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/BWA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CAN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CAF"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CCK"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CHE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CHN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CIV"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CHL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CMR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/COD"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/COG"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/COK"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/COL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/COM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CPV"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CRI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CUB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CUW"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CXR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CYM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CYP"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/CZE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/DEU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/DJI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/DMA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/DNK"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/DOM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/DZA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ECU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/EGY"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ERI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ESH"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ESP"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/EST"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ETH"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/FIN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/FJI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/FLK"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/FRA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/FRO"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/FSM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GAB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GBR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GEO"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GGY"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GHA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GIB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GIN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GLP"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GMB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GNB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GNQ"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GRC"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GRD"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GRL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GTM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GUF"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GUM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/GUY"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/HKG"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/HMD"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/HND"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/HRV"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/HTI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/HUN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/IDN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/IMN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/IND"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/IOT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/IRL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/IRN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/IRQ"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ISL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ISR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ITA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/JAM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/JEY"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/JOR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/JPN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/KAZ"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/KEN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/KGZ"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/KHM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/KIR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/KNA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/KOR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/KWT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LAO"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LBN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LBR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LBY"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LCA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LIE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LKA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LSO"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LTU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LUX"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/LVA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MAC"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MAF"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MAR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MCO"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MDA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MDG"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MDV"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MNE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MHL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MKD"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MLI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MLT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MMR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MNG"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MNP"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MOZ"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MRT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MSR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MTQ"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MUS"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MWI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MEX"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MYS"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/MYT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NAM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NCL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NER"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NFK"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NGA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NIC"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NIU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NLD"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NOR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NPL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NRU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/OMN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PAK"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PAN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PCN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PER"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PHL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PLW"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PNG"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/POL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PRI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PRK"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PRT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PRY"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PSE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/PYF"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/QAT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/REU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ROU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SRB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/RUS"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/RWA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SAU"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SDN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SEN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SGP"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SGS"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SHN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SJM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SLB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SLE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SLV"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SMR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SOM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SPM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SSD"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/STP"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SUR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SVK"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SVN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SWE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SWZ"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SXM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SYC"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/SYR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TCA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TCD"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TGO"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/THA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TJK"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TKL"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TKM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TLS"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TON"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TTO"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TUN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TUR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TUV"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TWN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/TZA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/UGA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/UKR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/UMI"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/URY"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/USA"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/UZB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/VAT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/VCT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/VEN"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/VGB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/VIR"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/VNM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/VUT"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/WLF"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/WSM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/YEM"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZAF"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZMB"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZWE"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "These codes are sourced from https://www.iso.org/obp/",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "DPI"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

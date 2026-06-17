@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/materialtype> a skos:ConceptScheme;
+    skos:definition "Broad categories of earth materials (eg, rock, sediment, water, vegetation) that may be observed or sampled."@en;
+    skos:prefLabel "General Geology - Sample Material Class"@en;
+    dcterms:created "2022-08-09"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2024-05-02"^^xsd:date;
+    dcterms:provenance "Geoscience Australia Mineral Class (A.LU_MATERIAL_CLASS)"@en;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
+    owl:versionInfo "1.3";
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/materialtype/adsorbed_phase>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/inorganic_gas>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/atmospheric_dust>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/organic_material>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/rock>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/water>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/groundwater_with_oil>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/ice>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/regolith>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/manufactured_material>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/marine_sediment>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/mineral>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/snow>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/stream_sediment>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/suspended_solids>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/unknown>, <https://pid.geoscience.gov.au/def/voc/ga/materialtype/unspecified_seabed_materials>;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

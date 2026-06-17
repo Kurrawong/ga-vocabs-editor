@@ -1,0 +1,516 @@
+[
+  {
+    "@id": "_:n3-85",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "alternative label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An alternative lexical label for a resource",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PetrophysicalProperty"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geology Rock Properties - Petrophysical",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of terms defining petrophysical properties (eg, density, porosity, magnetic susceptibility, remanent magnetisation).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items"
+      }
+    ],
+    "https://prez.dev/provenance": [
+      {
+        "@value": "Geoscience Australia Petrophysical Properties (ROCKPROPS.LU_ROCKPROPERTY)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/pWaveAxialVelocity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pWaveAxialVelocity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:pWaveAxialVelocity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "P-wave axial velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "P-wave velocity of a rock core measured parallel to the core axis",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/pWaveSlowness",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pWaveSlowness"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:pWaveSlowness"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "P-wave slowness",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "P-Wave slowness measured at a single stress point during Unconfined Compressive Strength testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/pWaveVelocity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pWaveVelocity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:pWaveVelocity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "P-wave velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "P-Wave velocity measured at a single stress point during Unconfined Compressive Strength testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sWaveAxialVelocity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sWaveAxialVelocity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:sWaveAxialVelocity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "S-wave axial velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "First arrival S-wave velocity measured parallel to core axis",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sWaveSlowness",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sWaveSlowness"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:sWaveSlowness"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "S-wave slowness",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "S-Wave slowness measured at a single stress point during Unconfined Compressive Strength testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sWaveVelocity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sWaveVelocity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:sWaveVelocity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "S-wave velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "S-Wave velocity measured at a single stress point during Unconfined Compressive Strength testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "acoustic velocity",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Generic velocity of sound in rock, P- or S-wave unknown",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "sonic velocity",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/pWaveAxialVelocity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/pWaveSlowness"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/pWaveVelocity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sWaveAxialVelocity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sWaveSlowness"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sWaveVelocity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikeParallelRadialPWaveVelocity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikeParallelSWaveVelocity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikePerpendicularPWaveVelocity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikePerpendicularRadialSWaveVelocity"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sonicVelocity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:sonicVelocity"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "sonic velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Generic velocity of sound in rock, P- or S-wave unknown",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikeParallelRadialPWaveVelocity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:strikeParallelRadialPWaveVelocity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:strikeParallelRadialPWaveVelocity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "strike-parallel radial P-wave velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "P-wave velocity measured perpendicular to the core axis (radial), parallel to foliation strike",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikeParallelSWaveVelocity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:strikeParallelSWaveVelocity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:strikeParallelSWaveVelocity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "strike-parallel radial S-wave velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "First arrival S-wave velocity measured perpendicular to core axis (radial), parallel to foliation strike",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikePerpendicularPWaveVelocity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:strikePerpendicularPWaveVelocity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:strikePerpendicularPWaveVelocity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "strike-perpendicular radial P-wave velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "P-wave velocity, measured perpendicular to core axis (radial), perpendicular to foliation strike",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikePerpendicularRadialSWaveVelocity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:strikePerpendicularRadialSWaveVelocity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:strikePerpendicularRadialSWaveVelocity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "strike-perpendicular radial S-wave velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "First arrival S-wave velocity, measured perpendicular to core axis (radial), perpendicular to foliation strike",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

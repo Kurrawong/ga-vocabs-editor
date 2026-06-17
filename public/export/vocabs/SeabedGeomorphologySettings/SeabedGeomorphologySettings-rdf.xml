@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.
+
+This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).</skos:definition>
+    <skos:prefLabel xml:lang="en">Seabed geomorphology - Part 2 Geomorphology</skos:prefLabel>
+    <owl:versionIRI rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/1.1"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Solid_Earth_Setting"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Coastal_Setting"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Biogenic_Process"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Fluid_Flow_Process"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Marine_Setting"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Current-induced_Process"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Mass_Movement_Process"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Glacial_Setting"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Fluvial_Setting"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Karst_Process"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Anthropogenic_Process"/>
+    <skos:historyNote xml:lang="en">This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019</skos:historyNote>
+    <prov:qualifiedAttribution rdf:nodeID="n3-30"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-32"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-34"/>
+    <sdo:creator rdf:resource="https://linked.data.gov.au/org/isgm-wg"/>
+    <sdo:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-17</sdo:dateCreated>
+    <sdo:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-02</sdo:dateModified>
+    <sdo:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+    <sdo:version>1.1</sdo:version>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-30">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+    <prov:agent rdf:nodeID="n3-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-32">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+    <prov:agent rdf:nodeID="n3-33"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-34">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/pointOfContact"/>
+    <prov:agent rdf:nodeID="n3-35"/>
+  </rdf:Description>
+</rdf:RDF>

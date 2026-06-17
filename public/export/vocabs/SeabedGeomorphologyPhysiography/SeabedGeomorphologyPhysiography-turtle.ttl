@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography> a skos:ConceptScheme;
+    skos:definition "A vocabulary of physiographic terms used by Harris et al (2014:[https://doi.org/10.1016/j.margeo.2014.01.011](https://doi.org/10.1016/j.margeo.2014.01.011)) to map the macroscale shape and geology of the seabed. Many of these terms have been retained by the International Seabed Geomorphology Mapping Working Group (ISGM-WG)  in this PHYISOGRAPHY vocabulary, and some have been shifted into either Part 1 Morphology or Part 2 Geomorphology vocabularies, as indicated (Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology:[https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).\n\nThis vocabulary comprises one of four linked ISGM-WG vocabularies. "@en;
+    skos:prefLabel "Seabed geomorphology - Physiography"@en;
+    owl:versionIRI <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/1.0>;
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continental_slope>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continetal_rise>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/abyssal_plain>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/accretionary_prism>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/axial_high>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/axial_valley>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/back-arc_basin>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/continental_shelf>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/fore-arc_basin>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/island_arc>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/mid-ocean_ridge>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/oceanic_trench>;
+    skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en;
+    prov:qualifiedAttribution _:n3-30, _:n3-32, _:n3-34;
+    sdo:creator <https://linked.data.gov.au/org/isgm-wg>;
+    sdo:dateCreated "2024-05-22"^^xsd:date;
+    sdo:dateModified "2024-10-18"^^xsd:date;
+    sdo:publisher <https://linked.data.gov.au/org/ga>;
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
+    sdo:version "1.0".
+_:n3-30 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-31.
+_:n3-32 prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact>;
+    prov:agent _:n3-33.
+_:n3-34 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-35.

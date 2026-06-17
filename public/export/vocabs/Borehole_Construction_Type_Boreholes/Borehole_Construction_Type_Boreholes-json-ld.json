@@ -1,0 +1,88 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "These terms describe the type of downhole construction in a borehole (eg, inlet screen, protection casing).",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Borehole Geology - Construction Type",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/provenance": [
+            {
+                "@value": "Geoscience Australia Borehole Construction Type database table (BOREHOLE. LU_CONSTRUCTION_TYPE)",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType/annulusFill"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType/inlet"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType/lining"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType/protection"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType/void"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType/voidFill"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Energy, Minerals and Groundwater Division"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

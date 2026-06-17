@@ -1,0 +1,647 @@
+[
+  {
+    "@id": "_:n3-72",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
+    "https://prez.dev/label": [
+      {
+        "@value": "has broader",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more general in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/atoll",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:atoll"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:atoll"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "atoll (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Annular mid-ocean REEFS; the REEF rim supports isolated, or near-continuous, reef islands composed of unlithified or poorly consolidated sand or gravel, and encloses a central lagoon (Harris and Baker, 2020; Woodroffe and Biribo, 2011).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/barrier_reef",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:barrier_reef"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:barrier_reef"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "barrier reef (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A REEF that is separated from the main coast by a deep CHANNEL (MORPHOLOGY) or LAGOON (COASTAL SETTING). Initial formation occurs on the offshore edge in open water, with subsequent growth parallel to or toward the coast (Brodie and Cohn, 2021; Maxwell, 1968).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/biogenic_reef",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Biogenic_Process"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "In-situ, positive relief, persistent build-ups of primarily skeleton-supported framework (+ internal binding), that influence the local sedimentary environment (Klement, 1967), and supports (or supported) living communities during active accretion. Definition modified from a range of sources: (Cumings, 1932; Goudie, 2006; Harris and Baker, 2020; Klement, 1967; Lo Iacono et al., 2018).Cf. REEF (MARINE SETTING).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "biogenic reef (BGU)",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/atoll"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/barrier_reef"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/cold-water-coral-reef"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/coralligene_bank"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/coralligene_rim"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/coralligène"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/crescentic_reef-mature"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fringing_reef"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/juvenile_reef-irregular_patch_reefs"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/juvenile_reef-submerged_shoals"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/juvenile_reef-unmodified_antecedent_platform"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lagoonal_reef-mature"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/patch_reef"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/planar_reef-senile"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/platform_reef"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:biogenic_reef"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:biogenic_reef"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "biogenic reef (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "In-situ, positive relief, persistent build-ups of primarily skeleton-supported framework (+ internal binding), that influence the local sedimentary environment (Klement, 1967), and supports (or supported) living communities during active accretion. Definition modified from a range of sources: (Cumings, 1932; Goudie, 2006; Harris and Baker, 2020; Klement, 1967; Lo Iacono et al., 2018).Cf. REEF (MARINE SETTING).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/cold-water-coral-reef",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:cold-water-coral-reef"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:cold-water-coral-reef"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "cold-water-coral-reef (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Framework REEF constructed by azooxanthellate coral, commonly <I>Lophelia pertusa</I> and <I>Madrepora oculata</I> (Lo Iacono et al., 2018), plus sediment trapping/baffling interspersed with dead framework rubble. Other organisms from the cool-water carbonate factory (Schlager, 2003) contribute to build-ups (Lo Iacono et al., 2018).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/coralligene_bank",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:coralligene_bank"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:coralligene_bank"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "coralligene bank (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Currently under working group consultation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/coralligene_rim",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:coralligene_rim"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:coralligene_rim"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "coralligene rim (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Currently under working group consultation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/coralligène",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:coralligène"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:coralligène"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "coralligène (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Calcareous algal-invertebrate build-ups mainly produced by generations of calcareous red algae, common in the temperate Mediterranean region, with relatively low relief (cm to m) (Basso et al., 2022; Laborel, 1961; Lo Iacono et al., 2018). May be further classified as bank or rim (Pérès and Picard, 1964).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/crescentic_reef-mature",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:crescentic_reef-mature"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:crescentic_reef-mature"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "crescentic reef - mature (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Currently under working group consultation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fringing_reef",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:fringing_reef"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:fringing_reef"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "fringing reef (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "REEFS that grow very close to the shore on mainland or high island (continental shelf or volcanic mid ocean island) coasts. Generally shore-attached, although BACK-REEF areas can be shallowly submerged (Maxwell, 1968; Smithers, 2011).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/juvenile_reef-irregular_patch_reefs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:juvenile_reef-irregular_patch_reefs"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:juvenile_reef-irregular_patch_reefs"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "juvenile reef - irregular patch reefs (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Currently under working group consultation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/juvenile_reef-submerged_shoals",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:juvenile_reef-submerged_shoals"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:juvenile_reef-submerged_shoals"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "juvenile reef - submerged shoals (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Currently under working group consultation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/juvenile_reef-unmodified_antecedent_platform",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:juvenile_reef-unmodified_antecedent_platform"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:juvenile_reef-unmodified_antecedent_platform"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "juvenile reef - unmodified antecedent platform (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Currently under working group consultation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lagoonal_reef-mature",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lagoonal_reef-mature"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:lagoonal_reef-mature"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lagoonal reef - mature (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Currently under working group consultation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/patch_reef",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:patch_reef"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:patch_reef"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "patch reef (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Often found nearby or within other REEF types. Characterised by isolated patches of reef that are physically separated from other reef patches by the surrounding substrate (Brodie and Cohn, 2021; Maxwell, 1968).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/planar_reef-senile",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:planar_reef-senile"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:planar_reef-senile"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "planar reef - senile (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Currently under working group consultation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/platform_reef",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:platform_reef"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:platform_reef"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "platform reef (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A flat or nearly flat area of live or dead coral REEF elevated above the surrounding seafloor and dropping off in depth abruptly on one or more sides (Harris and Baker, 2020). PLATFORM REEFS tend to grow in all directions, and can reach sea level (Maxwell, 1968), forming islands which then may form FRINGING REEF around them (Brodie and Cohn, 2021).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

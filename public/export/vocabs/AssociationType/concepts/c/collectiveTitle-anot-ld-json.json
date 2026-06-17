@@ -159,7 +159,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite.",
+        "@value": "this is common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite.",
         "@language": "en"
       }
     ],
@@ -177,6 +177,11 @@
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype"
+      }
+    ],
+    "https://schema.org/dateModified": [
+      {
+        "@value": "2026-06-17"
       }
     ],
     "https://prez.dev/identifier": [
@@ -202,7 +207,7 @@
     ],
     "https://prez.dev/description": [
       {
-        "@value": "common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite.",
+        "@value": "this is common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite.",
         "@language": "en"
       }
     ]
@@ -220,6 +225,19 @@
     "https://prez.dev/label": [
       {
         "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/dateModified",
+    "https://prez.dev/label": [
+      {
+        "@value": "date modified"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed"
       }
     ]
   },

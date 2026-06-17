@@ -1,0 +1,1857 @@
+[
+  {
+    "@id": "_:n3-443",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#notation",
+    "https://prez.dev/label": [
+      {
+        "@value": "notation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CountryCodes"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "GA Country Codes",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui ",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AK",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-AK"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-AK"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Alaska",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-AL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-AL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Alabama",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-AR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-AR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Arkansas",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-AS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-AS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "American Samoa",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AZ",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-AZ"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-AZ"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Arizona",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-CA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-CA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-CA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "California",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-CO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-CO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-CO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Colorado",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-CT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-CT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-CT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Connecticut",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-DC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-DC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-DC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "District of Columbia",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-DE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-DE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-DE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Delaware",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-FL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-FL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-FL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Florida",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-GA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-GA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-GA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Georgia",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-GU",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-GU"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-GU"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Guam",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-HI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-HI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-HI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Hawaii",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-IA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-IA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-IA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Iowa",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Idaho",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-IL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-IL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-IL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Illinois",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-IN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-IN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-IN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Indiana",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-KS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-KS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-KS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Kansas",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-KY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-KY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-KY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Kentucky",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-LA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-LA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-LA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Louisiana",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-MA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-MA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Massachusetts",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-MD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-MD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Maryland",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-ME",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-ME"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-ME"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Maine",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-MI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-MI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Michigan",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-MN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-MN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Minnesota",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-MO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-MO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Missouri",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-MP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-MP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Northern Mariana Islands",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-MS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-MS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mississippi",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-MT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-MT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Montana",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-NC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-NC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "North Carolina",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-ND",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-ND"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-ND"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "North Dakota",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-NE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-NE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nebraska",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-NH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-NH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "New Hampshire",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NJ",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-NJ"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-NJ"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "New Jersey",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-NM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-NM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "New Mexico",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-NV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-NV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nevada",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-NY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-NY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "New York",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-OH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-OH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-OH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Ohio",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-OK",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-OK"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-OK"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Oklahoma",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-OR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-OR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-OR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Oregon",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-PA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-PA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-PA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pennsylvania",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-PR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-PR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-PR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Puerto Rico",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-RI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-RI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-RI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Rhode Island",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-SC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-SC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-SC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "South Carolina",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-SD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-SD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-SD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "South Dakota",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-TN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-TN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-TN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Tennessee",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-TX",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-TX"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-TX"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Texas",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-UM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-UM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-UM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "United States Minor Outlying Islands",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-UT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-UT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-UT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Utah",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-VA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-VA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-VA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Virginia",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-VI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-VI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-VI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Virgin Islands, U.S.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-VT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-VT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-VT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Vermont",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-WA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-WA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-WA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Washington",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-WI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-WI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-WI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Wisconsin",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-WV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-WV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-WV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "West Virginia",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-WY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:US-WY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:US-WY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Wyoming",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/USA",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://www.iso.org/obp/ui/#iso:code:3166:US"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "840"
+      },
+      {
+        "@value": "US"
+      },
+      {
+        "@value": "USA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "United States of America (the)",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AK"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AL"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AR"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-AZ"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-CA"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-CO"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-CT"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-DC"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-DE"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-FL"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-GA"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-GU"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-HI"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-IA"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-ID"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-IL"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-IN"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-KS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-KY"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-LA"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MA"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MD"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-ME"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MI"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MN"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MO"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MP"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-MT"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NC"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-ND"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NE"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NH"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NJ"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NM"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NV"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-NY"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-OH"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-OK"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-OR"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-PA"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-PR"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-RI"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-SC"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-SD"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-TN"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-TX"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-UM"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-UT"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-VA"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-VI"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-VT"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-WA"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-WI"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-WV"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/US-WY"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:USA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:USA"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "United States of America (the)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.iso.org/obp/ui/#iso:code:3166:US",
+    "https://prez.dev/label": [
+      {
+        "@value": "ISO 3166 code US"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

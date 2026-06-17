@@ -1,0 +1,31 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU,,Basic Geomorphic Unit (BGU)
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T,,BGU - Type (BGU-T)
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-subType_BGU-sT,,BGU – sub-Type (BGU-sT)
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/buried,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_depth,buried
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/feature,,Feature
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/Field_of_units,,Field (of units)
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/geomorphology,,Geomorphology
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/grain_size,,grain size
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/landform,,landform
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/lithology,,lithology
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/marginal_marine_process,,marginal marine process
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/modern,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_age,modern
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/morphology,,Morphology
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/morphometrics,,morphometrics
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/palimpsest,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_age,palimpsest
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/partially-buried,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_depth,partially-buried
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/particle_size,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/grain_size,particle size
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/physiography,,physiography
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/process,,Process
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/regressive,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/sea_level,regressive
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_age,,relative age
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_depth,,relative depth
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relict,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_age,relict
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/sea_level,,sea level
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/setting,,Setting
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/stillsand,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/sea_level,stillstand
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/surface,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_depth,surface
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/texture,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/grain_size,texture
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/transgressive,https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/sea_level,transgressive
+https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/unit,,unit

@@ -1,0 +1,76 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/acousticPorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,acoustic porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/airPermeability,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/permeability,air permeability
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/apparentGrainDensity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/massDensity,apparent grain density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/apparentMassDensity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/massDensity,apparent mass density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/apparentPorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,apparent porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/boundWaterContent,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/waterContent,bound water content
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/caliper,,caliper
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/capillaryBoundWaterContent,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/waterContent,capillary-bound water content
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/chargeability,,chargeability
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/clayBoundWaterContent,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/waterContent,clay-bound water content
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/deltaT,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/temperature,delta T
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/densityPorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,density porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/dryBulkMassDensity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/massDensity,dry bulk mass density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/dynamicBulkModulus,,Dynamic Bulk Modulus
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/dynamicPoissonsRatio,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/poissonsRatio,Dynamic Poisson's Ratio
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/dynamicShearModulus,,Dynamic Shear Modulus
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/dynamicYoungsModulus,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/youngsModulus,Dynamic Young's Modulus
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/electricalConductivity,,electrical conductivity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/electricalPotential,,electrical potential
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/electricalResistance,,electrical resistance
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/electricalResistivity,,electrical resistivity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/freeWaterContent,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/waterContent,free water content
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/gammaBulkDensity,,gamma bulk density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/gammaDifferentialDensity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/gammaBulkDensity,gamma differential density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/gammaLongSpacedDensity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/gammaBulkDensity,gamma long spaced density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/gammaShortSpacedDensity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/gammaBulkDensity,gamma short spaced density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/gasPermeability,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/permeability,gas permeability
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/grainMassDensity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/massDensity,grain mass density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/heatFlow,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/temperature,heat flow
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/heatProduction,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/temperature,heat production
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/hydraulicConductivity,,hydraulic conductivity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/indirectTensileStrength,,indirect tensile strength
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/K,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/naturalGamma,K
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/koenigsbergerRatio,,Koenigsberger ratio
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/magneticSusceptibility,,magnetic susceptibility
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/massDensity,,mass density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/meanLogT2,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/nmrRelaxation,mean log T2
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/naturalGamma,,natural gamma
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/neutronPorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,neutron porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/nmrClayBoundWaterPorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,NMR clay-bound water porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/nmrEffectivePorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,NMR effective porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/nmrRelaxation,,NMR relaxation
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/nmrTotalPorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,NMR total porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/pWaveAxialVelocity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,P-wave axial velocity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/pWaveSlowness,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,P-wave slowness
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/pWaveVelocity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,P-wave velocity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/permeability,,permeability
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/permeabilityKlinkenbergCorrected,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/permeability,permeability (Klinkenberg corrected)
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/poissonsRatio,,Poisson's Ratio
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,,porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/remanentMagnetisation,,remanent magnetisation
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sWaveAxialVelocity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,S-wave axial velocity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sWaveSlowness,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,S-wave slowness
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sWaveVelocity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,S-wave velocity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,,sonic velocity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikeParallelRadialPWaveVelocity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,strike-parallel radial P-wave velocity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikeParallelSWaveVelocity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,strike-parallel radial S-wave velocity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikePerpendicularPWaveVelocity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,strike-perpendicular radial P-wave velocity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/strikePerpendicularRadialSWaveVelocity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity,strike-perpendicular radial S-wave velocity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/T2star,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/nmrRelaxation,T-2-star
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/T1,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/nmrRelaxation,T1
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/T2,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/nmrRelaxation,T2
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/temperature,,temperature
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/Th,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/naturalGamma,Th
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/thermalAnisotropy,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/temperature,thermal anisotropy
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/thermalConductivity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/temperature,thermal conductivity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/thinSectionPorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,thin section porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/totalPorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,total porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/U,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/naturalGamma,U
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/unconfinedCompressiveStrength,,unconfined compressive strength
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/waterContent,,water content
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/wetBulkMassDensity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/massDensity,wet bulk mass density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/xctAverageBulkDensity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/massDensity,XCT average bulk density
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/xctTotalPorosity,https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity,XCT total porosity
+https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/youngsModulus,,Young's Modulus

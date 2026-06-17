@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty> a skos:ConceptScheme;
+    skos:definition "A vocabulary of terms defining petrophysical properties (eg, density, porosity, magnetic susceptibility, remanent magnetisation)."@en;
+    skos:prefLabel "Geology Rock Properties - Petrophysical"@en;
+    dcterms:created "2022-08-09"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2022-08-09"^^xsd:date;
+    dcterms:provenance "Geoscience Australia Petrophysical Properties (ROCKPROPS.LU_ROCKPROPERTY)"@en;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
+    owl:versionInfo "1";
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/naturalGamma>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/nmrRelaxation>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/porosity>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/permeability>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/massDensity>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/waterContent>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/caliper>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/chargeability>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/temperature>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/dynamicBulkModulus>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/poissonsRatio>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/dynamicShearModulus>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/youngsModulus>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/electricalConductivity>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/electricalPotential>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/electricalResistance>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/electricalResistivity>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/gammaBulkDensity>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/hydraulicConductivity>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/indirectTensileStrength>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/koenigsbergerRatio>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/magneticSusceptibility>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/sonicVelocity>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/remanentMagnetisation>, <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/unconfinedCompressiveStrength>;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

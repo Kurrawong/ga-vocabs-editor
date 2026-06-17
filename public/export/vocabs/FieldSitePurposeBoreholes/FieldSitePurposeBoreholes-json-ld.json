@@ -1,0 +1,106 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "The purpose of the field site (eg, geological study, geochemistry, neotectonics).",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Field Geology - Field Site Purpose ",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/environmental-study"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/geochemistry"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/geochronology"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/geological-study"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/geophysics"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/hydrochemistry"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/mineral-resource-appraisal"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/multi-purpose-appraisal"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/natural-resource-management-study"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/neotectonics"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/petrophysics"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose/unknown"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "Geoscience Australia Field Site Purpose Terms (FGDM. LU-FIELDSITE-PURPOSE)",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Minerals, Energy and Groundwater Division"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/absent,,absent
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/all,https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present,all
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/dominant,https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present,dominant
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/major,https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present,major
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/minor,https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present,minor
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present,,present
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/rare,https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present,rare
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/subordinate,https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present,subordinate
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/trace,https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present,trace
+https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/variable,https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present,variable

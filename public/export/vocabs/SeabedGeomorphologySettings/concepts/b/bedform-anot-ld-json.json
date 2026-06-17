@@ -1,0 +1,563 @@
+[
+  {
+    "@id": "_:n3-67",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
+    "https://prez.dev/label": [
+      {
+        "@value": "has broader",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more general in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/bedform",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Current-induced_Process"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Quasi-rhythmic, erosional or depositional units formed at the interface between sediment and a lower-density medium (e.g. water, air, ice or pyroclastic flows). BEDFORMS constitute the bulk of sediment transport (Robert, 2014) and scale to changing flow properties (e.g. Simons and Richardson, 1966). BEDFORMS often develop over BARFORMS in response to changing flow conditions (Simons and Richardson, 1966).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "bedform (BGU)",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/current-induced_crag_and_tail"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/current-induced_furrow"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/cyclic_step"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/dune"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lag"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lineation"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/obstacle_and_comet_scour"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/plane_bed"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ripple"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/scour"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/sediment_ribbon"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/sediment_streak"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:bedform"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:bedform"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "bedform (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Quasi-rhythmic, erosional or depositional units formed at the interface between sediment and a lower-density medium (e.g. water, air, ice or pyroclastic flows). BEDFORMS constitute the bulk of sediment transport (Robert, 2014) and scale to changing flow properties (e.g. Simons and Richardson, 1966). BEDFORMS often develop over BARFORMS in response to changing flow conditions (Simons and Richardson, 1966).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/current-induced_crag_and_tail",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:current-induced_crag_and_tail"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:current-induced_crag_and_tail"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "current-induced crag and tail (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The elongate mound (tail or shadow) deposited immediately downstream of an obstacle (crag) in the path of flow (tail length centimeter to decimeter). They begin to appear on muddy and sandy substrates in association with surface lineation (0.1–0.3 m/s). They become more prominent and widespread, and occur in association with comet scour and erosional pluck marks, at slightly higher velocities (<0.4 m/s). Mound and tail is the term used for similar structures where the obstacle is a biogenic (or other) mud mound. There may also be a genetic link with rhomboid ripples or rill marks, which develop on generally planar beds at flow velocities slightly greater than those required for surface lineation (Stow et al., 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/current-induced_furrow",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:current-induced_furrow"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:current-induced_furrow"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "current-induced furrow (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Elongate, primarily erosional BEDFORMS, with regular to irregular spacing and a parallel to slightly sinuous planform. They are characterized by incision into the seafloor and are relatively large in scale (width 5–150 m, length 1–10 km). Once established they may develop BEDFORMS within them, in contrast to finer-grained deposition between FURROWS (modified from: Stow et al., 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/cyclic_step",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:cyclic_step"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:cyclic_step"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "cyclic step (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Supercritical net-accretionary units which accumulate over multiple turbidity current events (Slootman and Cartigny, 2020).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/dune",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dune"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:dune"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "dune (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Dunes have a broad range of morphologies and represent larger transverse bedforms (wavelength 0.6–10 m, height 0.1–1 m) than RIPPLES (modified from: Stow et al., 2009). Used herein, DUNES include typically large sand waves and megaripples, as well as coastal foredunes (BGU-sT).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lag",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lag"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:lag"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lag (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relatively coarse sediment that remains after finer material has been winnowed away by flows. Often forms a protective layer over mixed / finer grained sediment below, but may also occur over unrelated hard substrate.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lineation",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lineation"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:lineation"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lineation (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Thin and narrow linear accumulations of sediment that may develop downstream of OBSTACLE AND SCOUR or CRAG AND TAIL, or elsewhere under relatively low flow velocities and independent of other BEDFORMS (cf. Stow et al., 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/obstacle_and_comet_scour",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:obstacle_and_comet_scour"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:obstacle_and_comet_scour"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "obstacle and comet scour (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "OBSTACLE (aka. crag) AND COMET SCOUR refers to the crescentic to elongate scour marks around and extending downstream from an obstacle in the path of flow. Although these may include depositional tails, they occur at relatively high flow velocities (0.4 to >1 m/s) and are principally erosional in origin. Scour length varies from meters to hundreds of meters. Forms transitional to CRAG AND TAIL structures with small-sized obstacles and less well developed SCOUR marks (decimeter scale) occur at the lower end of this velocity spectrum. Erosional SCOUR crescents, irregular pluck marks, and tool marks may all occur without an associated obstacle (Stow et al., 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/plane_bed",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:plane_bed"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:plane_bed"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "plane bed (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Can develop during opposing ends of flow energy spectrum, via limited to no sediment movement (sub-critical flow) or by excess flow velocity relative to sediment supply (supercritical flow) (Simons and Richardson, 1966). Alternatively, PLANE BEDS can accumulate via passive fallout of suspended sediment (e.g. biogenic accumulation).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/ripple",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ripple"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:ripple"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ripple (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Ripples are the smallest-scale transverse bedforms (wavelength 0.1–0.6 m, height 0.02–0.1 m), representing lower flow velocity (0.1–0.6 m/s) over a fine to medium sandy substrate. In planform, there are straight-crested, undulatory (sinuous crested), and linguoid (3-D) types. In profile, most are asymmetrical with sharp to rounded crestlines (Stow et al., 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/scour",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:scour"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:scour"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "scour (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An erosive BEDFORM depression, aligned with the flow direction; can form at a large range of scales, and may be associated with a forcing unit (e.g. OBSTACLE AND COMET SCOUR).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/sediment_ribbon",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sediment_ribbon"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:sediment_ribbon"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "sediment ribbon (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Ribbon marks are elongate mounded filaments of sand (and/or gravel), mostly regularly spaced, with parallel to slightly sinuous plan-form. They may show gentle curvature in parallel with the flow pattern, and merge into or diverge from broad sand sheets. Most of those reported are large-scale bedforms (width 10–100 m, length 5–50 km), although smaller-scale units (width of a few meters) have been referred to as narrow ribbons, sand streamers and sand streaks. They are high-velocity bedforms (generally 0.7–1.5 m/s) that involve winnowing and erosion of a sand or sand and gravel substrate coupled with redeposition of the material into elongate ribbon mound (Stow et al., 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/sediment_streak",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sediment_streak"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:sediment_streak"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "sediment streak (BGU-T)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Linear BEDFORMS elongated sub- to parallel to the flow direction, which may merge laterally or longitudinally, and vary greatly in scale and grain size. Form in velocity ranges from 0.1 to 0.2 m/s on mud, up to 0.3 m/s on sand, and 0.5 m/s on sand and/or gravel (modified from: Stow et al., 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

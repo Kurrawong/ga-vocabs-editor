@@ -1,0 +1,12 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/acidBottle,,acid bottle
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/collarInclinationOnly,,collar inclination only
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/differentialSurvey,,differential survey
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/ems,https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/magneticSurvey,EMS
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/gpit,https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/magneticSurvey,GPIT
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/gyroscopicSurvey,,gyroscopic survey
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/magneticSurvey,,magnetic survey
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/mechanicalCompass,https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/magneticSurvey,mechanical compass
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/mwd,,MWD
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/totco,,TOTCO
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod/unkown,,unknown

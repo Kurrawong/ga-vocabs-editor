@@ -1,0 +1,165 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/abnormally_high_tide,,Abnormally high tide
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/adaptive_capacity,,Adaptive capacity
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/administrative_data,,Administrative data
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/aftershock,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/earthquake,Aftershock
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/agricultural,,Agricultural
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/analysis,,Analysis
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/astronomical_tide,,Astronomical tide
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/bathymetry,,Bathymetry
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/biological_hazard,,Biological hazard
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/building,,Building
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/built,,Built (domain)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/burn_scar,,Burn scar
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/bushfire,,Bushfire
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/census,,Census
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/climate,,Climate
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/climate_projections,,Climate projections
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/coastal,,Coastal
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/communities,,Communities
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/consequences,,Consequence
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/convection,,Convection
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/convective_cloud,,Convective cloud
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/coping_capacity,,Coping capacity
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/critical_infrastructure,,Critical infrastructure
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/damage_ratio,,Damage ratio
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/damaging_waves,,Damaging waves
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/damaging_winds,,Damaging Winds
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/data,,Data
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/data_visualisation,,Data visualisation
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/dataset,,Dataset
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/demographics,,Demographics
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/destructive_winds,,Destructive Winds
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/direct_economic_loss,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/economic_loss,Direct economic loss
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/disaster,,Disaster
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/disaster_risk,,Disaster risk
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/disaster_risk_mitigation,,Disaster risk mitigation
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/disaster_risk_prevention,,Disaster risk prevention
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/disaster_risk_reduction,,Disaster risk reduction
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/displacement,,Displacement
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/distribution_electricity,,Distribution (electricity)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/domain,,Domain
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/domain_modelling,,Domain (modelling)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/drought,,Drought
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/dust_storm,,Dust storm
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/dwelling,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/residential_building,Dwelling
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/dynamical_downscaling,,Dynamical downscaling
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/earthquake,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/geophysical_hazards,Earthquake
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/economic_domain,,Economic (domain)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/economic_loss,,Economic loss
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/elevation,,Elevation
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/environmental_assets,,Environmental assets
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/environmental_hazards,,Environmental hazards
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/essential_services,,Essential Services
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/estimate,,Estimate
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/event,,Event
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/exceedance_probability,,Exceedance probability
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/exposure,,Exposure
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/families,,Families
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flash_flood,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hydrometeorological_hazard,Flash flood
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flood,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hydrometeorological_hazard,Flood
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flood_extent,,Flood extent
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/forecast_weather,,Forecast (weather)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/forecasts_data,,Forecasts (data)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/geophysical_hazards,,Geophysical hazards
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/granularity,,Granularity
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hail,,Hail
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hazard,,Hazard
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hazardous_surf,,Hazardous surf
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/heatwave,,Heatwave
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/highest_astronomical_tide,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/astronomical_tide,Highest astronomical tide
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/household,,Household
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/housing,,Housing
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hydrometeorological_hazard,,Hydrometeorological hazard
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/impact,,Impact
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/impact_forecast,,Impact forecast
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/indirect_economic_loss,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/economic_loss,Indirect economic loss
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/indirect_impact,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/impact,Indirect impact
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/industrial,,Industrial
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/infrastructure,,Infrastructure
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/integration_data,,Integration (data)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/intelligence,,Intelligence
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/inundation,,Inundation
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/lahar,,Lahar
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/land_cover,,Land cover
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/land_tenure,,Land tenure
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/land_use,,Land use
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/landslide,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/geophysical_hazards,Landslide
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/large_hail,,Large hail
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/legacy_system,,Legacy system
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/liquefaction,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/geophysical_hazards,Liquefaction
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/local_government_area,,Local Government Area
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/loss,,Loss
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/lowest_astronomical_tide,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/astronomical_tide,Lowest astronomical tide
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/major_flooding,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flood,Major flooding
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/marine,,Marine
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/metadata,,Metadata
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/methodology_statistical,,Methodology (statistical)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/minor_flooding,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flood,Minor flooding
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/modelling,,Modelling
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/moderate_flooding,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flood,Moderate flooding
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/multi-hazard,,Multi-hazard
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/multispectral_imagery,,Multispectral imagery
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/natural,,Natural
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/neap_tide,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/astronomical_tide,Neap tide
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/observation_weather,,Observation (weather)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/observed_data,,Observed data
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/observed_river_height,,Observed River Height
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/oceanography,,Oceanography
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/peak_river_height,,Peak River Height
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/physical_vulnerability,,Physical vulnerability
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/population,,Population
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/predicted_river_height,,Predicted River Height
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/preparedness,,Preparedness
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/prevention,,Prevention
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/projection,,Projection
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/qualitative_data,,Qualitative data
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/quantitative_data,,Quantitative data
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/reconstruction,,Reconstruction
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/recovery,,Recovery
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/recurrence_interval,,Recurrence interval
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/relief,,Relief
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/residential,,Residential
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/residential_building,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/building,Residential building
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/resilience,,Resilience
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/response,,Response
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/risk,,Risk
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/river_alert_level,,River alert level
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/river_height_bulletin,,River height bulletin
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/satellite_imagery,,Satellite imagery
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/satellite_observations,,Satellite observations
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/scenario,,Scenario
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/sea_level_rise,,Sea level rise
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/secondary_impact,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/impact,Secondary impact
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/severe_thunderstorm,,Severe thunderstorm
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/severe_tropical_cyclone,,Severe tropical cyclone
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/skill,,Skill
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/small_area_estimation,,Small area estimation
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/social_vulnerability,,Social vulnerability
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/space_weather,,Space weather
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/spatial,,Spatial
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/spring_tide,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/astronomical_tide,Spring tide
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistic,,Statistic
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_area,,Statistical Area
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_area_level_1,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_area,Statistical Area Level 1
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_area_level_2,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_area,Statistical Area Level 2
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_area_level_3,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_area,Statistical Area Level 3
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_area_level_4,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_area,Statistical Area Level 4
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/statistical_literacy,,Statistical Literacy
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/storm_surge,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hydrometeorological_hazard,Storm Surge
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/storm_tide,,Storm tide
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/submarine_landslide,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/landslide,Submarine landslide
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/survey,,Survey
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/technological_hazard,,Technological hazard
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/tephra,,Tephra
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/thunderstorm,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hydrometeorological_hazard,Thunderstorm
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/time_series,,Time series
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/transmission_electricity,,Transmission (electricity)
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/tropical_cyclone,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hydrometeorological_hazard,Tropical Cyclone
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/tsunami,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/geophysical_hazards,Tsunami
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/volcanic_ash,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/geophysical_hazards,Volcanic ash
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/volcano,https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/geophysical_hazards,Volcano
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/vulnerability,,Vulnerability
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/warning,,Warning
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/wave_run-up,,Wave run-up
+https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/weather,,Weather

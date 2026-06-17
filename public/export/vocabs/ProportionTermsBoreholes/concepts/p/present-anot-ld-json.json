@@ -1,0 +1,433 @@
+[
+  {
+    "@id": "_:n3-36",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ProportionTerms"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Field Geology - Proportion Terms ",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The proportion of an observed or sampled feature that is comprised by one or more earth materials. The vocabulary also provides approximate numeric percent ranges that correspond to the qualitative terms",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/all",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:all"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items/ns1:all"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "all",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The component comprises effectively the whole of the observed feature.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/dominant",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dominant"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items/ns1:dominant"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "dominant",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The component comprises a major part material of the observed feature, and is significantly greater than any other component; greater than 75%.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/major",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:major"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items/ns1:major"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "major",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The component comprises a significant major part of the observed feature; between 50% and 100%.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/minor",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:minor"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items/ns1:minor"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "minor",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The component comprises a subordinate minor part of the observed feature; approximately between 5% and 25%.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "The component is present in the observed feature, but the proportion is unknown.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "present",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/all"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/dominant"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/major"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/minor"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/rare"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/subordinate"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/trace"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/variable"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:present"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items/ns1:present"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "present",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The component is present in the observed feature, but the proportion is unknown.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/rare",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rare"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items/ns1:rare"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "rare",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The component comprises less than 5% of the observed feature.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/subordinate",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:subordinate"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items/ns1:subordinate"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "subordinate",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The component comprises a significant, but subordinate, part of the observed feature; approximately between 5% and 50%.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/trace",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:trace"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items/ns1:trace"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "trace",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The component comprises less than 1% of the observed feature. Presence is detectable but too small for accurate determination.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/variable",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:variable"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ProportionTerms/items/ns1:variable"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "variable",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The component varies in proportion throughout the observed feature.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

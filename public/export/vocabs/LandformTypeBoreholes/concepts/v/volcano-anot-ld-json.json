@@ -1,0 +1,419 @@
+[
+  {
+    "@id": "_:n3-103",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/provenance",
+    "https://prez.dev/label": [
+      {
+        "@value": "Provenance",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "alternative label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An alternative lexical label for a resource",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LandformTypes"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Field Geology - Landform Type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of landform types used in GA Boreholes database. Reference Pain CF, 2008. Field Guide for Describing Regolith and Landforms. ISBN 978-0-9806030-0-2.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/ash-plain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ash-plain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:ash-plain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ash plain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to undulating landform pattern of very low to extremely low relief typically with widely spaced fixed stream channels that form an integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (ash fall) that is generally relict; it is subject to erosion by continuously active sheet flow, creep and channelled stream flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/caldera",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:caldera"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:caldera"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "caldera",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A rare landform pattern typically of very high relief and steep to precipitous slopes. It has no stream channels or has fixed erosional channels forming a centripetal integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/cone-volcanic",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:cone-volcanic"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:cone-volcanic"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "cone (volcanic)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A typically low to high relief and very steep landform pattern without stream channels, or with erosional rills forming a radial tributary pattern. The landform is built up by volcanism and slightly modified by erosional agents.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lava-flow",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lava-flow"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:lava-flow"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lava flow",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A landform produced on the land surface by flowing magma. It is generally relict and subject to erosion by continuously active sheet flow, creep and channelled stream flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lava-plain",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lava-plain"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:lava-plain"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lava plain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A level to undulating landform pattern of very low to extremely low relief, typically with widely spaced fixed stream channels that form a non-directional integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep and channelled stream flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lava-plateau",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lava-plateau"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:lava-plateau"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lava plateau",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A plateau aggraded by volcanism (lava flow) that is generally relict and subject to erosion by continuously active sheet flow, creep and channelled stream flow.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/volcano",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "VO00",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal or radial tributary pattern. The landform is built up by volcanism and modified by erosional agents.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "volcano",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/ash-plain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/caldera"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/cone-volcanic"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lava-flow"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lava-plain"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lava-plateau"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:volcano"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:LandformTypes/items/ns1:volcano"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "volcano",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal or radial tributary pattern. The landform is built up by volcanism and modified by erosional agents.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

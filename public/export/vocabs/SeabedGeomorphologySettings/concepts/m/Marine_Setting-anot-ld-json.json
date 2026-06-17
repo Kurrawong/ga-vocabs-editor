@@ -1,0 +1,563 @@
+[
+  {
+    "@id": "_:n3-242",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Marine_Setting",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A SETTING in which geomorphic UNITS are primarily formed below lowest astronomical tide by marine processes (waves, tides, oceanic and density currents, cumulative MASS MOVEMENT PROCESSES – e.g. SUBMARINE CANYONS).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Marine Setting",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/canyon_head"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/canyon_mouth"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/marine_barform"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/marine_reef"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_canyon"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_channel"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_channel_belt"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_fan"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_gully"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_terrace"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_tributary_canyon"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_valley"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:Marine_Setting"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:Marine_Setting"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Marine Setting",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A SETTING in which geomorphic UNITS are primarily formed below lowest astronomical tide by marine processes (waves, tides, oceanic and density currents, cumulative MASS MOVEMENT PROCESSES – e.g. SUBMARINE CANYONS).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/canyon_head",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:canyon_head"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:canyon_head"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "canyon head (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The upslope start or boundary of a SUBMARINE CANYON (Amblas et al., 2018).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/canyon_mouth",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:canyon_mouth"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:canyon_mouth"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "canyon mouth (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The downslope terminus or boundary of a SUBMARINE CANYON.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/marine_barform",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:marine_barform"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:marine_barform"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "marine barform (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Tend to be larger than CURRENT-INDUCED BEDFORMS (e.g. Venditti, 2013), are often forced by macro-scale topography (e.g. channels – point bar; headlands - banner), and develop over longer periods of time (e.g. Dury, 1970).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/marine_reef",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:marine_reef"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:marine_reef"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "marine reef (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A general term for an occurrence of rock, biogenic, or other stable material that lies at or near the sea surface, and is elevated at least partially above the surrounding seabed. REEFS may be further classified by BIOGENIC PROCESSES.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_canyon",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:submarine_canyon"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:submarine_canyon"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "submarine canyon (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Steep-sided, GENERALLY V-shaped valleys with heads at or near the CONTINENTAL SHELF edge. They extend across the CONTINENTAL SLOPE and are commonly linked to numerous tributaries, similar to unglaciated river-cut canyons on land (Amblas et al., 2018; Covault, 2011; Harris and Baker, 2011; Huang et al., 2014; Pratson et al., 2007; Puig et al., 2014).\nCf. \"canyon\" in Harris et al., (2014).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_channel",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:submarine_channel"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:submarine_channel"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "submarine channel (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Formed by sediment-laden turbidity currents and other sediment-rich gravity currents (Klaucke and Hesse, 1996; Peakall et al., 2000; Peakall and Sumner, 2015).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_channel_belt",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:submarine_channel_belt"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:submarine_channel_belt"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "submarine channel belt (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A coherent package of channel-related deposits that may incorporate both vertical and/or lateral accretion components Their planform morphology may include linear, sinuous, or meandering channels (Janocko et al., 2013; Jobe et al., 2016).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_fan",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:submarine_fan"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:submarine_fan"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "submarine fan (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Develop on the CONTINENTAL SLOPE, RISE and ABYSSAL PLAIN, normally at the mouths of SUBMARINE CANYONS. They are constructed principally from the deposits of sediment gravity flows (mainly turbidity currents and debris flows) as terrigenous and shallow marine sediment is redistributed into deeper water (Clark et al., 1992; Covault, 2011; Deptuck and Sylvester, 2018; Shanmugam, 2016).\nCf. \"fan/apron\" in Harris et al., (2014), cf. APRON (MORPHOLOGY).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_gully",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:submarine_gully"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:submarine_gully"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "submarine gully (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Small-scale (<10 km) confined channels, generally on the order of tens of meters deep and often low sinuosity in planform. SUBMARINE GULLIES are commonly found within or alongside SUBMARINE CANYONS on the continental slope and may represent an incipient stage of canyon development (Amblas et al., 2018; Gales et al., 2013; Izumi, 2004; Micallef and Mountjoy, 2011; Pratson et al., 2007).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_terrace",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:submarine_terrace"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:submarine_terrace"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "submarine terrace (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Form within SUBMARINE VALLEYS and SUBMARINE CANYONS as a result of the incision of their adjacent SUBMARINE CHANNEL, which causes the decoupling of their surfaces from the active channel.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_tributary_canyon",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:submarine_tributary_canyon"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:submarine_tributary_canyon"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "submarine tributary canyon (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Secondary or subordinate components of SUBMARINE CANYONS that are directed towards a typically larger primary SUBMARINE CANYON. They have their own CANYON HEAD.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/submarine_valley",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:submarine_valley"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:submarine_valley"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "submarine valley (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Smaller than SUBMARINE CANYONS and generally located on more gentle slopes. SUBMARINE VALLEYS may be associated with internal and/or external LEVEES and SUBMARINE TERRACES and, in contrast to SUBMARINE CHANNELS, they are shaped by supplementary processes including channel entrenchment, lateral migration, and aggradation (Harris et al., 2014; Lemay et al., 2020).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

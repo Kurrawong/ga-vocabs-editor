@@ -1,0 +1,119 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Type of contact that forms the top or base of a geological unit exposed in a borehole, measured section, or field site.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Field Geology - Contact Type",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-11",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2023-06-14",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/conformable-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/faulted-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/ground-surface"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/igneous-intrusive-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/igneous-phase-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/sea-floor"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/sedimentry-intrusive-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/sheared-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/vein-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/alteration-facies-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/metamorphic-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/angular-unconformable-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/unconformable-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/disconformable-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/metamorphic-facies-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/metasomatic-facies-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/nonconformable-contact"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ContactType/paraconformable-contact"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "Geoscience Australia Contact Type (FGDM.LU_LOCAL_contact_type)",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Energy, Minerals and Groundwater Division"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).
+
+This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning.</skos:definition>
+    <skos:prefLabel xml:lang="en">Seabed geomorphology - Method Terms</skos:prefLabel>
+    <owl:versionIRI rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/1.0"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-subType_BGU-sT"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/Field_of_units"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_depth"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/feature"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/geomorphology"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/landform"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/lithology"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/marginal_marine_process"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_age"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/morphology"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/morphometrics"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/grain_size"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/physiography"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/process"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/sea_level"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/setting"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/unit"/>
+    <skos:historyNote xml:lang="en">This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019</skos:historyNote>
+    <prov:qualifiedAttribution rdf:nodeID="n3-30"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-32"/>
+    <prov:qualifiedAttribution rdf:nodeID="n3-34"/>
+    <sdo:creator rdf:resource="https://linked.data.gov.au/org/isgm-wg"/>
+    <sdo:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-22</sdo:dateCreated>
+    <sdo:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-11</sdo:dateModified>
+    <sdo:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+    <sdo:version>1.0</sdo:version>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-30">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+    <prov:agent rdf:nodeID="n3-31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-32">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/custodian"/>
+    <prov:agent rdf:nodeID="n3-33"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n3-34">
+    <prov:hadRole rdf:resource="https://linked.data.gov.au/def/data-roles/pointOfContact"/>
+    <prov:agent rdf:nodeID="n3-35"/>
+  </rdf:Description>
+</rdf:RDF>

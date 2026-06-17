@@ -1,0 +1,24 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/ContactType> a skos:ConceptScheme;
+    skos:definition "Type of contact that forms the top or base of a geological unit exposed in a borehole, measured section, or field site."@en;
+    skos:prefLabel "Field Geology - Contact Type"@en;
+    dcterms:created "2022-08-11"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2023-06-14"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    owl:versionInfo "1";
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/ContactType/conformable-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/faulted-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/ground-surface>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/igneous-intrusive-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/igneous-phase-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/sea-floor>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/sedimentry-intrusive-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/sheared-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/vein-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/alteration-facies-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/metamorphic-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/angular-unconformable-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/unconformable-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/disconformable-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/metamorphic-facies-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/metasomatic-facies-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/nonconformable-contact>, <https://pid.geoscience.gov.au/def/voc/ga/ContactType/paraconformable-contact>;
+    skos:historyNote "Geoscience Australia Contact Type (FGDM.LU_LOCAL_contact_type)"@en;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

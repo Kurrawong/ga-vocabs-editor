@@ -1,0 +1,435 @@
+[
+  {
+    "@id": "_:n3-97",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "alternative label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An alternative lexical label for a resource",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HazardAndRisk"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "GA Hazard and Risk Glossary",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "This vocabulary is used to describe terms used for climate and disaster risk themes, covering hazard, exposure, vulnerability, impact, climate, weather and geophysical disasters",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/earthquake",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:earthquake"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:earthquake"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Earthquake",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The vibrations of the Earth caused by the passage of seismic waves radiating from some source of elastic energy.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/geophysical_hazards",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Hazards with a geological origin, including seismogenic (earthquake-related), volcanogenic (lava flow, ash fall, lahars, pyroclastic flows) and near-surface processes (e.g. mass movement, landslides, sinkholes).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Geophysical hazards",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "https://www.undrr.org/drr-glossary/terminology",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "Geological hazards",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/earthquake"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/liquefaction"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/landslide"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/tsunami"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/volcano"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/volcanic_ash"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:geophysical_hazards"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:geophysical_hazards"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geophysical hazards",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Hazards with a geological origin, including seismogenic (earthquake-related), volcanogenic (lava flow, ash fall, lahars, pyroclastic flows) and near-surface processes (e.g. mass movement, landslides, sinkholes).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/landslide",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:landslide"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:landslide"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Landslide",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The general term given to movement of material downslope in a mass.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/liquefaction",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:liquefaction"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:liquefaction"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Liquefaction",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Process of soil and sand behaving like a dense fluid rather than a wet solid mass during an earthquake.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/tsunami",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:tsunami"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:tsunami"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Tsunami",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A Japanese word for 'harbour wave'. It is used to define a water wave generated by a sudden change in the sea bed resulting from an earthquake, volcanic eruption or submarine landslide.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/volcanic_ash",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:volcanic_ash"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:volcanic_ash"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Volcanic ash",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Volcanic ash consists of fragments of rock, mineral crystals, and volcanic glass, created during volcanic eruptions and measuring less than 2 mm in diameter.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/volcano",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:volcano"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:volcano"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Volcano",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An opening in the crust of the Earth that allows hot lava, volcanic ash and gases to reach the surface.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/citation",
+    "https://prez.dev/label": [
+      {
+        "@value": "citation"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

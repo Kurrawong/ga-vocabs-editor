@@ -1,0 +1,825 @@
+[
+  {
+    "@id": "_:n3-78",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ModesOfOccurence"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Field Geology - Mode of Occurrence",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mode of occurrence of geological units and samples (eg: dyke, bed, phenocryst).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/akmolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:akmolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:akmolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "akmolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "an intrusion along a decollement zone, with or without tonguelike extensions into the surrounding rock",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/apophysis",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:apophysis"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:apophysis"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "apophysis",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "an offshoot from a larger intrusive body",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cactolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:cactolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:cactolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "cactolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "an obscurely cactus-shaped intrusion.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/chonolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:chonolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:chonolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "chonolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "an intrusion so irregular as to defy description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cupola",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:cupola"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:cupola"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "cupola",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a large upward projection of the roof of an igneous intrusion into the country rock above.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ductolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ductolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:ductolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ductolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a concordant intrusion, teardrop-shaped in cross section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/dyke",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dyke"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:dyke"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "dyke",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a tabular igneous intrusion that cuts across the bedding or foliation of the country rock",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/dyke-swarm",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dyke-swarm"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:dyke-swarm"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "dyke swarm",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a set of dykes, generally subparallel, with a common origin",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ethmolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ethmolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:ethmolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ethmolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a discordant, funnel-shaped intrusion, tapers downward",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/fissure",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:fissure"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:fissure"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "fissure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a volcanic conduit having the form of a crack or fissure.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/high-level-pluton",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:high-level-pluton"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:high-level-pluton"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "high-level pluton",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a pluton emplaced at a high or subvolcanic level in the crust",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "a body of igneous rock formed by the process of emplacement of magma in pre-existing rock",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "intrusion",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/akmolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/apophysis"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cactolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/chonolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ring-complex"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cupola"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ductolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/dyke"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/dyke-swarm"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ethmolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/fissure"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/phacolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/high-level-pluton"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/laccolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/lopolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pipe"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pluton"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pod"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sheet"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sill"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sphenolith"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/stock"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:intrusion"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:intrusion"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "intrusion",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a body of igneous rock formed by the process of emplacement of magma in pre-existing rock",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/laccolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:laccolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:laccolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "laccolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a concordant, flat-based, convex-up intrusion",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/lopolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lopolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:lopolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lopolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a large, concordant, typically layered igneous intrusion whose floor is convex-down and whose roof may be convex-down or flat.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/phacolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:phacolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:phacolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "phacolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a concordant, lenticular intrusion, emplaced along a fold axis",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pipe",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pipe"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:pipe"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pipe",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a vertical conduit through the Earth's crust below a volcano, through which magmatic materials have passed; usually filled with volcanic breccia and fragments of older rock.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pluton",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pluton"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:pluton"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pluton",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a deep-seated igneous intrusion",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pod",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:pod"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:pod"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "pod",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "an intrusion of elongate or lenticular form",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ring-complex",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ring-complex"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:ring-complex"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "ring complex",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "an association of ring dykes and cone sheets.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sheet",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sheet"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:sheet"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "sheet",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a tabular intrusion, concordant or slightly discordant.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sill",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sill"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:sill"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "sill",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a tabular igneous intrusion that parallels the bedding or foliation of the country rock.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sphenolith",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:sphenolith"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:sphenolith"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "sphenolith",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a wedge-like intrusion, partly concordant, partly discordant.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/stock",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:stock"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:ModesOfOccurence/items/ns1:stock"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "stock",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "a discordant magma body with exposed surface area of less than 100 square kilometres; may represent exposed portion of a much larger intrusion.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

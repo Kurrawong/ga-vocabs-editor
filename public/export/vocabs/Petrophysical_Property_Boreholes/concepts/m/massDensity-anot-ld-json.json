@@ -1,0 +1,404 @@
+[
+  {
+    "@id": "_:n3-66",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "alternative label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An alternative lexical label for a resource",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PetrophysicalProperty"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geology Rock Properties - Petrophysical",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of terms defining petrophysical properties (eg, density, porosity, magnetic susceptibility, remanent magnetisation).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items"
+      }
+    ],
+    "https://prez.dev/provenance": [
+      {
+        "@value": "Geoscience Australia Petrophysical Properties (ROCKPROPS.LU_ROCKPROPERTY)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/apparentGrainDensity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:apparentGrainDensity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:apparentGrainDensity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "apparent grain density",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Grain density calculated by an unknown method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/apparentMassDensity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:apparentMassDensity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:apparentMassDensity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "apparent mass density",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Apparent mass density determined by a vacuum bagging method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/dryBulkMassDensity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dryBulkMassDensity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:dryBulkMassDensity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "dry bulk mass density",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Ratio of the dry rock mass to the total volumes of the rock material and pores (ie, the bulk volume of the sample).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/grainMassDensity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:grainMassDensity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:grainMassDensity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "grain mass density",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The density of a rock or mineral with no porosity, also known as matrix density, commonly in units of g/cm3.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/massDensity",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "density",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "\"Density\" as a generic description is the mass per unit volume of a material where a more accurate description, or the method of determination (e.g. dry bulk, wet bulk, grain ) is not given.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "mass density",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/apparentGrainDensity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/apparentMassDensity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/dryBulkMassDensity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/grainMassDensity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/wetBulkMassDensity"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/xctAverageBulkDensity"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:massDensity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:massDensity"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mass density",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "\"Density\" as a generic description is the mass per unit volume of a material where a more accurate description, or the method of determination (e.g. dry bulk, wet bulk, grain ) is not given.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/wetBulkMassDensity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:wetBulkMassDensity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:wetBulkMassDensity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "wet bulk mass density",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The saturated density of a sample. The saturating fluid may be water (determine density by gravimetry in water) or a gas (determine density by gas pycnometry).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/xctAverageBulkDensity",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:xctAverageBulkDensity"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:xctAverageBulkDensity"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "XCT average bulk density",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Rock bulk density as measured by XCT scanner",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

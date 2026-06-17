@@ -1,0 +1,5 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/gpsSection,,GPS section
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/linearSegment,,linear segment
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/minimumCurvature,,minimum curvature
+https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/offsetSurvey,,offset survey

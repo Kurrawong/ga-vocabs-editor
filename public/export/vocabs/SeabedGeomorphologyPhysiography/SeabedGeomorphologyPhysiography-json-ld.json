@@ -1,0 +1,151 @@
+[
+    {
+        "@id": "_:n3-30",
+        "http://www.w3.org/ns/prov#hadRole": [
+            {
+                "@id": "https://linked.data.gov.au/def/data-roles/custodian"
+            }
+        ],
+        "http://www.w3.org/ns/prov#agent": [
+            {
+                "@id": "_:n3-31"
+            }
+        ]
+    },
+    {
+        "@id": "_:n3-32",
+        "http://www.w3.org/ns/prov#hadRole": [
+            {
+                "@id": "https://linked.data.gov.au/def/data-roles/pointOfContact"
+            }
+        ],
+        "http://www.w3.org/ns/prov#agent": [
+            {
+                "@id": "_:n3-33"
+            }
+        ]
+    },
+    {
+        "@id": "_:n3-34",
+        "http://www.w3.org/ns/prov#hadRole": [
+            {
+                "@id": "https://linked.data.gov.au/def/data-roles/custodian"
+            }
+        ],
+        "http://www.w3.org/ns/prov#agent": [
+            {
+                "@id": "_:n3-35"
+            }
+        ]
+    },
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "A vocabulary of physiographic terms used by Harris et al (2014:[https://doi.org/10.1016/j.margeo.2014.01.011](https://doi.org/10.1016/j.margeo.2014.01.011)) to map the macroscale shape and geology of the seabed. Many of these terms have been retained by the International Seabed Geomorphology Mapping Working Group (ISGM-WG)  in this PHYISOGRAPHY vocabulary, and some have been shifted into either Part 1 Morphology or Part 2 Geomorphology vocabularies, as indicated (Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology:[https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).\n\nThis vocabulary comprises one of four linked ISGM-WG vocabularies. ",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Seabed geomorphology - Physiography",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionIRI": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/1.0"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continental_slope"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continetal_rise"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/abyssal_plain"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/accretionary_prism"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/axial_high"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/axial_valley"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/back-arc_basin"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/continental_shelf"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/fore-arc_basin"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/island_arc"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/mid-ocean_ridge"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/oceanic_trench"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/prov#qualifiedAttribution": [
+            {
+                "@id": "_:n3-30"
+            },
+            {
+                "@id": "_:n3-32"
+            },
+            {
+                "@id": "_:n3-34"
+            }
+        ],
+        "https://schema.org/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/isgm-wg"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "2024-05-22",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "https://schema.org/dateModified": [
+            {
+                "@value": "2024-10-18",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "https://schema.org/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ],
+        "https://schema.org/version": [
+            {
+                "@value": "1.0"
+            }
+        ]
+    }
+]

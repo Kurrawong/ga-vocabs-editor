@@ -1,0 +1,98 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/akmolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,akmolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/amygdale,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature,amygdale
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/apophysis,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,apophysis
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/band-layer,,"band, layer"
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/batholith,,batholith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/bed,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/band-layer,bed
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/bioclast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/clast,bioclast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/block,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pyroclast,block
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/bomb,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pyroclast,bomb
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cactolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,cactolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cement,,cement
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/chonolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,chonolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/clast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/detritus,clast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/concretion,,concretion
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cone-sheet,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ring-complex,cone sheet
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cooling-column,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature,cooling column
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/corona,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/mineral-overgrowth,corona
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cryptoexplosive,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature,cryptoexplosive
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystal,,crystal
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystalloblast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystal,crystalloblast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cumulate-mineral,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystal,cumulate mineral
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cupola,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,cupola
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/detritus,,detritus
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ductolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,ductolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/dyke,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,dyke
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/dyke-swarm,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,dyke swarm
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/enclave,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/inclusion,enclave
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ethmolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,ethmolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/extrusive-dome,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature,extrusion dome
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/facies,,facies
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/fissure,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,fissure
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/floor-ascendant,,floor ascendant
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/glomerocryst,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystal,glomerocryst
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/gneissic-band,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/band-layer,gneissic band
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/grain,,grain
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/graphic-intergrowth,,graphic intergrowth
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/groundmass,,groundmass
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/harpolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/phacolith,harpolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/high-level-pluton,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,high-level pluton
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/holoblast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystalloblast,holoblast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/hydrothermal-alteration,,hydrothermal alteration
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/hypidioblast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystalloblast,hypidioblast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/idioblast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystalloblast,idioblast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/igneous-band,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/band-layer,igneous band
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/inclusion,,inclusion
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/interstitial-material,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cement,interstitial material
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intraclast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/clast,intraclast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,,intrusion
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/irregular-vein,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/vein,irregular vein
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/laccolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,laccolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/lava-flow,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature,lava flow
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/lens,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/band-layer,lens
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/leucosome,,leucosome
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/lopolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,lopolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/marker-bed,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/bed,marker bed
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/matrix,,matrix
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/melanosome,,melanosome
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/microlite,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystal,microlite
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/mineral-overgrowth,,mineral overgrowth
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/nodule,,nodule
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/oikocryst,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystalloblast,oikocryst
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/oncolite,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/grain,oncolite
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ooid,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/grain,ooid
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pellet,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/grain,pellet
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/phacolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,phacolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/phenocryst,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystal,phenocryst
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pillow,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/lava-flow,pillow
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pipe,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,pipe
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pisolite,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/grain,pisolite
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/planar-vein,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/vein,planar vein
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/plug,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature,plug
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pluton,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,pluton
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pod,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,pod
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/poikiloblast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystalloblast,poikiloblast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/porphyroblast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystalloblast,porphyroblast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/porphyroclast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystal,porphyroclast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pseudomorph,,pseudomorph
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pyroclast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature,pyroclast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/reaction-rim,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/corona,reaction rim
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ring-complex,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,ring complex
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/righ-dyke,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/ring-complex,ring dyke
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/roof-pendant,,roof pendant
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sedimentry-dyke,,sedimentary dyke
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sheet,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,sheet
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sigmoidal-vein,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/vein,sigmoidal vein
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sill,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,sill
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sphenolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,sphenolith
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/spherulite,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature,spherulite
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/stock,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion,stock
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/symplectic-intergrowth,,symplectic intergrowth
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/unkown,,unknown
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/vein,,vein
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature,,volcanic feature
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/weathering-product,,weathering product
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/xenoblast,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystalloblast,xenoblast
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/xenocryst,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystal,xenocryst
+https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/xenolith,https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/inclusion,xenolith

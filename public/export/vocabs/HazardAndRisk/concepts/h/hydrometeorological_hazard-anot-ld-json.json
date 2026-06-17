@@ -1,0 +1,386 @@
+[
+  {
+    "@id": "_:n3-106",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HazardAndRisk"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "GA Hazard and Risk Glossary",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "This vocabulary is used to describe terms used for climate and disaster risk themes, covering hazard, exposure, vulnerability, impact, climate, weather and geophysical disasters",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flash_flood",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:flash_flood"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:flash_flood"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flash flood",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A flood that rises quite rapidly with little or no advance warning, usually as a result of an intense rainfall over a small area or, possibly, an ice jam, a dam failure, etc.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flood",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:flood"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:flood"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flood",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The overflowing by water of the normal confines of a stream or other body of water, or the accumulation of water by drainage over areas which are not normally submerged.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/hydrometeorological_hazard",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Hazards resulting from the state and behaviour of the Earth's atmosphere, its interaction with the land and oceans, the weather and climate it produces and the resulting distribution of water resources.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Hydrometeorological hazard",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk"
+      }
+    ],
+    "https://schema.org/citation": [
+      {
+        "@value": "https://www.undrr.org/terminology",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flash_flood"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/flood"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/storm_surge"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/thunderstorm"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/tropical_cyclone"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:hydrometeorological_hazard"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:hydrometeorological_hazard"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Hydrometeorological hazard",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Hazards resulting from the state and behaviour of the Earth's atmosphere, its interaction with the land and oceans, the weather and climate it produces and the resulting distribution of water resources.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/storm_surge",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:storm_surge"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:storm_surge"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Storm Surge",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An abnormal rise in sea level over and above the normal (astronomical) tide levels. It can be thought of as the change in the water level due to the presence of a storm. These powerful ocean movements are caused by strong winds piling water up against the coast as a cyclone approaches.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/thunderstorm",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:thunderstorm"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:thunderstorm"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Thunderstorm",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sudden electrical discharges manifested by a flash of light (lightning) and a sharp rumbling sound. Thunderstorms are associated with convective clouds (Cumulonimbus) and are more often accompanied by precipitation such as rain, hail or snow. They are usually shortlived and hit on only a small area.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/tropical_cyclone",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:tropical_cyclone"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:HazardAndRisk/items/ns1:tropical_cyclone"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Tropical Cyclone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Intense low pressure systems which form over warm ocean waters at low latitudes. Tropical cyclones are associated with strong winds, torrential rain and storm surges (in coastal areas). Gale force winds (greater than 63 km/h) must extend more than halfway around the storm near the centre, and winds must persist for at least 6 hours.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/citation",
+    "https://prez.dev/label": [
+      {
+        "@value": "citation"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

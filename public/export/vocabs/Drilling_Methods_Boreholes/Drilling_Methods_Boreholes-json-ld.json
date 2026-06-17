@@ -1,0 +1,127 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Method of drilling.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Borehole Geology - Drilling Methods",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/provenance": [
+            {
+                "@value": "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/auger"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/percussionDrilling"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreAir"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreBox"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreDiamond"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreGeoprobe"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreGravity"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreKasten"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreMackereth"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/corePiston"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/corePush"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreRov"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreSonic"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreUnspecified"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/coreVibro"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/reverseCirculationDrilling"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/rotaryDrilling"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/sidewallCore"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/unknown"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Minerals, Energy and Groundwater Division"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

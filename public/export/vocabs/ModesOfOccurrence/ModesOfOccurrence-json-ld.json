@@ -1,0 +1,151 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Mode of occurrence of geological units and samples (eg: dyke, bed, phenocryst).",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Field Geology - Mode of Occurrence",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/intrusion"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/volcanic-feature"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/batholith"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/concretion"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/crystal"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/inclusion"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/facies"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/floor-ascendant"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/band-layer"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/graphic-intergrowth"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/hydrothermal-alteration"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/vein"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/leucosome"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/melanosome"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/nodule"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/grain"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/pseudomorph"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/roof-pendant"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/sedimentry-dyke"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/symplectic-intergrowth"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/unkown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/weathering-product"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/cement"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/mineral-overgrowth"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/detritus"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/groundmass"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/matrix"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "Geoscience Australia Mode of Occurrence (FGDM.MODE_OCCURENCES)",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Energy, Minerals and Groundwater Division "
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

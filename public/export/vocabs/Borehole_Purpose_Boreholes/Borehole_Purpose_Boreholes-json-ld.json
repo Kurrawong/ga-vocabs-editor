@@ -1,0 +1,133 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "BoreholePurpose",
+                "@type": "http://www.w3.org/2001/XMLSchema#token"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Purpose or intention for which the borehole was drilled. eg, exploration, development or production, geotechnical. Equivalent to PPDM Business Intention.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Borehole Geology - Purpose",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/provenance": [
+            {
+                "@value": "Geoscience Australia Borehole Purpose (BOREHOLE.LU_BOREHOLE_PURPOSES)",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/appraisal"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/coalQuality"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/development"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/environmental"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/exploration"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/gasAnalysis"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/geochemistry"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/geothermal"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/hydrological"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/lox"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/monitoring"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/research"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/scientificInvestigationConstents"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/sequestration"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/service"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/stratigraphicInvestigation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/structure"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/unknown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/watersupply"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Energy, Minerals and Groundwater Division"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

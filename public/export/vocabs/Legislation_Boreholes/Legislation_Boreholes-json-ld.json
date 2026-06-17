@@ -1,0 +1,106 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://purl.org/dc/terms/provenance": [
+            {
+                "@value": "Geoscience Australia Legislation (BOREHOLE.LU_LEGISLATION)",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Legislative or administrative frameworks under which drilling is performed.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Borehole Geology - Legislation",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/anpm"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/dsdp"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/jpda"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/odp"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/opggsa"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/prePsla"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/psla"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/scientificInvestigationConsents"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/stateOnshore"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/stateWater"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/unknown"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Legislation/zoc"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Energy, Minerals and Groundwater Division "
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

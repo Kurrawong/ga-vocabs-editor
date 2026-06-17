@@ -1,0 +1,70 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/adsorbed_phase,,adsorbed phase
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/air,https://pid.geoscience.gov.au/def/voc/ga/materialtype/inorganic_gas,air
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/animal_material,https://pid.geoscience.gov.au/def/voc/ga/materialtype/organic_material,animal material
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/animalTissue,https://pid.geoscience.gov.au/def/voc/ga/materialtype/animal_material,animal tissue
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/atmospheric_dust,,atmospheric dust
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/bark,https://pid.geoscience.gov.au/def/voc/ga/materialtype/vegetation,bark
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/bitumen,https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_material,bitumen
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/catchment_outlet_sediment,https://pid.geoscience.gov.au/def/voc/ga/materialtype/sediment,catchment outlet sediment
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/coal,https://pid.geoscience.gov.au/def/voc/ga/materialtype/organic_material,coal
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/coke,https://pid.geoscience.gov.au/def/voc/ga/materialtype/organic_material,coke
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/condensate,https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid_hydrocarbon,condensate
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/coral,https://pid.geoscience.gov.au/def/voc/ga/materialtype/rock,coral
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/crude_oil,https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid_hydrocarbon,crude oil
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/crude_oil_with_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid_hydrocarbon,crude oil with water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/distilled_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,distilled water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/drilling_fluid,https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid,drilling fluid
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/estuarine_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,estuarine water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/faeces,https://pid.geoscience.gov.au/def/voc/ga/materialtype/animal_material,faeces
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid,,fluid
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid_hydrocarbon,https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_material,fluid hydrocarbon
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/foliage,https://pid.geoscience.gov.au/def/voc/ga/materialtype/vegetation,foliage
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/gas_in_solution,https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_gas,gas in solution
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/groundwater,https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,groundwater
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/groundwater_with_oil,,groundwater with oil
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/hair,https://pid.geoscience.gov.au/def/voc/ga/materialtype/animal_material,hair
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_gas,https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid_hydrocarbon,hydrocarbon gas
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_material,https://pid.geoscience.gov.au/def/voc/ga/materialtype/organic_material,hydrocarbon material
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/ice,,ice
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/inorganic_gas,,inorganic gas
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/kerogen,https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_material,kerogen
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/lag,https://pid.geoscience.gov.au/def/voc/ga/materialtype/regolith,lag
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/lake_sediment,https://pid.geoscience.gov.au/def/voc/ga/materialtype/sediment,lake sediment
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/manufactured_material,,manufactured material
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/marine_sediment,,marine sediment
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/marine_sediment_overlying_sea_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/marine_sediment,marine sediment and overlying sea_water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/meteorite,https://pid.geoscience.gov.au/def/voc/ga/materialtype/rock,meteorite
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/mine_seep_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,mine seep water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/mineral,,mineral
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/mixed_rock_and_sediment,https://pid.geoscience.gov.au/def/voc/ga/materialtype/regolith,mixed rock and sediment
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/mud_gas,https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_gas,mud gas
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/organic_material,,organic material
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/overbank_sediment,https://pid.geoscience.gov.au/def/voc/ga/materialtype/sediment,overbank sediment
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/pitch,https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_material,pitch
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/plant_stem,https://pid.geoscience.gov.au/def/voc/ga/materialtype/vegetation,plant stem
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/pore_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,pore water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/rain_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,rain water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/refined_oil,https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid_hydrocarbon,refined oil
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/regolith,,regolith
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/resin,https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_material,resin
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/river_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/surface_water,river water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/rock,,rock
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/root,https://pid.geoscience.gov.au/def/voc/ga/materialtype/vegetation,root
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/sea_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,sea water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/sediment,https://pid.geoscience.gov.au/def/voc/ga/materialtype/regolith,sediment
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/seep_gas,https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_gas,seep gas
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/seep_oil,https://pid.geoscience.gov.au/def/voc/ga/materialtype/crude_oil,seep oil
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/seep_oil_and_gas,https://pid.geoscience.gov.au/def/voc/ga/materialtype/fluid_hydrocarbon,seep oil and gas
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/snow,,snow
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/soil,https://pid.geoscience.gov.au/def/voc/ga/materialtype/regolith,soil
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/solid_phase,https://pid.geoscience.gov.au/def/voc/ga/materialtype/sediment,solid phase
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/spring_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,spring water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/stream_sediment,,stream sediment
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/surface_water,https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,surface water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/suspended_solids,,suspended solids
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/unknown,,unknown
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/unspecified_seabed_materials,,unspecified seabed materials
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/vegetation,https://pid.geoscience.gov.au/def/voc/ga/materialtype/organic_material,vegetation
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/water,,water
+https://pid.geoscience.gov.au/def/voc/ga/materialtype/wax,https://pid.geoscience.gov.au/def/voc/ga/materialtype/hydrocarbon_material,wax

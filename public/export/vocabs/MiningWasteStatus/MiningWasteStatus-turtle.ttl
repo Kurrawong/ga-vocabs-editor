@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus> a skos:ConceptScheme;
+    skos:definition "Terms that describe the storage type a mining waste feature may have."@en;
+    skos:historyNote "This vocabulary is drawn from a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STATUS)"@en;
+    skos:prefLabel "Mineral Resources - Mining Waste Status Types"@en;
+    owl:versionIRI <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus/1.0>;
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus/currently_used>, <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus/not_in_use>;
+    prov:qualifiedAttribution _:n3-30, _:n3-32;
+    sdo:creator <https://linked.data.gov.au/org/ga>;
+    sdo:dateCreated "2022-04-13"^^xsd:date;
+    sdo:dateModified "2024-02-22"^^xsd:date;
+    sdo:keywords "Geology", "Mineral Resources";
+    sdo:publisher <https://linked.data.gov.au/org/ga>;
+    sdo:version "1";
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.
+_:n3-30 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-31.
+_:n3-32 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-33.

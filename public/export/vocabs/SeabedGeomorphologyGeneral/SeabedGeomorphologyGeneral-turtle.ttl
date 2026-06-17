@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral> a skos:ConceptScheme;
+    skos:definition "A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning."@en;
+    skos:prefLabel "Seabed geomorphology - Method Terms"@en;
+    owl:versionIRI <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/1.0>;
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-subType_BGU-sT>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/Field_of_units>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_depth>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/feature>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/geomorphology>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/landform>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/lithology>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/marginal_marine_process>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/relative_age>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/morphology>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/morphometrics>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/grain_size>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/physiography>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/process>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/sea_level>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/setting>, <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/unit>;
+    skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en;
+    prov:qualifiedAttribution _:n3-30, _:n3-32, _:n3-34;
+    sdo:creator <https://linked.data.gov.au/org/isgm-wg>;
+    sdo:dateCreated "2024-05-22"^^xsd:date;
+    sdo:dateModified "2024-10-11"^^xsd:date;
+    sdo:publisher <https://linked.data.gov.au/org/ga>;
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
+    sdo:version "1.0".
+_:n3-30 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-31.
+_:n3-32 prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian>;
+    prov:agent _:n3-33.
+_:n3-34 prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact>;
+    prov:agent _:n3-35.

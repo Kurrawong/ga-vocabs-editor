@@ -1,0 +1,184 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Type of entity or feature. (eg, measured section, borehole, field site).",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "General Geology - Entity or Feature Type",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/provenance": [
+            {
+                "@value": "Geoscience Australia Entity Type or Feature (A.ENTITY_TYPES)",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-04",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/acreageRelease"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/borehole"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/country"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/emitter"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/essci"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/estuary"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/explorationPermit"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/facies"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/fieldSite"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/laboratory"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mapsheet"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/marsegment"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineWaste"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralDeposit"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralOccurrence"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralProject"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/mineralisedZone"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/museumCollection"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/observatory"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/opggsaReprocessing"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/pipeline"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/placeName"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/politicalRegion"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/port"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/powerStation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/productionLicence"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/project"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/province"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/resourceProcessingPlant"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/resourceProject"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/retentionLease"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/section"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/seismicline"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/state"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/stratUnitDefinitionLocation"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/survey"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/well"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature/wildcatLocation"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Minerals, Energy and Groundwater Division "
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

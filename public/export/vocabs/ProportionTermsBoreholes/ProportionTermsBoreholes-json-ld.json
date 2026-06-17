@@ -1,0 +1,100 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "The proportion of an observed or sampled feature that is comprised by one or more earth materials. The vocabulary also provides approximate numeric percent ranges that correspond to the qualitative terms",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Field Geology - Proportion Terms ",
+                "@language": "en"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-08-09",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+            {
+                "@id": "https://pid.geoscience.gov.au/dataset/ga/148553"
+            }
+        ],
+        "http://www.w3.org/2002/07/owl#versionInfo": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/absent"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/all"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/dominant"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/major"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/minor"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/rare"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/subordinate"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/trace"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/variable"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#contactPoint": [
+            {
+                "@value": "Team Lead - Information Services; Energy, Minerals and Groundwater Division"
+            }
+        ],
+        "https://schema.org/status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ]
+    }
+]

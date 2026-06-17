@@ -1,0 +1,983 @@
+[
+  {
+    "@id": "_:n3-244",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seabed geomorphology - Part 2 Geomorphology",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.\n\nThis is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/Mass_Movement_Process",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "A PROCESS grouping in which geomorphic UNITS are primarily formed by downslope gravity-driven transport.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Mass-Movement Process",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/complex"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/crown_crack"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/debris_apron"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fall"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/debris_fan"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/flow"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/topple"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/depositional_zone"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/translated_block"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/evacuation_zone"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/extensional_ridge"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/slide"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/head_scarp"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lateral_scarp"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lateral_spread"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mass-movement_compressional_ridge"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mass-movement_toe"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/minor_scarp"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mudflow_fan"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mudflow_gully"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/remnant_block"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/talus_apron"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/talus_fan"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/transverse_crack"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/turbidite_fan"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/turbidite_levee"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/turbidity_channel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:Mass_Movement_Process"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:Mass_Movement_Process"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mass-Movement Process",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A PROCESS grouping in which geomorphic UNITS are primarily formed by downslope gravity-driven transport.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/complex",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:complex"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:complex"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "complex (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A mass movement where one form of failure develops into a second form of movement i.e. a change of behaviour downslope by the same material.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/crown_crack",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:crown_crack"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:crown_crack"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "crown crack (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A type of open fracture found within partically undisplaced material upslope the EVACUATION AREA and generally parallel to the HEAD SCARP.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/debris_apron",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:debris_apron"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:debris_apron"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "debris apron (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An Apron formed by the accumulation of debris at the base of a steep slope as the result of multiple mass movement events. These are not typically developed within the marine environment but can be found associated with nearshore slope instability.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/debris_fan",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:debris_fan"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:debris_fan"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "debris fan (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A Fan formed by the accumulation of debris at the base of a steep slope, as the result of multiple mass movement events, in particular, DEBRIS FLOWS.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/depositional_zone",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:depositional_zone"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:depositional_zone"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "depositional zone (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The most downslope zone of a mass movement, within which the displaced material lies above the original ground surface (modified from: Cruden, 1993). Its lower limit is set by the geometry of the TOE. The DEPOSITIONAL ZONE of SLIDES tends to be dominated by a compressional regime (e.g. thrust and fold systems), whereas for FLOWS the material tends to disperse forming fans or aprons at the base of the slope.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/evacuation_zone",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:evacuation_zone"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:evacuation_zone"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "evacuation zone (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The most upslope zone of a mass movement, within which the remobilized material lies below the original ground surface (modified from: Cruden, 1993). Its upper limit is set by the geometry of the HEAD SCARP and this zone is normally dominated by extension features such as Blocks or elongated Ridges (Nissen et al., 1999).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/extensional_ridge",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:extensional_ridge"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:extensional_ridge"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "extensional ridge (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An elongated Ridge separated by normal faults, typically observed close to the head scarp.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/fall",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:fall"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:fall"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "fall (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A relatively free-falling abrupt movement of newly detached material from steep slopes or CLIFFS. The source area of a fall is not usually directly identified in bathymetry data, being only indirectly mapped, by identifying the cliff face associated with debris or rock fragments accumulation at the base of the slope. Different types of FALLS can be described by the nature of the material remobilized.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/flow",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:flow"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:flow"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "flow (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A mass movement where the individual particles travel separately within a moving mass. They involve highly fractured rock, clastic debris in a fine matrix or small grain sizes.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/head_scarp",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:head_scarp"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:head_scarp"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "head scarp (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The upslope boundary of a mass movement, set between undisturbed and remobilised material. It is the visible part of the surface of rupture and can be defined as an extensional failure surface linked at depth to the basal shear surface. In plan-view, head scarps are typified by an arcuate geometry well-defined continuous scarp, particularly in mass movements associated with a higher degree of desegregation (e.g., SLIDES, FLOWS). However, a head scarp can also present a sinuous geometry due to localised retrogressive erosion of the scarp (Bull et al., 2009).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lateral_scarp",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lateral_scarp"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:lateral_scarp"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lateral scarp (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A scarp, normally parallel to the main direction of transport, which represents the lateral confining boundary to a mass movement. Depending on the overall structure and type of collapse, a lateral scarp may only have a minor superficial expression or be associated with a steep relief.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/lateral_spread",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:lateral_spread"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:lateral_spread"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "lateral spread (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A mass movement produced by the lateral extension of a cohesive rock or debris over a deforming mass of softer underlying material (modified from Goudie, 2006). They usually occur on very gentle slopes or flat terrain and the failure is caused by liquefaction, the process whereby saturated, loose, cohesionless sediments (usually sands and silts) are transformed from a solid into a liquefied state.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mass-movement_compressional_ridge",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mass-movement_compressional_ridge"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:mass-movement_compressional_ridge"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mass-movement compressional ridge (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An elongated ridge perpendicular to the main direction of transport, typically found in the distal parts of slides with the deformation front limiting the downslope extent of the slide.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mass-movement_toe",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mass-movement_toe"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:mass-movement_toe"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mass-movement toe (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The lower boundary of a mass movement, set between the remobilised and undisturbed material. In FRONTALLY CONFINED SLIDES this usually curved margin coincides with the intersection between the lower part of the surface of rupture of a landslide and the original ground surface. Where remobilised material is moved beyond the lower part of the surface of rupture the boundary may be diffuse and have limited bathymetric expression.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/minor_scarp",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:minor_scarp"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:minor_scarp"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "minor scarp (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A scarp that can appear morphologically similar to a HEAD SCARP but is fully located within the EVACUATION ZONE and downslope of the HEAD SCARP.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mudflow_fan",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mudflow_fan"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:mudflow_fan"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mudflow fan (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A Fan formed by the accumulation of sediments as the result of multiple MUD FLOW events. These will be smaller and less complex than SUBMARINE FAN.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/mudflow_gully",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:mudflow_gully"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:mudflow_gully"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "mudflow gully (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A narrow, incised SUBMARINE GULLY formed by a single or multiple mudflows events. Mudflow gullies of varying scales exert different influences on the distribution of the associated DEPOSITIONAL ZONE and influence the connectivity of continuity reservoirs.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/remnant_block",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:remnant_block"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:remnant_block"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "remnant block (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A Block of undisturbed, coherent sediment, found within the remobilised material but which has not been displaced during the mass movement. This type of in situ block can be recognised in seismic profiles by the contrast between areas of lateral concordant and continuous seismic facies and the often chaotic facies of the remoulded material.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/slide",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:slide"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:slide"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "slide (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A slide consists of the movement of a coherent mass of material along a distinct shear surface (modified from Goudie, 2006).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/talus_apron",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:talus_apron"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:talus_apron"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "talus apron (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An Apron formed by the accumulation of broken rock fragments at the base of a steep slope as the result of multiple mass movement events. These are not typically developed within the marine environment but can be found associated with nearshore slope instability.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/talus_fan",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:talus_fan"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:talus_fan"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "talus fan (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A Fan formed by the accumulation of broken rock fragments at the base of a steep slope as the result of multiple mass movement events. These are not typically developed within the marine environment but can be found associated to nearshore slope instability.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/topple",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:topple"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:topple"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "topple (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A mass movement produced by forward rotation around a pivot or hinge on a slope below the centre of gravity of the displaced mass. Different types of FALLS are described by the nature of the material remobilized.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/translated_block",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:translated_block"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:translated_block"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "translated block (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A Block of undisturbed, coherent sediment, which has been displaced by a mass movement, preserving at least two relatively flat surfaces.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/transverse_crack",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:transverse_crack"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:transverse_crack"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "transverse crack (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A type of open fracture, perpendicular to the main direction of transport, they tend to be found either at the EVACUATION ZONE or overlying the intersection between the lower part of the surface of rupture and the original ground surface (Cruden and Varnes, 1996).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/turbidite_fan",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:turbidite_fan"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:turbidite_fan"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "turbidite fan (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A Fan formed by the accumulation of sediment as the result of multiple TURBIDITY CURRENTS. These will be smaller and less complex than SUBMARINE FANS.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/turbidite_levee",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:turbidite_levee"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:turbidite_levee"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "turbidite levee (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An elongated Ridge flanking the margins of a turbidity channel, formed by sediments overtopping a TURBIDITY CHANNEL.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/turbidity_channel",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:turbidity_channel"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:SeabedGeomorphologySettings/items/ns1:turbidity_channel"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "turbidity channel (BGU)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A SUBMARINE CHANNEL formed by the interaction of TURBIDITY CURRENTS with an erodible seabed.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

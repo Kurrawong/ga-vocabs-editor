@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<http://qudt.org/community/ga/voc> a skos:ConceptScheme;
+    skos:definition "A vocabulary of Units from the QUDT ontology used by Geoscience Australia."@en;
+    skos:historyNote "This vocabulary is a subset of the QUDT Units of Measure at http://www.qudt.org/doc/DOC_VOCAB-UNITS.html"@en;
+    skos:prefLabel "Geoscience Australia Profile of QUDT Units"@en;
+    dcterms:contributor <http://qudt.org>;
+    dcterms:created "2021-12-14"^^xsd:date;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:modified "2022-02-11"^^xsd:date;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    skos:hasTopConcept <http://qudt.org/vocab/unit/GM>, <http://qudt.org/vocab/unit/KiloGM>, <http://qudt.org/vocab/unit/KiloGM-PER-M2>, <http://qudt.org/vocab/unit/M>, <http://qudt.org/vocab/unit/MegaYR>.

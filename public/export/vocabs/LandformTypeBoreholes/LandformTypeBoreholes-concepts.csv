@@ -1,0 +1,74 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-dunes,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms,aeolian dunes
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms,,aeolian landforms
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-sheet,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms,aeolian sheet
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-fan,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/fan,alluvial fan
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,,alluvial landforms
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,alluvial plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-swamp,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,alluvial swamp
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-terrace,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,alluvial terrace
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/anastomatic-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,anastomatic plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/ash-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/volcano,ash plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/badlands,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,badlands
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/bar-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,bar plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/beach,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands,beach
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/beach-ridge,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands,beach ridge plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/caldera,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/volcano,caldera
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/chenier-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands,chenier plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-dunes,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands,coastal dunes
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands,,coastal lands
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands,coastal plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/colluvial-fan,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/fan,colluvial fan
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/cone-volcanic,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/volcano,cone (volcanic)
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coral-reef,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands,coral reef
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/covered-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,covered plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/delta,,delta
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/depostional-glacial-features,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/glacial-features,depositional glacial features
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/depostional-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plain,depositional plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/drainage-depression,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,drainage depression
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-glacial-features,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/glacial-features,erosional glacial features
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,,erosional landforms
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,erosional plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/escarpment,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,escarpment
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/etchplain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,etchplain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/fan,,fan
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/flood-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,flood plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/floodout,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,floodout
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/glacial-features,,glacial features
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/hills,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,hills
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/irregular-dune-field,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms,irregular dune field
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/karst,,karst
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lacustrine-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plain,lacustrine plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lava-flow,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/volcano,lava flow
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lava-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/volcano,lava plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lava-plateau,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/volcano,lava plateau
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/longitudinal-dune-field,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms,longitudinal dune field
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/low-hills,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,low hills
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/lunette,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms,lunette
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/made-land,,made land
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/marine-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands,marine plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/meander-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,meander plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/meteor-crater,,meteor crater
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/mountains,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,mountains
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/pediment,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,pediment
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/pediplain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,pediplain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/peneplain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,peneplain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plain,,plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plateau,,plateau
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plateau-edge,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plateau,plateau edge
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plateau-surface,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plateau,plateau surface
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/playa-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plain,playa plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/reef,,reef
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/residual-low-hills,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,residual low hills
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/residual-rise,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,residual rise
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/rises,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/erosional-landforms,rises
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/sand-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/plain,sand plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/sheet-flood-fan,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/fan,sheet-flood fan
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/source-bordering-dune,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms,source bordering dune
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/stagnant-alluvial-plain,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,stagnant alluvial plain
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/stream-channel,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,stream channel
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/terraced-land,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/alluvial-landforms,terraced land
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/tidal-flat,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/coastal-lands,tidal flat
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/transverse-dune-field,https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/aeolian-landforms,transverse dune field
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/unknown,,unknown
+https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/volcano,,volcano

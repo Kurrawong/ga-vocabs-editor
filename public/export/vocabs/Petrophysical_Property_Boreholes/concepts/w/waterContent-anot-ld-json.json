@@ -1,0 +1,327 @@
+[
+  {
+    "@id": "_:n3-101",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PetrophysicalProperty"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geology Rock Properties - Petrophysical",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A vocabulary of terms defining petrophysical properties (eg, density, porosity, magnetic susceptibility, remanent magnetisation).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items"
+      }
+    ],
+    "https://prez.dev/provenance": [
+      {
+        "@value": "Geoscience Australia Petrophysical Properties (ROCKPROPS.LU_ROCKPROPERTY)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/boundWaterContent",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:boundWaterContent"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:boundWaterContent"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "bound water content",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water in the pore space that does not flow under normal reservoir conditions. When used in connection with a nuclear magnetic resonance measurement, the term refers to all the water that is not free to move. This includes capillary-bound water and clay-bound water.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/capillaryBoundWaterContent",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:capillaryBoundWaterContent"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:capillaryBoundWaterContent"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "capillary-bound water content",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water that is not free to move due to capillary tension. When used to describe NMR results, capillary-bound water is defined as the water signal between certain cutoffs, typically above 3 ms and below 33 ms.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/clayBoundWaterContent",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:clayBoundWaterContent"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:clayBoundWaterContent"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "clay-bound water content",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water that is not free to move due to being bound to clays. When used to describe NMR results, clay-bound water is defined as the water signal below a certain cutoff, typically 3 ms.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/freeWaterContent",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:freeWaterContent"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:freeWaterContent"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "free water content",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water that is mobile, available to flow, and not bound to surfaces of grains or minerals in rock. When used in connection with nuclear magnetic resonance (NMR) measurements, free water is all the water that is not clay bound, capillary bound or in mineral hydrates.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/waterContent",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "The amount of water contained in a geologic material such as soil, sediments, or rock.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "water content",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/boundWaterContent"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/capillaryBoundWaterContent"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/clayBoundWaterContent"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/freeWaterContent"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:waterContent"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:PetrophysicalProperty/items/ns1:waterContent"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "water content",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The amount of water contained in a geologic material such as soil, sediments, or rock.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

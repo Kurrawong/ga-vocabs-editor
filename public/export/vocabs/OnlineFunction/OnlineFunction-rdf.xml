@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:sdo="https://schema.org/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:reg="http://purl.org/linked-data/registry#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:prez="https://prez.dev/"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+>
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">OnLine Function Type</skos:definition>
+    <skos:prefLabel xml:lang="en">OnLine Function Type</skos:prefLabel>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-26</dcterms:modified>
+    <rdfs:label xml:lang="en">OnLine Function Type</rdfs:label>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-05-11</dcterms:created>
+    <dcterms:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <dcterms:description xml:lang="en">This vocabulary is an extension to the ISO19115-1 standard&apos;s OnLine Function Code list. It includes additional terms implemented by Geoscience Australia to allow for online functions not included in the original codelist. An example of an extension term in this vocabulary is &quot;provenance query service&quot; which, in the SKOS structure of this vocabulary, is given as a narrower concept of the &quot;information&quot; concept which is one of the original ISO19115-1 concepts. An object indicated as having an online function of a &quot;provenance query service&quot; should be understood to perform a specialised form of an &quot;information&quot; function by allowing provenance querying. Further details are given in the term&apos;s description. </dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-12</dcterms:issued>
+    <dcterms:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <dcterms:subject xml:lang="en">online functions</dcterms:subject>
+    <dcterms:title xml:lang="en">OnLine Function</dcterms:title>
+    <owl:versionInfo>v1.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/browseGraphic"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/browsing"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/completeMetadata"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/download"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/emailService"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/fileAccess"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/offlineAccess"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/order"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/information"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/search"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/upload"/>
+    <skos:historyNote xml:lang="en">ISO19115-1:2014</skos:historyNote>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
+  </rdf:Description>
+</rdf:RDF>

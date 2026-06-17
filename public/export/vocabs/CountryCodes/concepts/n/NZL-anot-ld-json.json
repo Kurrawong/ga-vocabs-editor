@@ -1,0 +1,737 @@
+[
+  {
+    "@id": "_:n3-294",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/DefaultSchemeProfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "https://prez.dev/label": [
+      {
+        "@value": "is defined by"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The defininition of the subject resource."
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "https://prez.dev/label": [
+      {
+        "@value": "Concept"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "An idea or notion; a unit of thought"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#definition",
+    "https://prez.dev/label": [
+      {
+        "@value": "definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A statement or formal explanation of the meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+    "https://prez.dev/label": [
+      {
+        "@value": "is in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a resource (for example a concept) to a concept scheme in which it is included",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#notation",
+    "https://prez.dev/label": [
+      {
+        "@value": "notation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "https://prez.dev/label": [
+      {
+        "@value": "preferred label",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The preferred lexical label for a resource, in a given language",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "https://prez.dev/label": [
+      {
+        "@value": "is top concept in scheme",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CountryCodes"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "GA Country Codes",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui ",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-AUK",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-AUK"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-AUK"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Auckland",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-BOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-BOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-BOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Bay of Plenty",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-CAN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-CAN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-CAN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Canterbury",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-CIT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-CIT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-CIT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Chatham Islands Territory",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-GIS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-GIS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-GIS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Gisborne",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-HKB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-HKB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-HKB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Hawke's Bay",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-MBH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-MBH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-MBH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Marlborough",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-MWT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-MWT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-MWT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Manawatu Whanganui",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-NSN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-NSN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-NSN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nelson",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-NTL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-NTL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-NTL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Northland",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-OTA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-OTA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-OTA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Otago",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-STL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-STL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-STL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Southland",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-TAS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-TAS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-TAS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Tasman",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-TKI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-TKI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-TKI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Taranaki",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-WGN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-WGN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-WGN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Wellington",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-WKO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-WKO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-WKO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Waikato",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-WTC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZ-WTC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZ-WTC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "West Coast",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZL",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://www.iso.org/obp/ui/#iso:code:3166:NZ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "554"
+      },
+      {
+        "@value": "NZ"
+      },
+      {
+        "@value": "NZL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "New Zealand (Aotearoa)",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-AUK"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-BOP"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-CAN"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-CIT"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-GIS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-HKB"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-MBH"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-MWT"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-NSN"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-NTL"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-OTA"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-STL"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-TAS"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-TKI"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-WGN"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-WKO"
+      },
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/NZ-WTC"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:NZL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:CountryCodes/items/ns1:NZL"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "New Zealand (Aotearoa)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.iso.org/obp/ui/#iso:code:3166:NZ",
+    "https://prez.dev/label": [
+      {
+        "@value": "ISO 3166 code NZ"
+      }
+    ]
+  },
+  {
+    "@id": "urn:catalog:default",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:default"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/browseGraphic,,browseGraphic
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/browsing,,browsing
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/completeMetadata,,completeMetadata
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/download,,download
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/emailService,,emailService
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/fileAccess,,fileAccess
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/information,,information
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/offlineAccess,,offlineAccess
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/order,,order
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/provenanceQueryService,https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/information,provenanceQueryService
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/search,,search
+https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/upload,,upload

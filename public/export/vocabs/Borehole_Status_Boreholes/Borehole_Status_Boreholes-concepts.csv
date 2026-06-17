@@ -1,0 +1,16 @@
+iri,broader,prefLabel
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/abandoned,,abandoned
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/completed,,completed
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/drillingSuspended,,drilling suspended
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/inprogress,,in progress
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/injecting,,injecting
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/monitoring,,monitoring
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/plugged,,plugged
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/pluggedAndAbandoned,,plugged and abandoned
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/producing,,producing
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/producingAndInjecting,,producing and injecting
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/proposed,,proposed
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/rehabilitated,,rehabilitated
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/suspended,,suspended
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/unknown,,unknown
+https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus/workover,,workover
