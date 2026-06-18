@@ -43,6 +43,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "1:25 000 map"@en ;
     skos:topConceptOf cs: ;
+    schema:dateModified "2026-06-18" ;
     schema:status astatus:accepted ;
 .
 
