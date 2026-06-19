@@ -5,13 +5,35 @@ on:
     branches: [main, master]
     paths:
       - 'data/vocabs/**'
+      - 'data/config/**'
+      - 'data/background/**'
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   process:
     uses: Kurrawong/prez-lite/.github/workflows/site-process-data.yml@main
     with:
       prez-lite-ref: ${{ vars.PREZ_LITE_VERSION || 'main' }}
+
+  # The regenerated-exports commit is authored by github-actions[bot] via
+  # GITHUB_TOKEN, which by design does NOT re-trigger workflows — so the deploy
+  # never fires on its own and the demo site serves stale exports. Dispatch the
+  # deploy explicitly: workflow_dispatch is the documented exception to that
+  # loop-prevention, and dispatching on `main` resolves to HEAD, which already
+  # includes the exports the `process` job just committed. Only the demo branch
+  # (main) is deployed.
+  trigger-deploy:
+    needs: process
+    if: github.ref_name == 'main'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Dispatch data-only deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-aws.yml --repo "${{ github.repository }}" --ref main -f deploy-mode=data-only
