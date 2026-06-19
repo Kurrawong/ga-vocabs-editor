@@ -1,12 +1,10 @@
 name: Deploy to AWS
 
+# Note: no `push` trigger. Data changes (vocabs/config/background) are deployed
+# by the Process Data workflow, which reprocesses then dispatches this workflow
+# on main HEAD (with the freshly-committed exports). Deploying on a raw data
+# push would sync stale exports, since processing hasn't run yet.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'data/vocabs/**'
-      - 'data/config/**'
-      - 'data/background/**'
   workflow_dispatch:
     inputs:
       deploy-mode:
