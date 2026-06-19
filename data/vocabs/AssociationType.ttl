@@ -27,7 +27,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "collectiveTitle"@en ;
     skos:topConceptOf cs: ;
-    schema:dateModified "2026-06-17" ;
 .
 
 :crossreference
@@ -212,3 +211,12 @@ cs:
     dcat:contactPoint "DPI" ;
     schema:status astatus:experimental ;
 .
+
+:new-concept-1
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "E2E New Concept"@en ;
+    skos:topConceptOf cs: ;
+.
+
+
