@@ -170,18 +170,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "collectiveTitle [E2E test]",
+        "@value": "collectiveTitle",
         "@language": "en"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype"
-      }
-    ],
-    "https://schema.org/dateModified": [
-      {
-        "@value": "2026-06-19"
       }
     ],
     "https://prez.dev/identifier": [
@@ -201,7 +196,7 @@
     ],
     "https://prez.dev/label": [
       {
-        "@value": "collectiveTitle [E2E test]",
+        "@value": "collectiveTitle",
         "@language": "en"
       }
     ],
@@ -225,19 +220,6 @@
     "https://prez.dev/label": [
       {
         "@value": "members"
-      }
-    ]
-  },
-  {
-    "@id": "https://schema.org/dateModified",
-    "https://prez.dev/label": [
-      {
-        "@value": "date modified"
-      }
-    ],
-    "https://prez.dev/description": [
-      {
-        "@value": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed"
       }
     ]
   },
