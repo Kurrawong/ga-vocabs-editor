@@ -1,4 +1,100 @@
 {
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration": {
+    "en": "administration"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/ambient_noise_tomography": {
+    "en": "ambient noise tomography"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_acquisition": {
+    "en": "data acquisition"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/energy": {
+    "en": "energy"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochronology": {
+    "en": "geochronology"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geoinformatics": {
+    "en": "geoinformatics"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology": {
+    "en": "geomorphology"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/legislation": {
+    "en": "legislation"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/magnetotellurics": {
+    "en": "magnetotellurics"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/marine_geoscience": {
+    "en": "marine geoscience"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/minerals": {
+    "en": "minerals"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/natural_hazards": {
+    "en": "natural hazard"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/palaeontology": {
+    "en": "palaeontology"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/petrophysics": {
+    "en": "petrophysics"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/radiometrics": {
+    "en": "radiometrics"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition": {
+    "en": "sample acquisition"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management": {
+    "en": "data management"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/earth_observation": {
+    "en": "earth observation"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochemistry": {
+    "en": "geochemistry"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geodesy": {
+    "en": "geodesy"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geography": {
+    "en": "geography"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrogeochemistry": {
+    "en": "hydrogeochemistry"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrogeology": {
+    "en": "hydrogeology"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition_and_management": {
+    "en": "sample acquisition and management"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/seismology": {
+    "en": "seismology"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrology": {
+    "en": "hydrology"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography": {
+    "en": "physical geography"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/resources": {
+    "en": "resources"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/information_management": {
+    "en": "information management"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics": {
+    "en": "geophysics"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology": {
+    "en": "geology"
+  },
+  "https://pid.geoscience.gov.au/def/voc/ga/DataThemes": {
+    "en": "GA Register Data Themes"
+  },
   "http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/grid_north": {
     "": "grid north"
   },

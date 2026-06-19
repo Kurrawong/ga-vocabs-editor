@@ -57,6 +57,6 @@ dcat:contactPoint prez:label "contact point"@en;
 prez:link prez:label "link".
 prez:members prez:label "members".
 <urn:catalog:default> prez:identifier "catalogue:default".
-_:n3-30 prez:currentProfile prez:DefaultSchemeProfile.
+_:n3-105 prez:currentProfile prez:DefaultSchemeProfile.
 skos:hasTopConcept prez:label "has top concept"@en;
     prez:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en.

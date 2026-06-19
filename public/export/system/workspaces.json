@@ -1,18 +1,11 @@
 {
   "workspaces": [
     {
-      "slug": "staging",
-      "label": "Staging",
-      "description": "For vocabulary authors - test changes before production",
-      "icon": "i-heroicons-pencil-square",
-      "refreshFrom": "main"
-    },
-    {
       "slug": "develop",
       "label": "Develop",
-      "description": "For developers - experimental changes and testing",
-      "icon": "i-heroicons-code-bracket",
-      "refreshFrom": "main"
+      "description": "Vocabulary editing workspace — changes are saved to the develop branch",
+      "icon": "i-heroicons-pencil-square",
+      "refreshFrom": "master"
     }
   ]
 }

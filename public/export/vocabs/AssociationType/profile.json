@@ -8,11 +8,13 @@
       {
         "path": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "order": 1,
+        "minCount": 1,
         "simpleView": true
       },
       {
         "path": "http://www.w3.org/2004/02/skos/core#definition",
         "order": 2,
+        "minCount": 1,
         "simpleView": true
       },
       {
@@ -23,21 +25,55 @@
       {
         "path": "http://purl.org/linked-data/registry#status",
         "order": 4,
+        "allowedValues": [
+          "https://linked.data.gov.au/def/reg-statuses/accepted",
+          "https://linked.data.gov.au/def/reg-statuses/deprecated",
+          "https://linked.data.gov.au/def/reg-statuses/experimental",
+          "https://linked.data.gov.au/def/reg-statuses/invalid",
+          "https://linked.data.gov.au/def/reg-statuses/notAccepted",
+          "https://linked.data.gov.au/def/reg-statuses/reserved",
+          "https://linked.data.gov.au/def/reg-statuses/retired",
+          "https://linked.data.gov.au/def/reg-statuses/stable",
+          "https://linked.data.gov.au/def/reg-statuses/submitted",
+          "https://linked.data.gov.au/def/reg-statuses/superseded",
+          "https://linked.data.gov.au/def/reg-statuses/valid"
+        ],
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/status",
+        "order": 4,
+        "allowedValues": [
+          "https://linked.data.gov.au/def/reg-statuses/accepted",
+          "https://linked.data.gov.au/def/reg-statuses/deprecated",
+          "https://linked.data.gov.au/def/reg-statuses/experimental",
+          "https://linked.data.gov.au/def/reg-statuses/invalid",
+          "https://linked.data.gov.au/def/reg-statuses/notAccepted",
+          "https://linked.data.gov.au/def/reg-statuses/reserved",
+          "https://linked.data.gov.au/def/reg-statuses/retired",
+          "https://linked.data.gov.au/def/reg-statuses/stable",
+          "https://linked.data.gov.au/def/reg-statuses/submitted",
+          "https://linked.data.gov.au/def/reg-statuses/superseded",
+          "https://linked.data.gov.au/def/reg-statuses/valid"
+        ],
         "simpleView": true
       },
       {
         "path": "http://www.w3.org/2002/07/owl#versionIRI",
         "order": 5,
+        "nodeKind": "http://www.w3.org/ns/shacl#IRI",
         "simpleView": true
       },
       {
-        "path": "https://schema.org/creator",
+        "path": "http://purl.org/dc/terms/creator",
         "order": 6,
+        "class": "http://www.w3.org/ns/prov#Agent",
         "simpleView": true
       },
       {
-        "path": "https://schema.org/publisher",
+        "path": "http://purl.org/dc/terms/publisher",
         "order": 7,
+        "class": "http://www.w3.org/ns/prov#Agent",
         "simpleView": true
       },
       {
@@ -53,6 +89,39 @@
       {
         "path": "https://schema.org/keywords",
         "order": 10,
+        "allowedValues": [
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/ambient_noise_tomography",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_acquisition",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/earth_observation",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/energy",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochemistry",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochronology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geodesy",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geography",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geoinformatics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrogeochemistry",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrogeology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/information_management",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/legislation",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/magnetotellurics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/marine_geoscience",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/minerals",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/natural_hazards",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/palaeontology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/petrophysics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/radiometrics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/resources",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition_and_management",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/seismology"
+        ],
         "simpleView": true
       },
       {
@@ -61,8 +130,13 @@
         "simpleView": true
       },
       {
-        "path": "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "path": "https://schema.org/citation",
         "order": 12,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "order": 13,
         "propertyOrder": [
           {
             "path": "http://www.w3.org/ns/prov#agent",
@@ -76,7 +150,7 @@
       },
       {
         "path": "http://purl.org/dc/terms/provenance",
-        "order": 13,
+        "order": 14,
         "simpleView": true
       }
     ]
@@ -90,6 +164,7 @@
       {
         "path": "http://www.w3.org/2004/02/skos/core#definition",
         "order": 1,
+        "minCount": 1,
         "simpleView": true
       },
       {
@@ -121,6 +196,7 @@
       {
         "path": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "order": 8,
+        "minCount": 1,
         "simpleView": true
       },
       {
@@ -146,6 +222,50 @@
       {
         "path": "http://www.w3.org/2004/02/skos/core#example",
         "order": 13,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/identifier",
+        "order": 14,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/version",
+        "order": 15,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/citation",
+        "order": 16,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/status",
+        "order": 17,
+        "allowedValues": [
+          "https://linked.data.gov.au/def/reg-statuses/accepted",
+          "https://linked.data.gov.au/def/reg-statuses/deprecated",
+          "https://linked.data.gov.au/def/reg-statuses/experimental",
+          "https://linked.data.gov.au/def/reg-statuses/invalid",
+          "https://linked.data.gov.au/def/reg-statuses/notAccepted",
+          "https://linked.data.gov.au/def/reg-statuses/reserved",
+          "https://linked.data.gov.au/def/reg-statuses/retired",
+          "https://linked.data.gov.au/def/reg-statuses/stable",
+          "https://linked.data.gov.au/def/reg-statuses/submitted",
+          "https://linked.data.gov.au/def/reg-statuses/superseded",
+          "https://linked.data.gov.au/def/reg-statuses/valid"
+        ],
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/image",
+        "order": 18,
+        "nodeKind": "http://www.w3.org/ns/shacl#IRI",
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/dateModified",
+        "order": 19,
         "simpleView": true
       }
     ]
