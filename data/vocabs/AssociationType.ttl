@@ -29,6 +29,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
+:new-concept-1
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "E2E New Concept"@en ;
+    skos:topConceptOf cs: ;
+.
+
 :crossreference
     a skos:Concept ;
     dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
