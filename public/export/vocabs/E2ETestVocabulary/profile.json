@@ -1,0 +1,314 @@
+{
+  "conceptScheme": {
+    "propertyOrder": [
+      {
+        "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "order": 0
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "order": 1,
+        "minCount": 1,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#definition",
+        "order": 2,
+        "minCount": 1,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#historyNote",
+        "order": 3,
+        "simpleView": true
+      },
+      {
+        "path": "http://purl.org/linked-data/registry#status",
+        "order": 4,
+        "allowedValues": [
+          "https://linked.data.gov.au/def/reg-statuses/accepted",
+          "https://linked.data.gov.au/def/reg-statuses/deprecated",
+          "https://linked.data.gov.au/def/reg-statuses/experimental",
+          "https://linked.data.gov.au/def/reg-statuses/invalid",
+          "https://linked.data.gov.au/def/reg-statuses/notAccepted",
+          "https://linked.data.gov.au/def/reg-statuses/reserved",
+          "https://linked.data.gov.au/def/reg-statuses/retired",
+          "https://linked.data.gov.au/def/reg-statuses/stable",
+          "https://linked.data.gov.au/def/reg-statuses/submitted",
+          "https://linked.data.gov.au/def/reg-statuses/superseded",
+          "https://linked.data.gov.au/def/reg-statuses/valid"
+        ],
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/status",
+        "order": 4,
+        "allowedValues": [
+          "https://linked.data.gov.au/def/reg-statuses/accepted",
+          "https://linked.data.gov.au/def/reg-statuses/deprecated",
+          "https://linked.data.gov.au/def/reg-statuses/experimental",
+          "https://linked.data.gov.au/def/reg-statuses/invalid",
+          "https://linked.data.gov.au/def/reg-statuses/notAccepted",
+          "https://linked.data.gov.au/def/reg-statuses/reserved",
+          "https://linked.data.gov.au/def/reg-statuses/retired",
+          "https://linked.data.gov.au/def/reg-statuses/stable",
+          "https://linked.data.gov.au/def/reg-statuses/submitted",
+          "https://linked.data.gov.au/def/reg-statuses/superseded",
+          "https://linked.data.gov.au/def/reg-statuses/valid"
+        ],
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2002/07/owl#versionIRI",
+        "order": 5,
+        "nodeKind": "http://www.w3.org/ns/shacl#IRI",
+        "simpleView": true
+      },
+      {
+        "path": "http://purl.org/dc/terms/creator",
+        "order": 6,
+        "class": "http://www.w3.org/ns/prov#Agent",
+        "simpleView": true
+      },
+      {
+        "path": "http://purl.org/dc/terms/publisher",
+        "order": 7,
+        "class": "http://www.w3.org/ns/prov#Agent",
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/dateCreated",
+        "order": 8,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/dateModified",
+        "order": 9,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/keywords",
+        "order": 10,
+        "allowedValues": [
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/ambient_noise_tomography",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_acquisition",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/earth_observation",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/energy",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochemistry",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochronology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geodesy",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geography",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geoinformatics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrogeochemistry",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrogeology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/hydrology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/information_management",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/legislation",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/magnetotellurics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/marine_geoscience",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/minerals",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/natural_hazards",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/palaeontology",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/petrophysics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/radiometrics",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/resources",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition_and_management",
+          "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/seismology"
+        ],
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/version",
+        "order": 11,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/citation",
+        "order": 12,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "order": 13,
+        "propertyOrder": [
+          {
+            "path": "http://www.w3.org/ns/prov#agent",
+            "order": 0
+          },
+          {
+            "path": "http://www.w3.org/ns/prov#hadRole",
+            "order": 1
+          }
+        ]
+      },
+      {
+        "path": "http://purl.org/dc/terms/provenance",
+        "order": 14,
+        "simpleView": true
+      }
+    ]
+  },
+  "concept": {
+    "propertyOrder": [
+      {
+        "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "order": 0
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#definition",
+        "order": 1,
+        "minCount": 1,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#narrower",
+        "order": 2
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#broader",
+        "order": 3
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#related",
+        "order": 4,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#inScheme",
+        "order": 5
+      },
+      {
+        "path": "http://purl.org/dc/terms/identifier",
+        "order": 6,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+        "order": 7
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "order": 8,
+        "minCount": 1,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "order": 9,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#notation",
+        "order": 10,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#scopeNote",
+        "order": 11,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#historyNote",
+        "order": 12,
+        "simpleView": true
+      },
+      {
+        "path": "http://www.w3.org/2004/02/skos/core#example",
+        "order": 13,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/identifier",
+        "order": 14,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/version",
+        "order": 15,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/citation",
+        "order": 16,
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/status",
+        "order": 17,
+        "allowedValues": [
+          "https://linked.data.gov.au/def/reg-statuses/accepted",
+          "https://linked.data.gov.au/def/reg-statuses/deprecated",
+          "https://linked.data.gov.au/def/reg-statuses/experimental",
+          "https://linked.data.gov.au/def/reg-statuses/invalid",
+          "https://linked.data.gov.au/def/reg-statuses/notAccepted",
+          "https://linked.data.gov.au/def/reg-statuses/reserved",
+          "https://linked.data.gov.au/def/reg-statuses/retired",
+          "https://linked.data.gov.au/def/reg-statuses/stable",
+          "https://linked.data.gov.au/def/reg-statuses/submitted",
+          "https://linked.data.gov.au/def/reg-statuses/superseded",
+          "https://linked.data.gov.au/def/reg-statuses/valid"
+        ],
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/image",
+        "order": 18,
+        "nodeKind": "http://www.w3.org/ns/shacl#IRI",
+        "simpleView": true
+      },
+      {
+        "path": "https://schema.org/dateModified",
+        "order": 19,
+        "simpleView": true
+      }
+    ]
+  },
+  "catalog": {
+    "propertyOrder": []
+  },
+  "list": {
+    "propertyOrder": [
+      {
+        "path": "prefLabel",
+        "order": 0
+      },
+      {
+        "path": "iri",
+        "order": 1
+      },
+      {
+        "path": "broader",
+        "order": 2
+      }
+    ]
+  },
+  "nestedOrder": {
+    "http://www.w3.org/ns/prov#qualifiedAttribution": [
+      {
+        "path": "http://www.w3.org/ns/prov#agent",
+        "order": 0
+      },
+      {
+        "path": "http://www.w3.org/ns/prov#hadRole",
+        "order": 1
+      }
+    ],
+    "https://schema.org/temporalCoverage": [
+      {
+        "path": "https://schema.org/startTime",
+        "order": 0
+      },
+      {
+        "path": "https://schema.org/endTime",
+        "order": 1
+      }
+    ]
+  }
+}

@@ -608,6 +608,34 @@
       ]
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/E2ETestVocabulary",
+      "slug": "E2ETestVocabulary",
+      "prefLabel": "E2E Test Vocabulary",
+      "definition": "A temporary vocabulary created end-to-end through the editor UI to validate the new-vocabulary feature.",
+      "conceptCount": 1,
+      "topConcepts": [],
+      "modified": null,
+      "created": null,
+      "version": null,
+      "versionIRI": null,
+      "status": null,
+      "statusLabel": null,
+      "publisher": [],
+      "publisherLabels": [],
+      "creator": [],
+      "creatorLabels": [],
+      "themes": [],
+      "themeLabels": [],
+      "formats": [
+        "ttl",
+        "json",
+        "jsonld",
+        "rdf",
+        "csv",
+        "html"
+      ]
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter",
       "slug": "ContactCharacterBoreholes",
       "prefLabel": "Field Geology - Contact Character",

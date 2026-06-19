@@ -29,6 +29,11 @@
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier",
       "label": "Borehole Geology - Date Qualifier",
       "count": 5
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/E2ETestVocabulary",
+      "label": "E2E Test Vocabulary",
+      "count": 1
     }
   ],
   "publishers": [
