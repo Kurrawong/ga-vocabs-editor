@@ -211,3 +211,12 @@ cs:
     dcat:contactPoint "DPI" ;
     schema:status astatus:experimental ;
 .
+
+:new-concept-1
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "E2E New Concept"@en ;
+    skos:topConceptOf cs: ;
+.
+
+
