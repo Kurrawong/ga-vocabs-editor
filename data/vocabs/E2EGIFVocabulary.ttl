@@ -1,0 +1,21 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/E2EGIFVocabulary/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/E2EGIFVocabulary>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+cs:
+    a skos:ConceptScheme ;
+    skos:prefLabel "E2E GIF Vocabulary"@en ;
+    skos:definition "A demo vocabulary created through the editor UI to record the new-vocabulary walkthrough."@en ;
+.
+
+:new-concept-1
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GIF Test Concept"@en ;
+    skos:topConceptOf cs: ;
+.
+
+
