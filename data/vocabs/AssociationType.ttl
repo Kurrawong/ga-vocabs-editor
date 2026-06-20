@@ -213,3 +213,11 @@ cs:
 .
 
 
+:new-concept-1
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "E2E Demo Concept"@en ;
+    skos:topConceptOf cs: ;
+.
+
+
