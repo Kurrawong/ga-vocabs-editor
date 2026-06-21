@@ -1,6 +1,7 @@
 iri,broader,prefLabel
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle,,collectiveTitle
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/crossreference,,crossReference
+https://pid.geoscience.gov.au/def/voc/ga/associationtype/demoConcept,,Demo Concept
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/dependency,,dependency
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/generated,,generated
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/hadDerivation,,hadDerivation
