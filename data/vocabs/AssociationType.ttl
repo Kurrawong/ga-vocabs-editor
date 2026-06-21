@@ -213,3 +213,12 @@ cs:
 .
 
 
+:demoConcept
+    a skos:Concept ;
+    skos:definition "A demonstration concept added during the authoring walkthrough."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Demo Concept"@en ;
+    skos:topConceptOf cs: ;
+.
+
+
