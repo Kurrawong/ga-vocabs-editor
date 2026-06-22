@@ -6,14 +6,17 @@ then reverted. Every clip is a real edit against the real editor and real GitHub
 
 ## Viewing it
 
-**Live:** <https://ga-vocabs-editor.app.dev.kurrawong.ai/tests/> — the walkthrough is served from the
-site so GA reviewers can open it directly.
+**Live:** <https://ga-vocabs-editor.app.dev.kurrawong.ai/tests/index.html> — the walkthrough is served
+from the site so GA reviewers can open it directly. (Bare `/tests/` falls through to the app's SPA
+shell, so use the explicit `index.html`.)
 
 The player and its assets live in [`../../public/tests/`](../../public/tests/) (served at `/tests`):
-`index.html` is a self-contained player — each segment shows a short clip with a description,
-Prev/Next (← / →), and an optional per-segment voiceover (space to play). Add narration audio as
-`public/tests/audio/<id>.mp3` — scripts are in
-[`../../public/tests/NARRATION.md`](../../public/tests/NARRATION.md).
+`index.html` is a self-contained player. Each part has a **▶ Play** button that starts the clip
+(`vid/<id>.mp4`) and its narration (`audio/<id>.mp3`) together; the clip is timed to the narration,
+plays once, then offers **↻ Play again** instead of looping. Navigate with Prev/Next (← / →); space
+plays/replays. Narration is a professional Australian male voice (ElevenLabs); scripts are in
+[`../../public/tests/NARRATION.md`](../../public/tests/NARRATION.md). The deployment part shows the
+before/after stills (`gifs/deployment-{before,after}.gif`) with narration over them.
 
 | # | Segment | id | What it shows |
 |---|---------|-----|----------------|
