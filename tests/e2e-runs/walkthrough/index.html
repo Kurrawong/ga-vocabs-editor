@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K-Maker — authoring walkthrough</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --panel2:#1f2530; --line:#2a3140;
+    --fg:#e8ecf3; --muted:#9aa6b8; --accent:#4f8cff; --accent2:#7c5cff; --ok:#36c08a;
+    --radius:14px; --shadow:0 10px 40px rgba(0,0,0,.45);
+    font-synthesis:none;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#eef1f6; --panel:#fff; --panel2:#f3f5f9; --line:#dce1ea; --fg:#1a2230; --muted:#5b677a; --shadow:0 10px 40px rgba(20,30,50,.12); }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1040px;margin:0 auto;padding:28px 20px 56px}
+  header.top{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+  .brand{font-weight:700;letter-spacing:.2px;font-size:18px}
+  .brand small{color:var(--muted);font-weight:500}
+  .counter{color:var(--muted);font-variant-numeric:tabular-nums;font-size:13px}
+
+  .stage{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+  .gifwrap{position:relative;background:#0a0c10;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center}
+  .gifwrap img{width:100%;height:100%;object-fit:contain;display:none}
+  .gifwrap img.show{display:block}
+  .ba{position:absolute;inset:0;display:none;gap:2px;background:var(--line)}
+  .ba.show{display:flex}
+  .ba figure{flex:1 1 0;margin:0;position:relative;background:#0a0c10;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .ba figure img{width:100%;height:100%;object-fit:contain}
+  .ba figcaption{position:absolute;top:10px;left:10px;background:rgba(0,0,0,.6);color:#fff;font-size:11px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;border-radius:999px;padding:4px 10px;backdrop-filter:blur(4px);z-index:2}
+  .ba figure:last-child figcaption{background:var(--ok)}
+  .placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:var(--muted);text-align:center;padding:24px}
+  .placeholder .pi{font-size:34px;opacity:.5}
+  .placeholder code{background:var(--panel2);padding:2px 8px;border-radius:6px;color:var(--fg);font-size:12px}
+  .badge{position:absolute;top:12px;left:12px;background:rgba(0,0,0,.55);color:#fff;border-radius:999px;padding:5px 12px;font-size:12px;font-weight:600;letter-spacing:.3px;backdrop-filter:blur(4px)}
+
+  .info{padding:20px 22px 22px}
+  .seg-title{font-size:20px;font-weight:700;margin:0 0 6px}
+  .seg-blurb{color:var(--fg);margin:0 0 14px}
+  .narration{display:flex;gap:10px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;color:var(--muted);font-size:13.5px}
+  .narration .ni{flex:0 0 auto;opacity:.7}
+  .narration b{color:var(--fg);font-weight:600}
+
+  .controls{display:flex;align-items:center;gap:10px;margin-top:18px;flex-wrap:wrap}
+  button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--panel2);color:var(--fg);border-radius:10px;padding:9px 16px;transition:.15s}
+  button:hover{border-color:var(--accent);color:var(--accent)}
+  button:disabled{opacity:.4;cursor:not-allowed}
+  button.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent;color:#fff;font-weight:600}
+  button.primary:hover{filter:brightness(1.08);color:#fff}
+  .spacer{flex:1}
+  .icbtn{padding:9px 12px}
+  .audio-note{color:var(--muted);font-size:12px}
+  .audio-note.on{color:var(--ok)}
+  .toggle{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-size:13px;user-select:none}
+  .toggle input{accent-color:var(--accent)}
+
+  .dots{display:flex;gap:8px;margin:20px 0 0;flex-wrap:wrap}
+  .dot{flex:1 1 0;min-width:60px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px 10px;text-align:left;font-size:12px;color:var(--muted);transition:.15s}
+  .dot:hover{border-color:var(--accent)}
+  .dot.active{border-color:var(--accent);color:var(--fg);background:color-mix(in srgb,var(--accent) 12%,var(--panel2))}
+  .dot .dn{font-variant-numeric:tabular-nums;font-weight:700;color:var(--muted);margin-right:6px}
+  .dot.active .dn{color:var(--accent)}
+  footer{margin-top:26px;color:var(--muted);font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">K-Maker <small>· authoring walkthrough</small></div>
+    <div class="counter"><span id="cnum">1</span> / <span id="ctot">7</span></div>
+  </header>
+
+  <div class="stage">
+    <div class="gifwrap">
+      <div class="badge" id="badge">Part 1</div>
+      <img id="gif" alt="">
+      <div class="placeholder" id="ph">
+        <div class="pi">▶</div>
+        <div>Clip not added yet</div>
+        <div>expected: <code id="phpath">gifs/edit-value.gif</code></div>
+      </div>
+      <div class="ba" id="ba">
+        <figure><figcaption>Before</figcaption><img id="baBefore" alt="live page before deployment"></figure>
+        <figure><figcaption>After</figcaption><img id="baAfter" alt="live page after deployment"></figure>
+      </div>
+    </div>
+    <div class="info">
+      <h2 class="seg-title" id="title"></h2>
+      <p class="seg-blurb" id="blurb"></p>
+      <div class="narration"><span class="ni">🎙</span><span><b>Narration:</b> <span id="narr"></span></span></div>
+
+      <div class="controls">
+        <button class="icbtn" id="play" title="Play / pause narration (space)">▶ Narrate</button>
+        <span class="audio-note" id="anote">no voiceover audio yet</span>
+        <label class="toggle"><input type="checkbox" id="autoadv"> auto-advance</label>
+        <div class="spacer"></div>
+        <button id="prev" title="Previous (←)">← Prev</button>
+        <button class="primary" id="next" title="Next (→)">Next →</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="dots" id="dots"></div>
+  <audio id="audio" preload="none"></audio>
+  <footer>Add ElevenLabs voiceover as <code>audio/&lt;id&gt;.mp3</code> and clips as <code>gifs/&lt;id&gt;.gif</code> — see NARRATION.md · ← / → to navigate, space to narrate</footer>
+</div>
+
+<script>
+const SEGMENTS = [
+  { id:"edit-value", title:"Edit a value",
+    blurb:"Open a vocabulary, select a concept, change one of its values, and save it to your private edit branch — the published vocabulary is untouched.",
+    narration:"Let's start with a simple edit. We open a vocabulary, select a concept, and change one of its values. Saving commits it to your own private edit branch — it doesn't touch the published vocabulary yet." },
+  { id:"add-concept", title:"Add a concept",
+    blurb:"Add a new concept: give it a preferred label and the editor suggests a matching identifier that becomes the concept's permanent IRI. Once saved, the IRI is locked.",
+    narration:"Next, we add a brand-new concept. We give it a preferred label, and the editor suggests a matching identifier — that becomes the concept's permanent web address, its IRI. Once saved, the IRI is locked in." },
+  { id:"create-vocab", title:"Create a vocabulary",
+    blurb:"Build a whole vocabulary from scratch: enter a title and description, the editor scaffolds it and drops you into the editor to add concepts.",
+    narration:"We can also build a whole vocabulary from scratch. We give it a title and description, the editor scaffolds it, and drops us straight into the editor to start adding concepts." },
+  { id:"submit-approval", title:"Submit for approval",
+    blurb:"Submit the draft for review — your edits move out of your personal draft into the review queue.",
+    narration:"When the draft is ready, we submit it for approval. This raises a review request, moving our edits out of the personal draft and into the review queue for a colleague to check." },
+  { id:"approve-staging", title:"Approve into staging",
+    blurb:"A reviewer approves the request; the changes merge into the shared staging area where the team's work comes together.",
+    narration:"A reviewer opens the request and approves it. The changes merge into the shared staging area, where the whole team's work comes together before release." },
+  { id:"publish-production", title:"Publish to production",
+    blurb:"Promote the staged vocabulary to the published set — the formal release step.",
+    narration:"Once staging looks good, we publish to production. This is the formal release step that promotes the staged vocabulary into the published set." },
+  { id:"deployment", title:"Deployment",
+    blurb:"The published change builds and deploys automatically, appearing on the live public site — shown here as a before / after.",
+    narration:"Finally, the published change is built and deployed automatically. Within a few minutes it appears on the live public site — here's the before and after." },
+];
+
+const $ = id => document.getElementById(id);
+const gif=$("gif"), ph=$("ph"), phpath=$("phpath"), badge=$("badge"),
+      ba=$("ba"), baBefore=$("baBefore"), baAfter=$("baAfter"),
+      title=$("title"), blurb=$("blurb"), narr=$("narr"), audio=$("audio"),
+      playBtn=$("play"), anote=$("anote"), autoadv=$("autoadv"),
+      cnum=$("cnum"), ctot=$("ctot"), dots=$("dots");
+let i = 0;
+ctot.textContent = SEGMENTS.length;
+
+// build dots
+SEGMENTS.forEach((s,idx)=>{
+  const b=document.createElement("button");
+  b.className="dot"; b.innerHTML=`<span class="dn">${idx+1}</span>${s.title}`;
+  b.onclick=()=>go(idx); dots.appendChild(b);
+});
+
+function render(){
+  const s=SEGMENTS[i];
+  badge.textContent=`Part ${i+1}`;
+  title.textContent=s.title; blurb.textContent=s.blurb; narr.textContent=s.narration;
+  cnum.textContent=i+1;
+  phpath.textContent=`gifs/${s.id}.gif`;
+  // Media: the deployment segment is a real before/after of the live page (two
+  // stills); every other segment is a single looping clip. Cache-bust each visit.
+  const bust = "?" + Date.now();
+  if (s.id === "deployment") {
+    ba.classList.add("show"); gif.classList.remove("show"); ph.style.display="none";
+    baBefore.src = "gifs/deployment-before.gif" + bust;
+    baAfter.src  = "gifs/deployment-after.gif" + bust;
+  } else {
+    ba.classList.remove("show");
+    gif.classList.remove("show"); ph.style.display="flex";
+    gif.onload=()=>{gif.classList.add("show"); ph.style.display="none";};
+    gif.onerror=()=>{gif.classList.remove("show"); ph.style.display="flex";};
+    gif.src="gifs/"+s.id+".gif" + bust;
+  }
+  // Audio (optional)
+  audio.pause(); audio.src=`audio/${s.id}.mp3`;
+  anote.textContent="checking voiceover…"; anote.className="audio-note";
+  audio.onloadeddata=()=>{anote.textContent="voiceover ready"; anote.className="audio-note on";
+    if(playBtn.dataset.want==="1") audio.play().catch(()=>{}); };
+  audio.onerror=()=>{anote.textContent="no voiceover audio yet"; anote.className="audio-note";};
+  audio.load();
+  // dots
+  [...dots.children].forEach((d,idx)=>d.classList.toggle("active",idx===i));
+  $("prev").disabled=(i===0); $("next").textContent = i===SEGMENTS.length-1 ? "Replay ↻" : "Next →";
+}
+function go(n){ i=(n+SEGMENTS.length)%SEGMENTS.length; render(); }
+$("prev").onclick=()=>go(i-1);
+$("next").onclick=()=>{ if(i===SEGMENTS.length-1) go(0); else go(i+1); };
+playBtn.onclick=()=>{ if(audio.paused){ playBtn.dataset.want="1"; audio.play().catch(()=>{}); } else { audio.pause(); } };
+audio.onplay=()=>{ playBtn.textContent="❚❚ Pause"; };
+audio.onpause=()=>{ playBtn.textContent="▶ Narrate"; };
+audio.onended=()=>{ playBtn.textContent="▶ Narrate"; if(autoadv.checked && i<SEGMENTS.length-1) go(i+1); };
+document.addEventListener("keydown",e=>{
+  if(e.key==="ArrowRight"){$("next").click();}
+  else if(e.key==="ArrowLeft"){$("prev").click();}
+  else if(e.key===" "){e.preventDefault();playBtn.click();}
+});
+render();
+</script>
+</body>
+</html>
