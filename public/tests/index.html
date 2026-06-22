@@ -123,14 +123,14 @@
 <script>
 const SEGMENTS = [
   { id:"edit-value", title:"Edit a value",
-    blurb:"Open a vocabulary, select a concept, change one of its values, and save it to your private edit branch — the published vocabulary is untouched.",
-    narration:"Let's start with a simple edit. We open a vocabulary, select a concept, and change one of its values. Saving commits it to your own private edit branch — it doesn't touch the published vocabulary yet." },
+    blurb:"Start in the workspace, click a vocabulary to open it in edit mode, select a concept, change one of its values, and save to your private edit branch — the published vocabulary is untouched.",
+    narration:"Editing begins in the workspace, where every vocabulary lives. We pick one — Associated Resource Type — and click to open it in the editor, in edit mode. From the concept list we choose a concept. Then we change one of its values, here the definition, and save. The change is committed to our own private edit branch, so the published vocabulary stays untouched." },
   { id:"add-concept", title:"Add a concept",
     blurb:"Add a new concept: give it a preferred label and the editor suggests a matching identifier that becomes the concept's permanent IRI. Once saved, the IRI is locked.",
     narration:"Next, we add a brand-new concept. We give it a preferred label, and the editor suggests a matching identifier — that becomes the concept's permanent web address, its IRI. Once saved, the IRI is locked in." },
   { id:"create-vocab", title:"Create a vocabulary",
-    blurb:"Build a whole vocabulary from scratch: enter a title and description, the editor scaffolds it and drops you into the editor to add concepts.",
-    narration:"We can also build a whole vocabulary from scratch. We give it a title and description, the editor scaffolds it, and drops us straight into the editor to start adding concepts." },
+    blurb:"From the workspace, click New vocabulary, give it a title and description, and the editor scaffolds it and opens it ready for concepts.",
+    narration:"You can also build a whole vocabulary from scratch. In the workspace, we click New vocabulary. We give it a title and a description; the editor derives a matching identifier and shows the web address, the IRI, it will receive. We click Create, and the editor scaffolds the vocabulary and opens it, ready for us to start adding concepts." },
   { id:"submit-approval", title:"Submit for approval",
     blurb:"Submit the draft for review — your edits move out of your personal draft into the review queue.",
     narration:"When the draft is ready, we submit it for approval. This raises a review request, moving our edits out of the personal draft and into the review queue for a colleague to check." },
@@ -151,6 +151,9 @@ const vid=$("vid"), ba=$("ba"), baBefore=$("baBefore"), baAfter=$("baAfter"),
       media=$("media"), badge=$("badge"), title=$("title"), blurb=$("blurb"), narr=$("narr"),
       audio=$("audio"), cnum=$("cnum"), ctot=$("ctot"), dots=$("dots");
 let i = 0;
+// Fresh assets on every page load — the index.html is served must-revalidate, so each
+// reload gets a new timestamp and bypasses any stale cached clip/audio.
+const BUST = "?t=" + Date.now();
 ctot.textContent = SEGMENTS.length;
 
 SEGMENTS.forEach((s,idx)=>{
@@ -173,17 +176,17 @@ function render(){
   cnum.textContent = i+1;
   // reset playback
   audio.pause(); vid.pause(); pfill.style.width = "0%";
-  audio.src = `audio/${s.id}.mp3`; audio.load();
+  audio.src = `audio/${s.id}.mp3` + BUST; audio.load();
   media.classList.toggle("deploy", !!s.deploy);
   if(s.deploy){
     vid.classList.remove("show"); vid.removeAttribute("src"); vid.load();
     ba.classList.add("show");
-    baBefore.src = `gifs/deployment-before.gif`;
-    baAfter.src  = `gifs/deployment-after.gif`;
+    baBefore.src = `gifs/deployment-before.gif` + BUST;
+    baAfter.src  = `gifs/deployment-after.gif` + BUST;
   } else {
     ba.classList.remove("show");
     vid.classList.add("show");
-    vid.src = `vid/${s.id}.mp4`; vid.load(); vid.currentTime = 0;
+    vid.src = `vid/${s.id}.mp4` + BUST; vid.load(); vid.currentTime = 0;
   }
   setOverlay("play");
   [...dots.children].forEach((d,idx)=>d.classList.toggle("active",idx===i));
