@@ -12,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :aggregate
     a skos:Concept ;
     dcterms:identifier "aggregate"^^xsd:token ;
-    skos:definition "Mass of rock particles and or mineral grains "@en ;
+    skos:definition "Mass of rock particles and or mineral grains [test]"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "aggregate"@en ;
     skos:topConceptOf cs: ;
