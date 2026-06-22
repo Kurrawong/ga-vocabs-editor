@@ -6,10 +6,14 @@ then reverted. Every clip is a real edit against the real editor and real GitHub
 
 ## Viewing it
 
-Open [`walkthrough/index.html`](walkthrough/index.html) in a browser. It's a self-contained player:
-each segment shows a short clip with a description, Prev/Next (← / →), and an optional per-segment
-voiceover (space to play). Add narration audio as `walkthrough/audio/<id>.mp3` — scripts are in
-[`walkthrough/NARRATION.md`](walkthrough/NARRATION.md).
+**Live:** <https://ga-vocabs-editor.app.dev.kurrawong.ai/tests/> — the walkthrough is served from the
+site so GA reviewers can open it directly.
+
+The player and its assets live in [`../../public/tests/`](../../public/tests/) (served at `/tests`):
+`index.html` is a self-contained player — each segment shows a short clip with a description,
+Prev/Next (← / →), and an optional per-segment voiceover (space to play). Add narration audio as
+`public/tests/audio/<id>.mp3` — scripts are in
+[`../../public/tests/NARRATION.md`](../../public/tests/NARRATION.md).
 
 | # | Segment | id | What it shows |
 |---|---------|-----|----------------|
