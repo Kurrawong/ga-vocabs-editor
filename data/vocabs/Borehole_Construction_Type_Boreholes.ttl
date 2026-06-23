@@ -12,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :annulusFill
     a skos:Concept ;
     dcterms:identifier "annulusFill"^^xsd:token ;
-    skos:definition "Fill within the annulus between the lining and the surrounding geological material (eg, gravel pack, seal and grout)."@en ;
+    skos:definition "Fill within the annulus between the lining and the surrounding geological material (eg, gravel pack, seal and grout). [TEST]"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "annulus fill"@en ;
     skos:topConceptOf cs: ;
