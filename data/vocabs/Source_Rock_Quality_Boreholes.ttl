@@ -33,10 +33,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:identifier "notAssessed"^^xsd:token ;
     skos:altLabel "NA"@en ;
-    skos:definition "Data has not been assessed for source rock quality"@en ;
+    skos:definition "Data has not been assessed for source rock quality - TEST CHANGE"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "not assessed"@en ;
     skos:topConceptOf cs: ;
+    schema:dateModified "2026-06-23" ;
+    schema:status astatus:experimental ;
 .
 
 :potentialSourceRock
