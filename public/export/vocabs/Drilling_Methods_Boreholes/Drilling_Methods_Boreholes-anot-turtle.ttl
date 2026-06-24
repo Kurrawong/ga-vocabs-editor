@@ -11,7 +11,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 
 <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods> a skos:ConceptScheme;
-    skos:definition "Method of drilling."@en;
+    skos:definition "This is the method of drilling."@en;
     skos:prefLabel "Borehole Geology - Drilling Methods"@en;
     dcterms:provenance "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)"@en;
     dcterms:created "2022-08-04"^^xsd:date;
@@ -20,6 +20,7 @@
     dcterms:publisher <https://linked.data.gov.au/org/ga>;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
     owl:versionInfo "1";
+    skos:historyNote "TEST";
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division";
     sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
     prez:identifier "ns4:DrillingMethods";
@@ -27,7 +28,7 @@
     prez:members "/catalogs/catalogue:default/collections/ns4:DrillingMethods/items";
     prez:type prez:FocusNode;
     prez:label "Borehole Geology - Drilling Methods"@en;
-    prez:description "Method of drilling."@en;
+    prez:description "This is the method of drilling."@en;
     prez:provenance "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)"@en.
 skos:ConceptScheme prez:label "Concept Scheme"@en;
     prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
@@ -53,6 +54,8 @@ rdfs:seeAlso prez:label "see also";
     prez:description "URL of the item".
 owl:versionInfo prez:label "versionInfo";
     prez:description "The annotation property that provides version information for an ontology or another OWL construct.".
+skos:historyNote prez:label "history note"@en;
+    prez:description "A note about the past state/use/meaning of a concept"@en.
 dcat:contactPoint prez:label "contact point"@en;
     prez:description "Relevant contact information for the catalogued resource. Use of vCard is recommended."@en.
 prez:link prez:label "link".
