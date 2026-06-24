@@ -227,7 +227,7 @@ cs:
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
     owl:versionInfo "1" ;
-    skos:definition "Method of drilling."@en ;
+    skos:definition "This is the method of drilling."@en ;
     skos:hasTopConcept
         :auger ,
         :coreAir ,
@@ -248,7 +248,9 @@ cs:
         :rotaryDrilling ,
         :sidewallCore ,
         :unknown ;
+    skos:historyNote "TEST" ;
     skos:prefLabel "Borehole Geology - Drilling Methods"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
     schema:status astatus:experimental ;
 .
+
