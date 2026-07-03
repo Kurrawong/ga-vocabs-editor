@@ -6,7 +6,7 @@
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
             {
-                "@value": "Method of drilling.",
+                "@value": "This is the method of drilling.",
                 "@language": "en"
             }
         ],
@@ -111,6 +111,11 @@
             },
             {
                 "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/unknown"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "TEST"
             }
         ],
         "http://www.w3.org/ns/dcat#contactPoint": [

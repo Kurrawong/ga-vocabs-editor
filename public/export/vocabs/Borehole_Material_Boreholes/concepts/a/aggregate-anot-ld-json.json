@@ -144,7 +144,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "Mass of rock particles and or mineral grains ",
+        "@value": "Mass of rock particles and or mineral grains [test]",
         "@language": "en"
       }
     ],
@@ -187,7 +187,7 @@
     ],
     "https://prez.dev/description": [
       {
-        "@value": "Mass of rock particles and or mineral grains ",
+        "@value": "Mass of rock particles and or mineral grains [test]",
         "@language": "en"
       }
     ]

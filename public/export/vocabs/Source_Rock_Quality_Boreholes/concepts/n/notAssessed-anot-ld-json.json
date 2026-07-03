@@ -165,7 +165,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "Data has not been assessed for source rock quality",
+        "@value": "Data has not been assessed for source rock quality - TEST CHANGE",
         "@language": "en"
       }
     ],
@@ -183,6 +183,16 @@
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality"
+      }
+    ],
+    "https://schema.org/dateModified": [
+      {
+        "@value": "2026-06-23"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
       }
     ],
     "https://prez.dev/identifier": [
@@ -208,7 +218,7 @@
     ],
     "https://prez.dev/description": [
       {
-        "@value": "Data has not been assessed for source rock quality",
+        "@value": "Data has not been assessed for source rock quality - TEST CHANGE",
         "@language": "en"
       }
     ]
@@ -226,6 +236,19 @@
     "https://prez.dev/label": [
       {
         "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/dateModified",
+    "https://prez.dev/label": [
+      {
+        "@value": "date modified"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed"
       }
     ]
   },

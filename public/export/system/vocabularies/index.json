@@ -329,7 +329,7 @@
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods",
       "slug": "Drilling_Methods_Boreholes",
       "prefLabel": "Borehole Geology - Drilling Methods",
-      "definition": "Method of drilling.",
+      "definition": "This is the method of drilling.",
       "conceptCount": 25,
       "topConcepts": [
         "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/auger",

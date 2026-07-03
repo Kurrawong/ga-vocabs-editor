@@ -144,7 +144,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "Fill within the annulus between the lining and the surrounding geological material (eg, gravel pack, seal and grout).",
+        "@value": "Fill within the annulus between the lining and the surrounding geological material (eg, gravel pack, seal and grout). [TEST]",
         "@language": "en"
       }
     ],
@@ -187,7 +187,7 @@
     ],
     "https://prez.dev/description": [
       {
-        "@value": "Fill within the annulus between the lining and the surrounding geological material (eg, gravel pack, seal and grout).",
+        "@value": "Fill within the annulus between the lining and the surrounding geological material (eg, gravel pack, seal and grout). [TEST]",
         "@language": "en"
       }
     ]

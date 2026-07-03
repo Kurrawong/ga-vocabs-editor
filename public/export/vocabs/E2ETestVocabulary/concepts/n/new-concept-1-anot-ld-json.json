@@ -1,24 +1,9 @@
 [
   {
-    "@id": "_:n3-55",
+    "@id": "_:n3-31",
     "https://prez.dev/currentProfile": [
       {
         "@id": "https://prez.dev/DefaultSchemeProfile"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.org/dc/terms/provenance",
-    "https://prez.dev/label": [
-      {
-        "@value": "Provenance",
-        "@language": "en"
-      }
-    ],
-    "https://prez.dev/description": [
-      {
-        "@value": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.",
-        "@language": "en"
       }
     ]
   },
@@ -96,82 +81,69 @@
     ]
   },
   {
-    "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods",
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/E2ETestVocabulary",
     "https://prez.dev/identifier": [
       {
-        "@value": "ns1:DrillingMethods"
+        "@value": "ns1:E2ETestVocabulary"
       }
     ],
     "https://prez.dev/link": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns1:DrillingMethods"
+        "@value": "/catalogs/catalogue:default/collections/ns1:E2ETestVocabulary"
       }
     ],
     "https://prez.dev/label": [
       {
-        "@value": "Borehole Geology - Drilling Methods",
+        "@value": "E2E Test Vocabulary",
         "@language": "en"
       }
     ],
     "https://prez.dev/description": [
       {
-        "@value": "This is the method of drilling.",
+        "@value": "A temporary vocabulary created end-to-end through the editor UI to validate the new-vocabulary feature.",
         "@language": "en"
       }
     ],
     "https://prez.dev/members": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns1:DrillingMethods/items"
-      }
-    ],
-    "https://prez.dev/provenance": [
-      {
-        "@value": "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)",
-        "@language": "en"
+        "@value": "/catalogs/catalogue:default/collections/ns1:E2ETestVocabulary/items"
       }
     ]
   },
   {
-    "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/unknown",
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/E2ETestVocabulary/new-concept-1",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Test Concept One",
+        "@language": "en"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "The method of drilling is unknown",
-        "@language": "en"
+        "@value": "The first test concept in the E2E-created vocabulary."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@value": "unknown",
-        "@language": "en"
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/E2ETestVocabulary"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods"
-      }
-    ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "http://www.opengis.net/def/nil/OGC/0/unknown",
-        "@language": "en"
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/E2ETestVocabulary"
       }
     ],
     "https://prez.dev/identifier": [
       {
-        "@value": "ns1:unknown"
+        "@value": "ns1:new-concept-1"
       }
     ],
     "https://prez.dev/link": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns1:DrillingMethods/items/ns1:unknown"
+        "@value": "/catalogs/catalogue:default/collections/ns1:E2ETestVocabulary/items/ns1:new-concept-1"
       }
     ],
     "https://prez.dev/type": [
@@ -181,14 +153,13 @@
     ],
     "https://prez.dev/label": [
       {
-        "@value": "unknown",
+        "@value": "Test Concept One",
         "@language": "en"
       }
     ],
     "https://prez.dev/description": [
       {
-        "@value": "The method of drilling is unknown",
-        "@language": "en"
+        "@value": "The first test concept in the E2E-created vocabulary."
       }
     ]
   },

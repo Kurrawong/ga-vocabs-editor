@@ -1,24 +1,9 @@
 [
   {
-    "@id": "_:n3-55",
+    "@id": "_:n3-33",
     "https://prez.dev/currentProfile": [
       {
         "@id": "https://prez.dev/DefaultSchemeProfile"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.org/dc/terms/provenance",
-    "https://prez.dev/label": [
-      {
-        "@value": "Provenance",
-        "@language": "en"
-      }
-    ],
-    "https://prez.dev/description": [
-      {
-        "@value": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.",
-        "@language": "en"
       }
     ]
   },
@@ -96,82 +81,70 @@
     ]
   },
   {
-    "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods",
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
     "https://prez.dev/identifier": [
       {
-        "@value": "ns1:DrillingMethods"
+        "@value": "ns1:associationtype"
       }
     ],
     "https://prez.dev/link": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns1:DrillingMethods"
+        "@value": "/catalogs/catalogue:default/collections/ns1:associationtype"
       }
     ],
     "https://prez.dev/label": [
       {
-        "@value": "Borehole Geology - Drilling Methods",
+        "@value": "Associated Resource Type",
         "@language": "en"
       }
     ],
     "https://prez.dev/description": [
       {
-        "@value": "This is the method of drilling.",
+        "@value": "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551.",
         "@language": "en"
       }
     ],
     "https://prez.dev/members": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns1:DrillingMethods/items"
-      }
-    ],
-    "https://prez.dev/provenance": [
-      {
-        "@value": "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)",
-        "@language": "en"
+        "@value": "/catalogs/catalogue:default/collections/ns1:associationtype/items"
       }
     ]
   },
   {
-    "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/unknown",
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/demoConcept",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "The method of drilling is unknown",
+        "@value": "A demonstration concept added during the authoring walkthrough.",
         "@language": "en"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods"
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "unknown",
+        "@value": "Demo Concept",
         "@language": "en"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods"
-      }
-    ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "http://www.opengis.net/def/nil/OGC/0/unknown",
-        "@language": "en"
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype"
       }
     ],
     "https://prez.dev/identifier": [
       {
-        "@value": "ns1:unknown"
+        "@value": "ns1:demoConcept"
       }
     ],
     "https://prez.dev/link": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns1:DrillingMethods/items/ns1:unknown"
+        "@value": "/catalogs/catalogue:default/collections/ns1:associationtype/items/ns1:demoConcept"
       }
     ],
     "https://prez.dev/type": [
@@ -181,13 +154,13 @@
     ],
     "https://prez.dev/label": [
       {
-        "@value": "unknown",
+        "@value": "Demo Concept",
         "@language": "en"
       }
     ],
     "https://prez.dev/description": [
       {
-        "@value": "The method of drilling is unknown",
+        "@value": "A demonstration concept added during the authoring walkthrough.",
         "@language": "en"
       }
     ]

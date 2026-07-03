@@ -154,6 +154,21 @@
     ]
   },
   {
+    "@id": "http://www.w3.org/2004/02/skos/core#historyNote",
+    "https://prez.dev/label": [
+      {
+        "@value": "history note",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A note about the past state/use/meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
     "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
     "https://prez.dev/label": [
       {
@@ -216,7 +231,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "Method of drilling.",
+        "@value": "This is the method of drilling.",
         "@language": "en"
       }
     ],
@@ -264,6 +279,11 @@
         "@value": "1"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "TEST"
+      }
+    ],
     "http://www.w3.org/ns/dcat#contactPoint": [
       {
         "@value": "Team Lead - Information Services; Minerals, Energy and Groundwater Division"
@@ -302,7 +322,7 @@
     ],
     "https://prez.dev/description": [
       {
-        "@value": "Method of drilling.",
+        "@value": "This is the method of drilling.",
         "@language": "en"
       }
     ],

@@ -14,6 +14,7 @@
     dcterms:identifier "SourceRockQuality"^^xsd:token;
     skos:definition "The quality of source rock from which organic chemistry samples were obtained."@en;
     skos:prefLabel "Boreholes Organic Geochemistry - Source Rock Quality"@en;
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
     dcterms:created "2022-08-09"^^xsd:date;
     dcterms:creator <https://linked.data.gov.au/org/ga>;
     dcterms:modified "2022-08-09"^^xsd:date;
@@ -22,5 +23,4 @@
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
     owl:versionInfo "1";
     skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/effectiveSourceRock>, <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/notASourceRock>, <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/notAssessed>, <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/potentialSourceRock>, <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/relicEffectiveSourceRock>, <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/spentSourceRock>;
-    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division";
-    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division".

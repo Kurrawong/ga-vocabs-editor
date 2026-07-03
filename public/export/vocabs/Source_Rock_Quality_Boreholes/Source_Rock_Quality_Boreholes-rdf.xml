@@ -17,6 +17,7 @@
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#token">SourceRockQuality</dcterms:identifier>
     <skos:definition xml:lang="en">The quality of source rock from which organic chemistry samples were obtained.</skos:definition>
     <skos:prefLabel xml:lang="en">Boreholes Organic Geochemistry - Source Rock Quality</skos:prefLabel>
+    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-09</dcterms:created>
     <dcterms:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-09</dcterms:modified>
@@ -31,6 +32,5 @@
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/relicEffectiveSourceRock"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/spentSourceRock"/>
     <dcat:contactPoint>Team Lead - Information Services; Energy, Minerals and Groundwater Division</dcat:contactPoint>
-    <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
   </rdf:Description>
 </rdf:RDF>

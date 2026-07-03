@@ -1,0 +1,20 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/E2ETestVocabulary",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "E2E Test Vocabulary",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "A temporary vocabulary created end-to-end through the editor UI to validate the new-vocabulary feature.",
+                "@language": "en"
+            }
+        ]
+    }
+]

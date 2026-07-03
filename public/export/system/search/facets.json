@@ -224,6 +224,11 @@
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode",
       "label": "General Geology - QA Status Code",
       "count": 2
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/E2ETestVocabulary",
+      "label": "E2E Test Vocabulary",
+      "count": 1
     }
   ],
   "publishers": [
