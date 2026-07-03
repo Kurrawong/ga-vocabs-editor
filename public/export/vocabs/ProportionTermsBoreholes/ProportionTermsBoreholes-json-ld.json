@@ -82,7 +82,7 @@
         ],
         "http://www.w3.org/2004/02/skos/core#historyNote": [
             {
-                "@value": "Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)",
+                "@value": "TEST Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)",
                 "@language": "en"
             }
         ],

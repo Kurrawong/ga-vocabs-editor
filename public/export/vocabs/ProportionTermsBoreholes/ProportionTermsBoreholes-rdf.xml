@@ -32,7 +32,7 @@
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/subordinate"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/trace"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/variable"/>
-    <skos:historyNote xml:lang="en">Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)</skos:historyNote>
+    <skos:historyNote xml:lang="en">TEST Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)</skos:historyNote>
     <dcat:contactPoint>Team Lead - Information Services; Energy, Minerals and Groundwater Division</dcat:contactPoint>
     <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
   </rdf:Description>

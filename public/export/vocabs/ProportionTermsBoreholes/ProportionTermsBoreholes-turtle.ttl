@@ -20,6 +20,6 @@
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
     owl:versionInfo "1";
     skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/absent>, <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/all>, <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/present>, <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/dominant>, <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/major>, <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/minor>, <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/rare>, <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/subordinate>, <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/trace>, <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/variable>;
-    skos:historyNote "Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)"@en;
+    skos:historyNote "TEST Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)"@en;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division";
     sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>.

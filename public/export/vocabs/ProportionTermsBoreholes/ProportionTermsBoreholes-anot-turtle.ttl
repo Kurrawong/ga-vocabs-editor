@@ -19,7 +19,7 @@
     dcterms:publisher <https://linked.data.gov.au/org/ga>;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
     owl:versionInfo "1";
-    skos:historyNote "Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)"@en;
+    skos:historyNote "TEST Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)"@en;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division";
     sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
     prez:identifier "ns4:ProportionTerms";
