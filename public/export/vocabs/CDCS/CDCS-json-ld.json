@@ -16,6 +16,12 @@
                 "@language": "en"
             }
         ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "CIMA information group",
+                "@language": "en"
+            }
+        ],
         "http://purl.org/dc/terms/created": [
             {
                 "@value": "2005-01-01",
@@ -92,12 +98,6 @@
             },
             {
                 "@id": "https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrogeology"
-            }
-        ],
-        "http://www.w3.org/2004/02/skos/core#historyNote": [
-            {
-                "@value": "CIMA information group",
-                "@language": "en"
             }
         ],
         "http://www.w3.org/ns/dcat#contactPoint": [

@@ -13,11 +13,11 @@
 <https://pid.geoscience.gov.au/def/voc/ga/CDCS> a skos:ConceptScheme;
     skos:definition "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014"@en;
     skos:prefLabel "Legacy GA Corporate Data Classification Scheme"@en;
+    skos:historyNote "CIMA information group"@en;
     dcterms:created "2005-01-01"^^xsd:date;
     dcterms:creator <https://linked.data.gov.au/org/ga>;
     dcterms:modified "2023-03-22"^^xsd:date;
     dcterms:publisher <https://linked.data.gov.au/org/ga>;
-    skos:historyNote "CIMA information group"@en;
     dcat:contactPoint "GAIA";
     sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
     prez:identifier "ns4:CDCS";
@@ -32,6 +32,8 @@ skos:definition prez:label "definition"@en;
     prez:description "A statement or formal explanation of the meaning of a concept"@en.
 skos:prefLabel prez:label "preferred label"@en;
     prez:description "The preferred lexical label for a resource, in a given language"@en.
+skos:historyNote prez:label "history note"@en;
+    prez:description "A note about the past state/use/meaning of a concept"@en.
 dcterms:created prez:label "Date Created"@en;
     prez:description "Date of creation of the resource."@en.
 dcterms:creator prez:label "Creator"@en;
@@ -42,8 +44,6 @@ dcterms:modified prez:label "Date Modified"@en;
     prez:description "Date on which the resource was changed."@en.
 dcterms:publisher prez:label "Publisher"@en;
     prez:description "An entity responsible for making the resource available."@en.
-skos:historyNote prez:label "history note"@en;
-    prez:description "A note about the past state/use/meaning of a concept"@en.
 dcat:contactPoint prez:label "contact point"@en;
     prez:description "Relevant contact information for the catalogued resource. Use of vCard is recommended."@en.
 prez:link prez:label "link".

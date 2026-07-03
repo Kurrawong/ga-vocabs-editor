@@ -16,6 +16,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <skos:definition xml:lang="en">LEGACY GA Corporate Data Classification Scheme used 2005 - 2014</skos:definition>
     <skos:prefLabel xml:lang="en">Legacy GA Corporate Data Classification Scheme</skos:prefLabel>
+    <skos:historyNote xml:lang="en">CIMA information group</skos:historyNote>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</dcterms:created>
     <dcterms:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-22</dcterms:modified>
@@ -38,7 +39,6 @@
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/CDCS/natural-habitat"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/CDCS/geochronology"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/CDCS/hydrogeology"/>
-    <skos:historyNote xml:lang="en">CIMA information group</skos:historyNote>
     <dcat:contactPoint>GAIA</dcat:contactPoint>
     <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
   </rdf:Description>

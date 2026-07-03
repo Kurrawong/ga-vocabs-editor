@@ -187,6 +187,12 @@
         "@language": "en"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "CIMA information group",
+        "@language": "en"
+      }
+    ],
     "http://purl.org/dc/terms/created": [
       {
         "@value": "2005-01-01",
@@ -207,12 +213,6 @@
     "http://purl.org/dc/terms/publisher": [
       {
         "@id": "https://linked.data.gov.au/org/ga"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#historyNote": [
-      {
-        "@value": "CIMA information group",
-        "@language": "en"
       }
     ],
     "http://www.w3.org/ns/dcat#contactPoint": [

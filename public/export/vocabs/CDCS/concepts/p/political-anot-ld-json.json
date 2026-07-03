@@ -51,6 +51,21 @@
     ]
   },
   {
+    "@id": "http://www.w3.org/2004/02/skos/core#historyNote",
+    "https://prez.dev/label": [
+      {
+        "@value": "history note",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A note about the past state/use/meaning of a concept",
+        "@language": "en"
+      }
+    ]
+  },
+  {
     "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
     "https://prez.dev/label": [
       {
@@ -122,7 +137,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "State , electoral and native boundaries",
+        "@value": "State , electoral and native boundaries - within Australia",
         "@language": "en"
       }
     ],
@@ -135,6 +150,16 @@
       {
         "@value": "political",
         "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Updated the definition"
+      }
+    ],
+    "https://schema.org/dateModified": [
+      {
+        "@value": "2026-07-03"
       }
     ],
     "https://prez.dev/identifier": [
@@ -160,7 +185,7 @@
     ],
     "https://prez.dev/description": [
       {
-        "@value": "State , electoral and native boundaries",
+        "@value": "State , electoral and native boundaries - within Australia",
         "@language": "en"
       }
     ]
@@ -178,6 +203,19 @@
     "https://prez.dev/label": [
       {
         "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/dateModified",
+    "https://prez.dev/label": [
+      {
+        "@value": "date modified"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed"
       }
     ]
   },
