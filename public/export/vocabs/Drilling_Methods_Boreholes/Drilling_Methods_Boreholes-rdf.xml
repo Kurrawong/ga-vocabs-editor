@@ -19,7 +19,7 @@
     <dcterms:provenance xml:lang="en">Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)</dcterms:provenance>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-04</dcterms:created>
     <dcterms:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-04</dcterms:modified>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-03</dcterms:modified>
     <dcterms:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
     <rdfs:seeAlso rdf:resource="https://pid.geoscience.gov.au/dataset/ga/148553"/>
     <owl:versionInfo>1</owl:versionInfo>
@@ -42,7 +42,7 @@
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/rotaryDrilling"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/sidewallCore"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/unknown"/>
-    <skos:historyNote>TEST</skos:historyNote>
+    <skos:historyNote>TEST 2</skos:historyNote>
     <dcat:contactPoint>Team Lead - Information Services; Minerals, Energy and Groundwater Division</dcat:contactPoint>
     <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
   </rdf:Description>

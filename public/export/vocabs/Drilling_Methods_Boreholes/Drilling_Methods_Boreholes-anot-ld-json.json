@@ -260,7 +260,7 @@
     ],
     "http://purl.org/dc/terms/modified": [
       {
-        "@value": "2022-08-04",
+        "@value": "2026-07-03",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
       }
     ],
@@ -281,7 +281,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#historyNote": [
       {
-        "@value": "TEST"
+        "@value": "TEST 2"
       }
     ],
     "http://www.w3.org/ns/dcat#contactPoint": [

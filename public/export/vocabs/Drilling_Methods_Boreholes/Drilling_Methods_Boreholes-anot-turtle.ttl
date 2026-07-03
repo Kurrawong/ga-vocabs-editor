@@ -16,11 +16,11 @@
     dcterms:provenance "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)"@en;
     dcterms:created "2022-08-04"^^xsd:date;
     dcterms:creator <https://linked.data.gov.au/org/ga>;
-    dcterms:modified "2022-08-04"^^xsd:date;
+    dcterms:modified "2026-07-03"^^xsd:date;
     dcterms:publisher <https://linked.data.gov.au/org/ga>;
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
     owl:versionInfo "1";
-    skos:historyNote "TEST";
+    skos:historyNote "TEST 2";
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division";
     sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
     prez:identifier "ns4:DrillingMethods";
