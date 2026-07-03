@@ -137,8 +137,9 @@ cs:
         :subordinate ,
         :trace ,
         :variable ;
-    skos:historyNote "Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)"@en ;
+    skos:historyNote "TEST Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)"@en ;
     skos:prefLabel "Field Geology - Proportion Terms "@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
     schema:status astatus:experimental ;
 .
+
