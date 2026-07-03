@@ -370,9 +370,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :political
     a skos:Concept ;
     skos:broader :administrative-boundaries ;
-    skos:definition "State , electoral and native boundaries"@en ;
+    skos:definition "State , electoral and native boundaries - within Australia"@en ;
+    skos:historyNote "Updated the definition" ;
     skos:inScheme cs: ;
     skos:prefLabel "political"@en ;
+    schema:dateModified "2026-07-03" ;
 .
 
 :porosity-permeability
