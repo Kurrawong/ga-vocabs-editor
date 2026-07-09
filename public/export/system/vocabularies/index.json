@@ -2355,6 +2355,36 @@
         "csv",
         "html"
       ]
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/TESTVOCAB",
+      "slug": "TESTVOCAB",
+      "prefLabel": "TEST VOCAB",
+      "definition": "This is a new test vocab.",
+      "conceptCount": 1,
+      "topConcepts": [
+        "https://pid.geoscience.gov.au/def/voc/ga/TESTVOCAB/newConceptInNewVocab"
+      ],
+      "modified": null,
+      "created": null,
+      "version": null,
+      "versionIRI": null,
+      "status": null,
+      "statusLabel": null,
+      "publisher": [],
+      "publisherLabels": [],
+      "creator": [],
+      "creatorLabels": [],
+      "themes": [],
+      "themeLabels": [],
+      "formats": [
+        "ttl",
+        "json",
+        "jsonld",
+        "rdf",
+        "csv",
+        "html"
+      ]
     }
   ]
 }

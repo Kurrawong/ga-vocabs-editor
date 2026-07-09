@@ -229,6 +229,11 @@
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/E2ETestVocabulary",
       "label": "E2E Test Vocabulary",
       "count": 1
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/TESTVOCAB",
+      "label": "TEST VOCAB",
+      "count": 1
     }
   ],
   "publishers": [
