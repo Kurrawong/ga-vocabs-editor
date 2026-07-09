@@ -13,6 +13,7 @@ https://pid.geoscience.gov.au/def/voc/ga/associationtype/partOfSeamlessDatabase,
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/revisionOf,,revisionOf
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/series,,series
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/StereoMate,,StereoMate
+https://pid.geoscience.gov.au/def/voc/ga/associationtype/TESTNewConcept,,TEST new concept
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom,,wasDerivedFrom
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy,,wasGeneratedBy
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy,,wasInformedBy

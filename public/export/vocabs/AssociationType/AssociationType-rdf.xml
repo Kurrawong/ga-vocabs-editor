@@ -39,6 +39,7 @@
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/associationtype/TESTNewConcept"/>
     <skos:historyNote xml:lang="en">https://pid.geoscience.gov.au/dataset/ga/122551</skos:historyNote>
     <dcat:contactPoint>DPI</dcat:contactPoint>
     <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>

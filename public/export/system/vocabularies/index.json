@@ -5,7 +5,7 @@
       "slug": "AssociationType",
       "prefLabel": "Associated Resource Type",
       "definition": "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551.",
-      "conceptCount": 17,
+      "conceptCount": 18,
       "topConcepts": [
         "https://pid.geoscience.gov.au/def/voc/ga/associationtype/StereoMate",
         "https://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle",
@@ -23,7 +23,8 @@
         "https://pid.geoscience.gov.au/def/voc/ga/associationtype/series",
         "https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasDerivedFrom",
         "https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasGeneratedBy",
-        "https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy"
+        "https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy",
+        "https://pid.geoscience.gov.au/def/voc/ga/associationtype/TESTNewConcept"
       ],
       "modified": "2023-04-06",
       "created": "2019-11-01",

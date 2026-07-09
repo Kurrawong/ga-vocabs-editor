@@ -99,6 +99,9 @@
             },
             {
                 "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/wasInformedBy"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/TESTNewConcept"
             }
         ],
         "http://www.w3.org/2004/02/skos/core#historyNote": [
