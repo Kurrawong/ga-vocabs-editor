@@ -81,6 +81,11 @@
       "count": 25
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
+      "label": "Associated Resource Type",
+      "count": 19
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial",
       "label": "Borehole Geology - Construction Material",
       "count": 19
@@ -89,11 +94,6 @@
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose",
       "label": "Borehole Geology - Purpose",
       "count": 19
-    },
-    {
-      "iri": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
-      "label": "Associated Resource Type",
-      "count": 18
     },
     {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/ContactType",

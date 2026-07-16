@@ -1,24 +1,9 @@
 [
   {
-    "@id": "_:n3-44",
+    "@id": "_:n3-39",
     "https://prez.dev/currentProfile": [
       {
         "@id": "https://prez.dev/DefaultSchemeProfile"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.org/dc/terms/provenance",
-    "https://prez.dev/label": [
-      {
-        "@value": "Provenance",
-        "@language": "en"
-      }
-    ],
-    "https://prez.dev/description": [
-      {
-        "@value": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.",
-        "@language": "en"
       }
     ]
   },
@@ -36,16 +21,16 @@
     ]
   },
   {
-    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
     "https://prez.dev/label": [
       {
-        "@value": "alternative label",
+        "@value": "has broader",
         "@language": "en"
       }
     ],
     "https://prez.dev/description": [
       {
-        "@value": "An alternative lexical label for a resource",
+        "@value": "Relates a concept to a concept that is more general in meaning",
         "@language": "en"
       }
     ]
@@ -96,21 +81,6 @@
     ]
   },
   {
-    "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
-    "https://prez.dev/label": [
-      {
-        "@value": "is top concept in scheme",
-        "@language": "en"
-      }
-    ],
-    "https://prez.dev/description": [
-      {
-        "@value": "Relates a concept to the concept scheme that it is a top level concept of",
-        "@language": "en"
-      }
-    ]
-  },
-  {
     "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
     "https://prez.dev/identifier": [
       {
@@ -141,26 +111,13 @@
     ]
   },
   {
-    "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/series",
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/newConcept",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode",
-        "@language": "en"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@value": "series",
-        "@language": "en"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "associated through a common heritage such as produced to a common product specification",
-        "@language": "en"
+        "@value": "New concept"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -170,23 +127,23 @@
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "series",
+        "@value": "New concept",
         "@language": "en"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+    "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype"
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle"
       }
     ],
     "https://prez.dev/identifier": [
       {
-        "@value": "ns1:series"
+        "@value": "ns1:newConcept"
       }
     ],
     "https://prez.dev/link": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns1:associationtype/items/ns1:series"
+        "@value": "/catalogs/catalogue:default/collections/ns1:associationtype/items/ns1:newConcept"
       }
     ],
     "https://prez.dev/type": [
@@ -196,14 +153,13 @@
     ],
     "https://prez.dev/label": [
       {
-        "@value": "series",
+        "@value": "New concept",
         "@language": "en"
       }
     ],
     "https://prez.dev/description": [
       {
-        "@value": "associated through a common heritage such as produced to a common product specification",
-        "@language": "en"
+        "@value": "New concept"
       }
     ]
   },

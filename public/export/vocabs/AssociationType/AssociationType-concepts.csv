@@ -7,6 +7,7 @@ https://pid.geoscience.gov.au/def/voc/ga/associationtype/hadDerivation,,hadDeriv
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/informed,,informed
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/isComposedOf,,isComposedOf
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/largerWorkCitation,,largerWorkCitation
+https://pid.geoscience.gov.au/def/voc/ga/associationtype/newConcept,https://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle,New concept
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatedOnBy,,operatedOnBy
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/operatesOn,,operatesOn
 https://pid.geoscience.gov.au/def/voc/ga/associationtype/partOfSeamlessDatabase,,partOfSeamlessDatabase
