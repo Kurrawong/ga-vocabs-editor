@@ -25,6 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "collective Title"@en ;
     skos:definition "this is common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite. TEST"@en ;
     skos:inScheme cs: ;
+    skos:narrower :newConcept ;
     skos:prefLabel "collectiveTitle"@en ;
     skos:topConceptOf cs: ;
 .
@@ -220,6 +221,15 @@ cs:
     skos:prefLabel "TEST new concept"@en ;
     skos:topConceptOf cs: ;
     schema:dateModified "2026-07-09" ;
+.
+
+
+:newConcept
+    a skos:Concept ;
+    skos:broader :collectiveTitle ;
+    skos:definition "New concept" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "New concept"@en ;
 .
 
 
