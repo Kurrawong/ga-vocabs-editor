@@ -221,6 +221,11 @@
       "count": 2
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/Newvocab",
+      "label": "New vocab",
+      "count": 2
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode",
       "label": "General Geology - QA Status Code",
       "count": 2

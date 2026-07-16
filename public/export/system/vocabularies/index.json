@@ -2041,6 +2041,36 @@
       ]
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/Newvocab",
+      "slug": "Newvocab",
+      "prefLabel": "New vocab",
+      "definition": "Test Vocab",
+      "conceptCount": 2,
+      "topConcepts": [
+        "https://pid.geoscience.gov.au/def/voc/ga/Newvocab/newVocabsConcept"
+      ],
+      "modified": null,
+      "created": null,
+      "version": null,
+      "versionIRI": null,
+      "status": null,
+      "statusLabel": null,
+      "publisher": [],
+      "publisherLabels": [],
+      "creator": [],
+      "creatorLabels": [],
+      "themes": [],
+      "themeLabels": [],
+      "formats": [
+        "ttl",
+        "json",
+        "jsonld",
+        "rdf",
+        "csv",
+        "html"
+      ]
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions",
       "slug": "OnlineFunction",
       "prefLabel": "OnLine Function Type",
