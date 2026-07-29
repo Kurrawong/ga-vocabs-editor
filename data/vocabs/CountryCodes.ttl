@@ -5472,6 +5472,7 @@ cs:
         :CAF ,
         :CAN ,
         :CCK ,
+        :cCTEST ,
         :CHE ,
         :CHL ,
         :CHN ,
@@ -5685,3 +5686,13 @@ cs:
     dcat:contactPoint "DPI" ;
     schema:status astatus:experimental ;
 .
+
+:cCTEST
+    a skos:Concept ;
+    skos:definition "Testing adding a concept" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CCTEST"@en ;
+    skos:topConceptOf cs: ;
+.
+
+
