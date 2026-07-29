@@ -236,6 +236,11 @@
       "count": 1
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab",
+      "label": "NewTESTVocab",
+      "count": 1
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/TESTVOCAB",
       "label": "TEST VOCAB",
       "count": 1

@@ -11,8 +11,8 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 
 <https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab> a skos:ConceptScheme;
-    skos:prefLabel "NewTESTVocab"@en;
     skos:definition "Testing Creating a Vocab"@en;
+    skos:prefLabel "NewTESTVocab"@en;
     prez:identifier "ns4:NewTESTVocab";
     prez:link "/catalogs/catalogue:default/collections/ns4:NewTESTVocab";
     prez:members "/catalogs/catalogue:default/collections/ns4:NewTESTVocab/items";
@@ -21,11 +21,13 @@
     prez:description "Testing Creating a Vocab"@en.
 skos:ConceptScheme prez:label "Concept Scheme"@en;
     prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
-skos:prefLabel prez:label "preferred label"@en;
-    prez:description "The preferred lexical label for a resource, in a given language"@en.
 skos:definition prez:label "definition"@en;
     prez:description "A statement or formal explanation of the meaning of a concept"@en.
+skos:prefLabel prez:label "preferred label"@en;
+    prez:description "The preferred lexical label for a resource, in a given language"@en.
 prez:link prez:label "link".
 prez:members prez:label "members".
 <urn:catalog:default> prez:identifier "catalogue:default".
 _:n3-30 prez:currentProfile prez:DefaultSchemeProfile.
+skos:hasTopConcept prez:label "has top concept"@en;
+    prez:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en.

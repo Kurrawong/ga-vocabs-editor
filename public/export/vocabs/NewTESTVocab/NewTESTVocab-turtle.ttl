@@ -11,5 +11,6 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 
 <https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab> a skos:ConceptScheme;
-    skos:prefLabel "NewTESTVocab"@en;
-    skos:definition "Testing Creating a Vocab"@en.
+    skos:definition "Testing Creating a Vocab"@en;
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab/newTESTVocabCONCEPT1>;
+    skos:prefLabel "NewTESTVocab"@en.

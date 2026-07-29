@@ -38,6 +38,21 @@
     ]
   },
   {
+    "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+    "https://prez.dev/label": [
+      {
+        "@value": "has top concept",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies",
+        "@language": "en"
+      }
+    ]
+  },
+  {
     "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
     "https://prez.dev/label": [
       {
@@ -57,15 +72,15 @@
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@value": "NewTESTVocab",
-        "@language": "en"
-      }
-    ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@value": "Testing Creating a Vocab",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "NewTESTVocab",
         "@language": "en"
       }
     ],

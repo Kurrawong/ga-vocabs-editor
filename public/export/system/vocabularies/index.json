@@ -2076,8 +2076,10 @@
       "slug": "NewTESTVocab",
       "prefLabel": "NewTESTVocab",
       "definition": "Testing Creating a Vocab",
-      "conceptCount": 0,
-      "topConcepts": [],
+      "conceptCount": 1,
+      "topConcepts": [
+        "https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab/newTESTVocabCONCEPT1"
+      ],
       "modified": null,
       "created": null,
       "version": null,

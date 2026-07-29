@@ -14,7 +14,8 @@
 >
   <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:prefLabel xml:lang="en">NewTESTVocab</skos:prefLabel>
     <skos:definition xml:lang="en">Testing Creating a Vocab</skos:definition>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab/newTESTVocabCONCEPT1"/>
+    <skos:prefLabel xml:lang="en">NewTESTVocab</skos:prefLabel>
   </rdf:Description>
 </rdf:RDF>
