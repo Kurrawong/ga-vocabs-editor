@@ -1,0 +1,12 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+cs:
+    a skos:ConceptScheme ;
+    skos:prefLabel "NewTESTVocab"@en ;
+    skos:definition "Testing Creating a Vocab"@en ;
+.
