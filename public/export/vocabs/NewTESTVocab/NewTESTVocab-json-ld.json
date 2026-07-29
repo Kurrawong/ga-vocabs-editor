@@ -1,0 +1,20 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "NewTESTVocab",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Testing Creating a Vocab",
+                "@language": "en"
+            }
+        ]
+    }
+]
