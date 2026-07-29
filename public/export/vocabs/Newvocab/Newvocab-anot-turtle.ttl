@@ -1,0 +1,36 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix sdo: <https://schema.org/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix reg: <http://purl.org/linked-data/registry#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix prez: <https://prez.dev/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+<https://pid.geoscience.gov.au/def/voc/ga/Newvocab> a skos:ConceptScheme;
+    skos:definition "Test Vocab"@en;
+    skos:historyNote "Just a test";
+    skos:prefLabel "New vocab"@en;
+    prez:identifier "ns4:Newvocab";
+    prez:link "/catalogs/catalogue:default/collections/ns4:Newvocab";
+    prez:members "/catalogs/catalogue:default/collections/ns4:Newvocab/items";
+    prez:type prez:FocusNode;
+    prez:label "New vocab"@en;
+    prez:description "Test Vocab"@en.
+skos:ConceptScheme prez:label "Concept Scheme"@en;
+    prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
+skos:definition prez:label "definition"@en;
+    prez:description "A statement or formal explanation of the meaning of a concept"@en.
+skos:historyNote prez:label "history note"@en;
+    prez:description "A note about the past state/use/meaning of a concept"@en.
+skos:prefLabel prez:label "preferred label"@en;
+    prez:description "The preferred lexical label for a resource, in a given language"@en.
+prez:link prez:label "link".
+prez:members prez:label "members".
+<urn:catalog:default> prez:identifier "catalogue:default".
+_:n3-30 prez:currentProfile prez:DefaultSchemeProfile.
+skos:hasTopConcept prez:label "has top concept"@en;
+    prez:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en.

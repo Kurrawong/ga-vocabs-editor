@@ -271,6 +271,7 @@
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZAF"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZMB"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZWE"/>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/cCTEST"/>
     <skos:historyNote xml:lang="en">These codes are sourced from https://www.iso.org/obp/</skos:historyNote>
     <dcat:contactPoint>DPI</dcat:contactPoint>
     <sdo:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>

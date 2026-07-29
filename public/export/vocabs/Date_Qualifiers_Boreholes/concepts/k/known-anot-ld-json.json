@@ -164,6 +164,11 @@
         "@id": "https://pid.geoscience.gov.au/def/voc/ga/DateQualifier"
       }
     ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
     "https://prez.dev/identifier": [
       {
         "@value": "ns1:known"

@@ -1,0 +1,30 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/Newvocab",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Test Vocab",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/Newvocab/newVocabsConcept"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "Just a test"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "New vocab",
+                "@language": "en"
+            }
+        ]
+    }
+]

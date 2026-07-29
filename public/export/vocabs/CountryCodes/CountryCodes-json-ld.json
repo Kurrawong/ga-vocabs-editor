@@ -795,6 +795,9 @@
             },
             {
                 "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZWE"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/cCTEST"
             }
         ],
         "http://www.w3.org/2004/02/skos/core#historyNote": [

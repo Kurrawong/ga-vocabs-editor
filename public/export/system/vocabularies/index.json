@@ -5,7 +5,7 @@
       "slug": "AssociationType",
       "prefLabel": "Associated Resource Type",
       "definition": "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551.",
-      "conceptCount": 18,
+      "conceptCount": 19,
       "topConcepts": [
         "https://pid.geoscience.gov.au/def/voc/ga/associationtype/StereoMate",
         "https://pid.geoscience.gov.au/def/voc/ga/associationtype/collectiveTitle",
@@ -908,7 +908,7 @@
       "slug": "CountryCodes",
       "prefLabel": "GA Country Codes",
       "definition": "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui ",
-      "conceptCount": 448,
+      "conceptCount": 449,
       "topConcepts": [
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ABW",
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/AFG",
@@ -1158,7 +1158,8 @@
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/YEM",
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZAF",
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZMB",
-        "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZWE"
+        "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZWE",
+        "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/cCTEST"
       ],
       "modified": "2023-09-27",
       "created": "2020-11-04",
@@ -2029,6 +2030,64 @@
       "creatorLabels": [
         "Geoscience Australia"
       ],
+      "themes": [],
+      "themeLabels": [],
+      "formats": [
+        "ttl",
+        "json",
+        "jsonld",
+        "rdf",
+        "csv",
+        "html"
+      ]
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/Newvocab",
+      "slug": "Newvocab",
+      "prefLabel": "New vocab",
+      "definition": "Test Vocab",
+      "conceptCount": 2,
+      "topConcepts": [
+        "https://pid.geoscience.gov.au/def/voc/ga/Newvocab/newVocabsConcept"
+      ],
+      "modified": null,
+      "created": null,
+      "version": null,
+      "versionIRI": null,
+      "status": null,
+      "statusLabel": null,
+      "publisher": [],
+      "publisherLabels": [],
+      "creator": [],
+      "creatorLabels": [],
+      "themes": [],
+      "themeLabels": [],
+      "formats": [
+        "ttl",
+        "json",
+        "jsonld",
+        "rdf",
+        "csv",
+        "html"
+      ]
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab",
+      "slug": "NewTESTVocab",
+      "prefLabel": "NewTESTVocab",
+      "definition": "Testing Creating a Vocab",
+      "conceptCount": 0,
+      "topConcepts": [],
+      "modified": null,
+      "created": null,
+      "version": null,
+      "versionIRI": null,
+      "status": null,
+      "statusLabel": null,
+      "publisher": [],
+      "publisherLabels": [],
+      "creator": [],
+      "creatorLabels": [],
       "themes": [],
       "themeLabels": [],
       "formats": [

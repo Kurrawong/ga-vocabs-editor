@@ -81,6 +81,21 @@
     ]
   },
   {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "https://prez.dev/label": [
+      {
+        "@value": "has narrower",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relates a concept to a concept that is more specific in meaning",
+        "@language": "en"
+      }
+    ]
+  },
+  {
     "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
     "https://prez.dev/label": [
       {
@@ -159,7 +174,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "this is common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite.",
+        "@value": "this is common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite. TEST",
         "@language": "en"
       }
     ],
@@ -177,6 +192,11 @@
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/newConcept"
       }
     ],
     "https://prez.dev/identifier": [
@@ -202,7 +222,32 @@
     ],
     "https://prez.dev/description": [
       {
-        "@value": "this is common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite.",
+        "@value": "this is common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite. TEST",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/associationtype/newConcept",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:newConcept"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:default/collections/ns1:associationtype/items/ns1:newConcept"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "New concept",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "New concept",
         "@language": "en"
       }
     ]

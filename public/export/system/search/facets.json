@@ -3,7 +3,7 @@
     {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes",
       "label": "GA Country Codes",
-      "count": 448
+      "count": 449
     },
     {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
@@ -81,6 +81,11 @@
       "count": 25
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
+      "label": "Associated Resource Type",
+      "count": 19
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial",
       "label": "Borehole Geology - Construction Material",
       "count": 19
@@ -89,11 +94,6 @@
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose",
       "label": "Borehole Geology - Purpose",
       "count": 19
-    },
-    {
-      "iri": "https://pid.geoscience.gov.au/def/voc/ga/associationtype",
-      "label": "Associated Resource Type",
-      "count": 18
     },
     {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/ContactType",
@@ -218,6 +218,11 @@
     {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus",
       "label": "Mineral Resources - Mining Waste Status Types",
+      "count": 2
+    },
+    {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/Newvocab",
+      "label": "New vocab",
       "count": 2
     },
     {

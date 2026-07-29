@@ -14,6 +14,7 @@
     dcterms:identifier "DateQualifier"^^xsd:token;
     skos:definition "Terms to describe the confidence or quality in a recorded date "@en;
     skos:prefLabel "Borehole Geology - Date Qualifier"@en;
+    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
     dcterms:created "2022-08-04"^^xsd:date;
     dcterms:creator <https://linked.data.gov.au/org/ga>;
     dcterms:modified "2022-08-04"^^xsd:date;
@@ -22,7 +23,6 @@
     rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553>;
     owl:versionInfo "1";
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division";
-    sdo:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
     prez:identifier "ns4:DateQualifier";
     prez:link "/catalogs/catalogue:default/collections/ns4:DateQualifier";
     prez:members "/catalogs/catalogue:default/collections/ns4:DateQualifier/items";
