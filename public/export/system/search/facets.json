@@ -3,7 +3,7 @@
     {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes",
       "label": "GA Country Codes",
-      "count": 448
+      "count": 449
     },
     {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",

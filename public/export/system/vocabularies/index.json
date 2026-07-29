@@ -908,7 +908,7 @@
       "slug": "CountryCodes",
       "prefLabel": "GA Country Codes",
       "definition": "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui ",
-      "conceptCount": 448,
+      "conceptCount": 449,
       "topConcepts": [
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ABW",
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/AFG",
@@ -1158,7 +1158,8 @@
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/YEM",
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZAF",
         "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZMB",
-        "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZWE"
+        "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/ZWE",
+        "https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/cCTEST"
       ],
       "modified": "2023-09-27",
       "created": "2020-11-04",
