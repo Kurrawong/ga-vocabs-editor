@@ -1,0 +1,25 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "This is a new vocab."@en ;
+    skos:hasTopConcept :newConceptForNewVocab ;
+    skos:prefLabel "My New Vocab"@en ;
+    schema:dateCreated "2026-07-28" ;
+    schema:dateModified "2026-07-28" ;
+.
+
+:newConceptForNewVocab
+    a skos:Concept ;
+    skos:definition "My New Concept" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "New Concept for New Vocab"@en ;
+    skos:topConceptOf cs: ;
+.
+
+
