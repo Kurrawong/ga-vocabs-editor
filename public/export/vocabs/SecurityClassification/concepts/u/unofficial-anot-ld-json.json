@@ -141,6 +141,11 @@
         "@id": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification"
       }
     ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://commons.wikimedia.org/wiki/File:Prof.2.jpg"
+      }
+    ],
     "https://prez.dev/identifier": [
       {
         "@value": "ns1:unofficial"
