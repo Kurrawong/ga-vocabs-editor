@@ -19,11 +19,13 @@ information, including where the entity is the originator of the information.  T
     a skos:Concept ;
     skos:broader :official ;
     skos:definition "This information would create limited reputational damage to the entity." ;
+    skos:historyNote "Attempting to add an SVG image" ;
     skos:inScheme cs: ;
     skos:prefLabel "Official Sensitive"@en ;
+    schema:image <https://commons.wikimedia.org/wiki/File:3rd_bridge_preparation_diagram.svg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:version "0.2" ;
 .
-
 
 :official
     a skos:Concept ;
