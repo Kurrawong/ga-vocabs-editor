@@ -1,0 +1,28 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/official"
+            },
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/unofficial"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "Security Classification",
+                "@language": "en"
+            }
+        ]
+    }
+]

@@ -206,6 +206,11 @@
       "count": 3
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification",
+      "label": "Security Classification",
+      "count": 3
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass",
       "label": "Borehole Geology - Directional Survey Class",
       "count": 2

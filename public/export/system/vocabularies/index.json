@@ -2418,6 +2418,37 @@
       ]
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification",
+      "slug": "SecurityClassification",
+      "prefLabel": "Security Classification",
+      "definition": "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information.",
+      "conceptCount": 3,
+      "topConcepts": [
+        "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/official",
+        "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/unofficial"
+      ],
+      "modified": null,
+      "created": null,
+      "version": null,
+      "versionIRI": null,
+      "status": null,
+      "statusLabel": null,
+      "publisher": [],
+      "publisherLabels": [],
+      "creator": [],
+      "creatorLabels": [],
+      "themes": [],
+      "themeLabels": [],
+      "formats": [
+        "ttl",
+        "json",
+        "jsonld",
+        "rdf",
+        "csv",
+        "html"
+      ]
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/TESTVOCAB",
       "slug": "TESTVOCAB",
       "prefLabel": "TEST VOCAB",
