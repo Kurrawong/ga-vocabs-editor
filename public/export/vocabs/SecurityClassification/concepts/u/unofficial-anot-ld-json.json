@@ -131,6 +131,11 @@
         "@id": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification"
       }
     ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://commons.wikimedia.org/wiki/File:Prof.2.jpg"
+      }
+    ],
     "https://schema.org/status": [
       {
         "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
@@ -139,11 +144,6 @@
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification"
-      }
-    ],
-    "https://schema.org/image": [
-      {
-        "@id": "https://commons.wikimedia.org/wiki/File:Prof.2.jpg"
       }
     ],
     "https://prez.dev/identifier": [
