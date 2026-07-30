@@ -7,12 +7,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    <http://purl.org/linked-data/registry#status> <https://linked.data.gov.au/def/reg-statuses/experimental> ;
     skos:definition """Australian Government entities are required to maintain the confidentiality, integrity and availability of official 
 information, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information."""@en ;
     skos:hasTopConcept
         :official ,
         :unofficial ;
+    skos:historyNote "https://pid.geoscience.gov.au/dataset/ga/9999999"@en ;
     skos:prefLabel "Security Classification"@en ;
+    schema:dateCreated "2026-07-29" ;
+    schema:dateModified "2026-07-30" ;
+    schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration> ;
+    schema:version "1"@en ;
 .
 
 :officialSensitive
