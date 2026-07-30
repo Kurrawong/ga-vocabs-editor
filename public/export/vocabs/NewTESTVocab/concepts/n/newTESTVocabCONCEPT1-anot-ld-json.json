@@ -146,6 +146,11 @@
         "@value": "https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab/NewTESTVocabCONCEPT1"
       }
     ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://demo.dev.kurrawong.ai/catalogs/exm:demo-vocabs/collections/demovocabs:image-test"
+      }
+    ],
     "https://schema.org/status": [
       {
         "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
