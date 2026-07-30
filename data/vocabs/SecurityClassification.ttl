@@ -21,9 +21,9 @@ information, including where the entity is the originator of the information.  T
     skos:definition "This information would create limited reputational damage to the entity." ;
     skos:inScheme cs: ;
     skos:prefLabel "Official Sensitive"@en ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Vector-based_example.svg/960px-Vector-based_example.svg.png> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .
-
 
 :official
     a skos:Concept ;
