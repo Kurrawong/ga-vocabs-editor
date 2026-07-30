@@ -10,7 +10,9 @@
 @prefix prez: <https://prez.dev/>.
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 
-<https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab> a skos:ConceptScheme;
-    skos:definition "Testing Creating a Vocab"@en;
-    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab/newTESTVocabCONCEPT1>;
-    skos:prefLabel "NewTESTVocab"@en.
+<https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab> a skos:ConceptScheme;
+    skos:definition "This is a new vocab."@en;
+    skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab/newConceptForNewVocab>;
+    skos:prefLabel "My New Vocab"@en;
+    sdo:dateCreated "2026-07-28";
+    sdo:dateModified "2026-07-28".

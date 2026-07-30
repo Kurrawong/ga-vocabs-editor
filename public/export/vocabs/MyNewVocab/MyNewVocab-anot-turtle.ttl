@@ -10,21 +10,27 @@
 @prefix prez: <https://prez.dev/>.
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 
-<https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab> a skos:ConceptScheme;
-    skos:definition "Testing Creating a Vocab"@en;
-    skos:prefLabel "NewTESTVocab"@en;
-    prez:identifier "ns4:NewTESTVocab";
-    prez:link "/catalogs/catalogue:default/collections/ns4:NewTESTVocab";
-    prez:members "/catalogs/catalogue:default/collections/ns4:NewTESTVocab/items";
+<https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab> a skos:ConceptScheme;
+    skos:definition "This is a new vocab."@en;
+    skos:prefLabel "My New Vocab"@en;
+    sdo:dateCreated "2026-07-28";
+    sdo:dateModified "2026-07-28";
+    prez:identifier "ns4:MyNewVocab";
+    prez:link "/catalogs/catalogue:default/collections/ns4:MyNewVocab";
+    prez:members "/catalogs/catalogue:default/collections/ns4:MyNewVocab/items";
     prez:type prez:FocusNode;
-    prez:label "NewTESTVocab"@en;
-    prez:description "Testing Creating a Vocab"@en.
+    prez:label "My New Vocab"@en;
+    prez:description "This is a new vocab."@en.
 skos:ConceptScheme prez:label "Concept Scheme"@en;
     prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
 skos:definition prez:label "definition"@en;
     prez:description "A statement or formal explanation of the meaning of a concept"@en.
 skos:prefLabel prez:label "preferred label"@en;
     prez:description "The preferred lexical label for a resource, in a given language"@en.
+sdo:dateCreated prez:label "date created";
+    prez:description "The date on which the CreativeWork was created or the item was added to a DataFeed".
+sdo:dateModified prez:label "date modified";
+    prez:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed".
 prez:link prez:label "link".
 prez:members prez:label "members".
 <urn:catalog:default> prez:identifier "catalogue:default".

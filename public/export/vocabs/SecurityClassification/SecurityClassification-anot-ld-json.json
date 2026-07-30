@@ -68,35 +68,35 @@
     ]
   },
   {
-    "@id": "https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab",
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "Testing Creating a Vocab",
+        "@value": "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information.",
         "@language": "en"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "NewTESTVocab",
+        "@value": "Security Classification",
         "@language": "en"
       }
     ],
     "https://prez.dev/identifier": [
       {
-        "@value": "ns4:NewTESTVocab"
+        "@value": "ns4:SecurityClassification"
       }
     ],
     "https://prez.dev/link": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns4:NewTESTVocab"
+        "@value": "/catalogs/catalogue:default/collections/ns4:SecurityClassification"
       }
     ],
     "https://prez.dev/members": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns4:NewTESTVocab/items"
+        "@value": "/catalogs/catalogue:default/collections/ns4:SecurityClassification/items"
       }
     ],
     "https://prez.dev/type": [
@@ -106,13 +106,13 @@
     ],
     "https://prez.dev/label": [
       {
-        "@value": "NewTESTVocab",
+        "@value": "Security Classification",
         "@language": "en"
       }
     ],
     "https://prez.dev/description": [
       {
-        "@value": "Testing Creating a Vocab",
+        "@value": "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information.",
         "@language": "en"
       }
     ]

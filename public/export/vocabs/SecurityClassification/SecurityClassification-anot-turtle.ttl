@@ -10,15 +10,15 @@
 @prefix prez: <https://prez.dev/>.
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 
-<https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab> a skos:ConceptScheme;
-    skos:definition "Testing Creating a Vocab"@en;
-    skos:prefLabel "NewTESTVocab"@en;
-    prez:identifier "ns4:NewTESTVocab";
-    prez:link "/catalogs/catalogue:default/collections/ns4:NewTESTVocab";
-    prez:members "/catalogs/catalogue:default/collections/ns4:NewTESTVocab/items";
+<https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification> a skos:ConceptScheme;
+    skos:definition "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information."@en;
+    skos:prefLabel "Security Classification"@en;
+    prez:identifier "ns4:SecurityClassification";
+    prez:link "/catalogs/catalogue:default/collections/ns4:SecurityClassification";
+    prez:members "/catalogs/catalogue:default/collections/ns4:SecurityClassification/items";
     prez:type prez:FocusNode;
-    prez:label "NewTESTVocab"@en;
-    prez:description "Testing Creating a Vocab"@en.
+    prez:label "Security Classification"@en;
+    prez:description "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information."@en.
 skos:ConceptScheme prez:label "Concept Scheme"@en;
     prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
 skos:definition prez:label "definition"@en;

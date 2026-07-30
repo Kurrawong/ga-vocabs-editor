@@ -68,35 +68,45 @@
     ]
   },
   {
-    "@id": "https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab",
+    "@id": "https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "Testing Creating a Vocab",
+        "@value": "This is a new vocab.",
         "@language": "en"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "NewTESTVocab",
+        "@value": "My New Vocab",
         "@language": "en"
+      }
+    ],
+    "https://schema.org/dateCreated": [
+      {
+        "@value": "2026-07-28"
+      }
+    ],
+    "https://schema.org/dateModified": [
+      {
+        "@value": "2026-07-28"
       }
     ],
     "https://prez.dev/identifier": [
       {
-        "@value": "ns4:NewTESTVocab"
+        "@value": "ns4:MyNewVocab"
       }
     ],
     "https://prez.dev/link": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns4:NewTESTVocab"
+        "@value": "/catalogs/catalogue:default/collections/ns4:MyNewVocab"
       }
     ],
     "https://prez.dev/members": [
       {
-        "@value": "/catalogs/catalogue:default/collections/ns4:NewTESTVocab/items"
+        "@value": "/catalogs/catalogue:default/collections/ns4:MyNewVocab/items"
       }
     ],
     "https://prez.dev/type": [
@@ -106,13 +116,13 @@
     ],
     "https://prez.dev/label": [
       {
-        "@value": "NewTESTVocab",
+        "@value": "My New Vocab",
         "@language": "en"
       }
     ],
     "https://prez.dev/description": [
       {
-        "@value": "Testing Creating a Vocab",
+        "@value": "This is a new vocab.",
         "@language": "en"
       }
     ]
@@ -130,6 +140,32 @@
     "https://prez.dev/label": [
       {
         "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/dateCreated",
+    "https://prez.dev/label": [
+      {
+        "@value": "date created"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The date on which the CreativeWork was created or the item was added to a DataFeed"
+      }
+    ]
+  },
+  {
+    "@id": "https://schema.org/dateModified",
+    "https://prez.dev/label": [
+      {
+        "@value": "date modified"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed"
       }
     ]
   },

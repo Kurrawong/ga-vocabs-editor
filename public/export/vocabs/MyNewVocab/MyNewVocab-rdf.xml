@@ -12,10 +12,12 @@
    xmlns:prez="https://prez.dev/"
    xmlns:dcat="http://www.w3.org/ns/dcat#"
 >
-  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab">
+  <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:definition xml:lang="en">Testing Creating a Vocab</skos:definition>
-    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab/newTESTVocabCONCEPT1"/>
-    <skos:prefLabel xml:lang="en">NewTESTVocab</skos:prefLabel>
+    <skos:definition xml:lang="en">This is a new vocab.</skos:definition>
+    <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab/newConceptForNewVocab"/>
+    <skos:prefLabel xml:lang="en">My New Vocab</skos:prefLabel>
+    <sdo:dateCreated>2026-07-28</sdo:dateCreated>
+    <sdo:dateModified>2026-07-28</sdo:dateModified>
   </rdf:Description>
 </rdf:RDF>
