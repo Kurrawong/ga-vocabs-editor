@@ -42,7 +42,7 @@ information, including where the entity is the originator of the information.  T
     skos:inScheme cs: ;
     skos:prefLabel "Unofficial"@en ;
     skos:topConceptOf cs: ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Vector-based_example.svg/250px-Vector-based_example.svg.png> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .
-
 
