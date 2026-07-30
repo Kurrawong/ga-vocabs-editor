@@ -2042,6 +2042,36 @@
       ]
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab",
+      "slug": "MyNewVocab",
+      "prefLabel": "My New Vocab",
+      "definition": "This is a new vocab.",
+      "conceptCount": 1,
+      "topConcepts": [
+        "https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab/newConceptForNewVocab"
+      ],
+      "modified": "2026-07-28",
+      "created": "2026-07-28",
+      "version": null,
+      "versionIRI": null,
+      "status": null,
+      "statusLabel": null,
+      "publisher": [],
+      "publisherLabels": [],
+      "creator": [],
+      "creatorLabels": [],
+      "themes": [],
+      "themeLabels": [],
+      "formats": [
+        "ttl",
+        "json",
+        "jsonld",
+        "rdf",
+        "csv",
+        "html"
+      ]
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/Newvocab",
       "slug": "Newvocab",
       "prefLabel": "New vocab",

@@ -241,6 +241,11 @@
       "count": 1
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/MyNewVocab",
+      "label": "My New Vocab",
+      "count": 1
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/NewTESTVocab",
       "label": "NewTESTVocab",
       "count": 1
