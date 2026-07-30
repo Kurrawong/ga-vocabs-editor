@@ -4,6 +4,21 @@
         "@type": [
             "http://www.w3.org/2004/02/skos/core#ConceptScheme"
         ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/dc/terms/publisher": [
+            {
+                "@id": "https://linked.data.gov.au/org/ga"
+            }
+        ],
+        "http://purl.org/linked-data/registry#status": [
+            {
+                "@id": "https://linked.data.gov.au/def/reg-statuses/experimental"
+            }
+        ],
         "http://www.w3.org/2004/02/skos/core#definition": [
             {
                 "@value": "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information.",
@@ -18,9 +33,36 @@
                 "@id": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/unofficial"
             }
         ],
+        "http://www.w3.org/2004/02/skos/core#historyNote": [
+            {
+                "@value": "https://pid.geoscience.gov.au/dataset/ga/9999999",
+                "@language": "en"
+            }
+        ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
             {
                 "@value": "Security Classification",
+                "@language": "en"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "2026-07-29"
+            }
+        ],
+        "https://schema.org/dateModified": [
+            {
+                "@value": "2026-07-30"
+            }
+        ],
+        "https://schema.org/keywords": [
+            {
+                "@id": "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration"
+            }
+        ],
+        "https://schema.org/version": [
+            {
+                "@value": "1",
                 "@language": "en"
             }
         ]

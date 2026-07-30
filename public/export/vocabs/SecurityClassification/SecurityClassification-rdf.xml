@@ -14,10 +14,18 @@
 >
   <rdf:Description rdf:about="https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:creator rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <dcterms:publisher rdf:resource="https://linked.data.gov.au/org/ga"/>
+    <reg:status rdf:resource="https://linked.data.gov.au/def/reg-statuses/experimental"/>
     <skos:definition xml:lang="en">Australian Government entities are required to maintain the confidentiality, integrity and availability of official 
 information, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity&apos;s information.</skos:definition>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/official"/>
     <skos:hasTopConcept rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/unofficial"/>
+    <skos:historyNote xml:lang="en">https://pid.geoscience.gov.au/dataset/ga/9999999</skos:historyNote>
     <skos:prefLabel xml:lang="en">Security Classification</skos:prefLabel>
+    <sdo:dateCreated>2026-07-29</sdo:dateCreated>
+    <sdo:dateModified>2026-07-30</sdo:dateModified>
+    <sdo:keywords rdf:resource="https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration"/>
+    <sdo:version xml:lang="en">1</sdo:version>
   </rdf:Description>
 </rdf:RDF>

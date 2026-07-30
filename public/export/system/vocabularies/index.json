@@ -2457,18 +2457,22 @@
         "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/official",
         "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/unofficial"
       ],
-      "modified": null,
-      "created": null,
-      "version": null,
+      "modified": "2026-07-30",
+      "created": "2026-07-29",
+      "version": "1",
       "versionIRI": null,
-      "status": null,
-      "statusLabel": null,
+      "status": "https://linked.data.gov.au/def/reg-statuses/experimental",
+      "statusLabel": "experimental",
       "publisher": [],
       "publisherLabels": [],
       "creator": [],
       "creatorLabels": [],
-      "themes": [],
-      "themeLabels": [],
+      "themes": [
+        "https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration"
+      ],
+      "themeLabels": [
+        "administration"
+      ],
       "formats": [
         "ttl",
         "json",

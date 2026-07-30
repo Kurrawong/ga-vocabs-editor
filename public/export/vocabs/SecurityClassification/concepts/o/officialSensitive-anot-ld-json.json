@@ -135,20 +135,25 @@
         "@value": "This information would create limited reputational damage to the entity."
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Attempting to add an SVG image"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@value": "Official Sensitive",
         "@language": "en"
       }
     ],
+    "https://schema.org/version": [
+      {
+        "@value": "0.2"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
         "@id": "https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/official"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#historyNote": [
-      {
-        "@value": "Attempting to add an SVG image"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -164,11 +169,6 @@
     "https://schema.org/status": [
       {
         "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
-      }
-    ],
-    "https://schema.org/version": [
-      {
-        "@value": "0.2"
       }
     ],
     "https://prez.dev/identifier": [

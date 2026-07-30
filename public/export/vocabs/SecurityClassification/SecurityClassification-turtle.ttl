@@ -11,6 +11,14 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 
 <https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification> a skos:ConceptScheme;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
     skos:definition "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information."@en;
     skos:hasTopConcept <https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/official>, <https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/unofficial>;
-    skos:prefLabel "Security Classification"@en.
+    skos:historyNote "https://pid.geoscience.gov.au/dataset/ga/9999999"@en;
+    skos:prefLabel "Security Classification"@en;
+    sdo:dateCreated "2026-07-29";
+    sdo:dateModified "2026-07-30";
+    sdo:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration>;
+    sdo:version "1"@en.

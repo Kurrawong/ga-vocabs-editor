@@ -11,8 +11,16 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 
 <https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification> a skos:ConceptScheme;
+    dcterms:creator <https://linked.data.gov.au/org/ga>;
+    dcterms:publisher <https://linked.data.gov.au/org/ga>;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/experimental>;
     skos:definition "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information."@en;
+    skos:historyNote "https://pid.geoscience.gov.au/dataset/ga/9999999"@en;
     skos:prefLabel "Security Classification"@en;
+    sdo:dateCreated "2026-07-29";
+    sdo:dateModified "2026-07-30";
+    sdo:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/administration>;
+    sdo:version "1"@en;
     prez:identifier "ns4:SecurityClassification";
     prez:link "/catalogs/catalogue:default/collections/ns4:SecurityClassification";
     prez:members "/catalogs/catalogue:default/collections/ns4:SecurityClassification/items";
@@ -21,10 +29,26 @@
     prez:description "Australian Government entities are required to maintain the confidentiality, integrity and availability of official \ninformation, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information."@en.
 skos:ConceptScheme prez:label "Concept Scheme"@en;
     prez:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en.
+dcterms:creator prez:label "Creator"@en;
+    prez:description "An entity responsible for making the resource."@en.
+<https://linked.data.gov.au/org/ga> prez:label "Geoscience Australia";
+    prez:description "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia.".
+dcterms:publisher prez:label "Publisher"@en;
+    prez:description "An entity responsible for making the resource available."@en.
 skos:definition prez:label "definition"@en;
     prez:description "A statement or formal explanation of the meaning of a concept"@en.
+skos:historyNote prez:label "history note"@en;
+    prez:description "A note about the past state/use/meaning of a concept"@en.
 skos:prefLabel prez:label "preferred label"@en;
     prez:description "The preferred lexical label for a resource, in a given language"@en.
+sdo:dateCreated prez:label "date created";
+    prez:description "The date on which the CreativeWork was created or the item was added to a DataFeed".
+sdo:dateModified prez:label "date modified";
+    prez:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed".
+sdo:keywords prez:label "keywords";
+    prez:description "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property".
+sdo:version prez:label "version";
+    prez:description "The version of the CreativeWork embodied by a specified resource".
 prez:link prez:label "link".
 prez:members prez:label "members".
 <urn:catalog:default> prez:identifier "catalogue:default".
