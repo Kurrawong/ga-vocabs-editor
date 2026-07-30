@@ -1,0 +1,48 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SecurityClassification>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """Australian Government entities are required to maintain the confidentiality, integrity and availability of official 
+information, including where the entity is the originator of the information.  The Australian Government uses security classifications to indicate the sensitivity of the entity's information."""@en ;
+    skos:hasTopConcept
+        :official ,
+        :unofficial ;
+    skos:prefLabel "Security Classification"@en ;
+.
+
+:officialSensitive
+    a skos:Concept ;
+    skos:broader :official ;
+    skos:definition "This information would create limited reputational damage to the entity." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Official Sensitive"@en ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.
+
+
+:official
+    a skos:Concept ;
+    skos:definition "This applies to routine business information and will have little to no impact on the reputation of the business." ;
+    skos:inScheme cs: ;
+    skos:narrower :officialSensitive ;
+    skos:prefLabel "Official"@en ;
+    skos:topConceptOf cs: ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.
+
+
+:unofficial
+    a skos:Concept ;
+    skos:definition "This information does not form part of official duty and should have no business impact." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unofficial"@en ;
+    skos:topConceptOf cs: ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.
+
+
