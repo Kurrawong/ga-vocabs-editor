@@ -1,0 +1,20 @@
+[
+    {
+        "@id": "https://pid.geoscience.gov.au/def/voc/ga/E2EPublishDelete",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "E2E Publish Delete",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@value": "Temporary vocabulary for verifying the publish-deletion cycle. Safe to delete.",
+                "@language": "en"
+            }
+        ]
+    }
+]

@@ -609,6 +609,34 @@
       ]
     },
     {
+      "iri": "https://pid.geoscience.gov.au/def/voc/ga/E2EPublishDelete",
+      "slug": "E2EPublishDelete",
+      "prefLabel": "E2E Publish Delete",
+      "definition": "Temporary vocabulary for verifying the publish-deletion cycle. Safe to delete.",
+      "conceptCount": 0,
+      "topConcepts": [],
+      "modified": null,
+      "created": null,
+      "version": null,
+      "versionIRI": null,
+      "status": null,
+      "statusLabel": null,
+      "publisher": [],
+      "publisherLabels": [],
+      "creator": [],
+      "creatorLabels": [],
+      "themes": [],
+      "themeLabels": [],
+      "formats": [
+        "ttl",
+        "json",
+        "jsonld",
+        "rdf",
+        "csv",
+        "html"
+      ]
+    },
+    {
       "iri": "https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter",
       "slug": "ContactCharacterBoreholes",
       "prefLabel": "Field Geology - Contact Character",
