@@ -66,7 +66,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "had Derivation"@en ;
     skos:definition "inverse of wasDerivedFrom where the range resource was derived from the domain resource"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "hadDerivation"@en ;
+    skos:prefLabel "had derivation"@en ;
     skos:topConceptOf cs: ;
 .
 
